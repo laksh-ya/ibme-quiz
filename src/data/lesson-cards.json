@@ -2858,5 +2858,2041 @@
         "Notes v2 Kahneman attribution and Rs 4,500/2,000 figures: not in transcript"
       ]
     }
+  },
+  {
+    "week": 2,
+    "title": "Week 2: Managing innovation",
+    "lectures": [
+      {
+        "id": "w2l1",
+        "title": "Challenges of Innovation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ],
+        "cards": [
+          {
+            "id": "w2c1",
+            "kind": "concept",
+            "title": "Two levels",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Individual",
+                    "detail": "Person-level",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Systemic",
+                    "detail": "Organisation-level",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f01"
+          },
+          {
+            "id": "w2c2",
+            "kind": "concept",
+            "title": "Individual challenges",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Motivation",
+                    "detail": "Lack of",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Role clarity",
+                    "detail": "Lack of",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Fear of failure",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Chalta hai",
+                    "detail": "Status-quo attitude",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f02"
+          },
+          {
+            "id": "w2c3",
+            "kind": "concept",
+            "title": "Organisation (1/3)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not empowered",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "No strategy",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Centralised",
+                    "detail": "One functional group",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Collaboration",
+                    "detail": "Lacking",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f03"
+          },
+          {
+            "id": "w2c4",
+            "kind": "concept",
+            "title": "Organisation (2/3)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Diversity",
+                    "detail": "Lacking",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Recognition",
+                    "detail": "Lacking for efforts",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Internal heroes",
+                    "detail": "Lacking",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Complacency",
+                    "detail": "Offerings successful",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f04"
+          },
+          {
+            "id": "w2c5",
+            "kind": "concept",
+            "title": "Organisation (3/3)",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Customers",
+                    "detail": "Missed connection",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Measurement",
+                    "detail": "Wrong measure",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f05"
+          },
+          {
+            "id": "w2c6",
+            "kind": "concept",
+            "title": "Organisation vs individual",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Organisational",
+                    "detail": "Internal heroes, recognition, no strategy",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Individual",
+                    "detail": "Fear of failure, role clarity",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f06"
+          },
+          {
+            "id": "w2c7",
+            "kind": "example",
+            "title": "Motivation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Maslow",
+                "detail": "Stuck below top needs",
+                "icon": "chart"
+              }
+            },
+            "factId": "w2.l1.f07"
+          },
+          {
+            "id": "w2c8",
+            "kind": "example",
+            "title": "Fear of failure",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "90% marks",
+                    "detail": "Unhappy",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Classmate 94%",
+                    "detail": "The reason",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f08"
+          },
+          {
+            "id": "w2c9",
+            "kind": "example",
+            "title": "Empowerment",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "WPM",
+                    "detail": "Workers' participation",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "TQM",
+                    "detail": "",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f09"
+          },
+          {
+            "id": "w2c10",
+            "kind": "example",
+            "title": "Collaboration",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "None",
+                    "detail": "Test match",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Collaboration",
+                    "detail": "T20",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f10"
+          },
+          {
+            "id": "w2c11",
+            "kind": "example",
+            "title": "Diversity",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Six Hats",
+                "detail": "All one colour fails",
+                "icon": "hat"
+              }
+            },
+            "factId": "w2.l1.f11"
+          },
+          {
+            "id": "w2c12",
+            "kind": "example",
+            "title": "Internal heroes",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Employee of month",
+                "detail": "Board, photo",
+                "icon": "people"
+              }
+            },
+            "factId": "w2.l1.f12"
+          },
+          {
+            "id": "w2c61",
+            "kind": "example",
+            "title": "Measurement",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Measure efforts",
+                "detail": "Count effort invested, not outputs only",
+                "icon": "chart"
+              }
+            },
+            "factId": "w2.l1.f13"
+          },
+          {
+            "id": "w2c62",
+            "kind": "example",
+            "title": "Motivation levels",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Maslow top two",
+                "detail": "Higher needs, few reach them",
+                "icon": "chart"
+              }
+            },
+            "factId": "w2.l1.f14"
+          },
+          {
+            "id": "w2c63",
+            "kind": "example",
+            "title": "Role clarity",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Many roles",
+                "detail": "Unsure of exact role",
+                "icon": "people"
+              }
+            },
+            "factId": "w2.l1.f15"
+          },
+          {
+            "id": "w2c13",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Individual",
+                    "detail": "Motivation, role, fear, chalta hai",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Organisation",
+                    "detail": "Heroes, recognition, strategy",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l1.f16"
+          }
+        ]
+      },
+      {
+        "id": "w2l2",
+        "title": "Steps of Innovation Management",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ],
+        "cards": [
+          {
+            "id": "w2c14",
+            "kind": "concept",
+            "title": "Serendipity vs management",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Wrong",
+                    "detail": "Serendipity",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Right",
+                    "detail": "Deliberate management",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f01"
+          },
+          {
+            "id": "w2c15",
+            "kind": "concept",
+            "title": "Why ideas matter",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "97%",
+                "detail": "Fortune 500: new ideas most important",
+                "icon": "chart"
+              }
+            },
+            "factId": "w2.l2.f02"
+          },
+          {
+            "id": "w2c16",
+            "kind": "concept",
+            "title": "Five steps",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Collect ideas",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Select idea",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Experiment",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Business model",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Diffusion, impact",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f03"
+          },
+          {
+            "id": "w2c17",
+            "kind": "concept",
+            "title": "Steps 2-4",
+            "lines": [
+              "Collection, then these three, then diffusion."
+            ],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Selection of idea",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Experimentation with idea",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Developing business model",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f04"
+          },
+          {
+            "id": "w2c18",
+            "kind": "concept",
+            "title": "Collection",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Do",
+                    "detail": "Quantity, idea bank",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Don't",
+                    "detail": "Judge quality",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f05"
+          },
+          {
+            "id": "w2c19",
+            "kind": "concept",
+            "title": "Selection",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Criteria",
+                "detail": "Each organisation sets its own",
+                "icon": "target"
+              }
+            },
+            "factId": "w2.l2.f06"
+          },
+          {
+            "id": "w2c20",
+            "kind": "example",
+            "title": "Experimentation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Faraday",
+                "detail": "999 ways it cannot work",
+                "icon": "flask"
+              }
+            },
+            "factId": "w2.l2.f07"
+          },
+          {
+            "id": "w2c21",
+            "kind": "concept",
+            "title": "Three Ps",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "People",
+                    "detail": "Social",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Planet",
+                    "detail": "Environmental",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Profit",
+                    "detail": "Economic",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f08"
+          },
+          {
+            "id": "w2c22",
+            "kind": "example",
+            "title": "CSR",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "CSR",
+                "detail": "Companies Act, social sustainability",
+                "icon": "heart"
+              }
+            },
+            "factId": "w2.l2.f09"
+          },
+          {
+            "id": "w2c64",
+            "kind": "example",
+            "title": "Idea bank",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Idea bank",
+                "detail": "Store of ideas of varied quality",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w2.l2.f10"
+          },
+          {
+            "id": "w2c65",
+            "kind": "example",
+            "title": "Selection prototype",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Prototype",
+                "detail": "May be built before selecting",
+                "icon": "flask"
+              }
+            },
+            "factId": "w2.l2.f11"
+          },
+          {
+            "id": "w2c23",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Collect",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Select",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Experiment",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Model",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Impact",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f12"
+          }
+        ]
+      },
+      {
+        "id": "w2l3",
+        "title": "Idea Management System",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ],
+        "cards": [
+          {
+            "id": "w2c24",
+            "kind": "concept",
+            "title": "Why IMS",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Problem 1",
+                    "detail": "Not receptive to ideas",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Problem 2",
+                    "detail": "Sources unknown",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f01"
+          },
+          {
+            "id": "w2c25",
+            "kind": "concept",
+            "title": "IMS objectives",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Objective 1",
+                    "detail": "Beat resistance to change",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Objective 2",
+                    "detail": "Beat prediction disability",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f02"
+          },
+          {
+            "id": "w2c26",
+            "kind": "concept",
+            "title": "Key processes",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Idea management",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Buzz creation",
+                    "detail": "Rewards, campaigns, awareness",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Training, development",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f03"
+          },
+          {
+            "id": "w2c27",
+            "kind": "concept",
+            "title": "Idea management decisions",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Submission",
+                    "detail": "Who submits",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Selection",
+                    "detail": "Who selects",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Funding",
+                    "detail": "Who funds",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f04"
+          },
+          {
+            "id": "w2c28",
+            "kind": "concept",
+            "title": "Challenge book",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Right problem",
+                "detail": "Identify before solving",
+                "icon": "target"
+              }
+            },
+            "factId": "w2.l3.f05"
+          },
+          {
+            "id": "w2c29",
+            "kind": "concept",
+            "title": "Ratan Tata quote",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Ratan Tata",
+                "detail": "Difficult challenges bring innovative solutions",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w2.l3.f06"
+          },
+          {
+            "id": "w2c30",
+            "kind": "concept",
+            "title": "Challenge book use",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Idea bank",
+                "detail": "Challenge book helps develop it",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w2.l3.f07"
+          },
+          {
+            "id": "w2c31",
+            "kind": "concept",
+            "title": "Three sources",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Feel the pain",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Sense the wave",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "See the waste",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f08"
+          },
+          {
+            "id": "w2c32",
+            "kind": "concept",
+            "title": "Feel the pain",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Current customer",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Future customer",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Employee",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Partner",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f09"
+          },
+          {
+            "id": "w2c33",
+            "kind": "concept",
+            "title": "Sense the wave",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Technology",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Demographic",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Regulatory",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Fashion",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f10"
+          },
+          {
+            "id": "w2c34",
+            "kind": "concept",
+            "title": "See the waste",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Human effort",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Natural resources",
+                    "detail": "Energy, water, land",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Technology resources",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f11"
+          },
+          {
+            "id": "w2c35",
+            "kind": "example",
+            "title": "Sources of ideas",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Quality, low cost",
+                    "detail": "Feel the pain",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Energy wasted",
+                    "detail": "See the waste",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f12"
+          },
+          {
+            "id": "w2c66",
+            "kind": "concept",
+            "title": "Who submits",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Employees",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Vendors",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Others",
+                    "detail": "",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f13"
+          },
+          {
+            "id": "w2c67",
+            "kind": "concept",
+            "title": "Who selects",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Internal experts",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "External experts",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Mixed",
+                    "detail": "",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f14"
+          },
+          {
+            "id": "w2c68",
+            "kind": "example",
+            "title": "Waste of resources",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Energy",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Water",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Air",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Land",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f15"
+          },
+          {
+            "id": "w2c69",
+            "kind": "example",
+            "title": "Other waste",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Money",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Food",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f16"
+          },
+          {
+            "id": "w2c36",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "3 processes",
+                    "detail": "Idea, buzz, training",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "3 sources",
+                    "detail": "Pain, wave, waste",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Tata",
+                    "detail": "Challenges bring innovation",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "3 who's",
+                    "detail": "Submit, select, fund",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f17"
+          }
+        ]
+      },
+      {
+        "id": "w2l4",
+        "title": "Divergent v/s Convergent Thinking",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28"
+        ],
+        "cards": [
+          {
+            "id": "w2c37",
+            "kind": "concept",
+            "title": "Thinking pairs",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Slow, fast",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Divergent, convergent",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Micro, macro",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "This, that",
+                    "detail": "",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f01"
+          },
+          {
+            "id": "w2c38",
+            "kind": "concept",
+            "title": "Divergent",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Divergent",
+                    "detail": "Explore many solutions",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Convergent",
+                    "detail": "Narrow to one",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f02"
+          },
+          {
+            "id": "w2c39",
+            "kind": "concept",
+            "title": "Kahneman",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "System 1",
+                    "detail": "Fast, automatic",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "System 2",
+                    "detail": "Slow, deliberate",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f03"
+          },
+          {
+            "id": "w2c40",
+            "kind": "concept",
+            "title": "Thinking and innovation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Divergence + convergence",
+                "detail": "Shape incremental or radical",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w2.l4.f04"
+          },
+          {
+            "id": "w2c41",
+            "kind": "concept",
+            "title": "Sectors",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Energy",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Waste",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Health",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Education",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f05"
+          },
+          {
+            "id": "w2c42",
+            "kind": "concept",
+            "title": "More sectors",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "IT",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Consumer goods",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Transportation",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f06"
+          },
+          {
+            "id": "w2c43",
+            "kind": "example",
+            "title": "Pricing ideas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Tyres",
+                    "detail": "Charge by usage",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Insurance",
+                    "detail": "Premium by health upkeep",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f07"
+          },
+          {
+            "id": "w2c44",
+            "kind": "example",
+            "title": "Energy ideas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Printed solar cells",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Sea waves",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f08"
+          },
+          {
+            "id": "w2c45",
+            "kind": "example",
+            "title": "Health ideas",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Allopathy, ayurveda, homeopathy",
+                "detail": "",
+                "icon": "heart"
+              }
+            },
+            "factId": "w2.l4.f09"
+          },
+          {
+            "id": "w2c46",
+            "kind": "concept",
+            "title": "Transition phase",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Interesting",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Testing",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Difficult",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Brings hope",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f10"
+          },
+          {
+            "id": "w2c47",
+            "kind": "concept",
+            "title": "Transition cost",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Incurs cost",
+                "detail": "Transition requires time and resources",
+                "icon": "coin"
+              }
+            },
+            "factId": "w2.l4.f11"
+          },
+          {
+            "id": "w2c48",
+            "kind": "concept",
+            "title": "Change management",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Managed",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Passed through",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Change manages us",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f12"
+          },
+          {
+            "id": "w2c49",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Divergent",
+                    "detail": "Many solutions",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Convergent",
+                    "detail": "One solution",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f13"
+          }
+        ]
+      },
+      {
+        "id": "w2l5",
+        "title": "Design Thinking and Entrepreneurship",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=29"
+        ],
+        "cards": [
+          {
+            "id": "w2c50",
+            "kind": "concept",
+            "title": "Entrepreneurship",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Intent",
+                    "detail": "And realisation",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Organising",
+                    "detail": "For the intent",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Connect",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Reflexivity",
+                    "detail": "",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f01"
+          },
+          {
+            "id": "w2c51",
+            "kind": "concept",
+            "title": "Design thinking",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Sequence",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Harmony",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Rhythm",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Self-propelled",
+                    "detail": "Productivity, growth",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f02"
+          },
+          {
+            "id": "w2c52",
+            "kind": "concept",
+            "title": "Connect",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Connect",
+                "detail": "All stakeholders, with empathy",
+                "icon": "people"
+              }
+            },
+            "factId": "w2.l5.f03"
+          },
+          {
+            "id": "w2c53",
+            "kind": "concept",
+            "title": "Reflexivity",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Reflexivity",
+                "detail": "Central, not just a research method",
+                "icon": "eye"
+              }
+            },
+            "factId": "w2.l5.f04"
+          },
+          {
+            "id": "w2c54",
+            "kind": "example",
+            "title": "Jamshedji Tata (1/2)",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Manchester mills",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Maharashtra mill",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Cr\u00e8che",
+                    "detail": "Working mothers",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f05"
+          },
+          {
+            "id": "w2c55",
+            "kind": "example",
+            "title": "Jamshedji Tata (2/2)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Steel",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Power",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Education",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Chemicals",
+                    "detail": "",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f06"
+          },
+          {
+            "id": "w2c56",
+            "kind": "example",
+            "title": "Someone makes...",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Pencils",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Robots",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Hospitals",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Ships",
+                    "detail": "",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f07"
+          },
+          {
+            "id": "w2c57",
+            "kind": "example",
+            "title": "Pencil",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "500+ companies",
+                "detail": "Graphite, wood from many places",
+                "icon": "globe"
+              }
+            },
+            "factId": "w2.l5.f08"
+          },
+          {
+            "id": "w2c58",
+            "kind": "example",
+            "title": "Institutions",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Bankruptcy of thoughts",
+                "detail": "In institutional development",
+                "icon": "lock"
+              }
+            },
+            "factId": "w2.l5.f09"
+          },
+          {
+            "id": "w2c59",
+            "kind": "example",
+            "title": "Himalayan fires",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Pine needles",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Forest fires",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Energy idea",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f10"
+          },
+          {
+            "id": "w2c60",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Intent",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Connect",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Reflexivity",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Tata",
+                    "detail": "Jamshedji",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f11"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Individual challenges",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Motivation",
+                "detail": "Lacking",
+                "icon": "heart"
+              },
+              {
+                "label": "Role clarity",
+                "detail": "Lacking",
+                "icon": "target"
+              },
+              {
+                "label": "Fear of failure",
+                "detail": "Individual, not systemic",
+                "icon": "shield"
+              },
+              {
+                "label": "Chalta hai",
+                "detail": "Status-quo attitude",
+                "icon": "lock"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Organisational challenges",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Challenge",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Internal heroes",
+                "Lacking"
+              ],
+              [
+                "Recognition",
+                "Lacking for efforts"
+              ],
+              [
+                "Innovation strategy",
+                "None"
+              ],
+              [
+                "Empowerment",
+                "Employees not empowered"
+              ],
+              [
+                "Centralised",
+                "One functional group"
+              ],
+              [
+                "Collaboration, diversity",
+                "Lacking"
+              ],
+              [
+                "Complacency",
+                "Current offerings successful"
+              ],
+              [
+                "Customers, measurement",
+                "Missed connection, wrong measure"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Five steps",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Step",
+              "Stage"
+            ],
+            "rows": [
+              [
+                "1",
+                "Collect ideas"
+              ],
+              [
+                "2",
+                "Select idea"
+              ],
+              [
+                "3",
+                "Experiment"
+              ],
+              [
+                "4",
+                "Business model"
+              ],
+              [
+                "5",
+                "Diffusion, impact"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Three Ps and thinking modes",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "People",
+                "Social, CSR"
+              ],
+              [
+                "Planet",
+                "Environmental"
+              ],
+              [
+                "Profit",
+                "Economic"
+              ],
+              [
+                "Divergent",
+                "Explore many solutions"
+              ],
+              [
+                "Convergent",
+                "Narrow to one"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Idea management system",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Objectives",
+                "detail": "Beat resistance and prediction disability",
+                "icon": "target"
+              },
+              {
+                "label": "Processes",
+                "detail": "Idea mgmt, buzz, training",
+                "icon": "bulb"
+              },
+              {
+                "label": "Asks",
+                "detail": "Who submits, selects, funds",
+                "icon": "people"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Challenge book",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Source",
+              "Look at"
+            ],
+            "rows": [
+              [
+                "Feel the pain",
+                "Current, future customers, employees, partners"
+              ],
+              [
+                "Sense the wave",
+                "Technology, demographic, regulatory, fashion"
+              ],
+              [
+                "See the waste",
+                "Human effort, natural, technology resources"
+              ],
+              [
+                "Ratan Tata",
+                "Difficult challenges bring innovation"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Transition phase",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "#",
+              "Transition phase is"
+            ],
+            "rows": [
+              [
+                "1",
+                "Interesting"
+              ],
+              [
+                "2",
+                "Testing"
+              ],
+              [
+                "3",
+                "Difficult"
+              ],
+              [
+                "4",
+                "Brings hope"
+              ],
+              [
+                "5",
+                "Incurs cost"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Design thinking, entrepreneur",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Connect",
+                "detail": "All stakeholders",
+                "icon": "people"
+              },
+              {
+                "label": "Reflexivity",
+                "detail": "Self-awareness",
+                "icon": "eye"
+              },
+              {
+                "label": "Jamshedji Tata",
+                "detail": "Mill, cr\u00e8che, steel",
+                "icon": "factory"
+              },
+              {
+                "label": "Himalaya fires",
+                "detail": "Pine needles to energy",
+                "icon": "leaf"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W2 solution PDF, Master Revision and Notes v2 W2 sections",
+      "droppedUnsupported": [
+        "Guilford coined divergent thinking (Notes v2): not in lecture, slides or key",
+        "Kumbh Mela advertising",
+        "92% student (lecture: 90% vs 94%)",
+        "Unemployable graduates; hospitals for tomorrow's illnesses"
+      ],
+      "gaps": [
+        "Accordion and pendulum named, never defined"
+      ]
+    }
   }
 ]
