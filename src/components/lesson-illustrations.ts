@@ -237,7 +237,7 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w2c53':body=path('M45 55h115v83H45Zm155 58h115v83H200Z','figure-fine')+label(66,106,'Act')+label(216,164,'Reflect')+path('M167 91h79','figure-fine')+arrow(246,91,246,104)+path('M193 170h-92','figure-fine')+arrow(101,170,101,147)+label(48,242,'Reflect on action, then change the next action',true);break;
 
  case 'w3c28':body=[['Input',26],['Process',139],['Output',252]].map(([t,x])=>path(`M${x} 66h85v94H${x}Z`,'figure-fine')+label(Number(x)+12,119,String(t),true)).join('')+arrow(117,114,132,114)+arrow(231,114,246,114)+path('M25 185v26h311v-26','figure-main')+label(64,250,'A complete, tangible solution',true);break;
- case 'w3c81':body=path('M23 65h72v72H23Zm119 0h72v72h-72Zm119 0h72v72h-72Z','figure-fine')+arrow(103,100,134,100)+arrow(222,100,253,100)+label(35,109,'Step 1',true)+label(153,109,'Step 2',true)+label(271,109,'Result',true)+path('M34 173v36h51v-36m69 0v36h51v-36m68 0v36h51v-36','figure-main')+label(34,250,'Measure the process, not only the result',true);break;
+ case 'w3c81':body=path('M23 65h72v72H23Zm119 0h72v72h-72Zm119 0h72v72h-72Z','figure-fine')+arrow(103,100,134,100)+arrow(222,100,253,100)+label(35,109,'Input',true)+label(153,109,'Process',true)+label(271,109,'Output',true)+path('M59 149v31m119-31v31m119-31v31M25 183h307','figure-main')+label(94,211,'Measure every stage',true)+label(51,250,'Not only the final output',true);break;
 
  case 'w4c49':body=path('M131 78h98v99h-98Z','figure-main')+label(143,123,'Education',true)+path('M58 40h47v40H58Zm200 0h47v40h-47ZM58 203h47v38H58Zm200 0h47v38h-47Z','figure-fine')+path('M105 80l25 25m100 0 28-25M105 203l25-25m100 0 28 25','figure-fine')+label(15,25,'Infrastructure',true)+label(260,25,'Ambience',true)+label(50,262,'Laptops',true)+label(236,262,'Other offerings',true);break;
 
@@ -255,7 +255,7 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w1c105':body=path('M26 40h111v155H26Zm198 0h111v155H224Z','figure-fine')+label(51,103,'Known',true)+label(51,127,'idea',true)+arrow(148,115,211,115)+label(241,102,'Unrelated',true)+label(241,128,'context',true)+label(93,246,'Lateral transfer',true);break;
 
 
- case 'w2c15':body=`<circle cx="180" cy="115" r="87" class="figure-fine"/>`+path('M180 28a87 87 0 1 1-16 1','figure-main')+label(132,129,'97%')+label(45,239,'Fortune 500: new ideas matter most',true);break;
+ case 'w2c15':body=`<circle cx="180" cy="115" r="87" class="figure-fine"/><circle cx="180" cy="115" r="87" class="figure-main" pathLength="100" stroke-dasharray="97 3" transform="rotate(-90 180 115)"/><text x="180" y="123" text-anchor="middle" class="figure-label">97%</text>`+label(45,239,'Fortune 500: new ideas matter most',true);break;
 
 
 
