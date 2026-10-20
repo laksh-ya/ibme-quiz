@@ -55,7 +55,7 @@ export function mount(root, data, images) {
     }
     const d = t.dataset;
     if (d.study) { ui.studyWeek=+d.study;ui.page="lessons";ui.popW=null;return render(); }
-    if(d.teachquiz){ui.teach=null;ui.page="lessons";render();return ui.el.querySelector('[data-start="week:'+(ui.studyWeek||1)+':quiz"]')?.click();}
+    if(d.teachquiz){ui.teach=null;ui.page="learn";ui.popW=null;return render();}
     if (d.lesson) return openLesson(d.lesson);
     if (d.teachclose) return closeTeaching();
     if (d.teachback) return teachingBack();
