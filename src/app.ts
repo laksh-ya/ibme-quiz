@@ -169,6 +169,7 @@ export function mount(root, data, images) {
     if (d.tg) {
       if (d.tg === "theme") S.set.theme = S.set.theme === "light" ? "dark" : "light";
       else S.set[d.tg] = !S.set[d.tg];
+      if(d.tg === "beta" && !S.set.beta && ui.page === "lessons")ui.page="me";
       save();
       if (d.tg === "sound" && S.set.sound) snd.tap();
       if (d.tg === "haptic") { if (S.set.haptic) buzz(20); else navigator.vibrate?.(0); }

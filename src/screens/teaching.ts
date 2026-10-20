@@ -12,12 +12,11 @@ export const weeks = curriculum as TeachingWeek[];
 const progress = () => S.study || (S.study = {});
 export const weekTeaching = (w:number) => weeks.find(v=>v.week===w);
 export function pgLessons() {
- const w = weekTeaching(ui.studyWeek);
- if (!w || !S.set.beta) return '<h1 class="pg">Study lessons</h1><p class="sub">No lessons published for this week yet.</p><button class="btn" data-go="learn">Back to weeks</button>';
- return `<button class="pill" data-go="learn">‹ All weeks</button><h1 class="pg teaching-title">Week ${w.week}: ${esc(w.title)}</h1><p class="beta-note">Beta preview · Five lectures, with explanations and checkpoints. Your quiz scores stay separate.</p><p class="sub">${esc(w.summary)}</p><div class="lesson-list">${w.lessons.map((l,i)=>{const p=progress()[l.id];return `<button class="tile" data-lesson="${esc(l.id)}"><span class="n">Lesson ${i+1} · ${l.steps.length} steps${p?.done?' · Complete':''}</span><b>${esc(l.title)}</b><span class="tile-desc">${esc(l.lectureRefs.join(' · '))}</span><span class="lesson-action">${p?.done?'Revisit':p?.step?'Continue':'Start lesson'} →</span></button>`}).join('')}</div><div class="lesson-practice"><h2 class="ti">Put it into practice</h2><p>Teaching progress and quiz scores are kept separately.</p><button class="btn" data-start="week:${w.week}:learn">Practice Week ${w.week}</button><button class="btn white g" data-start="week:${w.week}:quiz">Take the quiz</button></div>`;
+ const w = weekTeaching(ui.studyWeek||1);
+ if (!w) return '<h1 class="pg">Study lessons</h1><p class="sub">No lessons published for this week yet.</p><button class="btn" data-go="learn">Back to weeks</button>';
+ return `<span class="tag">Lessons · Week 1</span><h1 class="pg teaching-title">Week ${w.week}: ${esc(w.title)}</h1><p class="beta-note">Five lectures, with explanations and checkpoints. Your quiz scores stay separate.</p><p class="sub">${esc(w.summary)}</p><div class="lesson-list">${w.lessons.map((l,i)=>{const p=progress()[l.id];return `<button class="tile" data-lesson="${esc(l.id)}"><span class="n">Lesson ${i+1} · ${l.steps.length} steps${p?.done?' · Complete':''}</span><b>${esc(l.title)}</b><span class="tile-desc">${esc(l.lectureRefs.join(' · '))}</span><span class="lesson-action">${p?.done?'Revisit':p?.step?'Continue':'Start lesson'} →</span></button>`}).join('')}</div><div class="lesson-practice"><h2 class="ti">Put it into practice</h2><p>Teaching progress and quiz scores are kept separately.</p><button class="btn" data-start="week:${w.week}:learn">Practice Week ${w.week}</button><button class="btn white g" data-start="week:${w.week}:quiz">Take the quiz</button></div>`;
 }
 export function openLesson(id:string) {
- if(!S.set.beta)return;
  const lesson=weeks.flatMap(w=>w.lessons).find(l=>l.id===id);if(!lesson)return;
  const old=progress()[id];ui.teach={lesson,step:old?.done?0:Math.max(0,Math.min(lesson.steps.length-1,old?.step||0)),picked:null,checked:false,complete:false};renderTeaching();
 }

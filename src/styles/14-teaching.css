@@ -33,3 +33,4 @@
 
 .duo .beta-note { color:var(--purple); font-weight:800; line-height:1.5; font-size:14px; }
 .duo .beta-card .sub { font-size:14px; margin:12px 0; }
+@media(max-width:640px) { .duo .side:has([data-go="lessons"]) .nav { min-width:0; flex:1; font-size:10px; letter-spacing:0; padding:7px 2px; } .duo .side:has([data-go="lessons"]) .nav svg { width:27px; height:27px; } }
