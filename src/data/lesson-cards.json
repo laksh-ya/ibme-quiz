@@ -66,7 +66,7 @@
                 "items": [
                   {
                     "label": "Reducing PLCs",
-                    "detail": "Cycle now 2-3 years"
+                    "detail": "Lecture comparison: 2-3 years"
                   },
                   {
                     "label": "Increasing expectations",
@@ -216,7 +216,7 @@
             "title": "Remember 1",
             "lines": [
               "**4 pressures**: shrinking PLCs, rising expectations, high uncertainty, global impact.",
-              "PLC: introduction, growth, maturity, decline; 10-20 yrs -> 2-3 yrs.",
+              "PLC: introduction, growth, maturity, decline; lecture comparison: 10-20 yrs -> 2-3 yrs.",
               "Customers want low cost + high quality + fast delivery together."
             ],
             "visual": {
@@ -1172,7 +1172,7 @@
         ]
       },
       {
-        "heading": "Gaps",
+        "heading": "Source notes",
         "bullets": [
           "Complexity (VUCA) not defined in lecture or slides.",
           "Company claims (Ola, Alibaba, free apps) are recording-era examples."

@@ -75,3 +75,4 @@
  .duo .lv-table td[data-label=""]::before {display:none;}
  .duo .teaching-content .tag {font-size:10px;margin-bottom:12px;}
 }
+.duo .card-lines {overflow-wrap:break-word;}
