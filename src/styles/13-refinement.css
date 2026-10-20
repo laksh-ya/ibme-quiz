@@ -142,3 +142,7 @@
 .duo .path { padding-top:32px; }
 .duo .wrow:first-child:has(.node.current) { margin-top:32px; }
 .duo .pop2 { margin-top:0; }
+@media(max-width:640px) {
+ .duo .question-layout .opts { grid-auto-rows:max-content; }
+ .duo .question-layout .opt { height:auto; overflow:visible; flex-shrink:0; }
+}

@@ -7,8 +7,8 @@ await p.locator('[data-go="practice"]').click();await p.locator('[data-hub="quiz
 const qs=JSON.parse(fs.readFileSync('src/data/questions.json'));console.log('questions',qs.length);
 let samples=0;const bad=[];
 for(let i=0;i<80;i++){
-const result=await p.evaluate(()=>{const opts=document.querySelector('.opts'),foot=document.querySelector('.ex-foot'),b=document.querySelector('.bubble');const last=opts.lastElementChild;opts.scrollTop=opts.scrollHeight;return {tag:document.querySelector('.tag')?.textContent,q:b.textContent.length,qscroll:b.scrollHeight>b.clientHeight+2,optionScroll:opts.scrollHeight>opts.clientHeight+2,last:last.getBoundingClientRect().bottom,foot:foot.getBoundingClientRect().top,overflow:[...document.querySelectorAll('.opt,.bubble')].some(e=>e.scrollWidth>e.clientWidth+2)}});
-if(result.last>result.foot||result.overflow)bad.push(result);
+const result=await p.evaluate(()=>{const opts=document.querySelector('.opts'),foot=document.querySelector('.ex-foot'),b=document.querySelector('.bubble');const last=opts.lastElementChild;opts.scrollTop=opts.scrollHeight;return {tag:document.querySelector('.tag')?.textContent,q:b.textContent.length,qscroll:b.scrollHeight>b.clientHeight+2,optionScroll:opts.scrollHeight>opts.clientHeight+2,last:last.getBoundingClientRect().bottom,foot:foot.getBoundingClientRect().top,textClipped:[...opts.querySelectorAll('.opt')].some(e=>e.scrollHeight>e.clientHeight+2),overflow:[...document.querySelectorAll('.opt,.bubble')].some(e=>e.scrollWidth>e.clientWidth+2)}});
+if(result.last>result.foot||result.overflow||result.textClipped)bad.push(result);
 await p.evaluate(()=>{document.querySelector('.opts').scrollTop=0;});
 if((result.q>500&&samples<20)||(i===0)) {await p.screenshot({path:`/downloads/${process.env.QA_LIVE?'live':'local'}-${process.env.QA_HEIGHT||780}-long-${samples++}.png`});console.log(result);}
 await p.locator('[data-skip]').click();}
