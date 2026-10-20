@@ -241,7 +241,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
 
  case 'w4c49':body=path('M131 78h98v99h-98Z','figure-main')+label(143,123,'Education',true)+path('M58 40h47v40H58Zm200 0h47v40h-47ZM58 203h47v38H58Zm200 0h47v38h-47Z','figure-fine')+path('M105 80l25 25m100 0 28-25M105 203l25-25m100 0 28 25','figure-fine')+label(15,25,'Infrastructure',true)+label(260,25,'Ambience',true)+label(50,262,'Laptops',true)+label(236,262,'Other offerings',true);break;
 
- case 'w5c33':body=path('M34 87h124l-18-39H61Zm0 0v67h124V87','figure-fine')+`<circle cx="60" cy="159" r="13"/><circle cx="133" cy="159" r="13"/>`+arrow(178,112,236,112)+label(247,103,'20')+label(247,131,'km/litre',true)+arrow(326,169,326,57)+label(40,230,'Same car, better mileage',true)+label(61,258,'An incremental improvement',true);break;
  case 'w5c70':body=path('M28 218V25m0 193h306','figure-axis')+[0,1,2].map(i=>path(`M${35+i*83} ${200-i*51}C${91+i*73} ${200-i*51} ${81+i*83} ${130-i*51} ${166+i*75} ${130-i*51}`,'figure-fine')).join('')+path('M35 200Q180 85 330 28','figure-main')+label(29,248,'Successive technologies',true)+label(209,123,'Envelope',true);break;
  case 'w5c75':body=path('M30 159V67h74v92m-61-92V31h18v36m24 0V31h18v36','figure-fine')+path('M49 21q12-18 28 0t28 0','figure-fine')+arrow(120,111,218,111)+path('M239 95l61-24 32 22v62l-61 23-32-23Zm0 0 32 24 61-26m-61 26v59','figure-main')+label(23,222,'Fly ash waste',true)+label(256,222,'Bricks',true)+label(53,256,'Waste becomes a useful material',true);break;
 
@@ -271,9 +270,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
 
 
 
- case 'w5c18':body=sheet(23,42,88,133)+arrow(125,105,204,105)+path('M222 192V95l36-24v24l35-24v24h41v97Zm15-73h18v22h-18Zm41 0h18v22h-18Z','figure-main')+label(15,236,'Technical knowledge',true)+label(228,236,'Use at scale',true);break;
- case 'w5c37':body=path('M23 205h314M23 205V32','figure-fine')+path('M39 192q76 0 100-74t81-74','figure-main')+path('M238 191v-61h95','figure-red')+label(33,243,'S-curve',true)+label(217,243,'Radical leap?',true);break;
- case 'w5c65':body=path('M33 201V39m0 162h297','figure-fine')+path('M58 180h250v-125H58Z','figure-main')+label(118,125,'Above 90%')+label(64,243,'NTPC plant load factor, once',true);break;
 
  case 'w6c15':body=label(21,57,'Skepticism',true)+label(218,57,'Belief',true)+path('M22 86l90 90m0-90-90 90','figure-red')+arrow(142,128,209,128)+path('M234 136l27 27 59-71','figure-main')+label(42,245,'Reduce criticism; develop belief',true);break;
  case 'w6c18':body=path('M34 164h107l43-80h70l43 80m-209 0 49-80 47 80m-51-99h32','figure-main')+`<circle cx="82" cy="168" r="44"/><circle cx="297" cy="168" r="44"/>`+path('M193 65V39h93v80h-54','figure-fine')+label(41,248,'Pedal-rickshaw efficiency project',true);break;
