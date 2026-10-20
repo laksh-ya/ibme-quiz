@@ -100,3 +100,14 @@
 }
 @media (min-width:641px) and (max-width:1180px) { .duo .col { max-width:640px; } }
 @media (min-width:1181px) { .duo .rail { width:280px; } .duo .col { width:calc(100% - 308px); max-width:640px; } }
+/* Scrollable content has a visible affordance, never clipped behind actions. */
+.duo .question-layout .bubble::-webkit-scrollbar,.duo .question-layout .opts::-webkit-scrollbar,.duo .fc .face::-webkit-scrollbar { display:block; width:4px; }
+.duo .question-layout .bubble::-webkit-scrollbar-thumb,.duo .question-layout .opts::-webkit-scrollbar-thumb,.duo .fc .face::-webkit-scrollbar-thumb { background:var(--line); border-radius:4px; }
+.duo .fc .face { padding-bottom:24px; }
+.duo .fc .face.back { justify-content:flex-start; }
+.duo .main { scroll-behavior:auto; }
+.duo .question-hint { font-size:11px; line-height:1.4; color:var(--sub); padding:0 4px 6px; font-weight:800; }
+@media(max-width:640px) {
+ .duo .question-layout .question-pane,.duo .question-layout .stage.longq .question-pane { flex-direction:column; }
+ .duo .question-layout .question-pane .qrow { flex:1; }
+}

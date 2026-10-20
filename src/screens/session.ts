@@ -34,9 +34,13 @@ export function renderSes() {
 <div class="ex-body question-layout" style="--fs:${(sizeFs(q) * (innerWidth <= 360 ? 0.8 : innerWidth <= 430 ? 0.86 : innerWidth <= 700 ? 0.92 : 1)).toFixed(1)}px"><div class="stage ${wide ? "wide" : ""} ${q.q.length > 420 ? "longq" : ""}">
 ${s.phase === "fix" ? '<div class="banner2">' + I.heart.replace("<svg", '<svg width="20" height="20"') + "Fix your mistakes</div>" : `<span class="tag">${esc(s.title)} \xB7 ${s.mode === "quiz" ? "quiz" : "learn"} \xB7 Q${s.i + 1} of ${s.total}</span>`}
 <h1 class="head">${head(q)}</h1>
-<div class="cols ${wide ? "w" : ""}"><div><div class="qrow"><div class="mas">${mascot(S.set.av, s.state === "bad" ? "sad" : "happy")}</div><div class="bubble">${esc(q.q).replace(/\n/g, "<br>")}${q.img ? `<a href="${IMGS[q.img]}" target="_blank" rel="noopener" aria-label="Open full-size diagram"><img class="qimg" src="${IMGS[q.img]}" alt="Diagram for the question"></a><a class="diagram-link" href="${IMGS[q.img]}" target="_blank" rel="noopener">Open full-size diagram ↗</a>` : ""}</div></div></div>
+<div class="cols ${wide ? "w" : ""}"><div class="question-pane"><div class="question-hint" hidden>Scroll question to read more ↓</div><div class="qrow"><div class="mas">${mascot(S.set.av, s.state === "bad" ? "sad" : "happy")}</div><div class="bubble">${esc(q.q).replace(/\n/g, "<br>")}${q.img ? `<a href="${IMGS[q.img]}" target="_blank" rel="noopener" aria-label="Open full-size diagram"><img class="qimg" src="${IMGS[q.img]}" alt="Diagram for the question"></a><a class="diagram-link" href="${IMGS[q.img]}" target="_blank" rel="noopener">Open full-size diagram ↗</a>` : ""}</div></div></div>
 <div class="opts ${shortOpts && q.opts.length > 3 ? "two" : ""}" id="opts">${optsHtml()}</div></div></div></div>
 ${footHtml()}</div>`;
+  requestAnimationFrame(() => {
+    const bubble = $(".bubble", ui.el), hint = $(".question-hint", ui.el);
+    if (bubble && hint && innerWidth <= 640) hint.hidden = bubble.scrollHeight <= bubble.clientHeight + 2;
+  });
 }
 
 export function optsHtml() {

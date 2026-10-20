@@ -5,7 +5,7 @@ const SEEN = "ibme-update-seen";
 export function startUpdateCheck() {
   let busy = false;
   let offered = "";
-  const seen = (v: string) => { try { return localStorage.getItem(SEEN) === v; } catch { return false; } };
+  const seen = (v: string) => { try { return (localStorage.getItem(SEEN) || "") >= v; } catch { return false; } };
   const remember = (v: string) => { try { localStorage.setItem(SEEN, v); } catch {} };
   const close = () => {
     document.querySelector(".update-notice")?.remove();

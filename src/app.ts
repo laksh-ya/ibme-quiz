@@ -15,13 +15,15 @@ import { check, exit, goHome, next, pickOpt, refresh, renderSes, retryMissed, re
 import { rvOpen, rvf, ui } from "./ui";
 import { sweep } from "./lib/wave";
 
+let renderedPage = "";
 export function render() {
   ui.el.classList.toggle("dark", S.set.theme !== "light");
   if (ui.gate) return renderGate();
   if (ui.ses) return renderSes();
   if (ui.fc) return renderCards();
   const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe, review: pgReview, cards: pgCards }[ui.page]();
-  const keep = $("#main", ui.el) ? $("#main", ui.el).scrollTop : 0;
+  const keep = renderedPage === ui.page && $("#main", ui.el) ? $("#main", ui.el).scrollTop : 0;
+  renderedPage = ui.page;
   ui.el.innerHTML = shell(pg, railHtml());
   if ($("#main", ui.el)) $("#main", ui.el).scrollTop = keep;
   const st = $(".start", ui.el);
