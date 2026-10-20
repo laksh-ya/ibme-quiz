@@ -7242,5 +7242,2116 @@
         "Notes v2 'habit' wordplay, 'Dandi' name, Planning Commission, H-A-B-I-T: not verified in captions, dropped"
       ]
     }
+  },
+  {
+    "week": 4,
+    "title": "Week 4: Business models, entrepreneurs, Blue Ocean",
+    "lectures": [
+      {
+        "id": "w4l1",
+        "title": "What is a Business Model?",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42"
+        ],
+        "cards": [
+          {
+            "id": "w4c1",
+            "kind": "concept",
+            "title": "Business model asks",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Narrow",
+                    "detail": "Simply how to do business",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Wider",
+                    "detail": "Developing, co-creating business",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f01"
+          },
+          {
+            "id": "w4c2",
+            "kind": "concept",
+            "title": "Industries to compare",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "News, media",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Local transport",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Retail",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Education, health",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f02"
+          },
+          {
+            "id": "w4c3",
+            "kind": "example",
+            "title": "News model",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Journalists",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Stringers",
+                    "detail": "Wider coverage",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Opinion channels",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "MOJO",
+                    "detail": "Mobile journalism",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f03"
+          },
+          {
+            "id": "w4c4",
+            "kind": "example",
+            "title": "Transport model",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Before",
+                    "detail": "Queues, fixed price",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Uber, Ola",
+                    "detail": "Pre-book, live price, driver location",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f04"
+          },
+          {
+            "id": "w4c5",
+            "kind": "example",
+            "title": "Retail model",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Online platforms",
+                "detail": "Compare price, size, features, delivery",
+                "icon": "coin"
+              }
+            },
+            "factId": "w4.l1.f05"
+          },
+          {
+            "id": "w4c6",
+            "kind": "example",
+            "title": "Education model",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Recorded, virtual",
+                "detail": "Kindle: new reading model",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w4.l1.f06"
+          },
+          {
+            "id": "w4c7",
+            "kind": "example",
+            "title": "Health model",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Narayana Hrudayalaya",
+                "detail": "Local centres, remote doctors, insurance",
+                "icon": "heart"
+              }
+            },
+            "factId": "w4.l1.f07"
+          },
+          {
+            "id": "w4c8",
+            "kind": "concept",
+            "title": "Possible bases of a model",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Process",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Marketing",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Revenue",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Resource, technology",
+                    "detail": "",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f08"
+          },
+          {
+            "id": "w4c9",
+            "kind": "example",
+            "title": "Walmart",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Walmart",
+                "detail": "Logistics and marketing based",
+                "icon": "coin"
+              }
+            },
+            "factId": "w4.l1.f09"
+          },
+          {
+            "id": "w4c10",
+            "kind": "concept",
+            "title": "Model vs scenario",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Needs, people integration",
+                    "detail": "Direct the scenario"
+                  },
+                  {
+                    "label": "Business scenario",
+                    "detail": "Directs the model"
+                  },
+                  {
+                    "label": "Business model",
+                    "detail": "Follows"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f10"
+          },
+          {
+            "id": "w4c11",
+            "kind": "concept",
+            "title": "Official: scenario statements",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Statement 1",
+                    "detail": "Never directed by models: false",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Statement 2",
+                    "detail": "Needs, people integration direct it: true",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f11"
+          },
+          {
+            "id": "w4c12",
+            "kind": "concept",
+            "title": "Forces shaping scenario",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Globalised world",
+                    "detail": "",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "ICT",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Tech advances",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f12"
+          },
+          {
+            "id": "w4c13",
+            "kind": "concept",
+            "title": "Many make, many sell",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "One",
+                    "detail": "Manufactures or sources",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Many",
+                    "detail": "Market or support",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f13"
+          },
+          {
+            "id": "w4c14p1",
+            "kind": "example",
+            "title": "Company roster (1)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Company",
+                  "Model"
+                ],
+                "rows": [
+                  [
+                    "Amazon",
+                    "Online retail"
+                  ],
+                  [
+                    "Uber",
+                    "Facilitator, owns few vehicles"
+                  ],
+                  [
+                    "Flextronics",
+                    "Makes electronics for many brands"
+                  ],
+                  [
+                    "Amway",
+                    "Customers become distributors"
+                  ]
+                ]
+              }
+            },
+            "factId": "w4.l1.f14"
+          },
+          {
+            "id": "w4c14p2",
+            "kind": "example",
+            "title": "Company roster (2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Company",
+                  "Model"
+                ],
+                "rows": [
+                  [
+                    "Netflix",
+                    "Movie rental, online"
+                  ],
+                  [
+                    "Patanjali",
+                    "Distribution via many platforms"
+                  ],
+                  [
+                    "Grameen Bank",
+                    "Yunus, Nobel Prize"
+                  ]
+                ]
+              }
+            },
+            "factId": "w4.l1.f14"
+          },
+          {
+            "id": "w4c15",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Scenario",
+                    "detail": "Directs the model",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Needs + people",
+                    "detail": "Direct the scenario",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Bases",
+                    "detail": "Process, marketing, revenue, resource, tech",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Platforms",
+                    "detail": "Amazon, Uber, Netflix",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l1.f15"
+          }
+        ]
+      },
+      {
+        "id": "w4l2",
+        "title": "Who is an Entrepreneur?",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ],
+        "cards": [
+          {
+            "id": "w4c16",
+            "kind": "concept",
+            "title": "Entrepreneur does",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Organises",
+                    "detail": "a business",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Manages",
+                    "detail": "a business",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Takes risk",
+                    "detail": "",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f01"
+          },
+          {
+            "id": "w4c17",
+            "kind": "concept",
+            "title": "Official: entrepreneur",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Entrepreneur",
+                "detail": "Organises, manages, takes risks",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w4.l2.f02"
+          },
+          {
+            "id": "w4c18",
+            "kind": "concept",
+            "title": "Qualities needed",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Thinking ability",
+                    "detail": "Creativity, critical, analytical, originality",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Human relations",
+                    "detail": "Aptitude",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Communication",
+                    "detail": "Skills",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f03"
+          },
+          {
+            "id": "w4c19",
+            "kind": "concept",
+            "title": "Not a quality",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Needed",
+                    "detail": "Analytical, human relations, communication",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not needed",
+                    "detail": "Physical appeal",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f04"
+          },
+          {
+            "id": "w4c20",
+            "kind": "example",
+            "title": "Communication beyond transaction",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "LIC",
+                "detail": "Customers feel company stands by them",
+                "icon": "heart"
+              }
+            },
+            "factId": "w4.l2.f05"
+          },
+          {
+            "id": "w4c21",
+            "kind": "concept",
+            "title": "Advantages and disadvantages",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Advantages",
+                    "detail": "Growth, fame, satisfaction",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Disadvantages",
+                    "detail": "Discipline, risk, falls alone",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f06"
+          },
+          {
+            "id": "w4c22",
+            "kind": "concept",
+            "title": "Does background matter?",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Not limiting",
+                "detail": "Avoid fads like apps",
+                "icon": "eye"
+              }
+            },
+            "factId": "w4.l2.f07"
+          },
+          {
+            "id": "w4c23",
+            "kind": "example",
+            "title": "Fad trap",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Dot-com bubble",
+                    "detail": "Burst on buzz chasers",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Ask",
+                    "detail": "Why not something else?",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f08"
+          },
+          {
+            "id": "w4c24",
+            "kind": "example",
+            "title": "Donut lesson",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Donuts",
+                "detail": "Liking is not knowing the business",
+                "icon": "lock"
+              }
+            },
+            "factId": "w4.l2.f09"
+          },
+          {
+            "id": "w4c25",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Entrepreneur",
+                    "detail": "Organise, manage, risk",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Qualities",
+                    "detail": "Thinking, relations, communication",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Not needed",
+                    "detail": "Physical appeal",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Fad trap",
+                    "detail": "Ask why not else",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l2.f10"
+          }
+        ]
+      },
+      {
+        "id": "w4l3",
+        "title": "Social Entrepreneurship",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ],
+        "cards": [
+          {
+            "id": "w4c26",
+            "kind": "concept",
+            "title": "Social problems",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Women",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Children",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Poverty",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f01"
+          },
+          {
+            "id": "w4c27",
+            "kind": "concept",
+            "title": "Social = marketing's value",
+            "lines": [
+              "Marketing exchanges offerings with value for society at large."
+            ],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Same principle",
+                "detail": "Social, marketing, entrepreneurship",
+                "icon": "heart"
+              }
+            },
+            "factId": "w4.l3.f02"
+          },
+          {
+            "id": "w4c28",
+            "kind": "concept",
+            "title": "Method elements",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Innovative solutions",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Capacities",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Resources",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Social arrangements, transformation",
+                    "detail": "",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f03"
+          },
+          {
+            "id": "w4c29",
+            "kind": "concept",
+            "title": "Social entrepreneur",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Positive impact",
+                "detail": "Community, society or world",
+                "icon": "heart"
+              }
+            },
+            "factId": "w4.l3.f04"
+          },
+          {
+            "id": "w4c30",
+            "kind": "concept",
+            "title": "Social entrepreneurship is",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Develop, fund solutions",
+                "detail": "To directly address social issues",
+                "icon": "target"
+              }
+            },
+            "factId": "w4.l3.f05"
+          },
+          {
+            "id": "w4c31",
+            "kind": "concept",
+            "title": "Official: three statements",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Statement 1",
+                    "detail": "Positive impact explorer: true",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Statement 2",
+                    "detail": "Owns for-profit business: false",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Statement 3",
+                    "detail": "Funding social solutions: true",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f06"
+          },
+          {
+            "id": "w4c32",
+            "kind": "concept",
+            "title": "Not philanthropy",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Philanthropy",
+                    "detail": "Funds are raised",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Social entrepreneurship",
+                    "detail": "Adds entrepreneurial aspect",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f07"
+          },
+          {
+            "id": "w4c33",
+            "kind": "concept",
+            "title": "Official: social examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Grameen Bank",
+                    "detail": "Bangladesh",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Aravind Eye, Aurolab",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Study Hall Foundation",
+                    "detail": "Education",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f08"
+          },
+          {
+            "id": "w4c34",
+            "kind": "concept",
+            "title": "Official: not social",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not example",
+                    "detail": "ITC, Patanjali",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not example",
+                    "detail": "Plastic bottles for profit",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f09"
+          },
+          {
+            "id": "w4c35",
+            "kind": "concept",
+            "title": "Social, not social (Q7)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Yes",
+                    "detail": "Eco-friendly products",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Yes",
+                    "detail": "Banking in underserved areas",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Yes",
+                    "detail": "Helping orphaned children",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "No",
+                    "detail": "Plastic bottles for profit",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f10"
+          },
+          {
+            "id": "w4c36",
+            "kind": "example",
+            "title": "Divine School",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Sudhir",
+                "detail": "Rag-picking children educated",
+                "icon": "people"
+              }
+            },
+            "factId": "w4.l3.f11"
+          },
+          {
+            "id": "w4c37",
+            "kind": "example",
+            "title": "Satyarthi",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Kailash Satyarthi",
+                "detail": "Nobel Prize, children's cause",
+                "icon": "people"
+              }
+            },
+            "factId": "w4.l3.f12"
+          },
+          {
+            "id": "w4c38",
+            "kind": "example",
+            "title": "Other ground-level examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Padman",
+                    "detail": "Movie",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "TDU",
+                    "detail": "Copper water purifier",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Artificial limbs",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Amul",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f13"
+          },
+          {
+            "id": "w4c39",
+            "kind": "example",
+            "title": "Husk Power, Narayana",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Husk Power",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Narayana Hrudayalaya",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f14"
+          },
+          {
+            "id": "w4c40",
+            "kind": "example",
+            "title": "Rural women scheme",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Trade training",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Tools, seed money",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Carpets, clothes, food",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Showrooms",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f15"
+          },
+          {
+            "id": "w4c41",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Social entrepreneur",
+                    "detail": "Positive impact on society",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "Just owning for-profit firm",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Yes",
+                    "detail": "Grameen, Aravind, Study Hall",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Elements",
+                    "detail": "Solutions, capacities, resources, arrangements, change",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f16"
+          }
+        ]
+      },
+      {
+        "id": "w4l4",
+        "title": "Blue Ocean Strategy I",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ],
+        "cards": [
+          {
+            "id": "w4c42",
+            "kind": "concept",
+            "title": "Red vs blue ocean",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Red",
+                    "detail": "Existing market, competition",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Blue",
+                    "detail": "Uncontested space, new demand",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f01"
+          },
+          {
+            "id": "w4c43",
+            "kind": "concept",
+            "title": "Reconstruct market boundaries",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Six paths",
+                "detail": "Look across",
+                "icon": "target"
+              }
+            },
+            "factId": "w4.l4.f02"
+          },
+          {
+            "id": "w4c44",
+            "kind": "concept",
+            "title": "Six paths",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Alternative industries",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Strategic groups",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Chain of buyers",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Complementary offerings",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Emotional or functional",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Time",
+                    "detail": "",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f03"
+          },
+          {
+            "id": "w4c45",
+            "kind": "concept",
+            "title": "Not a path",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not a path",
+                    "detail": "Look across space",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Paths",
+                    "detail": "Industries, groups, buyers, offerings, appeal, time",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f04"
+          },
+          {
+            "id": "w4c46",
+            "kind": "example",
+            "title": "Across industries",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "NetJets",
+                    "detail": "Fractional jet ownership",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "NTT DoCoMo",
+                    "detail": "Internet on mobile",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "FabIndia",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Gandhi Ashram",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f05"
+          },
+          {
+            "id": "w4c47",
+            "kind": "example",
+            "title": "Across strategic groups",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Lexus",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Curves",
+                    "detail": "Texas fitness company",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Patanjali",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f06"
+          },
+          {
+            "id": "w4c48",
+            "kind": "example",
+            "title": "Across chain of buyers",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Novo Nordisk",
+                    "detail": "Focus on buyers: Novo Pen",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Crocin",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Scholastic books",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Kindle",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f07"
+          },
+          {
+            "id": "w4c49",
+            "kind": "example",
+            "title": "Across complementary offerings",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Education",
+                "detail": "Infrastructure, ambience, laptops",
+                "icon": "people"
+              }
+            },
+            "factId": "w4.l4.f08"
+          },
+          {
+            "id": "w4c50",
+            "kind": "example",
+            "title": "Across appeal",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Swatch",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Cemex",
+                    "detail": "Selling a dream",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "ACC cement",
+                    "detail": "Construction advice",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f09"
+          },
+          {
+            "id": "w4c51",
+            "kind": "example",
+            "title": "Across time",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "European Union",
+                    "detail": "",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Apple",
+                    "detail": "Downloadable music",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f10"
+          },
+          {
+            "id": "w4c52",
+            "kind": "concept",
+            "title": "Big picture, not numbers",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Four visual steps",
+                "detail": "Exercise to see the big picture",
+                "icon": "eye"
+              }
+            },
+            "factId": "w4.l4.f11"
+          },
+          {
+            "id": "w4c53",
+            "kind": "concept",
+            "title": "Four steps of visualising strategy",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Visual awakening",
+                    "detail": "Observe changes, differences",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Visual exploration",
+                    "detail": "Field visits",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Visual strategy fair",
+                    "detail": "World cafe",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Visual communication",
+                    "detail": "Among peers",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f12"
+          },
+          {
+            "id": "w4c54",
+            "kind": "concept",
+            "title": "Official: four visual steps",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Four visual steps",
+                "detail": "Awakening, exploration, fair, communication",
+                "icon": "target"
+              }
+            },
+            "factId": "w4.l4.f13"
+          },
+          {
+            "id": "w4c55",
+            "kind": "concept",
+            "title": "Beyond existing demand",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Non-customers",
+                "detail": "Go for the biggest catchment",
+                "icon": "people"
+              }
+            },
+            "factId": "w4.l4.f14"
+          },
+          {
+            "id": "w4c56",
+            "kind": "example",
+            "title": "Non-customer examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Callaway Golf",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Activa",
+                    "detail": "Elderly, women, students",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Cadbury",
+                    "detail": "Kuch Meetha Ho Jaye",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Multiplexes, Spencer's",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f15"
+          },
+          {
+            "id": "w4c57",
+            "kind": "example",
+            "title": "More non-customer cases",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Tooth whitening",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Amla juice",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f16"
+          },
+          {
+            "id": "w4c58",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Six paths",
+                    "detail": "Not space",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Four visual steps",
+                    "detail": "Awakening, exploration, fair, communication",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Red ocean",
+                    "detail": "Crowded",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Blue ocean",
+                    "detail": "Uncontested",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f17"
+          }
+        ]
+      },
+      {
+        "id": "w4l5",
+        "title": "Blue Ocean Strategy II",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46"
+        ],
+        "cards": [
+          {
+            "id": "w4c59",
+            "kind": "concept",
+            "title": "Strong strategy has",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Focus",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Divergence",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Compelling tagline",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f01"
+          },
+          {
+            "id": "w4c60",
+            "kind": "example",
+            "title": "Tagline",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "LIC Jeevan Anand",
+                "detail": "Tagline recall, product tied to it",
+                "icon": "spark"
+              }
+            },
+            "factId": "w4.l5.f02"
+          },
+          {
+            "id": "w4c61",
+            "kind": "concept",
+            "title": "Four Actions Framework",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Eliminate",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Reduce",
+                    "detail": "",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Raise",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Create",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f03"
+          },
+          {
+            "id": "w4c62",
+            "kind": "concept",
+            "title": "Official: missing elements",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Right",
+                    "detail": "Reduce and Raise",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Wrong",
+                    "detail": "Reuse, Recycle, Recreate",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f04"
+          },
+          {
+            "id": "w4c63",
+            "kind": "example",
+            "title": "Cirque du Soleil: eliminate",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Star performers",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Animal shows",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Aisle concessions",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Multiple arenas",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f05"
+          },
+          {
+            "id": "w4c64",
+            "kind": "example",
+            "title": "Cirque du Soleil: reduce, raise",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Reduce",
+                    "detail": "Fun and humor; thrills and danger",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Raise",
+                    "detail": "Unique venue",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f06"
+          },
+          {
+            "id": "w4c65",
+            "kind": "example",
+            "title": "Cirque du Soleil: create",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Theme",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Refined viewing",
+                    "detail": "Environment",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Multiple productions",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Artistic music, dance",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f07"
+          },
+          {
+            "id": "w4c66",
+            "kind": "example",
+            "title": "Cirque du Soleil: compared with",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ringling Brothers",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Smaller regional circus",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f08"
+          },
+          {
+            "id": "w4c67",
+            "kind": "example",
+            "title": "Other ERRC examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Scorpio",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Narayana Hrudayalaya",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Patanjali",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Tata Ace, Magic",
+                    "detail": "",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f09"
+          },
+          {
+            "id": "w4c68",
+            "kind": "example",
+            "title": "More ERRC examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Maruti",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Sas bahu serials",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f10"
+          },
+          {
+            "id": "w4c69",
+            "kind": "example",
+            "title": "Strategy canvas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Patanjali Ayurveda",
+                    "detail": "Own canvas in slides",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "DoMS IIT Roorkee",
+                    "detail": "Own canvas",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Bio-residue energy",
+                    "detail": "Own canvas",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f11"
+          },
+          {
+            "id": "w4c70",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "ERRC",
+                    "detail": "Eliminate, Reduce, Raise, Create",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Strong strategy",
+                    "detail": "Focus, divergence, tagline",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Cirque",
+                    "detail": "Eliminated stars, animals",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Missing pair",
+                    "detail": "Reduce and Raise",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l5.f12"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Business model",
+        "bullets": [],
+        "visual": {
+          "type": "flow",
+          "spec": {
+            "nodes": [
+              {
+                "label": "Needs, people integration",
+                "detail": "Direct the scenario"
+              },
+              {
+                "label": "Business scenario",
+                "detail": "Directs the model"
+              },
+              {
+                "label": "Business model",
+                "detail": "Follows"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Entrepreneur",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Does",
+                "detail": "Organise, manage, take risk",
+                "icon": "rocket"
+              },
+              {
+                "label": "Needs",
+                "detail": "Thinking, human relations, communication",
+                "icon": "people"
+              },
+              {
+                "label": "Not needed",
+                "detail": "Physical appeal",
+                "icon": "lock"
+              },
+              {
+                "label": "Avoid",
+                "detail": "Chasing fads and buzz",
+                "icon": "eye"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Social entrepreneurship",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Is",
+                "detail": "Develop, fund solutions to social issues",
+                "icon": "heart"
+              },
+              {
+                "label": "Is not",
+                "detail": "Merely owning a for-profit firm",
+                "icon": "lock"
+              },
+              {
+                "label": "Yes",
+                "detail": "Grameen, Aravind, Study Hall",
+                "icon": "target"
+              },
+              {
+                "label": "No",
+                "detail": "Plastic bottles for profit",
+                "icon": "lock"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Six paths, Kahneman",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Look across",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Alternative industries",
+                "NetJets"
+              ],
+              [
+                "Strategic groups",
+                "Curves"
+              ],
+              [
+                "Chain of buyers",
+                "Novo Nordisk"
+              ],
+              [
+                "Complementary offerings",
+                "Education extras"
+              ],
+              [
+                "Emotional or functional",
+                "Cemex"
+              ],
+              [
+                "Time",
+                "Apple music"
+              ],
+              [
+                "Not a path",
+                "Space"
+              ],
+              [
+                "Kahneman's book",
+                "Thinking, Fast and Slow"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four visual steps",
+        "bullets": [],
+        "visual": {
+          "type": "journey",
+          "spec": {
+            "nodes": [
+              {
+                "label": "Visual awakening",
+                "detail": "Observe changes, differences",
+                "icon": "eye"
+              },
+              {
+                "label": "Visual exploration",
+                "detail": "Field visits",
+                "icon": "target"
+              },
+              {
+                "label": "Visual strategy fair",
+                "detail": "World cafe",
+                "icon": "people"
+              },
+              {
+                "label": "Visual communication",
+                "detail": "Among peers",
+                "icon": "spark"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four Actions",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Eliminate",
+                "detail": "Taken for granted",
+                "icon": "lock"
+              },
+              {
+                "label": "Reduce",
+                "detail": "Below standard",
+                "icon": "chart"
+              },
+              {
+                "label": "Raise",
+                "detail": "Above standard",
+                "icon": "rocket"
+              },
+              {
+                "label": "Create",
+                "detail": "Never offered",
+                "icon": "bulb"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Cirque du Soleil",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Action",
+              "What"
+            ],
+            "rows": [
+              [
+                "Eliminate",
+                "Stars, animals, aisle sales, many arenas"
+              ],
+              [
+                "Reduce",
+                "Fun and humor, thrills"
+              ],
+              [
+                "Raise",
+                "Unique venue"
+              ],
+              [
+                "Create",
+                "Theme, refined viewing, music, dance"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W4 solution PDF; Master Revision/Notes v2 compared",
+      "dropped": [
+        "Carlyle quote, Ekal Vidyalaya, Lijjat Papad: not in captions or slides",
+        "Detailed Patanjali and DoMS ERRC canvases: slide text garbled, not taught"
+      ],
+      "gaps": [
+        "Q6 Kahneman book is a key fact; Kahneman is not otherwise in W4 lectures"
+      ]
+    }
   }
 ]
