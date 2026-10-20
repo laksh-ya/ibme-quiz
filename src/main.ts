@@ -1,6 +1,9 @@
 import { createElement, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import { GlimmProvider, useGlimm } from "glimm/react";
+import { accentChain } from "glimm";
+
+const limePalette = accentChain(["#A2E838", "#58CC02", "#85CC38"]);
 import "./styles/index.css";
 import { mount } from "./app";
 import { startUpdateCheck } from "./lib/update";
@@ -22,5 +25,5 @@ function App() {
 }
 startUpdateCheck();
 createRoot(document.getElementById("root")!).render(
-  createElement(GlimmProvider, { zIndex: 10002, children: createElement(App) })
+  createElement(GlimmProvider, { palette: limePalette, zIndex: 10002, children: createElement(App) })
 );
