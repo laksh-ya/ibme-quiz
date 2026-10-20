@@ -130,7 +130,7 @@
             "title": "Expectations",
             "lines": [],
             "visual": {
-              "type": "equation",
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
@@ -300,9 +300,9 @@
             "factId": "w1.l1.f12"
           },
           {
-            "id": "w1c68p1s1",
+            "id": "w1c68",
             "kind": "example",
-            "title": "TV sequence (1)",
+            "title": "TV sequence",
             "lines": [],
             "visual": {
               "type": "journey",
@@ -322,21 +322,7 @@
                     "label": "Flat screen",
                     "detail": "",
                     "icon": "gear"
-                  }
-                ]
-              }
-            },
-            "factId": "w1.l1.f13"
-          },
-          {
-            "id": "w1c68p1s2",
-            "kind": "example",
-            "title": "TV sequence (2)",
-            "lines": [],
-            "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
+                  },
                   {
                     "label": "HD, plasma",
                     "detail": "",
@@ -430,17 +416,17 @@
                 "items": [
                   {
                     "label": "Ola, Uber",
-                    "detail": "Operate a platform connecting riders and drivers",
+                    "detail": "Own no taxis",
                     "icon": "rocket"
                   },
                   {
                     "label": "Alibaba",
-                    "detail": "Connects buyers and sellers without holding the listed inventory",
+                    "detail": "Holds no inventory",
                     "icon": "coin"
                   },
                   {
                     "label": "WhatsApp, Gmail",
-                    "detail": "Offer a free core service through a different revenue model",
+                    "detail": "Free, still profitable",
                     "icon": "spark"
                   }
                 ]
@@ -480,30 +466,30 @@
           {
             "id": "w1c13",
             "kind": "remember",
-            "title": "Business pressures",
+            "title": "Remember",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Shrinking PLCs",
-                    "detail": "10-20 yrs to 2-3",
+                    "label": "PLC",
+                    "detail": "Shrinking",
                     "icon": "clock"
                   },
                   {
-                    "label": "Rising expectations",
-                    "detail": "Cheap + good + fast",
+                    "label": "Expect",
+                    "detail": "Three at once",
                     "icon": "target"
                   },
                   {
-                    "label": "High uncertainty",
-                    "detail": "Kedarnath, Delhi smog",
+                    "label": "Uncertain",
+                    "detail": "High",
                     "icon": "eye"
                   },
                   {
-                    "label": "Global impact",
-                    "detail": "Apple: US, China, world",
+                    "label": "Global",
+                    "detail": "Impact",
                     "icon": "globe"
                   }
                 ]
@@ -524,12 +510,14 @@
             "id": "w1c14",
             "kind": "concept",
             "title": "Drucker",
-            "lines": [],
+            "lines": [
+              "Tool of entrepreneurs to exploit change as opportunity."
+            ],
             "visual": {
               "type": "key",
               "spec": {
                 "label": "Innovation",
-                "detail": "Entrepreneurs exploit change as opportunity",
+                "detail": "Specific tool of entrepreneurs",
                 "icon": "bulb"
               }
             },
@@ -575,7 +563,7 @@
             "title": "Three I's",
             "lines": [],
             "visual": {
-              "type": "equation",
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
@@ -597,6 +585,30 @@
               }
             },
             "factId": "w1.l2.f03"
+          },
+          {
+            "id": "w1c17",
+            "kind": "concept",
+            "title": "The three I's",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Three I's",
+                    "detail": "Idea, Implementation, Impact",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Not among them",
+                    "detail": "Integration, Industry",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f04"
           },
           {
             "id": "w1c18",
@@ -660,9 +672,7 @@
             "id": "w1c20",
             "kind": "concept",
             "title": "From laboratory to use",
-            "lines": [
-              "Lab prototype, report, dissertation: invention only."
-            ],
+            "lines": [],
             "visual": {
               "type": "key",
               "spec": {
@@ -706,7 +716,9 @@
             "id": "w1c22",
             "kind": "concept",
             "title": "Idea stage",
-            "lines": [],
+            "lines": [
+              "Do not judge ideas early."
+            ],
             "visual": {
               "type": "key",
               "spec": {
@@ -721,9 +733,7 @@
             "id": "w1c23",
             "kind": "example",
             "title": "Novelty in implementation",
-            "lines": [
-              "Old idea, new implementation: non-violence as mass movement."
-            ],
+            "lines": [],
             "visual": {
               "type": "key",
               "spec": {
@@ -736,20 +746,20 @@
           {
             "id": "w1c24",
             "kind": "contrast",
-            "title": "Curiosity, not a straight line",
+            "title": "Curiosity or smooth line?",
             "lines": [],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
-                    "label": "Begins with curiosity",
-                    "detail": "True",
+                    "label": "Innovation begins with",
+                    "detail": "Curiosity",
                     "icon": "bulb"
                   },
                   {
-                    "label": "Always smooth and linear",
-                    "detail": "False: iterative",
+                    "label": "Innovation is never",
+                    "detail": "A smooth, linear process",
                     "icon": "lock"
                   }
                 ]
@@ -780,7 +790,7 @@
                   ],
                   [
                     "Just risk-taking",
-                    "Risk + assessment + mitigation"
+                    "Risk + mitigation"
                   ]
                 ]
               }
@@ -881,22 +891,22 @@
           {
             "id": "w1c28",
             "kind": "remember",
-            "title": "Review: equation",
+            "title": "Remember: equation",
             "lines": [],
             "visual": {
               "type": "table",
               "spec": {
                 "headers": [
-                  "Input",
+                  "Inputs",
                   "Result"
                 ],
                 "rows": [
                   [
-                    "Idea + Implementation",
+                    "Idea + implementation",
                     "Invention"
                   ],
                   [
-                    "Invention + Impact",
+                    "Invention + impact",
                     "Innovation"
                   ]
                 ]
@@ -905,9 +915,57 @@
             "factId": "w1.l2.f19"
           },
           {
+            "id": "w1_l2_f21",
+            "kind": "remember",
+            "title": "What the sum gives",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea + Implementation",
+                    "detail": "= Invention",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Invention + Impact",
+                    "detail": "= Innovation",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f21"
+          },
+          {
+            "id": "w1_l2_f22",
+            "kind": "contrast",
+            "title": "Innovation is not",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Innovation",
+                    "detail": "Invention plus impact",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Not the answer",
+                    "detail": "Design, marketing, communication, management",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f22"
+          },
+          {
             "id": "w1c29",
             "kind": "remember",
-            "title": "Review: myths",
+            "title": "Remember: myths",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -925,7 +983,7 @@
                   },
                   {
                     "label": "Risk",
-                    "detail": "+ assessment + mitigation",
+                    "detail": "+ mitigation",
                     "icon": "shield"
                   },
                   {
@@ -1008,26 +1066,50 @@
           {
             "id": "w1c32",
             "kind": "concept",
-            "title": "Resistance vs confidence",
+            "title": "Forms of resistance",
             "lines": [],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
-                    "label": "Resistance",
-                    "detail": "Ignoring idea, inertia",
+                    "label": "Is resistance",
+                    "detail": "Ignoring the idea, inertia",
                     "icon": "lock"
                   },
                   {
-                    "label": "Not resistance",
-                    "detail": "Exuding confidence",
-                    "icon": "people"
+                    "label": "Is not resistance",
+                    "detail": "Ignoring failure chances, exuding confidence",
+                    "icon": "heart"
                   }
                 ]
               }
             },
             "factId": "w1.l3.f03"
+          },
+          {
+            "id": "w1_l3_f23",
+            "kind": "contrast",
+            "title": "Failure and resistance",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Fear of failure",
+                    "detail": "Resistance: avoid experiments",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Ignoring failure chances",
+                    "detail": "Not resistance",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f23"
           },
           {
             "id": "w1c33",
@@ -1057,9 +1139,7 @@
             "id": "w1c34",
             "kind": "example",
             "title": "Overcoming inertia",
-            "lines": [
-              "Hanuman needed Jambavanth to remind him."
-            ],
+            "lines": [],
             "visual": {
               "type": "key",
               "spec": {
@@ -1149,6 +1229,59 @@
             "factId": "w1.l3.f09"
           },
           {
+            "id": "w1c39",
+            "kind": "concept",
+            "title": "Unknown unknowns",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ambiguity",
+                    "detail": "Unknown unknowns",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not this",
+                    "detail": "Uncertainty, volatility",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f10"
+          },
+          {
+            "id": "w1_l3_f24",
+            "kind": "contrast",
+            "title": "Three VUCA terms apart",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Volatility",
+                    "detail": "Unexpected, unstable, unknown duration",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Uncertainty",
+                    "detail": "Cause-effect known, may change",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Ambiguity",
+                    "detail": "Relationship unknown, no precedent",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f24"
+          },
+          {
             "id": "w1c40",
             "kind": "concept",
             "title": "Two thinking systems",
@@ -1200,14 +1333,16 @@
             "id": "w1c42",
             "kind": "example",
             "title": "Alarm clock",
-            "lines": [],
+            "lines": [
+              "Rider sets 5 am alarm. Elephant switches it off."
+            ],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
                     "label": "Night",
-                    "detail": "Rider sets 5 am alarm",
+                    "detail": "Rider sets alarm",
                     "icon": "eye"
                   },
                   {
@@ -1363,7 +1498,7 @@
           {
             "id": "w1c43",
             "kind": "remember",
-            "title": "Review: resistance",
+            "title": "Remember: resistance",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -1397,7 +1532,7 @@
           {
             "id": "w1c44",
             "kind": "remember",
-            "title": "Review: VUCA",
+            "title": "Remember: VUCA",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -1486,6 +1621,35 @@
             "factId": "w1.l4.f02"
           },
           {
+            "id": "w1c47",
+            "kind": "concept",
+            "title": "Breakthrough examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Breakthrough",
+                    "detail": "Fire, wheel, steam engine",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Also breakthrough",
+                    "detail": "Landline to mobile",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Incremental",
+                    "detail": "2G to 3G to 4G",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f03"
+          },
+          {
             "id": "w1c48",
             "kind": "concept",
             "title": "How they link",
@@ -1553,12 +1717,12 @@
               "spec": {
                 "items": [
                   {
-                    "label": "Constraints",
-                    "detail": "Constraints are an opportunity",
+                    "label": "Constraints are",
+                    "detail": "An opportunity, not a liability",
                     "icon": "bulb"
                   },
                   {
-                    "label": "Value",
+                    "label": "Goal",
                     "detail": "Good quality, greatest value, lowest cost",
                     "icon": "coin"
                   }
@@ -1933,31 +2097,31 @@
           {
             "id": "w1c54",
             "kind": "remember",
-            "title": "Innovation map",
+            "title": "Remember",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Constraints",
-                    "detail": "Opportunity, not liability",
-                    "icon": "bulb"
+                    "label": "Jugaad",
+                    "detail": "vs systematic",
+                    "icon": "spark"
                   },
                   {
-                    "label": "Priority",
-                    "detail": "Agility over efficiency",
-                    "icon": "rocket"
+                    "label": "Incremental",
+                    "detail": "vs breakthrough",
+                    "icon": "gear"
                   },
                   {
-                    "label": "Goal",
-                    "detail": "Greatest value, lowest cost",
+                    "label": "Frugal",
+                    "detail": "",
                     "icon": "coin"
                   },
                   {
-                    "label": "Avoid",
-                    "detail": "Technical wow, marketing myopia",
-                    "icon": "lock"
+                    "label": "4 areas",
+                    "detail": "",
+                    "icon": "target"
                   }
                 ]
               }
@@ -2116,21 +2280,21 @@
           {
             "id": "w1c60",
             "kind": "concept",
-            "title": "Human-centered design",
+            "title": "Design thinking",
             "lines": [],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
-                    "label": "Incorrect",
-                    "detail": "Product-centered",
-                    "icon": "lock"
+                    "label": "Design thinking is",
+                    "detail": "Human-centered, solution-focused, action-oriented",
+                    "icon": "people"
                   },
                   {
-                    "label": "True",
-                    "detail": "Human-centered",
-                    "icon": "people"
+                    "label": "It is never",
+                    "detail": "Product-centered",
+                    "icon": "lock"
                   }
                 ]
               }
@@ -2236,12 +2400,10 @@
             "factId": "w1.l5.f11"
           },
           {
-            "id": "w1c66s1",
+            "id": "w1c66",
             "kind": "concept",
-            "title": "Six Thinking Hats (1)",
-            "lines": [
-              "Edward de Bono."
-            ],
+            "title": "Six Thinking Hats",
+            "lines": [],
             "visual": {
               "type": "hats",
               "spec": {
@@ -2265,23 +2427,7 @@
                     "label": "Yellow",
                     "detail": "Values, benefits",
                     "color": "#f5c400"
-                  }
-                ]
-              }
-            },
-            "factId": "w1.l5.f12"
-          },
-          {
-            "id": "w1c66s2",
-            "kind": "concept",
-            "title": "Six Thinking Hats (2)",
-            "lines": [
-              "Edward de Bono."
-            ],
-            "visual": {
-              "type": "hats",
-              "spec": {
-                "items": [
+                  },
                   {
                     "label": "Green",
                     "detail": "Creativity",
@@ -2296,6 +2442,72 @@
               }
             },
             "factId": "w1.l5.f12"
+          },
+          {
+            "id": "w1_l5_f21",
+            "kind": "concept",
+            "title": "Hat to perspective",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Hat",
+                  "Perspective"
+                ],
+                "rows": [
+                  [
+                    "White",
+                    "Information"
+                  ],
+                  [
+                    "Black",
+                    "Barriers"
+                  ],
+                  [
+                    "Red",
+                    "Feelings, intuition"
+                  ],
+                  [
+                    "Yellow",
+                    "Values and benefits"
+                  ],
+                  [
+                    "Green",
+                    "Creativity, new ideas"
+                  ],
+                  [
+                    "Blue",
+                    "Manage process"
+                  ]
+                ]
+              }
+            },
+            "factId": "w1.l5.f21"
+          },
+          {
+            "id": "w1_l5_f22",
+            "kind": "contrast",
+            "title": "Hats easy to swap",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Black",
+                    "detail": "Barriers, not benefits",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Yellow",
+                    "detail": "Values and benefits, not barriers",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f22"
           },
           {
             "id": "w1c99",
@@ -2437,7 +2649,7 @@
           {
             "id": "w1c67",
             "kind": "remember",
-            "title": "Review: schools",
+            "title": "Remember: schools",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -2491,7 +2703,7 @@
         }
       },
       {
-        "heading": "Myths to reality (1)",
+        "heading": "Myths to reality",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2512,22 +2724,7 @@
               [
                 "Just risk-taking",
                 "Risk + assessment + mitigation"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Myths to reality (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Myth or fact",
-              "Reality"
-            ],
-            "rows": [
+              ],
               [
                 "Solo work",
                 "Team activity"
@@ -2541,10 +2738,10 @@
         }
       },
       {
-        "heading": "Business pressures (1)",
+        "heading": "Business pressures",
         "bullets": [],
         "visual": {
-          "type": "business-pressure",
+          "type": "tiles",
           "spec": {
             "items": [
               {
@@ -2561,18 +2758,7 @@
                 "label": "High uncertainty",
                 "detail": "Kedarnath, Delhi smog",
                 "icon": "eye"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Business pressures (2)",
-        "bullets": [],
-        "visual": {
-          "type": "business-pressure",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Global impact",
                 "detail": "Apple: US, China, world",
@@ -2583,7 +2769,7 @@
         }
       },
       {
-        "heading": "Resistance to change: 4 forms (1)",
+        "heading": "Resistance to change: 4 forms",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2603,18 +2789,7 @@
                 "label": "Inertia",
                 "detail": "I cannot: needs mentor",
                 "icon": "gear"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Resistance to change: 4 forms (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Low confidence",
                 "detail": "Disbelief in own ability",
@@ -2625,7 +2800,7 @@
         }
       },
       {
-        "heading": "VUCA (1)",
+        "heading": "VUCA",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2646,22 +2821,7 @@
               [
                 "Complexity",
                 "Named only: no definition taught"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "VUCA (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Ambiguity",
                 "No precedent: unknown unknowns"
@@ -2671,7 +2831,7 @@
         }
       },
       {
-        "heading": "Elephant, rider, incremental, breakthrough (1)",
+        "heading": "Elephant, rider, incremental, breakthrough",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2692,22 +2852,7 @@
               [
                 "Incremental",
                 "Kaizen, 2G to 3G to 4G"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Elephant, rider, incremental, breakthrough (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Breakthrough",
                 "Steam engine, wheel, fire"
@@ -2717,7 +2862,7 @@
         }
       },
       {
-        "heading": "Frugal innovation (1)",
+        "heading": "Frugal innovation",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2737,18 +2882,7 @@
                 "label": "Goal",
                 "detail": "Greatest value, lowest cost",
                 "icon": "coin"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Frugal innovation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Avoid",
                 "detail": "Technical wow, marketing myopia",
@@ -2759,7 +2893,7 @@
         }
       },
       {
-        "heading": "Four areas of innovation (1)",
+        "heading": "Four areas of innovation",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2780,22 +2914,7 @@
               [
                 "Customer experience",
                 "Tracking, Facebook reminders"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Four areas of innovation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Area",
-              "Examples"
-            ],
-            "rows": [
+              ],
               [
                 "Business model",
                 "Free core service, IPL"
@@ -2831,7 +2950,7 @@
         }
       },
       {
-        "heading": "Six Thinking Hats (1)",
+        "heading": "Six Thinking Hats",
         "bullets": [],
         "visual": {
           "type": "hats",
@@ -2851,18 +2970,7 @@
                 "label": "Red",
                 "detail": "Feelings",
                 "color": "#e03131"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Six Thinking Hats (2)",
-        "bullets": [],
-        "visual": {
-          "type": "hats",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Yellow",
                 "detail": "Values, benefits",

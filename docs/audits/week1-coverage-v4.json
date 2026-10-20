@@ -1,0 +1,232 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Design",
+    "correct": false,
+    "card": "w1.l2.f22"
+   },
+   {
+    "option": "Innovation",
+    "correct": true,
+    "card": "w1.l2.f01"
+   },
+   {
+    "option": "Marketing",
+    "correct": false,
+    "card": "w1.l2.f22"
+   },
+   {
+    "option": "Communication",
+    "correct": false,
+    "card": "w1.l2.f22"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Idea",
+    "correct": true,
+    "card": "w1.l2.f04"
+   },
+   {
+    "option": "Integration",
+    "correct": false,
+    "card": "w1.l2.f04"
+   },
+   {
+    "option": "Implementation",
+    "correct": true,
+    "card": "w1.l2.f04"
+   },
+   {
+    "option": "Industry",
+    "correct": false,
+    "card": "w1.l2.f04"
+   },
+   {
+    "option": "Impact",
+    "correct": true,
+    "card": "w1.l2.f04"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Design",
+    "correct": false,
+    "card": "w1.l2.f22"
+   },
+   {
+    "option": "Innovation",
+    "correct": true,
+    "card": "w1.l2.f21"
+   },
+   {
+    "option": "Marketing",
+    "correct": false,
+    "card": "w1.l2.f22"
+   },
+   {
+    "option": "Management",
+    "correct": false,
+    "card": "w1.l2.f22"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Both statements are false.",
+    "correct": false,
+    "card": "w1.l2.f11"
+   },
+   {
+    "option": "Statement 1 is True, and Statement 2 is false.",
+    "correct": true,
+    "card": "w1.l2.f11"
+   },
+   {
+    "option": "Both statements are true.",
+    "correct": false,
+    "card": "w1.l2.f11"
+   },
+   {
+    "option": "Statement 1 is False, and Statement 2 is True.",
+    "correct": false,
+    "card": "w1.l2.f11"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Ignoring the Idea",
+    "correct": true,
+    "card": "w1.l3.f03"
+   },
+   {
+    "option": "Ignoring the chances of failure",
+    "correct": false,
+    "card": "w1.l3.f23"
+   },
+   {
+    "option": "Inertia",
+    "correct": true,
+    "card": "w1.l3.f03"
+   },
+   {
+    "option": "Ability to exude confidence.",
+    "correct": false,
+    "card": "w1.l3.f03"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Both statements are false.",
+    "correct": false,
+    "card": "w1.l4.f06"
+   },
+   {
+    "option": "Statement 1 is True, and Statement 2 is false.",
+    "correct": false,
+    "card": "w1.l4.f06"
+   },
+   {
+    "option": "Both statements are true.",
+    "correct": true,
+    "card": "w1.l4.f06"
+   },
+   {
+    "option": "Statement 1 is False, and Statement 2 is True.",
+    "correct": false,
+    "card": "w1.l4.f06"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "Development of steam engine",
+    "correct": true,
+    "card": "w1.l4.f03"
+   },
+   {
+    "option": "Development of wheel",
+    "correct": true,
+    "card": "w1.l4.f03"
+   },
+   {
+    "option": "Invention of fire",
+    "correct": true,
+    "card": "w1.l4.f03"
+   },
+   {
+    "option": "Evolution of mobile technology from 2G to 3G",
+    "correct": false,
+    "card": "w1.l4.f03"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Design thinking is solution focused.",
+    "correct": false,
+    "card": "w1.l5.f06"
+   },
+   {
+    "option": "Design thinking is action-oriented.",
+    "correct": false,
+    "card": "w1.l5.f06"
+   },
+   {
+    "option": "Design thinking is human-centered.",
+    "correct": false,
+    "card": "w1.l5.f06"
+   },
+   {
+    "option": "Design thinking is product-centered.",
+    "correct": true,
+    "card": "w1.l5.f06"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "I – C, II – D, III – A, IV – F, V – E, VI – B",
+    "correct": true,
+    "card": "w1.l5.f21"
+   },
+   {
+    "option": "I – D, II – B, III – F, IV – A, V – C, VI – E",
+    "correct": false,
+    "card": "w1.l5.f22"
+   },
+   {
+    "option": "I – C, II – A, III – F, IV – D, V – B, VI – E",
+    "correct": false,
+    "card": "w1.l5.f22"
+   },
+   {
+    "option": "I – D, II – F, III – A, IV – E, V – C, VI – B",
+    "correct": false,
+    "card": "w1.l5.f22"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Complexity",
+    "correct": false,
+    "card": "w1.l3.f24"
+   },
+   {
+    "option": "Volatility",
+    "correct": false,
+    "card": "w1.l3.f24"
+   },
+   {
+    "option": "Ambiguity",
+    "correct": true,
+    "card": "w1.l3.f10"
+   },
+   {
+    "option": "Uncertainty",
+    "correct": false,
+    "card": "w1.l3.f24"
+   }
+  ]
+ },
+ "notes": [
+  "Complexity is named in lecture but not defined, so its option maps to the three-term VUCA card without a definition"
+ ]
+}

@@ -223,3 +223,76 @@
 .duo .comparison-spread h2{overflow-wrap:anywhere;}
 .duo .multi-table{border-top:3px solid var(--text);}.duo .multi-table section{border-bottom:1px solid var(--line);padding:18px 0;}.duo .multi-table h2{font-size:20px;margin:0 0 14px;}.duo .multi-table section>div{display:grid;grid-template-columns:1fr 1fr;gap:18px;font-size:16px;line-height:1.4;margin-top:8px;}.duo .multi-table span{color:var(--sub);font-weight:700;}
 @media(max-height:700px){.duo .value-cycle section{padding:14px 0;gap:4px 12px;}.duo .value-cycle h2{font-size:23px;}.duo .value-cycle p{font-size:15px;line-height:1.35;margin-top:5px;}.duo .cycle-arrow{font-size:18px;padding:0 0 10px 42px;}.duo .ip-hierarchy section{padding:15px 12px;margin-left:calc(var(--level)*16px);}.duo .ip-hierarchy b{font-size:21px;}.duo .ip-hierarchy p{font-size:15px;line-height:1.35;margin-top:7px;}.duo .ip-hierarchy span{margin-bottom:7px;}.duo .table-head,.duo .table-line{padding:14px 0;gap:16px;}.duo .table-line b,.duo .table-line p{font-size:15px;}}
+/* Reading-stage composition: full-size concepts, not thumbnail text. */
+.duo .teaching-content.visual-card{min-height:100%;justify-content:center;padding:24px 0 36px;overflow-wrap:normal;}
+.duo .teaching-content.visual-card>.head{font-size:27px;line-height:1.22;margin-bottom:30px;}
+.duo .teaching-content .definition-sheet h2{font-size:34px;line-height:1.2;margin:0 0 22px;letter-spacing:-.7px;}
+.duo .teaching-content .definition-sheet p{font-size:22px;line-height:1.65;}
+.duo .teaching-content .comparison-spread h2{font-size:25px;line-height:1.25;margin-bottom:16px;overflow-wrap:normal;}
+.duo .teaching-content .comparison-spread p{font-size:18px;line-height:1.55;}
+.duo .comparison-marker{margin-bottom:14px;}
+.duo .comparison-stack section+section{padding-top:20px;}
+.duo .teaching-content .value-cycle h2{font-size:28px;line-height:1.2;}
+.duo .teaching-content .multi-table h2{font-size:22px;line-height:1.25;}
+.duo .teaching-content .table-line b,.duo .teaching-content .table-line p{font-size:17px;line-height:1.45;}
+.duo .table-line{padding:17px 0;}
+.duo .concept-register li{padding:20px 0;}
+.duo .concept-register li:last-child{border-bottom:1px solid var(--line);}
+.duo .curve-path{stroke-width:4;}
+.duo .curve-phases{list-style:none;padding:0;margin:12px 0 0;}
+.duo .curve-phases li{display:grid;grid-template-columns:24px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);}
+.duo .curve-phases li>span{font-size:12px;color:var(--green-d);font-weight:900;}
+.duo .curve-phases b{font-size:18px;line-height:1.3;}
+.duo .curve-phases p{font-size:16px;line-height:1.45;color:var(--sub);margin:5px 0 0;}
+.duo .art-plc svg{background:none;}
+@media(max-height:700px){
+.duo .teaching-content.visual-card{padding:10px 0 20px;}
+.duo .teaching-content.visual-card>.head{font-size:23px;margin-bottom:22px;}
+.duo .teaching-content .definition-sheet h2{font-size:29px;line-height:1.2;}
+.duo .teaching-content .definition-sheet p{font-size:19px;line-height:1.55;}
+.duo .teaching-content .comparison-spread h2{font-size:22px;}
+.duo .teaching-content .comparison-spread p{font-size:16px;}
+.duo .teaching-content .table-line b,.duo .teaching-content .table-line p{font-size:15px;line-height:1.4;}
+.duo .table-line{padding:11px 0;}.duo .table-head{padding:10px 0;}
+.duo .concept-register li{padding:13px 0;}
+.duo .teaching-content .value-cycle h2{font-size:23px;}
+.duo .curve-drawing:has(.curve-phases) .concept-drawing{max-height:190px;}
+.duo .curve-labels{padding:8px 0;gap:10px;font-size:12px;}
+.duo .curve-phases li{padding:8px 0;gap:8px;}.duo .curve-phases b{font-size:16px;}.duo .curve-phases p{font-size:14px;line-height:1.35;}
+}
+.duo .teaching-content.visual-card{box-sizing:border-box;}
+.duo .teaching-content.visual-dense{padding-top:10px;padding-bottom:14px;}
+.duo .visual-dense .concept-register li{padding:12px 0;}
+.duo .visual-dense .concept-register b{font-size:19px;}.duo .visual-dense .concept-register p{font-size:16px;line-height:1.4;}
+.duo .teaching-content.visual-s-curve{padding-top:12px;padding-bottom:16px;}
+.duo .visual-s-curve .concept-drawing{display:block;max-height:190px;}
+.duo .visual-s-curve .curve-labels{padding:10px 0;margin:8px 0;}
+.duo .curve-phases li{padding:8px 0;}.duo .curve-phases p{font-size:15px;line-height:1.4;}
+.duo .visual-hats .art-hats{margin:10px 0;}
+@media(max-height:700px){.duo .visual-dense .concept-register li{padding:9px 0;}.duo .visual-dense .concept-register b{font-size:17px;}.duo .visual-dense .concept-register p{font-size:14px;}.duo .visual-s-curve .concept-drawing{max-height:140px;}.duo .visual-s-curve .curve-labels{margin:4px 0;padding:5px 0;}.duo .visual-s-curve .curve-phases{margin-top:4px;}.duo .curve-phases li{padding:6px 0;}.duo .curve-phases p{font-size:13px;margin:3px 0 0;}.duo .curve-phases b{font-size:15px;}}
+.duo .teaching-content .curve-phases p{margin:3px 0 0;font-size:15px;line-height:1.4;}
+.duo .teaching-content.visual-s-curve>.head{margin-bottom:18px;}
+@media(max-height:700px){.duo .teaching-content .curve-phases p{font-size:13px;line-height:1.35;margin:2px 0 0;}.duo .curve-phases li{padding:5px 0;}.duo .visual-s-curve .concept-drawing{max-height:125px;}}
+/* Hand-built teaching figures. */
+.duo .lesson-figure{margin:0;}
+.duo .lesson-figure svg{width:100%;height:auto;display:block;max-height:295px;fill:none;stroke:var(--text);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;}
+.duo .lesson-figure .figure-main{stroke:var(--green-d);stroke-width:3.5;}.duo.dark .lesson-figure .figure-main{stroke:var(--green);}
+.duo .lesson-figure .figure-fine{stroke:var(--sub);stroke-width:1.5;}.duo .lesson-figure .figure-axis{stroke:var(--sub);stroke-width:1;}
+.duo .lesson-figure .figure-paper{fill:var(--bg);stroke:var(--sub);stroke-width:1.5;}
+.duo .lesson-figure .figure-dot{fill:var(--green);stroke:var(--bg);stroke-width:2;}
+.duo .lesson-figure .figure-label{font:800 16px 'M PLUS Rounded 1c',sans-serif;fill:var(--text);stroke:none;}
+.duo .lesson-figure .figure-small{font:700 11px 'M PLUS Rounded 1c',sans-serif;fill:var(--sub);stroke:none;}
+.duo .lesson-figure .figure-red{stroke:#e46b63;stroke-width:2.5;}
+.duo .lesson-figure .figure-seal{fill:var(--bg);stroke:var(--green-d);stroke-width:2.5;}
+.duo .lesson-figure figcaption{font-size:19px;line-height:1.6;font-weight:700;color:var(--sub);border-top:1px solid var(--line);padding-top:20px;margin-top:8px;}
+.duo .teaching-content .figure-claim h2{font-family:'M PLUS Rounded 1c',sans-serif;font-size:25px;line-height:1.25;margin:18px 0 10px;}
+.duo .teaching-content .figure-claim p{font-size:18px;line-height:1.5;color:var(--sub);margin:0;}
+.duo .teaching-content .visual-dense .table-line{padding:12px 0;}
+.duo .comparison-spread h2{font-family:'M PLUS Rounded 1c',sans-serif;}
+.duo .teaching-content .curve-phases p{font-size:14px;line-height:1.3;}
+@media(max-height:700px){.duo .lesson-figure svg{max-height:235px;}.duo .lesson-figure figcaption{font-size:16px;line-height:1.5;padding-top:14px;}.duo .teaching-content .figure-claim h2{font-size:22px;margin-top:12px;}.duo .teaching-content .figure-claim p{font-size:16px;}.duo .visual-dense .table-line{padding:8px 0;}.duo .visual-s-curve .concept-drawing{max-height:110px;}}
+.duo .has-figure .lesson-figure svg{max-height:210px;}
+.duo .has-figure .lesson-figure:has(+ .figure-facts) figcaption{display:none;}
+.duo .figure-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;border-top:1px solid var(--line);padding-top:18px;margin-top:12px;}
+.duo .teaching-content .figure-facts p{margin:0;font-size:16px;line-height:1.4;}.duo .figure-facts b{display:block;}.duo .figure-facts span{display:block;color:var(--sub);margin-top:4px;}
+@media(max-height:700px){.duo .has-figure .lesson-figure svg{max-height:165px;}.duo .figure-facts{gap:10px 16px;padding-top:12px;margin-top:8px;}.duo .teaching-content .figure-facts p{font-size:14px;line-height:1.35;}}
