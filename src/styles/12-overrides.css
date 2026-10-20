@@ -138,3 +138,20 @@
 .duo.dark .skip{color:#a9b6bd;}
 .duo:not(.dark) .opt .why{color:#4b4b4b;}
 .duo:not(.dark) .muted a{color:#076692!important;}
+/* Long questions stay readable instead of shrinking to fit a phone. */
+.duo .bubble{font-size:max(14px, calc(var(--fs) * var(--ts, 1) + 1px));}
+.duo .opt{font-size:max(14px, calc(var(--fs) * var(--ts, 1)));}
+.duo .ex-body{min-height:0;scrollbar-width:thin;scrollbar-color:var(--line) transparent;}
+@media(max-width:700px){
+ .duo .stage.longq{height:auto;min-height:100%;}
+ .duo .stage.longq .cols{display:grid;flex:none;}
+ .duo .stage.longq .bubble{max-height:none;overflow:visible;}
+}
+@media(max-width:640px){
+ .duo .ex-foot:not(.ok):not(.no):not(.ghost){min-height:84px;}
+ .duo .ex-foot:not(.ok):not(.no):not(.ghost) .in{flex-direction:row;}
+ .duo .ex-foot:not(.ok):not(.no):not(.ghost) .btn{width:auto;flex:1;}
+ .duo .ex-foot:not(.ok):not(.no):not(.ghost) .skip{min-width:0!important;}
+}
+.duo .diagram-link{display:block;text-align:center;color:var(--blue);font-size:13px;margin-top:8px;min-height:28px;}
+.duo:not(.dark) .diagram-link{color:#076692;}
