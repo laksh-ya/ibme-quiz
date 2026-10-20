@@ -1,0 +1,233 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Both statements are false.",
+    "correct": false,
+    "card": "w4.l1.f11"
+   },
+   {
+    "option": "Statement 1 is True, and Statement 2 is false.",
+    "correct": false,
+    "card": "w4.l1.f11"
+   },
+   {
+    "option": "Both statements are true.",
+    "correct": false,
+    "card": "w4.l1.f11"
+   },
+   {
+    "option": "Statement 1 is False, and Statement 2 is True.",
+    "correct": true,
+    "card": "w4.l1.f11"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Analytical abilities and originality",
+    "correct": false,
+    "card": "w4.l2.f04"
+   },
+   {
+    "option": "Aptitude for Human Relations",
+    "correct": false,
+    "card": "w4.l2.f04"
+   },
+   {
+    "option": "Communication Skills",
+    "correct": false,
+    "card": "w4.l2.f04"
+   },
+   {
+    "option": "Physical appeal",
+    "correct": true,
+    "card": "w4.l2.f04"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Actor",
+    "correct": false,
+    "card": "w4.l2.f02"
+   },
+   {
+    "option": "Doctor",
+    "correct": false,
+    "card": "w4.l2.f02"
+   },
+   {
+    "option": "Entrepreneur",
+    "correct": true,
+    "card": "w4.l2.f02"
+   },
+   {
+    "option": "Teacher",
+    "correct": false,
+    "card": "w4.l2.f02"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Grameen Bank of Bangladesh",
+    "correct": true,
+    "card": "w4.l3.f08"
+   },
+   {
+    "option": "ITC Limited",
+    "correct": false,
+    "card": "w4.l3.f09"
+   },
+   {
+    "option": "Aravind Eye Hospital & Aurolab",
+    "correct": true,
+    "card": "w4.l3.f08"
+   },
+   {
+    "option": "Patanjali Ayurved",
+    "correct": false,
+    "card": "w4.l3.f09"
+   },
+   {
+    "option": "Study Hall Education Foundation",
+    "correct": true,
+    "card": "w4.l3.f08"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "All the statements are True.",
+    "correct": false,
+    "card": "w4.l3.f06"
+   },
+   {
+    "option": "Statement 1 and Statement 3 are true, and Statement 2 is false.",
+    "correct": true,
+    "card": "w4.l3.f06"
+   },
+   {
+    "option": "Statement 1 is False, and Statement 2 and Statement 3 are True.",
+    "correct": false,
+    "card": "w4.l3.f06"
+   },
+   {
+    "option": "Statement 1 and Statement 2 are true, and Statement 3 is false.",
+    "correct": false,
+    "card": "w4.l3.f06"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Start, Grow, and Run",
+    "correct": false,
+    "card": "w4.l4.f18"
+   },
+   {
+    "option": "The Innovator's Dilemma",
+    "correct": false,
+    "card": "w4.l4.f18"
+   },
+   {
+    "option": "Thinking, Fast and Slow",
+    "correct": true,
+    "card": "w4.l4.f18"
+   },
+   {
+    "option": "Zero to One",
+    "correct": false,
+    "card": "w4.l4.f18"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "Producing environmentally friendly products",
+    "correct": false,
+    "card": "w4.l3.f10"
+   },
+   {
+    "option": "Mass production of plastic bottles to turn a profit.",
+    "correct": true,
+    "card": "w4.l3.f10"
+   },
+   {
+    "option": "Providing banking services in underserved areas",
+    "correct": false,
+    "card": "w4.l3.f10"
+   },
+   {
+    "option": "Helping children orphaned by epidemic disease.",
+    "correct": false,
+    "card": "w4.l3.f10"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Look across alternative industries.",
+    "correct": false,
+    "card": "w4.l4.f04"
+   },
+   {
+    "option": "Look across strategic groups within industry.",
+    "correct": false,
+    "card": "w4.l4.f04"
+   },
+   {
+    "option": "Look across the chain of buyers.",
+    "correct": false,
+    "card": "w4.l4.f04"
+   },
+   {
+    "option": "Look across space.",
+    "correct": true,
+    "card": "w4.l4.f04"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "Visual Awakening, Visual Exploration, Visual Strategy Fair, Visual Communication",
+    "correct": true,
+    "card": "w4.l4.f13"
+   },
+   {
+    "option": "Stimulus, Sensor, Efferent, Response",
+    "correct": false,
+    "card": "w4.l4.f13"
+   },
+   {
+    "option": "Objectives, Formulation, Implementation, Evaluation and Control",
+    "correct": false,
+    "card": "w4.l4.f13"
+   },
+   {
+    "option": "Product, Place, Promotion, Price",
+    "correct": false,
+    "card": "w4.l4.f13"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Reduce and Reuse",
+    "correct": false,
+    "card": "w4.l5.f04"
+   },
+   {
+    "option": "Reduce and Raise",
+    "correct": true,
+    "card": "w4.l5.f04"
+   },
+   {
+    "option": "Recycle and Recreate",
+    "correct": false,
+    "card": "w4.l5.f04"
+   },
+   {
+    "option": "Recycle and Raise",
+    "correct": false,
+    "card": "w4.l5.f04"
+   }
+  ]
+ },
+ "notes": [
+  "Q6: other book titles are not tied to authors on cards (not in sources)",
+  "Q4 option d (Patanjali) and b (ITC): commercial aim, taught as not social per official key"
+ ]
+}
