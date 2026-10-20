@@ -259,6 +259,13 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w6c26':body=path('M31 108l108-28 30 32-108 28Zm30 32v46h108v-74M43 176h115','figure-main')+arrow(183,125,232,125)+path('M251 78h73v115h-73Zm12 20h49m-49 24h49m-49 24h49','figure-fine')+label(22,229,'Existing stapler',true)+label(238,229,'Existing use',true)+label(75,259,'Old product + old usage',true);break;
  case 'w6c27':body=path('M42 55h55v28l12 18v104H30V101l12-18Zm-5 73h65v42H37','figure-main')+label(39,154,'Listerine',true)+arrow(126,130,219,130)+path('M245 83q31-18 63 0v59q-32 29-63 0Zm0 59 12 49h39l12-49','figure-fine')+label(25,239,'Existing product',true)+label(241,239,'New usage',true);break;
  case 'w6c35':body=path('M25 179V115h70v64m42 0V83h85v96m42 0V48h71v131','figure-fine')+path('M42 204l15 15 30-37m67 22 15 15 30-37m67 22 15 15 30-37','figure-main')+label(21,256,'Innovation matters at every business size',true);break;
+
+ case 'w7c5':body=person(41,61)+arrow(78,99,124,99)+sheet(139,45,81,116)+arrow(232,99,268,99)+sheet(280,36,56,74)+sheet(280,140,56,74)+label(15,234,'Identify',true)+label(132,234,'Document',true)+label(277,234,'Share',true);break;
+ case 'w7c9':body=sheet(27,40,112,153)+label(37,145,'Asset',true)+arrow(152,116,212,116)+path('M231 42h101v92q-50 72-101 0Z','figure-main')+label(251,101,'Law')+path('M252 131l17 17 38-43','figure-main')+label(35,242,'Intellectual assets protected under law',true);break;
+ case 'w7c11':body=path('M53 139v-28q-27-25-27-52a53 53 0 1 1 106 0q0 27-27 52v28Zm0 14h52','figure-main')+arrow(145,99,213,99)+path('M234 180V77h95v103m-108-103h121l-18-34h-85Zm31 103v-50h39v50','figure-fine')+label(16,230,'Creation of the mind',true)+label(236,230,'Commerce',true);break;
+
+ case 'w7c48':body=sheet(129,65,91,125)+label(146,139,'Patent',true)+arrow(112,122,55,68)+arrow(235,122,299,68)+arrow(112,152,55,205)+arrow(235,152,299,205)+`<circle cx="40" cy="48" r="20"/><circle cx="318" cy="48" r="20"/><circle cx="40" cy="224" r="20"/><circle cx="318" cy="224" r="20"/>`+label(46,262,'Promote technology development',true);break;
+ case 'w7c63':body=label(19,55,'Bisleri')+label(233,55,'Coca-Cola')+sheet(132,89,93,113)+label(147,155,'Maaza',true)+label(142,180,'India rights',true)+arrow(22,123,119,123)+arrow(238,123,336,123)+label(83,245,'Rights transferred through sale',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
