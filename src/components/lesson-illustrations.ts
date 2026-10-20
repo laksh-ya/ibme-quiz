@@ -317,11 +317,16 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w4c7':body=path('M25 132V55h78v77m-52-59h25m-12-12v25m-39 85v-24h78v24','figure-fine')+arrow(117,98,210,98)+person(267,58)+path('M232 158h87v49h-87','figure-main')+label(12,245,'Local centres',true)+label(211,245,'Remote doctors',true);break;
  case 'w4c20':body=person(65,72)+person(292,72)+path('M43 161q139 81 269 0','figure-main')+path('M98 97h156','figure-fine')+label(124,76,'Beyond',true)+label(107,128,'transactions',true)+label(31,250,'Customers feel the company stands by them',true);break;
  case 'w4c22':body=person(57,71)+person(183,71)+person(308,71)+arrow(57,151,162,197)+arrow(308,151,203,197)+label(133,231,'Opportunity',true)+label(23,37,'Background need not be a limit',true);break;
- case 'w4c52':body=path('M23 47h63v53H23Zm83 0h63v53h-63Zm83 0h63v53h-63Zm83 0h63v53h-63','figure-fine')+path('M53 115v43h254v-43M137 115v43M222 115v43','figure-main')+label(23,223,'Four visual steps reveal the big picture',true);break;
+ case 'w4c52':body=path('M23 47h63v53H23ZM106 47h63v53h-63ZM189 47h63v53h-63ZM272 47h63v53h-63Z','figure-fine')+path('M53 115v43h254v-43M137 115v43M222 115v43','figure-main')+label(23,223,'Four visual steps reveal the big picture',true);break;
 
  case 'w5c18':body=sheet(23,42,88,133)+arrow(125,105,204,105)+path('M222 192V95l36-24v24l35-24v24h41v97Zm15-73h18v22h-18Zm41 0h18v22h-18Z','figure-main')+label(15,236,'Technical knowledge',true)+label(228,236,'Use at scale',true);break;
  case 'w5c37':body=path('M23 205h314M23 205V32','figure-fine')+path('M39 192q76 0 100-74t81-74','figure-main')+path('M238 191v-61h95','figure-red')+label(33,243,'S-curve',true)+label(217,243,'Radical leap?',true);break;
  case 'w5c65':body=path('M33 201V39m0 162h297','figure-fine')+path('M58 180h250v-125H58Z','figure-main')+label(118,125,'Above 90%')+label(64,243,'NTPC plant load factor, once',true);break;
+
+ case 'w6c15':body=label(21,57,'Skepticism',true)+label(218,57,'Belief',true)+path('M22 86l90 90m0-90-90 90','figure-red')+arrow(142,128,209,128)+path('M234 136l27 27 59-71','figure-main')+label(42,245,'Reduce criticism; develop belief',true);break;
+ case 'w6c18':body=path('M34 164h107l43-80h70l43 80m-209 0 49-80 47 80m-51-99h32','figure-main')+`<circle cx="82" cy="168" r="44"/><circle cx="297" cy="168" r="44"/>`+path('M193 65V39h93v80h-54','figure-fine')+label(41,248,'Pedal-rickshaw efficiency project',true);break;
+ case 'w6c33':body=path('M25 201h309M25 201V27','figure-fine')+path('M41 187l65-136 68 20 58 73 83 39','figure-main')+label(34,237,'Pioneer',true)+label(227,237,'Market lost',true)+label(125,44,'PET jars',true);break;
+ case 'w6c59':body=path('M26 82h308v52H26Z','figure-fine')+path('M26 82h31v52H26Z','figure-main')+label(22,57,'Only 10%',true)+label(23,202,'Coincidences and curiosities',true)+label(23,233,'can mislead',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
