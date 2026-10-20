@@ -247,6 +247,10 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w3c41':body=person(78,62)+person(282,62)+path('M65 164l20 20 49-58','figure-main')+arrow(129,102,231,102)+label(35,217,'They can do it',true)+label(225,217,'Why not me?',true)+label(61,256,'A visible example makes action believable',true);break;
  case 'w3c63':body=person(58,70)+person(302,70)+arrow(98,94,261,94)+arrow(261,147,98,147)+path('M42 187l16 16 36-40m192 24 16 16 36-40','figure-main')+label(17,237,'Benefit to one',true)+label(229,237,'Benefit to both',true)+label(105,259,'Co-created value',true);break;
  case 'w3c81':body=path('M23 65h72v72H23Zm119 0h72v72h-72Zm119 0h72v72h-72Z','figure-fine')+arrow(103,100,134,100)+arrow(222,100,253,100)+label(35,109,'Step 1',true)+label(153,109,'Step 2',true)+label(271,109,'Result',true)+path('M34 173v36h51v-36m69 0v36h51v-36m68 0v36h51v-36','figure-main')+label(34,250,'Measure the process, not only the result',true);break;
+
+ case 'w4c24':body=path('M82 49a63 63 0 1 0 0 126 63 63 0 1 0 0-126m0 40a23 23 0 1 1 0 46 23 23 0 1 1 0-46','figure-main')+path('M206 43h126v147H206Zm15 28h96m-96 26h96m-96 26h96m-96 26h96','figure-fine')+label(209,178,'₹ · cost · sales',true)+label(20,230,'Like the product',true)+label(196,230,'Know the business',true)+path('M156 92l24 31m0-31-24 31','figure-red');break;
+ case 'w4c36':body=person(57,50)+path('M30 119h55v63H30Z','figure-fine')+arrow(102,116,213,116)+path('M230 179V60h101v119m-101-119 50-30 51 30m-76 119v-48h46v48','figure-main')+label(15,226,'Rag-picking children',true)+label(243,226,'Education',true)+label(82,257,'Sudhir · Divine School',true);break;
+ case 'w4c49':body=path('M131 78h98v99h-98Z','figure-main')+label(143,123,'Education',true)+path('M58 40h47v40H58Zm200 0h47v40h-47ZM58 203h47v38H58Zm200 0h47v38h-47Z','figure-fine')+path('M105 80l25 25m100 0 28-25M105 203l25-25m100 0 28 25','figure-fine')+label(15,25,'Infrastructure',true)+label(260,25,'Ambience',true)+label(50,262,'Laptops',true)+label(236,262,'Other offerings',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
