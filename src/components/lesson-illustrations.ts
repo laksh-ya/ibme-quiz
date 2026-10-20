@@ -255,6 +255,10 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w5c33':body=path('M34 87h124l-18-39H61Zm0 0v67h124V87','figure-fine')+`<circle cx="60" cy="159" r="13"/><circle cx="133" cy="159" r="13"/>`+arrow(178,112,236,112)+label(247,103,'20')+label(247,131,'km/litre',true)+arrow(326,169,326,57)+label(40,230,'Same car, better mileage',true)+label(61,258,'An incremental improvement',true);break;
  case 'w5c70':body=path('M28 218V25m0 193h306','figure-axis')+[0,1,2].map(i=>path(`M${35+i*83} ${200-i*51}C${91+i*73} ${200-i*51} ${81+i*83} ${130-i*51} ${166+i*75} ${130-i*51}`,'figure-fine')).join('')+path('M35 200Q180 85 330 28','figure-main')+label(29,248,'Successive technologies',true)+label(209,123,'Envelope',true);break;
  case 'w5c75':body=path('M30 159V67h74v92m-61-92V31h18v36m24 0V31h18v36','figure-fine')+path('M49 21q12-18 28 0t28 0','figure-fine')+arrow(120,111,218,111)+path('M239 95l61-24 32 22v62l-61 23-32-23Zm0 0 32 24 61-26m-61 26v59','figure-main')+label(23,222,'Fly ash waste',true)+label(256,222,'Bricks',true)+label(53,256,'Waste becomes a useful material',true);break;
+
+ case 'w6c26':body=path('M31 108l108-28 30 32-108 28Zm30 32v46h108v-74M43 176h115','figure-main')+arrow(183,125,232,125)+path('M251 78h73v115h-73Zm12 20h49m-49 24h49m-49 24h49','figure-fine')+label(22,229,'Existing stapler',true)+label(238,229,'Existing use',true)+label(75,259,'Old product + old usage',true);break;
+ case 'w6c27':body=path('M42 55h55v28l12 18v104H30V101l12-18Zm-5 73h65v42H37','figure-main')+label(39,154,'Listerine',true)+arrow(126,130,219,130)+path('M245 83q31-18 63 0v59q-32 29-63 0Zm0 59 12 49h39l12-49','figure-fine')+label(25,239,'Existing product',true)+label(241,239,'New usage',true);break;
+ case 'w6c35':body=path('M25 179V115h70v64m42 0V83h85v96m42 0V48h71v131','figure-fine')+path('M42 204l15 15 30-37m67 22 15 15 30-37m67 22 15 15 30-37','figure-main')+label(21,256,'Innovation matters at every business size',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
