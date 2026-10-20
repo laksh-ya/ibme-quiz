@@ -237,8 +237,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w2c53':body=path('M45 55h115v83H45Zm155 58h115v83H200Z','figure-fine')+label(66,106,'Act')+label(216,164,'Reflect')+path('M167 91h79','figure-fine')+arrow(246,91,246,104)+path('M193 170h-92','figure-fine')+arrow(101,170,101,147)+label(48,242,'Reflect on action, then change the next action',true);break;
 
  case 'w3c28':body=[['Input',26],['Process',139],['Output',252]].map(([t,x])=>path(`M${x} 66h85v94H${x}Z`,'figure-fine')+label(Number(x)+12,119,String(t),true)).join('')+arrow(117,114,132,114)+arrow(231,114,246,114)+path('M25 185v26h311v-26','figure-main')+label(64,250,'A complete, tangible solution',true);break;
- case 'w3c41':body=person(78,62)+person(282,62)+path('M65 164l20 20 49-58','figure-main')+arrow(129,102,231,102)+label(35,217,'They can do it',true)+label(225,217,'Why not me?',true)+label(61,256,'A visible example makes action believable',true);break;
- case 'w3c63':body=person(58,70)+person(302,70)+arrow(98,94,261,94)+arrow(261,147,98,147)+path('M42 187l16 16 36-40m192 24 16 16 36-40','figure-main')+label(17,237,'Benefit to one',true)+label(229,237,'Benefit to both',true)+label(105,259,'Co-created value',true);break;
  case 'w3c81':body=path('M23 65h72v72H23Zm119 0h72v72h-72Zm119 0h72v72h-72Z','figure-fine')+arrow(103,100,134,100)+arrow(222,100,253,100)+label(35,109,'Step 1',true)+label(153,109,'Step 2',true)+label(271,109,'Result',true)+path('M34 173v36h51v-36m69 0v36h51v-36m68 0v36h51v-36','figure-main')+label(34,250,'Measure the process, not only the result',true);break;
 
  case 'w4c24':body=path('M82 49a63 63 0 1 0 0 126 63 63 0 1 0 0-126m0 40a23 23 0 1 1 0 46 23 23 0 1 1 0-46','figure-main')+path('M206 43h126v147H206Zm15 28h96m-96 26h96m-96 26h96m-96 26h96','figure-fine')+label(209,178,'₹ · cost · sales',true)+label(20,230,'Like the product',true)+label(196,230,'Know the business',true)+path('M156 92l24 31m0-31-24 31','figure-red');break;
@@ -273,13 +271,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
 
  case 'w2c15':body=`<circle cx="180" cy="115" r="87" class="figure-fine"/>`+path('M180 28a87 87 0 1 1-16 1','figure-main')+label(132,129,'97%')+label(45,239,'Fortune 500: new ideas matter most',true);break;
 
- case 'w3c1':body=path('M29 177h295M66 177v-50h62m-62 0v-50h62m-62 0V27h62','figure-fine')+arrow(141,148,286,48)+label(25,234,'Learn from failure, then try again',true);break;
- case 'w3c15':body=sheet(24,41,87,140)+label(31,137,'1000+',true)+arrow(127,114,201,114)+path('M234 179v-34q-30-19-30-55a53 53 0 1 1 106 0q0 36-30 55v34m-46 14h46','figure-main')+label(24,234,'Experiments',true)+label(223,234,'Learning',true);break;
- case 'w3c24':body=sheet(18,72,69,105)+arrow(100,121,165,121)+path('M181 29h26v200h-26','figure-red')+arrow(224,121,299,121)+label(24,252,'Resistance blocks diffusion',true);break;
- case 'w3c25':body=path('M23 49h145v88H91l-32 27v-27H23Z','figure-fine')+label(54,104,'Idea')+arrow(183,97,231,97)+person(286,83)+path('M257 51q29-33 58 0','figure-main')+label(49,237,'An idea stays with its audience',true);break;
- case 'w3c52':body=person(42,60)+person(135,60)+person(229,60)+person(322,60)+path('M25 25h34m59 0 17-18 17 18m60-4h34m59-7 17 17 17-17','figure-main')+path('M42 142l138 65 142-65m-187 0 45 65 49-65','figure-fine')+label(41,250,'Different backgrounds, more perspectives',true);break;
- case 'w3c55':body=person(48,70)+person(307,70)+arrow(87,88,266,88)+arrow(266,145,87,145)+label(135,64,'Value',true)+label(130,184,'Exchange',true)+label(61,247,'Value is at the core of exchange',true);break;
- case 'w3c84':body=path('M22 177h312M48 177V86h73v91m50 0V55h73v122','figure-fine')+arrow(32,42,108,42)+label(23,225,'Small tests',true)+label(190,225,'High stakes',true)+label(78,255,'Experiment carefully',true);break;
 
  case 'w4c6':body=path('M24 46h129v98H24Zm39 111h50m-25-13v13','figure-fine')+path('M74 68l35 25-35 25Z','figure-main')+arrow(168,96,210,96)+path('M231 45h99v144h-99Z','figure-fine')+path('M245 67h71m-71 20h71m-71 20h71m-71 20h71','figure-main')+label(23,234,'Recorded, virtual',true)+label(223,234,'Digital reading',true);break;
  case 'w4c7':body=path('M25 132V55h78v77m-52-59h25m-12-12v25m-39 85v-24h78v24','figure-fine')+arrow(117,98,210,98)+person(267,58)+path('M232 158h87v49h-87','figure-main')+label(12,245,'Local centres',true)+label(211,245,'Remote doctors',true);break;
