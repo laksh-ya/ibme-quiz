@@ -7,5 +7,5 @@ export const PDFS = [{t:"IBME Quiz Bank - all 80 questions with answers",d:"25 p
 export function pgPdfs() {
   return `<h1 class="pg">Official PDFs</h1><p class="sub">The original NPTEL course PDFs these questions and answers come from. Open one in the browser or save it for offline.</p>
 <div class="plist">${PDFS.map((p) => `<div class="pdfrow"><div class="pic">${I.book}</div><div class="pmeta"><b>${p.t}</b><span>${p.d}</span></div><div class="pacts"><a class="btn white g" href="${p.u}" target="_blank" rel="noopener">Open</a><a class="btn g" href="${p.u}" download="${p.f}">Save</a></div></div>`).join("")}</div>
-<div style="color:var(--sub);font-size:13px;margin-top:14px">Wave transitions use the <a href="https://glimm.dev" target="_blank" rel="noopener" style="color:var(--blue)">glimm</a> library (MIT, (c) Noman Ijaz), vendored unmodified.</div>`;
+<div style="color:var(--sub);font-size:13px;margin-top:14px">Wave transitions use the <a href="https://glimm.dev" target="_blank" rel="noopener" style="color:var(--blue)">glimm</a> library (MIT, (c) Noman Ijaz), installed from npm.</div>`;
 }

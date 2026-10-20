@@ -1,6 +1,5 @@
 import { BUILD } from "./build";
 
-declare const ____BUILD____: string;
 export function startUpdateCheck() {
 {
   const chk = async () => {
