@@ -50,7 +50,7 @@ TypeScript is on (`npm run typecheck`) with `strict` off: the code was carried o
 `src/main.ts` wraps the app in the official `GlimmProvider` from `glimm/react`.
 `src/lib/wave.ts` calls the `useGlimm().sweep(navigate)` function. The package owns
 its shader, View Transition snapshots, masks, opaque fallback and cleanup. No
-custom transition shader or mask code. Uses glimm's default prism palette and timing.
+custom transition shader or mask code. Uses glimm's accentChain palette in app lime green, with default timing.
 Reduced motion and no-WebGL behavior follow the package defaults.
 
 ## Updates
