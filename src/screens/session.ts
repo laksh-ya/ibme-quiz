@@ -251,7 +251,7 @@ export function retryMissed() {
 
 export function reviewAnswers() {
   const firsts = ui.ses.log.filter((l) => l.first);
-  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-home="1">${I.x}</button><h2 class="ti" style="margin:0;font-size:24px;flex:1">Your answers</h2></div><div class="ex-body" style="justify-content:flex-start;--fs:16px"><div class="stage">${firsts.map((l) => rv2row(l)).join("")}</div></div></div>`;
+  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" aria-label="Close review" data-home="1">${I.x}</button><h2 class="ti" style="margin:0;font-size:24px;flex:1">Your answers</h2></div><div class="ex-body" style="justify-content:flex-start;--fs:16px"><div class="stage">${firsts.map((l) => rv2row(l)).join("")}</div></div></div>`;
 }
 
 export function exit() {

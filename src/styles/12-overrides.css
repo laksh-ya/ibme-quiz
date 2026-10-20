@@ -155,3 +155,5 @@
 }
 .duo .diagram-link{display:block;text-align:center;color:var(--blue);font-size:13px;margin-top:8px;min-height:28px;}
 .duo:not(.dark) .diagram-link{color:#076692;}
+.duo .fc .face{justify-content:flex-start;scrollbar-width:thin;scrollbar-color:var(--line) transparent;}
+.duo .fc .face.back{justify-content:center;}
