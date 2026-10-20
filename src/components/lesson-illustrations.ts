@@ -304,6 +304,14 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w2c22':body=path('M31 178V61h91v117m-100-117h110L116 33H39Z','figure-fine')+arrow(148,124,213,124)+person(251,72)+person(311,72)+label(20,232,'Companies Act',true)+label(202,232,'Social sustainability',true);break;
  case 'w2c29':body=path('M44 203V65h35v138m0-70h48v70m0-114h48v114m0-48h48v48m0-125h48v125m0-50h48v50','figure-fine')+path('M27 37h61v72h94v37h60V49h82','figure-main')+label(22,244,'Difficult challenges prompt new solutions',true);break;
  case 'w2c58':body=sheet(29,46,105,147)+label(59,147,'Ideas',true)+path('M43 163h75','figure-red')+arrow(153,126,215,126)+path('M230 190V76h99v114m-109-114h119L280 34Z','figure-fine')+label(21,239,'Institutions need fresh thought',true);break;
+
+ case 'w3c1':body=path('M29 177h295M66 177v-50h62m-62 0v-50h62m-62 0V27h62','figure-fine')+arrow(141,148,286,48)+label(25,234,'Learn from failure, then try again',true);break;
+ case 'w3c15':body=sheet(24,41,87,140)+label(31,137,'1000+',true)+arrow(127,114,201,114)+path('M234 179v-34q-30-19-30-55a53 53 0 1 1 106 0q0 36-30 55v34m-46 14h46','figure-main')+label(24,234,'Experiments',true)+label(223,234,'Learning',true);break;
+ case 'w3c24':body=sheet(18,72,69,105)+arrow(100,121,165,121)+path('M181 29h26v200h-26','figure-red')+arrow(224,121,299,121)+label(24,252,'Resistance blocks diffusion',true);break;
+ case 'w3c25':body=path('M23 49h145v88H91l-32 27v-27H23Z','figure-fine')+label(54,104,'Idea')+arrow(183,97,231,97)+person(286,83)+path('M257 51q29-33 58 0','figure-main')+label(49,237,'An idea stays with its audience',true);break;
+ case 'w3c52':body=person(42,60)+person(135,60)+person(229,60)+person(322,60)+path('M25 25h34m59 0 17-18 17 18m60-4h34m59-7 17 17 17-17','figure-main')+path('M42 142l138 65 142-65m-187 0 45 65 49-65','figure-fine')+label(41,250,'Different backgrounds, more perspectives',true);break;
+ case 'w3c55':body=person(48,70)+person(307,70)+arrow(87,88,266,88)+arrow(266,145,87,145)+label(135,64,'Value',true)+label(130,184,'Exchange',true)+label(61,247,'Value is at the core of exchange',true);break;
+ case 'w3c84':body=path('M22 177h312M48 177V86h73v91m50 0V55h73v122','figure-fine')+arrow(32,42,108,42)+label(23,225,'Small tests',true)+label(190,225,'High stakes',true)+label(78,255,'Experiment carefully',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
