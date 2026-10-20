@@ -14116,6 +14116,30 @@
             "factId": "w7.l1.f04"
           },
           {
+            "id": "w7_l1_f16",
+            "kind": "concept",
+            "title": "Why this order",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Purpose, strategy",
+                    "detail": "Decide what information is needed",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Then",
+                    "detail": "Information becomes knowledge",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f16"
+          },
+          {
             "id": "w7c5",
             "kind": "concept",
             "title": "Intellectual assets",
@@ -14123,8 +14147,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Turn knowledge into a shareable asset",
-                "detail": "Identify, document and share intellectual capital so it can be replicated within the organisation."
+                "label": "Identified, documented, shared",
+                "detail": "Intellectual capital replicable in the organization",
+                "icon": "shield"
               }
             },
             "factId": "w7.l1.f05"
@@ -14135,11 +14160,20 @@
             "title": "Customer relationships",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Intellectual asset",
-                "detail": "Customer relationships at a CRM firm",
-                "icon": "heart"
+                "items": [
+                  {
+                    "label": "Customer relationships",
+                    "detail": "Intellectual capital",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "No asset yet",
+                    "detail": "Until identified and documented",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w7.l1.f06"
@@ -14169,9 +14203,9 @@
             "factId": "w7.l1.f07"
           },
           {
-            "id": "w7c8p1s1",
+            "id": "w7c8",
             "kind": "concept",
-            "title": "IC management process (1)",
+            "title": "IC management process",
             "lines": [],
             "visual": {
               "type": "flow",
@@ -14188,21 +14222,7 @@
                   },
                   {
                     "label": "Document"
-                  }
-                ]
-              }
-            },
-            "factId": "w7.l1.f08"
-          },
-          {
-            "id": "w7c8p1s2",
-            "kind": "concept",
-            "title": "IC management process (2)",
-            "lines": [],
-            "visual": {
-              "type": "flow",
-              "spec": {
-                "nodes": [
+                  },
                   {
                     "label": "Index"
                   },
@@ -14238,28 +14258,78 @@
           {
             "id": "w7c10",
             "kind": "concept",
-            "title": "From knowledge to protected property",
+            "title": "Hierarchy",
             "lines": [],
             "visual": {
-              "type": "hierarchy",
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
-                    "label": "Intellectual capital",
-                    "detail": "Knowledge that can create wealth."
+                    "label": "Intellectual capital"
                   },
                   {
-                    "label": "Intellectual assets",
-                    "detail": "Knowledge identified, documented and shareable."
+                    "label": "Intellectual assets"
                   },
                   {
-                    "label": "Intellectual property",
-                    "detail": "Assets protected by law."
+                    "label": "Intellectual property"
                   }
                 ]
               }
             },
             "factId": "w7.l1.f10"
+          },
+          {
+            "id": "w7_l1_f14",
+            "kind": "contrast",
+            "title": "Capital, asset, property apart",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Capital",
+                    "detail": "All employees' knowledge, wealth-creating",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Asset",
+                    "detail": "Identified, documented, shareable part",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Property",
+                    "detail": "Legally protected part",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f14"
+          },
+          {
+            "id": "w7_l1_f15",
+            "kind": "contrast",
+            "title": "What follows assets",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Next",
+                    "detail": "Intellectual property",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not the step",
+                    "detail": "Patents, knowledge economy, ownership",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f15"
           },
           {
             "id": "w7c11",
@@ -14424,14 +14494,23 @@
           {
             "id": "w7c17",
             "kind": "concept",
-            "title": "WIPO balance",
+            "title": "WIPO's balance",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Innovators and public",
-                "detail": "IPR system balances their interests",
-                "icon": "shield"
+                "items": [
+                  {
+                    "label": "WIPO balance",
+                    "detail": "Innovators and the public",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Not the pair",
+                    "detail": "Any pair with industry or economy",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w7.l2.f04"
@@ -14439,17 +14518,50 @@
           {
             "id": "w7c18",
             "kind": "concept",
-            "title": "Protection and monopoly",
+            "title": "Protection and innovation",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Legal protection",
-                "detail": "Encourages more resources, not discourages",
-                "icon": "lock"
+                "items": [
+                  {
+                    "label": "Legal protection",
+                    "detail": "Encourages more resources for innovation",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "Discourages further innovation",
+                    "icon": "gear"
+                  }
+                ]
               }
             },
             "factId": "w7.l2.f05"
+          },
+          {
+            "id": "w7c19",
+            "kind": "concept",
+            "title": "IPR and patents",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "IPR",
+                    "detail": "Wider set: patents, copyright, trademarks",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Patent",
+                    "detail": "One type of IPR",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f06"
           },
           {
             "id": "w7c20",
@@ -14503,8 +14615,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Generally 20 years",
-                "detail": "A patent grants protection for a limited period, subject to the applicable patent system."
+                "label": "20 years",
+                "detail": "Generally, limited period",
+                "icon": "clock"
               }
             },
             "factId": "w7.l2.f09"
@@ -14660,6 +14773,30 @@
         ],
         "cards": [
           {
+            "id": "w7c28",
+            "kind": "concept",
+            "title": "Two groups",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Industrial property",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Copyrights",
+                    "detail": "",
+                    "icon": "hat"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f01"
+          },
+          {
             "id": "w7c29",
             "kind": "concept",
             "title": "The big three",
@@ -14769,8 +14906,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Patent rights are territorial",
-                "detail": "Protection applies within the jurisdiction where the patent is granted."
+                "label": "Geographical boundary",
+                "detail": "Valid within it",
+                "icon": "globe"
               }
             },
             "factId": "w7.l3.f06"
@@ -15003,13 +15141,33 @@
           {
             "id": "w7c44",
             "kind": "concept",
-            "title": "IP is broader than patents",
+            "title": "What counts as IPR",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Different creations can receive different IP protection",
-                "detail": "Car designs, recipes and Darjeeling Tea all fall within intellectual-property categories."
+                "items": [
+                  {
+                    "label": "Industrial design",
+                    "detail": "Luxury car exterior",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Trade secret",
+                    "detail": "Soft drink recipe",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Geographical indication",
+                    "detail": "Darjeeling Tea",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "All three",
+                    "detail": "Each falls under IPR",
+                    "icon": "shield"
+                  }
+                ]
               }
             },
             "factId": "w7.l3.f17"
@@ -15017,7 +15175,7 @@
           {
             "id": "w7c45",
             "kind": "concept",
-            "title": "match types",
+            "title": "Which right fits",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -15104,13 +15262,14 @@
           {
             "id": "w7c48",
             "kind": "concept",
-            "title": "Purpose of patent protection",
+            "title": "Myth",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Patents are intended to encourage technological progress",
-                "detail": "They grant time-limited exclusive rights in return for disclosure of the invention."
+                "label": "Patents promote technology",
+                "detail": "Not monopolies",
+                "icon": "target"
               }
             },
             "factId": "w7.l4.f02"
@@ -15195,9 +15354,9 @@
             "factId": "w7.l4.f05"
           },
           {
-            "id": "w7c52p1s1",
+            "id": "w7c52",
             "kind": "concept",
-            "title": "Patent process (1)",
+            "title": "Patent process",
             "lines": [],
             "visual": {
               "type": "flow",
@@ -15214,21 +15373,7 @@
                   },
                   {
                     "label": "Examination"
-                  }
-                ]
-              }
-            },
-            "factId": "w7.l4.f06"
-          },
-          {
-            "id": "w7c52p1s2",
-            "kind": "concept",
-            "title": "Patent process (2)",
-            "lines": [],
-            "visual": {
-              "type": "flow",
-              "spec": {
-                "nodes": [
+                  },
                   {
                     "label": "Controller"
                   },
@@ -15275,14 +15420,23 @@
           {
             "id": "w7c54",
             "kind": "concept",
-            "title": "copyright",
+            "title": "Copyright",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Legal protection",
-                "detail": "For original literary, artistic, creative works",
-                "icon": "hat"
+                "items": [
+                  {
+                    "label": "Copyright",
+                    "detail": "Exclusive rights over original works",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Not copyright",
+                    "detail": "Protection of the idea itself",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w7.l4.f08"
@@ -15303,15 +15457,49 @@
             "factId": "w7.l4.f09"
           },
           {
-            "id": "w7c57",
-            "kind": "example",
-            "title": "Public demonstration: patent case",
+            "id": "w7c56",
+            "kind": "concept",
+            "title": "Expression, not idea",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Disclosure before filing can undermine patent protection",
-                "detail": "In the course case, packaging material was publicly demonstrated at a seminar before protection was secured."
+                "items": [
+                  {
+                    "label": "Protects",
+                    "detail": "Expression of an idea",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Does not protect",
+                    "detail": "The idea itself",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f10"
+          },
+          {
+            "id": "w7c57",
+            "kind": "example",
+            "title": "Seminar before patenting",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Seminar demo",
+                    "detail": "Public disclosure ends novelty",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Result",
+                    "detail": "No patent protection",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w7.l4.f11"
@@ -15444,14 +15632,23 @@
           {
             "id": "w7c62",
             "kind": "example",
-            "title": "Bajaj vs TVS outcome",
+            "title": "Bajaj vs TVS: Supreme Court 2009",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Patent valid",
-                "detail": "TVS may sell; receiver audits",
-                "icon": "shield"
+                "items": [
+                  {
+                    "label": "Order",
+                    "detail": "TVS may sell; receiver verifies accounts",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Not decided",
+                    "detail": "Merits of the patent claim",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w7.l5.f04"
@@ -15596,27 +15793,35 @@
         "heading": "Capital to property",
         "bullets": [],
         "visual": {
-          "type": "hierarchy",
+          "type": "table",
           "spec": {
-            "nodes": [
-              {
-                "label": "Intellectual capital",
-                "detail": "Knowledge that can create wealth."
-              },
-              {
-                "label": "Intellectual assets",
-                "detail": "Knowledge identified, documented and shareable."
-              },
-              {
-                "label": "Intellectual property",
-                "detail": "Assets protected by law."
-              }
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Intellectual capital",
+                "Employees' knowledge"
+              ],
+              [
+                "Intellectual assets",
+                "Documented, shareable"
+              ],
+              [
+                "Intellectual property",
+                "Legally protected"
+              ],
+              [
+                "Creation order",
+                "Purpose, strategy, information, knowledge"
+              ]
             ]
           }
         }
       },
       {
-        "heading": "IPR basics (1)",
+        "heading": "IPR basics",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -15636,18 +15841,7 @@
                 "label": "Protection",
                 "detail": "Encourages more innovation",
                 "icon": "coin"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "IPR basics (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Treaties",
                 "detail": "Paris 1883, Berne 1886",
@@ -15658,7 +15852,7 @@
         }
       },
       {
-        "heading": "Types of IPR (1)",
+        "heading": "Types of IPR",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -15679,22 +15873,7 @@
               [
                 "Copyright",
                 "Expression, automatic"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Types of IPR (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Type",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "GI",
                 "Darjeeling Tea"
@@ -15708,7 +15887,7 @@
         }
       },
       {
-        "heading": "Falls under IPR (1)",
+        "heading": "Falls under IPR",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -15729,13 +15908,17 @@
               [
                 "Darjeeling Tea",
                 "IPR"
+              ],
+              [
+                "Copyright: manuscript",
+                "Novelist's original"
               ]
             ]
           }
         }
       },
       {
-        "heading": "Falls under IPR (2)",
+        "heading": "Falls under IPR: more",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -15745,10 +15928,6 @@
               "Know"
             ],
             "rows": [
-              [
-                "Copyright: manuscript",
-                "Novelist's original"
-              ],
               [
                 "Patent: medicine",
                 "Exclusive right to sell"
@@ -15756,22 +15935,7 @@
               [
                 "Trademark: Nike",
                 "Logo and brand name"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Falls under IPR (3)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Item",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Copyright protects",
                 "Expression of idea"
@@ -15785,35 +15949,24 @@
         }
       },
       {
-        "heading": "Indian patent system (1)",
+        "heading": "Indian patent system",
         "bullets": [],
         "visual": {
           "type": "timeline",
           "spec": {
             "nodes": [
-              {
-                "label": "1911",
-                "detail": "First Patents and Designs Act"
-              },
               {
                 "label": "1959",
                 "detail": "Ayyangar Committee report"
               },
               {
+                "label": "1911",
+                "detail": "First Patents and Designs Act"
+              },
+              {
                 "label": "1970",
                 "detail": "Patent Act"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Indian patent system (2)",
-        "bullets": [],
-        "visual": {
-          "type": "timeline",
-          "spec": {
-            "nodes": [
+              },
               {
                 "label": "1999",
                 "detail": "TRIPS amendment"
@@ -15835,7 +15988,7 @@
             "rows": [
               [
                 "Bajaj vs TVS",
-                "Patent valid"
+                "2009 order: sales allowed, accounts verified"
               ],
               [
                 "Coca-Cola vs Bisleri",

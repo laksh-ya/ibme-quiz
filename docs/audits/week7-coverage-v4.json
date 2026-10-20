@@ -1,0 +1,229 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Intellectual Capital",
+    "correct": true,
+    "card": "w7.l1.f14"
+   },
+   {
+    "option": "Intellectual Asset",
+    "correct": false,
+    "card": "w7.l1.f14"
+   },
+   {
+    "option": "Intellectual Property",
+    "correct": false,
+    "card": "w7.l1.f14"
+   },
+   {
+    "option": "Knowledge-based resources",
+    "correct": false,
+    "card": "w7.l1.f14"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Purpose->Information->Knowledge->Strategy",
+    "correct": false,
+    "card": "w7.l1.f16"
+   },
+   {
+    "option": "Purpose->Strategy->Information->Knowledge",
+    "correct": true,
+    "card": "w7.l1.f16"
+   },
+   {
+    "option": "Information->Knowledge->Purpose->Strategy",
+    "correct": false,
+    "card": "w7.l1.f16"
+   },
+   {
+    "option": "Information->Purpose->Strategy->Knowledge",
+    "correct": false,
+    "card": "w7.l1.f16"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": true,
+    "card": "w7.l1.f06"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w7.l1.f06"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w7.l1.f06"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w7.l1.f06"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Patents",
+    "correct": false,
+    "card": "w7.l1.f15"
+   },
+   {
+    "option": "Knowledge-based Economy",
+    "correct": false,
+    "card": "w7.l1.f15"
+   },
+   {
+    "option": "Intellectual Property",
+    "correct": true,
+    "card": "w7.l1.f15"
+   },
+   {
+    "option": "Intellectual Ownership",
+    "correct": false,
+    "card": "w7.l1.f15"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w7.l2.f06"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w7.l2.f05"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w7.l2.f05"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": true,
+    "card": "w7.l2.f05"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Industry and public",
+    "correct": false,
+    "card": "w7.l2.f04"
+   },
+   {
+    "option": "Innovators and industry",
+    "correct": false,
+    "card": "w7.l2.f04"
+   },
+   {
+    "option": "Innovators and public",
+    "correct": true,
+    "card": "w7.l2.f04"
+   },
+   {
+    "option": "Industry and economy",
+    "correct": false,
+    "card": "w7.l2.f04"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "a-i, b-ii, c-iii",
+    "correct": false,
+    "card": "w7.l3.f18"
+   },
+   {
+    "option": "a-i b-iii, c-ii",
+    "correct": true,
+    "card": "w7.l3.f18"
+   },
+   {
+    "option": "a-ii, b-i, c-iii",
+    "correct": false,
+    "card": "w7.l3.f18"
+   },
+   {
+    "option": "a-iii, b-ii, c-i",
+    "correct": false,
+    "card": "w7.l3.f18"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "The distinctive design of a luxury car's exterior, including its shape, curves, and exterior features",
+    "correct": false,
+    "card": "w7.l3.f17"
+   },
+   {
+    "option": "The secret recipe for a famous soft drink",
+    "correct": false,
+    "card": "w7.l3.f17"
+   },
+   {
+    "option": "Darjeeling Tea is a tea that can only be labeled as such if it originates from Darjeeling region",
+    "correct": false,
+    "card": "w7.l3.f17"
+   },
+   {
+    "option": "All of the above",
+    "correct": true,
+    "card": "w7.l3.f17"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "The scientist will be given a patent for a limited period.",
+    "correct": false,
+    "card": "w7.l4.f11"
+   },
+   {
+    "option": "The scientist’s patent will be limited to the region she is residing in.",
+    "correct": false,
+    "card": "w7.l4.f11"
+   },
+   {
+    "option": "The scientist will not be getting any protection on her innovation.",
+    "correct": true,
+    "card": "w7.l4.f11"
+   },
+   {
+    "option": "None of the above.",
+    "correct": false,
+    "card": "w7.l4.f11"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": true,
+    "card": "w7.l4.f08"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w7.l4.f10"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w7.l4.f10"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w7.l4.f10"
+   }
+  ]
+ },
+ "notes": [
+  "Bajaj vs TVS corrected: the 2009 Supreme Court order allowed TVS sales with receiver-verified accounts and did not decide the merits https://indiankanoon.org/doc/1176027/",
+  "Q3 customer relationships: intellectual capital that is not yet a documented asset (slide 4)",
+  "Q9 reason (public disclosure ends novelty) follows from the novelty requirement taught in the Types of IPR lecture"
+ ]
+}
