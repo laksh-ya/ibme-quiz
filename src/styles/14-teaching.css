@@ -318,3 +318,14 @@
  .duo .has-figure .lesson-figure svg{max-height:235px;}
  .duo .figure-facts{gap:8px 20px;padding-top:14px;margin-top:8px;}
 }
+
+/* Short statements deserve a larger reading scale, not filler or stretched rows. */
+@media(min-height:701px){
+ .duo .card-short .figure-claim{padding-top:12px;}
+ .duo .teaching-content.card-short .figure-claim h2{font-size:32px;line-height:1.25;margin:20px 0 18px;}
+ .duo .teaching-content.card-short .figure-claim p{font-size:21px;line-height:1.55;}
+ .duo .card-short .definition-sheet h2{font-size:38px;line-height:1.2;}
+ .duo .card-short .definition-sheet p{font-size:24px;line-height:1.55;}
+}
+@media(min-height:701px) and (max-width:640px){.duo .card-short.has-figure .lesson-figure svg{max-height:300px;}}
+@media(min-height:701px) and (min-width:641px){.duo .card-short.has-figure .lesson-figure svg{max-height:265px;}}
