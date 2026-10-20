@@ -10,7 +10,7 @@ for(const theme of (process.env.THEMES||'light,dark').split(',')){
  for(const id of ids){
   const w=weeks.find(w=>w.lectures.some(l=>l.cards.some(c=>c.id===id)));const l=w.lectures.find(l=>l.cards.some(c=>c.id===id));const i=l.cards.findIndex(c=>c.id===id);
   await p.locator('[data-go="lessons"]').click();await p.locator(`[data-lessonweek="${w.week}"]`).click();await p.locator(`[data-lesson="${l.id}"]`).click();await p.locator('[data-cardindex]').click();await p.locator(`[data-cardjump="${l.id}:${i}"]`).click();
-  await p.locator(`[data-figure="${id}"]`).waitFor();await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:`/downloads/inspect-${id}-${theme}.png`});
+  await p.locator(`[data-card="${id}"]`).waitFor();await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:`/downloads/inspect-${id}-${theme}.png`});
   await p.locator('[data-teachclose]').click();await p.reload();await p.evaluate(()=>document.fonts.ready);
  }
  await p.close();
