@@ -1,4 +1,3 @@
-import { weekTeaching } from "./teaching";
 import { $, esc } from "../lib/util";
 import { S } from "../state";
 import { I, mascot } from "../lib/icons";
@@ -7,7 +6,6 @@ import { ui } from "../ui";
 
 export function popover(w) {
   return `<div class="pop2" style="--ax:${w.off}px"><h3>Week ${w.w}</h3><p>10 questions. Syllabus covered by the end of this week: ${Math.round(w.w * 12.5)}%</p>
-${weekTeaching(w.w)?`<button class="btn teaching-entry" data-study="${w.w}">Study the concepts</button>`:""}
 <div class="row"><button class="btn white" data-start="week:${w.w}:learn">Learn</button><button class="btn ink" data-start="week:${w.w}:quiz">Quiz</button></div>
 <div class="snote">Learn: instant feedback. Quiz: results at the end.</div></div>`;
 }
