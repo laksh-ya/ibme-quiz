@@ -9,7 +9,7 @@ export function load() {
   return mem;
 }
 export var TSMUL = { small: 0.86, std: 1, large: 1.18 };
-export var DEF = { sound: true, haptic: true, optShuf: false, theme: "dark", textSize: "std", name: "", av: 0 };
+export var DEF = { beta:false, sound: true, haptic: true, optShuf: false, theme: "dark", textSize: "std", name: "", av: 0 };
 export var S: any = Object.assign({ q: {}, xp: 0, days: [], best: {} }, load());
 S.set = Object.assign({}, DEF, S.set);
 const record = (v: unknown): v is Record<string, any> => !!v && typeof v === "object" && !Array.isArray(v);
@@ -18,6 +18,7 @@ S.q = record(S.q) ? Object.fromEntries(Object.entries(S.q).filter(([k,v]) => /^\
 S.best = record(S.best) ? Object.fromEntries(Object.entries(S.best).filter(([k,v]) => /^w[1-8]$/.test(k) && (typeof v === "number" || typeof v === "string") && Number.isFinite(Number(v))).map(([k,v]) => [k,Math.max(0,Math.min(100,Math.round(Number(v))))])) : {};
 S.days = Array.isArray(S.days) ? [...new Set(S.days.filter(d => typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d)))] : [];
 S.xp = count(S.xp);
+S.set.beta = S.set.beta === true;
 S.set.name = String(S.set.name || "").slice(0, 18);
 S.set.av = Math.max(0, Math.min(7, Math.floor(Number(S.set.av) || 0)));
 if (S.set.theme !== "light") S.set.theme = "dark";
