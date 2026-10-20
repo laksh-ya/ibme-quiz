@@ -201,10 +201,15 @@ export function mount(root, data, images) {
     const k = e.key;
     if ($(".modal", ui.el)) {
       if (k === "Escape") $(".modal", ui.el).remove();
-      if (k === "Enter") goHome();
+      if (k === "Tab") {
+        const buttons = [...$(".modal", ui.el).querySelectorAll("button")] as HTMLButtonElement[];
+        const i = buttons.indexOf(document.activeElement as HTMLButtonElement);
+        e.preventDefault(); buttons[(i + (e.shiftKey ? buttons.length - 1 : 1)) % buttons.length]?.focus();
+      }
       return;
     }
     if (ui.fc) {
+      if ((k === "Enter" || k === " ") && e.target?.tagName === "BUTTON") return;
       if (k === " " || k === "Enter" || k === "ArrowUp" || k === "ArrowDown") {
         e.preventDefault();
         ui.fc.flip = !ui.fc.flip;
