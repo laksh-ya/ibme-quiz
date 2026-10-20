@@ -4894,5 +4894,2353 @@
         "Accordion and pendulum named, never defined"
       ]
     }
+  },
+  {
+    "week": 3,
+    "title": "Week 3: Experiments, champions, participation",
+    "lectures": [
+      {
+        "id": "w3l1",
+        "title": "Experimentation in Innovation Management",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ],
+        "cards": [
+          {
+            "id": "w3c1",
+            "kind": "concept",
+            "title": "Taleb",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Learn to fail",
+                "detail": "With pride, comfort and pleasure",
+                "icon": "shield"
+              }
+            },
+            "factId": "w3.l1.f01"
+          },
+          {
+            "id": "w3c2",
+            "kind": "concept",
+            "title": "Mindset",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Fail again",
+                    "detail": "But aim to succeed",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Fear failure",
+                    "detail": "Blocks experimenting",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f02"
+          },
+          {
+            "id": "w3c3",
+            "kind": "concept",
+            "title": "Vivekananda and Gita",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Vivekananda",
+                    "detail": "Fall and rise again and again",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Bhagavad Gita",
+                    "detail": "Balance in success and failure",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f03"
+          },
+          {
+            "id": "w3c4",
+            "kind": "concept",
+            "title": "Experiment is",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Planned activity",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Validates assumptions",
+                    "detail": "One or more of an idea",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f04"
+          },
+          {
+            "id": "w3c5",
+            "kind": "concept",
+            "title": "Four assumption types",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Need",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Technical",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Production",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Commercial",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f05"
+          },
+          {
+            "id": "w3c6",
+            "kind": "example",
+            "title": "Paid email: need",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Need",
+                "detail": "Will customers pay when free exists?",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l1.f06"
+          },
+          {
+            "id": "w3c7",
+            "kind": "example",
+            "title": "Paid email: technical",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Technical",
+                "detail": "Enough cyber security, hacking know-how?",
+                "icon": "gear"
+              }
+            },
+            "factId": "w3.l1.f07"
+          },
+          {
+            "id": "w3c8",
+            "kind": "example",
+            "title": "Paid email: production",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Production",
+                "detail": "Enough servers, available 24x7?",
+                "icon": "factory"
+              }
+            },
+            "factId": "w3.l1.f08"
+          },
+          {
+            "id": "w3c9",
+            "kind": "example",
+            "title": "Paid email: commercial",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Commercial",
+                "detail": "Enough revenue or profit?",
+                "icon": "coin"
+              }
+            },
+            "factId": "w3.l1.f09"
+          },
+          {
+            "id": "w3c10",
+            "kind": "example",
+            "title": "Other need examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Phalke",
+                    "detail": "Like mythological movies?",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Exit poll firm",
+                    "detail": "Accurate results, how earn?",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f10"
+          },
+          {
+            "id": "w3c11",
+            "kind": "example",
+            "title": "Child-safe app mapping",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Type",
+                  "Assumption"
+                ],
+                "rows": [
+                  [
+                    "Need",
+                    "Demand for app to monitor teens, kids"
+                  ],
+                  [
+                    "Technical",
+                    "Child psychology + social media expertise"
+                  ],
+                  [
+                    "Production",
+                    "App versions for Android, iOS"
+                  ],
+                  [
+                    "Commercial",
+                    "Enough parents ready to pay"
+                  ]
+                ]
+              }
+            },
+            "factId": "w3.l1.f11"
+          },
+          {
+            "id": "w3c12",
+            "kind": "concept",
+            "title": "Outcome of experiment",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not outcomes",
+                    "detail": "Success, failure",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Only outcome",
+                    "detail": "Learning",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f12"
+          },
+          {
+            "id": "w3c13",
+            "kind": "concept",
+            "title": "Experiment statements",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Wrong",
+                    "detail": "Key is desired result every time",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Right",
+                    "detail": "Key is a low-cost experiment",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f13"
+          },
+          {
+            "id": "w3c14",
+            "kind": "concept",
+            "title": "Why low cost",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Repeat often",
+                    "detail": "Low failure cost motivates",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Cost competitive",
+                    "detail": "Impact needs low cost",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f14"
+          },
+          {
+            "id": "w3c15",
+            "kind": "example",
+            "title": "Faraday",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "1000+ experiments",
+                "detail": "Learned ways electricity cannot be made",
+                "icon": "flask"
+              }
+            },
+            "factId": "w3.l1.f15"
+          },
+          {
+            "id": "w3c16",
+            "kind": "concept",
+            "title": "Cheap experiments via",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Rapid prototyping",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "3D printing",
+                    "detail": "Additive manufacturing",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Simulation",
+                    "detail": "",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f16"
+          },
+          {
+            "id": "w3c17",
+            "kind": "concept",
+            "title": "Chief villain",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Failure fallacy",
+                "detail": "Main villain of experimentation",
+                "icon": "lock"
+              }
+            },
+            "factId": "w3.l1.f17"
+          },
+          {
+            "id": "w3c18",
+            "kind": "example",
+            "title": "Paid email rescue",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Plain mail",
+                    "detail": "Free email enough",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Confidential mail",
+                    "detail": "Pay like registered post",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f18"
+          },
+          {
+            "id": "w3c19",
+            "kind": "remember",
+            "title": "Remember: experiments",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Taleb",
+                    "detail": "Fail with pride",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "4 assumptions",
+                    "detail": "Need, tech, production, commercial",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Outcome",
+                    "detail": "Only learning",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Villain",
+                    "detail": "Failure fallacy",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f19"
+          }
+        ]
+      },
+      {
+        "id": "w3l2",
+        "title": "Idea Championship",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ],
+        "cards": [
+          {
+            "id": "w3c20",
+            "kind": "concept",
+            "title": "Champion",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Champion",
+                "detail": "Opens new channels for the idea",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w3.l2.f01"
+          },
+          {
+            "id": "w3c21",
+            "kind": "concept",
+            "title": "Champion and elephant",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Public",
+                    "detail": "Elephant: holds the power",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Champion",
+                    "detail": "Rider: shapes the path",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f02"
+          },
+          {
+            "id": "w3c22",
+            "kind": "example",
+            "title": "Gandhi champion",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Gandhi",
+                "detail": "Championed non-violence, guided the public",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l2.f03"
+          },
+          {
+            "id": "w3c23",
+            "kind": "concept",
+            "title": "Champion vs originator",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Not the originator",
+                "detail": "May lack platform",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l2.f04"
+          },
+          {
+            "id": "w3c24",
+            "kind": "concept",
+            "title": "Schumpeter",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Resistance to change",
+                "detail": "Main villain in diffusion of innovation",
+                "icon": "lock"
+              }
+            },
+            "factId": "w3.l2.f05"
+          },
+          {
+            "id": "w3c25",
+            "kind": "concept",
+            "title": "Sticky idea",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Made to Stick",
+                "detail": "Idea stays permanently with audience",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l2.f06"
+          },
+          {
+            "id": "w3c26",
+            "kind": "concept",
+            "title": "Three Cs of stickiness",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Concrete",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Curiosity",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Credible",
+                    "detail": "",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f07"
+          },
+          {
+            "id": "w3c27",
+            "kind": "concept",
+            "title": "Not a C",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Requirement",
+                    "detail": "Concrete, Curiosity, Credibility",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not required",
+                    "detail": "Concern",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f08"
+          },
+          {
+            "id": "w3c28",
+            "kind": "concept",
+            "title": "Concrete",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Concrete",
+                "detail": "Solid, complete solution: input, process, output",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l2.f09"
+          },
+          {
+            "id": "w3c29",
+            "kind": "example",
+            "title": "Curiosity: Salt Law",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Salt Law protest",
+                "detail": "Gandhi walked, not rode",
+                "icon": "spark"
+              }
+            },
+            "factId": "w3.l2.f10"
+          },
+          {
+            "id": "w3c30",
+            "kind": "example",
+            "title": "Curiosity: Jan Lokpal",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Jan Lokpal",
+                "detail": "Anna Hazare champion, Kejriwal emerged",
+                "icon": "spark"
+              }
+            },
+            "factId": "w3.l2.f11"
+          },
+          {
+            "id": "w3c31",
+            "kind": "example",
+            "title": "Credibility: Rs 250 phone",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Promised Rs 250",
+                    "detail": "Failed to deliver",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Offers Rs 225",
+                    "detail": "Nobody believes",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f12"
+          },
+          {
+            "id": "w3c32",
+            "kind": "example",
+            "title": "Bihar-UP bridge",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea stalled",
+                    "detail": "Years",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "George Fernandes",
+                    "detail": "Railway Minister",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Rail-cum-road bridge",
+                    "detail": "Funded, built",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f13"
+          },
+          {
+            "id": "w3c33",
+            "kind": "concept",
+            "title": "Champions can be",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Senior manager",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Customer",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f14"
+          },
+          {
+            "id": "w3c34",
+            "kind": "concept",
+            "title": "Idea champion roles",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Build support",
+                    "detail": "New idea or technology",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Overcome resistance",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Make idea sticky",
+                    "detail": "",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f15"
+          },
+          {
+            "id": "w3c35",
+            "kind": "example",
+            "title": "Champion scenario",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ajay",
+                    "detail": "Idea, poor pitch",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Sunil",
+                    "detail": "Believed, helped resist",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Jaya",
+                    "detail": "Leader: pushed, implemented",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f16"
+          },
+          {
+            "id": "w3c36",
+            "kind": "concept",
+            "title": "Who is champion",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Jaya",
+                "detail": "Leader: made people accept, work",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l2.f17"
+          },
+          {
+            "id": "w3c37",
+            "kind": "remember",
+            "title": "Remember: champion",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Champion",
+                    "detail": "Shapes path of elephant",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "3 Cs",
+                    "detail": "Concrete, curiosity, credible",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not a C",
+                    "detail": "Concern",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Schumpeter",
+                    "detail": "Resistance is villain",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f18"
+          }
+        ]
+      },
+      {
+        "id": "w3l3",
+        "title": "Participation for Innovation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ],
+        "cards": [
+          {
+            "id": "w3c38",
+            "kind": "concept",
+            "title": "Team activity",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Team activity",
+                "detail": "Needs support from members",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l3.f01"
+          },
+          {
+            "id": "w3c39",
+            "kind": "concept",
+            "title": "Without participation",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "With",
+                    "detail": "Structured innovation",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Without",
+                    "detail": "Only jugaad, ad hoc",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f02"
+          },
+          {
+            "id": "w3c40",
+            "kind": "concept",
+            "title": "Four elements",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Role models",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Communities of practice",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Innovation catalysts",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Rewards, recognition",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f03"
+          },
+          {
+            "id": "w3c41",
+            "kind": "concept",
+            "title": "Role model",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Role model",
+                "detail": "If they can, why not me?",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l3.f04"
+          },
+          {
+            "id": "w3c42",
+            "kind": "example",
+            "title": "Role models",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "External",
+                    "detail": "Steve Jobs, Elon Musk",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Internal",
+                    "detail": "Colleagues: more powerful, daily",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f05"
+          },
+          {
+            "id": "w3c43",
+            "kind": "concept",
+            "title": "Community of practice",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Community of practice",
+                "detail": "Practitioners hang out, learn, help others",
+                "icon": "branch"
+              }
+            },
+            "factId": "w3.l3.f06"
+          },
+          {
+            "id": "w3c44",
+            "kind": "example",
+            "title": "Communities examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Coding club",
+                    "detail": "College",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Quality circle",
+                    "detail": "Japanese, formal",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Indian Science Congress",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "IIT clubs",
+                    "detail": "Robotics, rural development",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f07"
+          },
+          {
+            "id": "w3c45",
+            "kind": "example",
+            "title": "Jobs on clubs",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Computer clubs",
+                "detail": "iPhone, iPod impossible without them",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w3.l3.f08"
+          },
+          {
+            "id": "w3c46",
+            "kind": "concept",
+            "title": "Innovation catalyst",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Innovation catalyst",
+                "detail": "Encourages idea givers, constructive inputs",
+                "icon": "spark"
+              }
+            },
+            "factId": "w3.l3.f09"
+          },
+          {
+            "id": "w3c47",
+            "kind": "example",
+            "title": "Catalyst example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Mughlai restaurant idea",
+                "detail": "Steered to what market wants",
+                "icon": "spark"
+              }
+            },
+            "factId": "w3.l3.f10"
+          },
+          {
+            "id": "w3c48",
+            "kind": "concept",
+            "title": "Rewards and recognition",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Rewards, recognition",
+                "detail": "Idea givers get appreciated",
+                "icon": "heart"
+              }
+            },
+            "factId": "w3.l3.f11"
+          },
+          {
+            "id": "w3c49",
+            "kind": "example",
+            "title": "Maruti Udyog",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Cash",
+                    "detail": "Rs 100 per idea",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Recognition",
+                    "detail": "Invited givers' families",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f12"
+          },
+          {
+            "id": "w3c50",
+            "kind": "concept",
+            "title": "Recognition ways",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Cash incentives",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Innovator Month photo",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Holiday retreat",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f13"
+          },
+          {
+            "id": "w3c51",
+            "kind": "concept",
+            "title": "Recognition key",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "All of these",
+                "detail": "Each recognises employees' efforts",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l3.f14"
+          },
+          {
+            "id": "w3c52",
+            "kind": "example",
+            "title": "Diverse teams",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "MBA class",
+                "detail": "Mixed backgrounds think differently",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l3.f15"
+          },
+          {
+            "id": "w3c53",
+            "kind": "example",
+            "title": "Researcher mapping",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Element",
+                  "Researcher"
+                ],
+                "rows": [
+                  [
+                    "Role model",
+                    "Professor, 1000+ citations"
+                  ],
+                  [
+                    "Community of practice",
+                    "Associations, conferences"
+                  ],
+                  [
+                    "Catalyst",
+                    "PhD supervisor"
+                  ],
+                  [
+                    "Reward",
+                    "Publications, promotions"
+                  ]
+                ]
+              }
+            },
+            "factId": "w3.l3.f16"
+          },
+          {
+            "id": "w3c54",
+            "kind": "remember",
+            "title": "Remember: participation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Role model",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Community of practice",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Catalyst",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Reward",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f17"
+          }
+        ]
+      },
+      {
+        "id": "w3l4",
+        "title": "Co-creation for Innovation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ],
+        "cards": [
+          {
+            "id": "w3c55",
+            "kind": "concept",
+            "title": "Value creation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Value creation",
+                "detail": "Core of every economic exchange",
+                "icon": "coin"
+              }
+            },
+            "factId": "w3.l4.f01"
+          },
+          {
+            "id": "w3c56",
+            "kind": "example",
+            "title": "Adding value",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Manufacturer",
+                    "detail": "Raw material to goods",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "College",
+                    "detail": "12th pass to professional",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f02"
+          },
+          {
+            "id": "w3c57",
+            "kind": "concept",
+            "title": "Japanese practice",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Value-added",
+                    "detail": "Keep",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Non-value-added",
+                    "detail": "Eliminate",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f03"
+          },
+          {
+            "id": "w3c58",
+            "kind": "concept",
+            "title": "Value statements",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Both true",
+                "detail": "Value-added split; value is core",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l4.f04"
+          },
+          {
+            "id": "w3c59",
+            "kind": "concept",
+            "title": "Two logics",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "G-D",
+                    "detail": "Goods-dominant",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "S-D",
+                    "detail": "Service-dominant",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f05"
+          },
+          {
+            "id": "w3c60",
+            "kind": "contrast",
+            "title": "G-D logic",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Meaning",
+                    "detail": "Value-in-exchange",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Value made by",
+                    "detail": "The firm",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Roles",
+                    "detail": "Producer, consumer distinct",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Flow",
+                    "detail": "Firm manufactures, market distributes",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f06"
+          },
+          {
+            "id": "w3c61",
+            "kind": "contrast",
+            "title": "S-D logic",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Meaning",
+                    "detail": "Value-in-use",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Value made by",
+                    "detail": "Co-created reciprocally",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Roles",
+                    "detail": "Not distinct",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Basis",
+                    "detail": "Resources + competences",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f07"
+          },
+          {
+            "id": "w3c62",
+            "kind": "example",
+            "title": "S-D value",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Manufacturer",
+                    "detail": "Knowledge in production, branding",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Customer",
+                    "detail": "Knowledge in use, own life",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f08"
+          },
+          {
+            "id": "w3c63",
+            "kind": "concept",
+            "title": "Mutual benefit",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Reciprocal",
+                "detail": "Value co-created, mutually beneficial",
+                "icon": "heart"
+              }
+            },
+            "factId": "w3.l4.f09"
+          },
+          {
+            "id": "w3c64",
+            "kind": "concept",
+            "title": "Co-creation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Co-creation",
+                "detail": "Value from experiences via engagement platforms",
+                "icon": "branch"
+              }
+            },
+            "factId": "w3.l4.f10"
+          },
+          {
+            "id": "w3c65",
+            "kind": "concept",
+            "title": "Heart of co-creation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Creativity",
+                "detail": "Of customers and employees",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w3.l4.f11"
+          },
+          {
+            "id": "w3c66",
+            "kind": "concept",
+            "title": "People want",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Meaningful",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Creative",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Transformative",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f12"
+          },
+          {
+            "id": "w3c67",
+            "kind": "example",
+            "title": "Lego Ideas",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Lego Ideas",
+                "detail": "1 million fans vote ideas",
+                "icon": "people"
+              }
+            },
+            "factId": "w3.l4.f13"
+          },
+          {
+            "id": "w3c68",
+            "kind": "concept",
+            "title": "Co-creation traps",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not linear",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not producer-only burden",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not only services",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f14"
+          },
+          {
+            "id": "w3c69",
+            "kind": "example",
+            "title": "Where co-creation fits",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Rural development",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Bottom of pyramid",
+                    "detail": "Prahalad",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Services",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f15"
+          },
+          {
+            "id": "w3c70",
+            "kind": "remember",
+            "title": "Remember: co-creation",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "G-D",
+                    "detail": "Value-in-exchange, firm creates",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "S-D",
+                    "detail": "Value-in-use, co-created",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l4.f16"
+          }
+        ]
+      },
+      {
+        "id": "w3l5",
+        "title": "Prototyping to Incubation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=38"
+        ],
+        "cards": [
+          {
+            "id": "w3c71",
+            "kind": "concept",
+            "title": "Kishore Biyani",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Prototyping",
+                "detail": "Crucial in everything attempted",
+                "icon": "target"
+              }
+            },
+            "factId": "w3.l5.f01"
+          },
+          {
+            "id": "w3c72",
+            "kind": "concept",
+            "title": "Two success factors",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Backup plan",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Rapid prototyping",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f02"
+          },
+          {
+            "id": "w3c73",
+            "kind": "concept",
+            "title": "Backup plan",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Plan B ready",
+                "detail": "A fails, B starts",
+                "icon": "shield"
+              }
+            },
+            "factId": "w3.l5.f03"
+          },
+          {
+            "id": "w3c74",
+            "kind": "example",
+            "title": "Genset",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Grid fails",
+                    "detail": "Power cut",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Genset",
+                    "detail": "Backup plan",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f04"
+          },
+          {
+            "id": "w3c75",
+            "kind": "concept",
+            "title": "Backup speeds",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Backup plan",
+                "detail": "Saves restarting from idea stage",
+                "icon": "clock"
+              }
+            },
+            "factId": "w3.l5.f05"
+          },
+          {
+            "id": "w3c76",
+            "kind": "concept",
+            "title": "Rapid prototyping",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Rapid prototyping",
+                "detail": "Experiments early; beats shrinking PLCs",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w3.l5.f06"
+          },
+          {
+            "id": "w3c77",
+            "kind": "example",
+            "title": "Patanjali: backup",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Climate unfavourable",
+                    "detail": "Education, yoga, medical, R&D",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Climate favourable",
+                    "detail": "Aggressive swadeshi push",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f07"
+          },
+          {
+            "id": "w3c78",
+            "kind": "example",
+            "title": "Patanjali: prototyping",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Business model level",
+                "detail": "Yoga camps core, others linked",
+                "icon": "coin"
+              }
+            },
+            "factId": "w3.l5.f08"
+          },
+          {
+            "id": "w3c79",
+            "kind": "example",
+            "title": "Patanjali growth",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Yoga",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Ayurvedic medicines",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "FMCG",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Education, security",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f09"
+          },
+          {
+            "id": "w3c80",
+            "kind": "concept",
+            "title": "Measurement system",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "A",
+                    "detail": "Counts new products",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "B",
+                    "detail": "Counts employees giving ideas",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f10"
+          },
+          {
+            "id": "w3c81",
+            "kind": "concept",
+            "title": "Prefer process",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Measure process",
+                "detail": "Not only final output",
+                "icon": "chart"
+              }
+            },
+            "factId": "w3.l5.f11"
+          },
+          {
+            "id": "w3c82",
+            "kind": "concept",
+            "title": "Stakes",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Money",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Name, brand",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Life",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f12"
+          },
+          {
+            "id": "w3c83",
+            "kind": "example",
+            "title": "High stakes",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Aircraft",
+                    "detail": "300 lives at risk",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Cricket final",
+                    "detail": "Batting order change",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f13"
+          },
+          {
+            "id": "w3c84",
+            "kind": "concept",
+            "title": "High stakes rule",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Experiment carefully",
+                "detail": "Only way when stakes are high",
+                "icon": "flask"
+              }
+            },
+            "factId": "w3.l5.f14"
+          },
+          {
+            "id": "w3c85",
+            "kind": "concept",
+            "title": "Incubation needs",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Incubation structure",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Effective review",
+                    "detail": "",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f15"
+          },
+          {
+            "id": "w3c86",
+            "kind": "concept",
+            "title": "Incubator types",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "HEI",
+                    "detail": "IITs, IIMs, NITs",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Private institutions",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Independent",
+                    "detail": "Private, open to public",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Company",
+                    "detail": "Employees only",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f16"
+          },
+          {
+            "id": "w3c87",
+            "kind": "concept",
+            "title": "Plant within plant",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "PWP",
+                "detail": "Small entity inside bigger plant (Skinner)",
+                "icon": "factory"
+              }
+            },
+            "factId": "w3.l5.f17"
+          },
+          {
+            "id": "w3c88",
+            "kind": "concept",
+            "title": "Review pipeline",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Submit idea",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Review",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Incubate",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f18"
+          },
+          {
+            "id": "w3c89",
+            "kind": "concept",
+            "title": "If review not ok",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Rejected",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Mentorship",
+                    "detail": "Improve, then re-review",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f19"
+          },
+          {
+            "id": "w3c90",
+            "kind": "concept",
+            "title": "Graduate",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Graduation",
+                "detail": "Stand and run on own legs",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w3.l5.f20"
+          },
+          {
+            "id": "w3c91",
+            "kind": "remember",
+            "title": "Remember: incubation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Backup plan",
+                    "detail": "Plan B",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Rapid prototyping",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Measure",
+                    "detail": "Process too",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Incubator",
+                    "detail": "Structure + review",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l5.f21"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Four assumption types",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Type",
+              "Asks"
+            ],
+            "rows": [
+              [
+                "Need",
+                "Is there demand?"
+              ],
+              [
+                "Technical",
+                "Do we have the expertise?"
+              ],
+              [
+                "Production",
+                "Can we build, supply, scale?"
+              ],
+              [
+                "Commercial",
+                "Will money come in?"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Experimentation facts",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Outcome",
+                "detail": "Only learning",
+                "icon": "bulb"
+              },
+              {
+                "label": "Key",
+                "detail": "Low-cost experiment",
+                "icon": "coin"
+              },
+              {
+                "label": "Villain",
+                "detail": "Failure fallacy",
+                "icon": "lock"
+              },
+              {
+                "label": "Taleb",
+                "detail": "Fail with pride",
+                "icon": "shield"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Idea champion",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Role",
+                "detail": "Build support, beat resistance, make sticky",
+                "icon": "people"
+              },
+              {
+                "label": "Sticky: 3 Cs",
+                "detail": "Concrete, curiosity, credible",
+                "icon": "target"
+              },
+              {
+                "label": "Not a C",
+                "detail": "Concern",
+                "icon": "lock"
+              },
+              {
+                "label": "Schumpeter",
+                "detail": "Resistance: villain of diffusion",
+                "icon": "lock"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Participation elements",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Element",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Role model",
+                "If they can, why can't I"
+              ],
+              [
+                "Community of practice",
+                "Practitioners learn together"
+              ],
+              [
+                "Innovation catalyst",
+                "Encourages, constructive input"
+              ],
+              [
+                "Rewards, recognition",
+                "Idea givers appreciated"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Ways to recognise ideas",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Cash",
+                "detail": "Per idea (Maruti Rs 100)",
+                "icon": "coin"
+              },
+              {
+                "label": "Photo",
+                "detail": "Innovator of the Month",
+                "icon": "people"
+              },
+              {
+                "label": "Holiday retreat",
+                "detail": "Top idea givers",
+                "icon": "heart"
+              },
+              {
+                "label": "Family invite",
+                "detail": "Maruti idea givers",
+                "icon": "heart"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "G-D vs S-D logic",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "",
+              "G-D",
+              "S-D"
+            ],
+            "rows": [
+              [
+                "Value",
+                "In exchange",
+                "In use"
+              ],
+              [
+                "Created by",
+                "The firm",
+                "Co-created"
+              ],
+              [
+                "Roles",
+                "Distinct",
+                "Not distinct"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Co-creation",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Example",
+                "detail": "Lego Ideas",
+                "icon": "people"
+              },
+              {
+                "label": "Not",
+                "detail": "Linear, producer-only, services-only",
+                "icon": "lock"
+              },
+              {
+                "label": "Heart",
+                "detail": "Customer, employee creativity",
+                "icon": "bulb"
+              },
+              {
+                "label": "Fits",
+                "detail": "Rural, bottom of pyramid",
+                "icon": "leaf"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Prototyping to incubation",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Backup plan",
+                "detail": "If A fails, B starts",
+                "icon": "shield"
+              },
+              {
+                "label": "Rapid prototyping",
+                "detail": "Early experiments",
+                "icon": "rocket"
+              },
+              {
+                "label": "Measure",
+                "detail": "Process, not only output",
+                "icon": "chart"
+              },
+              {
+                "label": "Incubator types",
+                "detail": "HEI, private, independent, company",
+                "icon": "factory"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Incubation review",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Step",
+              "Stage"
+            ],
+            "rows": [
+              [
+                "1",
+                "Submit"
+              ],
+              [
+                "2",
+                "Review"
+              ],
+              [
+                "3",
+                "Incubate: Or mentorship, re-review"
+              ],
+              [
+                "4",
+                "Graduate: Self-sustaining"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W3 solution PDF; Master Revision and Notes v2 W3 sections compared and verified against transcripts",
+      "notTaught": [
+        "Bhagavad Gita and Vivekananda: included from lecture",
+        "Notes v2 'habit' wordplay, 'Dandi' name, Planning Commission, H-A-B-I-T: not verified in captions, dropped"
+      ]
+    }
   }
 ]
