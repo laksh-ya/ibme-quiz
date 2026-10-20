@@ -305,9 +305,9 @@
             "factId": "w1.l1.f12"
           },
           {
-            "id": "w1c68",
+            "id": "w1c68p1",
             "kind": "example",
-            "title": "TV sequence",
+            "title": "TV sequence (1)",
             "lines": [],
             "visual": {
               "type": "journey",
@@ -332,7 +332,21 @@
                     "label": "HD, plasma",
                     "detail": "",
                     "icon": "gear"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f13"
+          },
+          {
+            "id": "w1c68p2",
+            "kind": "example",
+            "title": "TV sequence (2)",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
                   {
                     "label": "LED, LCD",
                     "detail": "",
@@ -2808,7 +2822,7 @@
         }
       },
       {
-        "heading": "Three schools of thinking",
+        "heading": "Three schools of thinking (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2823,7 +2837,18 @@
                 "label": "Systems",
                 "detail": "Leverage point, Senge, Goldratt",
                 "icon": "target"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Three schools of thinking (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Lateral",
                 "detail": "Known idea, new context",
@@ -3303,9 +3328,9 @@
             "factId": "w2.l2.f02"
           },
           {
-            "id": "w2c16",
+            "id": "w2c16p1",
             "kind": "concept",
-            "title": "Five steps",
+            "title": "Five steps (1)",
             "lines": [],
             "visual": {
               "type": "journey",
@@ -3330,7 +3355,21 @@
                     "label": "Business model",
                     "detail": "",
                     "icon": "coin"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f03"
+          },
+          {
+            "id": "w2c16p2",
+            "kind": "concept",
+            "title": "Five steps (2)",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
                   {
                     "label": "Diffusion, impact",
                     "detail": "",
@@ -3501,9 +3540,9 @@
             "factId": "w2.l2.f11"
           },
           {
-            "id": "w2c23",
+            "id": "w2c23p1",
             "kind": "remember",
-            "title": "Remember",
+            "title": "Remember (1)",
             "lines": [],
             "visual": {
               "type": "journey",
@@ -3528,7 +3567,21 @@
                     "label": "Model",
                     "detail": "",
                     "icon": "coin"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f12"
+          },
+          {
+            "id": "w2c23p2",
+            "kind": "remember",
+            "title": "Remember (2)",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
                   {
                     "label": "Impact",
                     "detail": "",
@@ -4828,7 +4881,7 @@
         }
       },
       {
-        "heading": "Idea management system",
+        "heading": "Idea management system (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -4843,7 +4896,18 @@
                 "label": "Processes",
                 "detail": "Idea mgmt, buzz, training",
                 "icon": "bulb"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Idea management system (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Asks",
                 "detail": "Who submits, selects, funds",
@@ -7257,7 +7321,7 @@
         }
       },
       {
-        "heading": "Prototyping to incubation",
+        "heading": "Prototyping to incubation (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7272,7 +7336,18 @@
                 "label": "Rapid prototyping",
                 "detail": "Early experiments",
                 "icon": "rocket"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Prototyping to incubation (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Measure",
                 "detail": "Process, not only output",
@@ -8364,9 +8439,9 @@
             "factId": "w4.l3.f15"
           },
           {
-            "id": "w4c41",
+            "id": "w4c41p1",
             "kind": "remember",
-            "title": "Remember",
+            "title": "Remember (1)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -8381,7 +8456,21 @@
                     "label": "Not",
                     "detail": "Just owning for-profit firm",
                     "icon": "lock"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l3.f16"
+          },
+          {
+            "id": "w4c41p2",
+            "kind": "remember",
+            "title": "Remember (2)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
                   {
                     "label": "Yes",
                     "detail": "Grameen, Aravind, Study Hall",
@@ -8446,9 +8535,9 @@
             "factId": "w4.l4.f02"
           },
           {
-            "id": "w4c44",
+            "id": "w4c44p1",
             "kind": "concept",
-            "title": "Six paths",
+            "title": "Six paths (1)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -8473,7 +8562,21 @@
                     "label": "Complementary offerings",
                     "detail": "",
                     "icon": "gear"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w4.l4.f03"
+          },
+          {
+            "id": "w4c44p2",
+            "kind": "concept",
+            "title": "Six paths (2)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
                   {
                     "label": "Emotional or functional",
                     "detail": "",
@@ -9256,7 +9359,7 @@
         }
       },
       {
-        "heading": "Social entrepreneurship",
+        "heading": "Social entrepreneurship (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -9271,7 +9374,18 @@
                 "label": "Is not",
                 "detail": "Merely owning a for-profit firm",
                 "icon": "lock"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Social entrepreneurship (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Yes",
                 "detail": "Grameen, Aravind, Study Hall",
@@ -11730,9 +11844,9 @@
             "factId": "w6.l1.f01"
           },
           {
-            "id": "w6c2",
+            "id": "w6c2p1",
             "kind": "example",
-            "title": "Sustainable innovations",
+            "title": "Sustainable innovations (1)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -11747,7 +11861,21 @@
                     "label": "Cardboard packaging",
                     "detail": "Directions to turn into something new",
                     "icon": "gear"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f02"
+          },
+          {
+            "id": "w6c2p2",
+            "kind": "example",
+            "title": "Sustainable innovations (2)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
                   {
                     "label": "Wood stoves",
                     "detail": "Waste heat to electricity",
@@ -12773,9 +12901,9 @@
             "factId": "w6.l4.f10"
           },
           {
-            "id": "w6c45",
+            "id": "w6c45p1",
             "kind": "concept",
-            "title": "Environmental initiatives",
+            "title": "Environmental initiatives (1)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -12790,7 +12918,21 @@
                     "label": "Sustainable materials",
                     "detail": "Eco-designed, recyclable",
                     "icon": "leaf"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f11"
+          },
+          {
+            "id": "w6c45p2",
+            "kind": "concept",
+            "title": "Environmental initiatives (2)",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
                   {
                     "label": "Biodiversity",
                     "detail": "Reforestation association",
@@ -13168,7 +13310,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Sustainability examples",
+        "heading": "Sustainability examples (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -13183,7 +13325,18 @@
                 "label": "Sustainable innovation",
                 "detail": "Aravind and Narayana both",
                 "icon": "heart"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Sustainability examples (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Ganges",
                 "detail": "About 500 million people",
