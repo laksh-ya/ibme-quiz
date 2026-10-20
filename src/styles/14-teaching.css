@@ -298,3 +298,14 @@
 @media(max-height:700px){.duo .has-figure .lesson-figure svg{max-height:165px;}.duo .figure-facts{gap:10px 16px;padding-top:12px;margin-top:8px;}.duo .teaching-content .figure-facts p{font-size:14px;line-height:1.35;}}
 .duo .visual-table .multi-table section{padding:12px 0;}
 @media(max-height:700px){.duo .visual-table .multi-table section{padding:8px 0;}.duo .visual-table .multi-table h2{margin-bottom:8px;}}
+/* Keep the lesson near its progress marker, rather than centering a tiny island. */
+.duo .teaching-content.visual-card{justify-content:flex-start;padding-top:28px;}
+.duo .has-figure .lesson-figure svg{max-height:265px;}
+.duo .lesson-figure .figure-small{font-size:13px;}
+@media(max-height:700px){.duo .teaching-content.visual-card{padding-top:16px;}.duo .has-figure .lesson-figure svg{max-height:190px;}}
+.duo .has-figure [data-figure="w1_l3_f24"] svg{max-height:235px;}
+@media(max-height:700px){.duo .has-figure [data-figure="w1_l3_f24"] svg{max-height:180px;}}
+.duo .has-figure [data-figure="w5c74"] svg{max-height:195px;}
+.duo .has-figure[data-card="w6c20"] svg,.duo .has-figure[data-card="w6c45"] svg{max-height:225px;}
+@media(max-height:700px){.duo .has-figure [data-figure="w5c74"] svg{max-height:155px;}.duo .has-figure[data-card="w6c20"] svg,.duo .has-figure[data-card="w6c45"] svg{max-height:175px;}}
+.duo .lesson-figure .figure-seal,.duo .lesson-figure .figure-paper{fill:var(--card);}
