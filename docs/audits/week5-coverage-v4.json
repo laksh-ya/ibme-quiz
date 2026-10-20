@@ -1,0 +1,228 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Engineering->Technology->Science",
+    "correct": false,
+    "card": "w5.l2.f15"
+   },
+   {
+    "option": "Science->Engineering->Technology",
+    "correct": true,
+    "card": "w5.l2.f15"
+   },
+   {
+    "option": "Science->Technology->Engineering",
+    "correct": false,
+    "card": "w5.l2.f15"
+   },
+   {
+    "option": "Technology->Engineering->Science",
+    "correct": false,
+    "card": "w5.l2.f15"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w5.l2.f02"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": true,
+    "card": "w5.l2.f02"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w5.l2.f02"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w5.l2.f02"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "It is about creating new use of the existing technology.",
+    "correct": true,
+    "card": "w5.l2.f06"
+   },
+   {
+    "option": "It is a complex process involving technological, social and economic factors.",
+    "correct": false,
+    "card": "w5.l2.f06"
+   },
+   {
+    "option": "It requires huge financial investments.",
+    "correct": false,
+    "card": "w5.l2.f06"
+   },
+   {
+    "option": "It takes long period of time, sometimes decades for such innovations to be impactful.",
+    "correct": false,
+    "card": "w5.l2.f06"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "(a), (b), (d), (f), (h)",
+    "correct": true,
+    "card": "w5.l2.f09"
+   },
+   {
+    "option": "(a), (b), (c), (d), (f)",
+    "correct": false,
+    "card": "w5.l2.f09"
+   },
+   {
+    "option": "(a), (b), (e), (f), (g)",
+    "correct": false,
+    "card": "w5.l2.f09"
+   },
+   {
+    "option": "(b), (d), (e), (f), (h)",
+    "correct": false,
+    "card": "w5.l2.f09"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "a-ii, b-i, c-iii, d-iv",
+    "correct": false,
+    "card": "w5.l3.f05"
+   },
+   {
+    "option": "a-i, b-iv, c-ii, d-iii",
+    "correct": false,
+    "card": "w5.l3.f05"
+   },
+   {
+    "option": "a-iii, b-i, c-iv, d-ii",
+    "correct": true,
+    "card": "w5.l3.f05"
+   },
+   {
+    "option": "a-iv, b-iii, c-i, d-ii",
+    "correct": false,
+    "card": "w5.l3.f05"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "S-curve helps stakeholders anticipate the trajectory of a technology's development and plan for future developments and challenges.",
+    "correct": false,
+    "card": "w5.l3.f10"
+   },
+   {
+    "option": "Incremental innovation involves short term planning while micro-radicle and generational innovation involves long term planning.",
+    "correct": false,
+    "card": "w5.l3.f11"
+   },
+   {
+    "option": "Radical innovations are rare phenomenon and are difficult to plan based on S-curve.",
+    "correct": false,
+    "card": "w5.l3.f12"
+   },
+   {
+    "option": "India majorly has 3rd generation companies where R&D planning is embedded in corporate and business planning.",
+    "correct": true,
+    "card": "w5.l3.f13"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "a-i, b-ii, c-iii, d-iv",
+    "correct": false,
+    "card": "w5.l4.f19"
+   },
+   {
+    "option": "a-iii, b-i, c-ii, d-iv",
+    "correct": true,
+    "card": "w5.l4.f19"
+   },
+   {
+    "option": "a-iii, b-i, c-iv, d-ii",
+    "correct": false,
+    "card": "w5.l4.f19"
+   },
+   {
+    "option": "a-i, b-iii, c-ii, d-iv",
+    "correct": false,
+    "card": "w5.l4.f19"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Offensive strategies help maintain the status quo and usually help expand the existing markets.",
+    "correct": false,
+    "card": "w5.l4.f16"
+   },
+   {
+    "option": "Absorbent strategies involve acquiring license to exploit innovation in domestic market.",
+    "correct": true,
+    "card": "w5.l4.f16"
+   },
+   {
+    "option": "Dependent strategies focus on developing core strategy with the parent company.",
+    "correct": false,
+    "card": "w5.l4.f16"
+   },
+   {
+    "option": "Imitative strategies are research intensive strategies.",
+    "correct": false,
+    "card": "w5.l4.f16"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "(a), (d), (e), (f)",
+    "correct": false,
+    "card": "w5.l5.f06"
+   },
+   {
+    "option": "(a), (b), (c), (e)",
+    "correct": false,
+    "card": "w5.l5.f07"
+   },
+   {
+    "option": "(b), (c), (e), (f)",
+    "correct": true,
+    "card": "w5.l5.f06"
+   },
+   {
+    "option": "(b), (d), (e), (f)",
+    "correct": false,
+    "card": "w5.l5.f07"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w5.l5.f04"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w5.l5.f04"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": true,
+    "card": "w5.l5.f04"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w5.l5.f04"
+   }
+  ]
+ },
+ "notes": [
+  "Marconi: lecture and slide say 1902 for the age of transatlantic wireless; cards use first transatlantic signals Dec 1901 per Nobel Prize biography https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/",
+  "Q4 option set: societal impact, trial and error and excluding existing knowledge are the excluded items"
+ ]
+}

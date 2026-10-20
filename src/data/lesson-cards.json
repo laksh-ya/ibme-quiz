@@ -9999,8 +9999,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Marketing takes sustained effort",
-                "detail": "A definition is not enough: putting marketing into practice requires commitment."
+                "label": "Intensity of efforts",
+                "detail": "Realising marketing needs commitment",
+                "icon": "target"
               }
             },
             "factId": "w5.l1.f03"
@@ -10239,6 +10240,30 @@
             "factId": "w5.l2.f01"
           },
           {
+            "id": "w5c13",
+            "kind": "concept",
+            "title": "Invention and innovation",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Innovation is",
+                    "detail": "Invention made a socially usable product",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Not so",
+                    "detail": "All inventions become innovations",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l2.f02"
+          },
+          {
             "id": "w5c14",
             "kind": "concept",
             "title": "Order",
@@ -10268,28 +10293,49 @@
             "factId": "w5.l2.f03"
           },
           {
+            "id": "w5_l2_f15",
+            "kind": "contrast",
+            "title": "Order of the three",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Order",
+                    "detail": "Science, then engineering, then technology",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Never",
+                    "detail": "Technology before engineering",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l2.f15"
+          },
+          {
             "id": "w5c15",
             "kind": "example",
             "title": "Radio case",
             "lines": [],
             "visual": {
-              "type": "journey",
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
                     "label": "Faraday, Maxwell, Hertz",
-                    "detail": "Science",
-                    "icon": "flask"
+                    "detail": "Science"
                   },
                   {
                     "label": "Marconi",
-                    "detail": "Radio, 1896-1902",
-                    "icon": "gear"
+                    "detail": "Radio, from 1896"
                   },
                   {
                     "label": "Transatlantic wireless",
-                    "detail": "1902",
-                    "icon": "globe"
+                    "detail": "First signals Dec 1901"
                   }
                 ]
               }
@@ -10324,6 +10370,40 @@
               }
             },
             "factId": "w5.l2.f05"
+          },
+          {
+            "id": "w5c17",
+            "kind": "concept",
+            "title": "True and false about it",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Complex",
+                    "detail": "Technological, social, economic",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Long",
+                    "detail": "Sometimes decades",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Costly",
+                    "detail": "Huge investment",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Not just",
+                    "detail": "New use of existing technology",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l2.f06"
           },
           {
             "id": "w5c18",
@@ -10373,6 +10453,40 @@
               }
             },
             "factId": "w5.l2.f08"
+          },
+          {
+            "id": "w5c20",
+            "kind": "concept",
+            "title": "What the process includes",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Includes",
+                    "detail": "Basic research, product development",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Also includes",
+                    "detail": "Co-creation, scaling up, experimentation",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Excludes",
+                    "detail": "Societal impact",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Also excludes",
+                    "detail": "Trial and error; excluding existing knowledge",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l2.f09"
           },
           {
             "id": "w5c21",
@@ -10601,7 +10715,7 @@
           {
             "id": "w5c30",
             "kind": "concept",
-            "title": "type to example",
+            "title": "Type to example",
             "lines": [],
             "visual": {
               "type": "table",
@@ -10688,13 +10802,14 @@
           {
             "id": "w5c33",
             "kind": "example",
-            "title": "Incremental innovation",
+            "title": "Incremental example",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Improve fuel efficiency",
-                "detail": "Better kilometres per litre is an incremental improvement to an existing car."
+                "label": "Car mileage",
+                "detail": "20 to higher km per litre",
+                "icon": "chart"
               }
             },
             "factId": "w5.l3.f08"
@@ -10702,24 +10817,43 @@
           {
             "id": "w5c34",
             "kind": "concept",
-            "title": "Technology performance over time",
+            "title": "S-curve",
             "lines": [],
             "visual": {
-              "type": "s-curve",
-              "spec": {}
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Slow start",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Rapid growth",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Maturity",
+                    "detail": "",
+                    "icon": "chart"
+                  }
+                ]
+              }
             },
             "factId": "w5.l3.f09"
           },
           {
             "id": "w5c35",
             "kind": "concept",
-            "title": "Using an S-curve",
+            "title": "S-curve use",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "An S-curve helps anticipate a technology's trajectory",
-                "detail": "Performance begins slowly, improves rapidly, then approaches maturity."
+                "label": "S-curve",
+                "detail": "Helps anticipate technology trajectory",
+                "icon": "eye"
               }
             },
             "factId": "w5.l3.f10"
@@ -10764,6 +10898,30 @@
             "factId": "w5.l3.f12"
           },
           {
+            "id": "w5c38",
+            "kind": "concept",
+            "title": "India and R&D",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Third generation",
+                    "detail": "R&D built into planning",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "India",
+                    "detail": "Mostly not third-generation firms",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l3.f13"
+          },
+          {
             "id": "w5c39",
             "kind": "concept",
             "title": "R&D generations",
@@ -10788,9 +10946,9 @@
             "factId": "w5.l3.f14"
           },
           {
-            "id": "w5c40p1s1",
+            "id": "w5c40",
             "kind": "example",
-            "title": "Corporate technology identity (1)",
+            "title": "Corporate technology identity",
             "lines": [],
             "visual": {
               "type": "table",
@@ -10811,25 +10969,7 @@
                   [
                     "Honda",
                     "Engines and power trains"
-                  ]
-                ]
-              }
-            },
-            "factId": "w5.l3.f15"
-          },
-          {
-            "id": "w5c40p1s2",
-            "kind": "example",
-            "title": "Corporate technology identity (2)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Firm",
-                  "Technology"
-                ],
-                "rows": [
+                  ],
                   [
                     "NEC",
                     "VLSI, systems integration"
@@ -11010,6 +11150,40 @@
             "factId": "w5.l4.f05"
           },
           {
+            "id": "w5_l4_f19",
+            "kind": "concept",
+            "title": "Four technology classes",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Class",
+                  "Meaning"
+                ],
+                "rows": [
+                  [
+                    "Base",
+                    "Ageing, known to all"
+                  ],
+                  [
+                    "Key",
+                    "Embodied in products, differentiates"
+                  ],
+                  [
+                    "Pacing",
+                    "Can change competition, moving to development"
+                  ],
+                  [
+                    "Emerging",
+                    "Early research, unknown potential"
+                  ]
+                ]
+              }
+            },
+            "factId": "w5.l4.f19"
+          },
+          {
             "id": "w5c48",
             "kind": "example",
             "title": "Technology lifecycle",
@@ -11070,13 +11244,14 @@
           {
             "id": "w5c50",
             "kind": "concept",
-            "title": "Combining strategies",
+            "title": "Timing strategies",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Strategies lie on a continuum",
-                "detail": "A firm may use more than one technology strategy at the same time."
+                "label": "Continuum",
+                "detail": "Use one or more strategies together",
+                "icon": "branch"
               }
             },
             "factId": "w5.l4.f08"
@@ -11185,6 +11360,59 @@
               }
             },
             "factId": "w5.l4.f15"
+          },
+          {
+            "id": "w5c58",
+            "kind": "concept",
+            "title": "Strategies compared",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Strategy",
+                  "Know"
+                ],
+                "rows": [
+                  [
+                    "Absorbent",
+                    "License to exploit innovation at home"
+                  ],
+                  [
+                    "Offensive",
+                    "First mover"
+                  ],
+                  [
+                    "Defensive",
+                    "Follow the leader"
+                  ],
+                  [
+                    "Dependent",
+                    "Branch plant: production, marketing"
+                  ],
+                  [
+                    "Imitative",
+                    "Design, production; not research"
+                  ]
+                ]
+              }
+            },
+            "factId": "w5.l4.f16"
+          },
+          {
+            "id": "w5c59",
+            "kind": "concept",
+            "title": "Dependent trap",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Dependent",
+                "detail": "Not core strategy with parent company",
+                "icon": "lock"
+              }
+            },
+            "factId": "w5.l4.f17"
           },
           {
             "id": "w5c60",
@@ -11305,15 +11533,23 @@
           {
             "id": "w5c64",
             "kind": "concept",
-            "title": "Why forecast technology?",
-            "lines": [
-              "Both statements true."
-            ],
+            "title": "Why forecast",
+            "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Forecasting informs decisions",
-                "detail": "Anticipate trends to guide R&D, investment and business planning."
+                "items": [
+                  {
+                    "label": "Forecasting helps",
+                    "detail": "Anticipate trends, plan strategy",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Tools help",
+                    "detail": "Decide on R&D, investment",
+                    "icon": "coin"
+                  }
+                ]
               }
             },
             "factId": "w5.l5.f04"
@@ -11321,13 +11557,14 @@
           {
             "id": "w5c65",
             "kind": "example",
-            "title": "Why monitoring matters",
+            "title": "Why it matters",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "A strong current position can change",
-                "detail": "The NTPC example shows why firms should monitor technology even when existing assets perform well."
+                "label": "NTPC",
+                "detail": "Plant load factor once above 90%",
+                "icon": "spark"
               }
             },
             "factId": "w5.l5.f05"
@@ -11335,7 +11572,7 @@
           {
             "id": "w5c66",
             "kind": "concept",
-            "title": "forecasting tools",
+            "title": "Forecasting tools",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -11367,14 +11604,40 @@
             "factId": "w5.l5.f06"
           },
           {
+            "id": "w5c67",
+            "kind": "concept",
+            "title": "Tools and non-tools",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Tools",
+                    "detail": "Morphological, Delphi, Pearl, envelope",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not tools here",
+                    "detail": "Time series, moving average",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w5.l5.f07"
+          },
+          {
             "id": "w5c68",
             "kind": "concept",
             "title": "Pearl function",
             "lines": [],
             "visual": {
-              "type": "s-curve",
+              "type": "key",
               "spec": {
-                "detail": "The Pearl function models an S-curve with an upper limit, L."
+                "label": "Pearl",
+                "detail": "S-curve with upper limit L",
+                "icon": "chart"
               }
             },
             "factId": "w5.l5.f08"
@@ -11382,12 +11645,14 @@
           {
             "id": "w5c69",
             "kind": "concept",
-            "title": "Gompertz function",
+            "title": "Gompertz",
             "lines": [],
             "visual": {
-              "type": "s-curve",
+              "type": "key",
               "spec": {
-                "detail": "The Gompertz function is another model of S-shaped technology growth."
+                "label": "Gompertz",
+                "detail": "Another S-curve function",
+                "icon": "chart"
               }
             },
             "factId": "w5.l5.f09"
@@ -11434,23 +11699,26 @@
           {
             "id": "w5c72",
             "kind": "concept",
-            "title": "Delphi: an iterative expert process",
+            "title": "Delphi",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Panel",
-                    "detail": "Choose experts with relevant knowledge."
+                    "label": "Method",
+                    "detail": "Invite experts",
+                    "icon": "people"
                   },
                   {
-                    "label": "Rounds",
-                    "detail": "Gather views, feed back the results and let experts revise."
+                    "label": "Approach",
+                    "detail": "Iterative",
+                    "icon": "loop"
                   },
                   {
-                    "label": "Aim",
-                    "detail": "Move towards a considered consensus."
+                    "label": "Key",
+                    "detail": "Right panel members",
+                    "icon": "target"
                   }
                 ]
               }
@@ -11473,9 +11741,9 @@
             "factId": "w5.l5.f13"
           },
           {
-            "id": "w5c74p1s1",
+            "id": "w5c74",
             "kind": "example",
-            "title": "Building bricks (1)",
+            "title": "Building bricks",
             "lines": [],
             "visual": {
               "type": "table",
@@ -11496,25 +11764,7 @@
                   [
                     "Bonding",
                     "Heat, chemical, molecular"
-                  ]
-                ]
-              }
-            },
-            "factId": "w5.l5.f14"
-          },
-          {
-            "id": "w5c74p1s2",
-            "kind": "example",
-            "title": "Building bricks (2)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Dimension",
-                  "Options"
-                ],
-                "rows": [
+                  ],
                   [
                     "Properties",
                     "Opacity, insulation, elasticity, aesthetics"
@@ -11582,7 +11832,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Science, invention, innovation (1)",
+        "heading": "Science, invention, innovation",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11603,22 +11853,7 @@
               [
                 "Technology",
                 "Impact, wealth"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Science, invention, innovation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Scientific invention",
                 "New idea from R&D"
@@ -11632,7 +11867,7 @@
         }
       },
       {
-        "heading": "Technological innovation traits (1)",
+        "heading": "Technological innovation traits",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -11652,18 +11887,7 @@
                 "label": "Costly",
                 "detail": "Substantial investment",
                 "icon": "coin"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Technological innovation traits (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Not",
                 "detail": "Just new use of old tech",
@@ -11674,7 +11898,7 @@
         }
       },
       {
-        "heading": "Process includes (1)",
+        "heading": "Process includes",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11695,22 +11919,7 @@
               [
                 "Yes",
                 "Co-creation"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Process includes (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Part of innovation process",
-              "Item"
-            ],
-            "rows": [
+              ],
               [
                 "Yes",
                 "Scaling up"
@@ -11728,7 +11937,7 @@
         }
       },
       {
-        "heading": "Four types of technological innovation (1)",
+        "heading": "Four types of technological innovation",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11749,22 +11958,7 @@
               [
                 "Generational",
                 "3G to 4G"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Four types of technological innovation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Type",
-              "Example"
-            ],
-            "rows": [
+              ],
               [
                 "Incremental",
                 "Smartphone camera enhancement"
@@ -11774,7 +11968,7 @@
         }
       },
       {
-        "heading": "Technology classes (1)",
+        "heading": "Technology classes",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11795,22 +11989,7 @@
               [
                 "Pacing",
                 "Proven, now in development"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Technology classes (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Class",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Emerging",
                 "Early research, unknown potential"
@@ -11820,7 +11999,7 @@
         }
       },
       {
-        "heading": "Seven strategies (1)",
+        "heading": "Seven strategies",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11847,7 +12026,7 @@
         }
       },
       {
-        "heading": "Seven strategies (2)",
+        "heading": "Seven strategies: more",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11868,22 +12047,7 @@
               [
                 "Dependent",
                 "Branch plant: production, marketing"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Seven strategies (3)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Strategy",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Absorbent",
                 "License for domestic market"
@@ -11914,7 +12078,7 @@
         }
       },
       {
-        "heading": "Forecasting tools (1)",
+        "heading": "Forecasting tools",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11935,22 +12099,7 @@
               [
                 "Pearl function",
                 "S-curve based"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Forecasting tools (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Tool",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Envelope curve",
                 "Trend extrapolation"
@@ -11964,7 +12113,7 @@
         }
       },
       {
-        "heading": "Bright's 8 stages (1)",
+        "heading": "Bright's 8 stages",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11985,13 +12134,17 @@
               [
                 "3",
                 "Verification"
+              ],
+              [
+                "4",
+                "Lab demonstration"
               ]
             ]
           }
         }
       },
       {
-        "heading": "Bright's 8 stages (2)",
+        "heading": "Bright's 8 stages: more",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -12001,10 +12154,6 @@
               "What"
             ],
             "rows": [
-              [
-                "4",
-                "Lab demonstration"
-              ],
               [
                 "5",
                 "Alternatives, prototype, field trial"
@@ -12012,22 +12161,7 @@
               [
                 "6",
                 "Commercial introduction"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Bright's 8 stages (3)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Stage",
-              "What"
-            ],
-            "rows": [
+              ],
               [
                 "7",
                 "Widespread adoption"
