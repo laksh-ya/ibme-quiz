@@ -1,4 +1,5 @@
-import { pgLessons, renderTeaching, openLesson, closeTeaching, teachingBack, teachingNext, teachingPick, teachingCheck } from "./screens/teaching";
+import { startActiveTime } from "./lib/active-time";
+import { pgLessons, renderTeaching, openLesson, openCheat, closeTeaching, teachingMove } from "./screens/teaching";
 import { $, L } from "./lib/util";
 import { S, TSMUL, resetProgress, save } from "./state";
 import { buzz, snd } from "./lib/audio";
@@ -22,7 +23,7 @@ export function render() {
   if (ui.gate) return renderGate();
   if (ui.ses) return renderSes();
   if (ui.fc) return renderCards();
-  if (ui.teach) return renderTeaching();
+  if(ui.teach)return renderTeaching();
   const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe, review: pgReview, cards: pgCards, lessons: pgLessons }[ui.page]();
   const keep = renderedPage === ui.page && $("#main", ui.el) ? $("#main", ui.el).scrollTop : 0;
   renderedPage = ui.page;
@@ -41,6 +42,7 @@ export function mount(root, data, images) {
   el.className = "duo";
   root.appendChild(el);
   ui.el = el;
+  const stopActiveTime=startActiveTime(el);
   ui.gate = !S.set.name;
   applyTs();
   ui.el.addEventListener("click", (e) => {
@@ -55,13 +57,14 @@ export function mount(root, data, images) {
     }
     const d = t.dataset;
     if (d.study) { ui.studyWeek=+d.study;ui.page="lessons";ui.popW=null;return render(); }
+    if(d.lesson){ui.cardIndex=false;return openLesson(d.lesson);}
+    if(d.cardjump){const [id,step]=d.cardjump.split(":");ui.cardIndex=false;return openLesson(id,+step);}
+    if(d.cardindex){ui.cardIndex=!ui.cardIndex;return renderTeaching();}
     if(d.teachquiz){ui.teach=null;ui.page="learn";ui.popW=null;return render();}
-    if (d.lesson) return openLesson(d.lesson);
-    if (d.teachclose) return closeTeaching();
-    if (d.teachback) return teachingBack();
-    if (d.teachnext) return teachingNext();
-    if (d.teachpick!=null) return teachingPick(+d.teachpick);
-    if (d.teachcheck) return teachingCheck();
+    if(d.cheatsheet)return openCheat();
+    if(d.teachclose)return closeTeaching();
+    if(d.teachback)return teachingMove(-1);
+    if(d.teachnext)return teachingMove(1);
 
     if (d.rvx) {
       const b = t.parentElement.querySelector(".rv2b");
@@ -222,7 +225,7 @@ export function mount(root, data, images) {
       }
       return;
     }
-    if (ui.teach) { if (k === "Escape") closeTeaching(); return; }
+    if(ui.teach){if(k==="Escape")closeTeaching();else if(k==="ArrowRight")teachingMove(1);else if(k==="ArrowLeft")teachingMove(-1);return;}
     if (ui.fc) {
       if ((k === "Enter" || k === " ") && e.target?.tagName === "BUTTON") return;
       if (k === " " || k === "Enter" || k === "ArrowUp" || k === "ArrowDown") {
@@ -288,5 +291,5 @@ export function mount(root, data, images) {
 
   document.addEventListener("keydown", onKey);
   render();
-  return () => document.removeEventListener("keydown", onKey);
+  return () => {stopActiveTime();document.removeEventListener("keydown", onKey);};
 }

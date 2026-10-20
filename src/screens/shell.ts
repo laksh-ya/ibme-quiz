@@ -4,7 +4,7 @@ import { I, mascot } from "../lib/icons";
 import { Q, qid, stat, wrongQs } from "../quiz";
 import { ui } from "../ui";
 
-export const topStats = () => `<div class="stats"><span class="stat" title="Day streak">${I.flame}<span style="color:var(--orange)">${streak()}</span></span><span class="stat" title="XP">${I.bolt}<span style="color:var(--yellow-d)">${S.xp}</span></span><span class="stat" title="Mistakes waiting">${I.heart}<span style="color:var(--red)">${wrongQs().length}</span></span></div>`;
+export const topStats = () => `<div class="stats"><span class="stat" title="Streak">${I.flame}<span data-streak style="color:var(--orange)">${streak()}</span></span><span class="stat" title="XP">${I.bolt}<span style="color:var(--yellow-d)">${S.xp}</span></span><span class="stat" title="Mistakes waiting">${I.heart}<span style="color:var(--red)">${wrongQs().length}</span></span></div>`;
 
 export const NAVS = [["learn", "Learn", I.home], ["practice", "Practice", I.target], ["pdfs", "PDFs", I.book], ["me", "Profile", I.user]];
 

@@ -18,13 +18,16 @@ S.q = record(S.q) ? Object.fromEntries(Object.entries(S.q).filter(([k,v]) => /^\
 S.best = record(S.best) ? Object.fromEntries(Object.entries(S.best).filter(([k,v]) => /^w[1-8]$/.test(k) && (typeof v === "number" || typeof v === "string") && Number.isFinite(Number(v))).map(([k,v]) => [k,Math.max(0,Math.min(100,Math.round(Number(v))))])) : {};
 S.days = Array.isArray(S.days) ? [...new Set(S.days.filter(d => typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d)))] : [];
 S.xp = count(S.xp);
+S.activeSeconds = count(S.activeSeconds);
 S.set.beta = S.set.beta === true;
 S.study = record(S.study) ? Object.fromEntries(Object.entries(S.study).filter(([k,v])=>/^[a-zA-Z0-9_-]+$/.test(k) && record(v)).map(([k,v]:[string,any])=>[k,{step:count(v.step),done:v.done===true}])) : {};
+S.reading = record(S.reading) ? Object.fromEntries(Object.entries(S.reading).filter(([k,v])=>/^[a-zA-Z0-9_-]+$/.test(k)&&record(v)).map(([k,v]:[string,any])=>[k,{step:count(v.step),done:v.done===true}])) : {};
 S.set.name = String(S.set.name || "").slice(0, 18);
 S.set.av = Math.max(0, Math.min(7, Math.floor(Number(S.set.av) || 0)));
 if (S.set.theme !== "light") S.set.theme = "dark";
 if (!TSMUL[S.set.textSize]) S.set.textSize = "small";
 export function save() {
+  try { const other=JSON.parse(localStorage.getItem(KEY)||"{}"); S.activeSeconds=Math.max(count(S.activeSeconds),count(other.activeSeconds)); } catch {}
   mem = S;
   try {
     localStorage.setItem(KEY, JSON.stringify(S));
@@ -34,16 +37,9 @@ export function save() {
 export const dayKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 export var today = () => dayKey(new Date());
 export function streak() {
-  const d = new Set(S.days);
-  let n = 0;
-  const c = /* @__PURE__ */ new Date();
-  if (!d.has(dayKey(c))) c.setDate(c.getDate() - 1);
-  while (d.has(dayKey(c))) {
-    n++;
-    c.setDate(c.getDate() - 1);
-  }
-  return n;
+ const n=Math.max(0,Number(S.activeSeconds)||0);
+ return n>=86400?`${Math.floor(n/86400)}d`:n>=3600?`${Math.floor(n/3600)} h`:`${Math.floor(n/60)} m`;
 }
 export function resetProgress() {
-  S = { q: {}, xp: 0, days: [], best: {}, set: S.set };
+  S = { q: {}, xp: 0, days: [], best: {}, activeSeconds:S.activeSeconds, set: S.set };
 }

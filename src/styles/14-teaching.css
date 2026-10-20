@@ -34,3 +34,44 @@
 .duo .beta-note { color:var(--purple); font-weight:800; line-height:1.5; font-size:14px; }
 .duo .beta-card .sub { font-size:14px; margin:12px 0; }
 @media(max-width:640px) { .duo .side:has([data-go="lessons"]) .nav { min-width:0; flex:1; font-size:10px; letter-spacing:0; padding:7px 2px; } .duo .side:has([data-go="lessons"]) .nav svg { width:27px; height:27px; } }
+.duo .lv-flow,.duo .lv-timeline { margin:24px 0; }
+.duo .lv-stage { display:flex; align-items:center; gap:16px; padding:18px; background:var(--card); border:2px solid var(--line); border-radius:18px; }
+.duo .lv-stage p {margin:8px 0 0;font-size:15px;}
+.duo .lv-count { display:inline-grid; place-items:center; width:32px;height:32px;flex:none;border-radius:50%;background:var(--green);color:#193008;font-size:14px;font-weight:900; }
+.duo .lv-arrow {color:var(--green);text-align:center;font-size:28px;line-height:1.4;font-weight:900;}
+.duo .lv-grid {display:grid;grid-template-columns:1fr;gap:12px;}
+.duo .lv-grid.two {grid-template-columns:repeat(2,minmax(0,1fr));}
+.duo .lv-grid section,.duo .lv-story section {padding:18px;border:2px solid var(--line);border-radius:18px;background:var(--card);}
+.duo .lv-grid .lv-count {margin-bottom:12px;display:grid;}
+.duo .lv-grid p,.duo .lv-story p {margin:8px 0 0;}
+.duo .lv-story {display:grid;gap:12px;margin:24px 0;}
+.duo .lv-story section {display:flex;gap:16px;}
+.duo .lv-story strong {color:var(--purple);font-size:13px;text-transform:uppercase;}
+.duo .lv-triangle {text-align:center;color:var(--green-d);margin:24px 0;}
+.duo.dark .lv-triangle {color:var(--green);}
+.duo .lv-triangle svg {width:100%;max-width:300px;height:130px;fill:currentColor;}
+.duo .lv-triangle .lv-grid {margin-top:20px;grid-template-columns:repeat(3,minmax(0,1fr));color:var(--text);font-size:14px;line-height:1.4;}
+.duo .lv-triangle section {padding:12px 6px;}
+.duo .lv-table table {width:100%;table-layout:fixed;border-collapse:collapse;margin:24px 0;font-size:15px;line-height:1.5;}
+.duo .lv-table th,.duo .lv-table td {padding:12px;border:2px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere;}
+.duo .lv-table th {color:var(--purple);}
+.duo .lv-labelled h2 {font-size:18px;margin:24px 0 16px;}
+.duo .lesson-index {margin:-8px 0 20px;color:var(--sub);font-size:14px;}
+.duo .lesson-index summary {cursor:pointer;min-height:44px;padding:12px 0;}
+.duo .lesson-index button,.duo .card-index-panel button {display:block;width:100%;text-align:left;font:inherit;line-height:1.4;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:12px;margin:6px 0;cursor:pointer;min-height:44px;}
+.duo .card-jump-toggle {background:none;border:0;cursor:pointer;min-height:44px;font:inherit;font-size:14px;}
+.duo .card-index-panel {position:absolute;inset:70px 16px 90px;z-index:5;max-width:680px;margin:0 auto;overflow:auto;padding:16px;background:var(--bg);border:2px solid var(--line);border-radius:16px;box-shadow:0 12px 24px #0004;}
+.duo .card-index-panel button.active {border-color:var(--green);color:var(--green-d);}
+.duo .teaching-content {overflow-wrap:normal;word-break:normal;}
+.duo .card-lines {font-size:calc(16px * var(--ts,1));line-height:1.5;}
+.duo .card-lines p {margin-bottom:16px;}
+@media(max-width:640px) {
+ .duo .lv-table table,.duo .lv-table tbody,.duo .lv-table tr,.duo .lv-table td {display:block;width:100%;}
+ .duo .lv-table thead {display:none;}
+ .duo .lv-table tr {border:2px solid var(--line);border-radius:14px;padding:12px;margin:12px 0;background:var(--card);}
+ .duo .lv-table td {border:0;border-bottom:1px solid var(--line);padding:8px 0;font-size:15px;overflow-wrap:normal;}
+ .duo .lv-table td:last-child {border:0;}
+ .duo .lv-table td::before {content:attr(data-label);color:var(--purple);font-size:12px;display:block;font-weight:900;margin-bottom:4px;}
+ .duo .lv-table td[data-label=""]::before {display:none;}
+ .duo .teaching-content .tag {font-size:10px;margin-bottom:12px;}
+}

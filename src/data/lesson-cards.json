@@ -1,0 +1,1194 @@
+[
+  {
+    "week": 1,
+    "title": "Week 1: Innovation basics",
+    "lectures": [
+      {
+        "id": "w1l1",
+        "title": "L1 Analyzing the Current Business Scenario",
+        "cards": [
+          {
+            "id": "w1c1",
+            "kind": "concept",
+            "title": "Why innovation: the set-up",
+            "lines": [
+              "Course aim: commercialise innovations and business models for growth, jobs, national development.",
+              "New models earn in ways users do not see (lecturer's recording-era examples: **Ola/Uber** taxi firms with no taxis, **Alibaba** retail with no inventory, free **WhatsApp/YouTube/Gmail/Facebook** that still profit)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c2",
+            "kind": "contrast",
+            "title": "Business environment",
+            "lines": [
+              "**Internal**: a firm has some control.",
+              "**External**: very little control. Example: **politics** (parties, policies, regulation keep changing)."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "",
+                  "Internal",
+                  "External"
+                ],
+                "rows": [
+                  [
+                    "Control",
+                    "Some",
+                    "Very little"
+                  ],
+                  [
+                    "Example",
+                    "Structure, resources",
+                    "Politics, regulation"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c3",
+            "kind": "concept",
+            "title": "Pressures on business",
+            "lines": [
+              "Slide lists **4**: reducing PLCs, increasing expectations, high uncertainty, global impact.",
+              "Lecture adds a 5th, **increasing heterogeneity**. If asked for the slide list, use 4."
+            ],
+            "visual": {
+              "type": "labelled",
+              "spec": {
+                "title": "Slide: business environment",
+                "items": [
+                  {
+                    "label": "Reducing PLCs",
+                    "detail": "Cycle now 2-3 years"
+                  },
+                  {
+                    "label": "Increasing expectations",
+                    "detail": "Low cost + high quality + fast delivery together"
+                  },
+                  {
+                    "label": "High uncertainty",
+                    "detail": "Kedarnath tragedy, Delhi smog"
+                  },
+                  {
+                    "label": "Global impact",
+                    "detail": "Local events travel (Apple: US, made in China, sold worldwide)"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c4",
+            "kind": "concept",
+            "title": "Product life cycle (PLC)",
+            "lines": [
+              "Four phases: **introduction, growth, maturity, decline**.",
+              "Consumer durables: **10-20 years** before, **2-3 years** in the lecture's comparison. Less time for new product development.",
+              "Examples: B&W TV 20-30 years, then colour, flat screen, HD, plasma, LED, LCD. Mobiles in India since **1996**, described in the lecture as ~2-year life."
+            ],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Introduction"
+                  },
+                  {
+                    "label": "Growth"
+                  },
+                  {
+                    "label": "Maturity"
+                  },
+                  {
+                    "label": "Decline"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c5",
+            "kind": "concept",
+            "title": "Expectations and heterogeneity",
+            "lines": [
+              "Customers now want **low cost, high quality, fast delivery simultaneously**: no trade-off (they compare Amazon, Flipkart, eBay, Jabong).",
+              "**Heterogeneity**: forms went from male/female to also transgender and 'do not wish to disclose'."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c6",
+            "kind": "concept",
+            "title": "Global impact",
+            "lines": [
+              "World is interconnected: **Apple** is American, manufactures in China, sells worldwide.",
+              "A disruption in China or US-China relations hits the whole chain. Gulf or North Korea crises spread similarly."
+            ],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Design: USA"
+                  },
+                  {
+                    "label": "Manufacture: China"
+                  },
+                  {
+                    "label": "Sell: worldwide"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c7",
+            "kind": "concept",
+            "title": "Series of development (slide)",
+            "lines": [
+              "Order: **Europe industrialization -> North America major economic power -> Japan (quality principles) -> China (low-cost manufacturing)**.",
+              "Japan: waste removal gives higher quality AND lower cost. China: low-cost base even for American firms.",
+              "Europe: mass-produced goods for its **colonies** (India was one). North America: **scale**, belief that good quality costs more."
+            ],
+            "visual": {
+              "type": "timeline",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Europe",
+                    "detail": "Industrialization"
+                  },
+                  {
+                    "label": "North America",
+                    "detail": "Major economic power"
+                  },
+                  {
+                    "label": "Japan",
+                    "detail": "Quality principles"
+                  },
+                  {
+                    "label": "China",
+                    "detail": "Low-cost manufacturing"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l1x10",
+            "kind": "concept",
+            "title": "Uncertainty examples",
+            "lines": [
+              "**Kedarnath tragedy** (construction in a vulnerable valley) and **Delhi smog** (causes and cures still debated).",
+              "You cannot remove uncertainty, only prepare and mitigate."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c8",
+            "kind": "concept",
+            "title": "The way out",
+            "lines": [
+              "Japan = quality benchmark, China = cost benchmark. Matching them is not leadership.",
+              "Slide: **What is the way out? Innovation.** A 'bigger line' of new value. Innovation should be **pervasive** across the organisation."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c9a",
+            "kind": "remember",
+            "title": "Remember 1",
+            "lines": [
+              "**4 pressures**: shrinking PLCs, rising expectations, high uncertainty, global impact.",
+              "PLC: introduction, growth, maturity, decline; 10-20 yrs -> 2-3 yrs.",
+              "Customers want low cost + high quality + fast delivery together."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c9b",
+            "kind": "remember",
+            "title": "Remember 2",
+            "lines": [
+              "Japan quality, China cost, **way out = innovation**.",
+              "External environment mostly outside a firm's control."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          }
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=17"
+        ]
+      },
+      {
+        "id": "w1l2",
+        "title": "L2 Innovation and Creativity - An Introduction",
+        "cards": [
+          {
+            "id": "w1c10",
+            "kind": "concept",
+            "title": "Drucker's definition",
+            "lines": [
+              "Innovation is **the specific tool of entrepreneurs, the means by which they exploit change as an opportunity for a different business or a different service**.",
+              "Official **Week 1 Q1**: blank = **Innovation** (not Design, Marketing, Communication)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c11-1",
+            "kind": "example",
+            "title": "Change -> opportunity (lecturer's examples) (1/2)",
+            "lines": [
+              "Four examples to recognise."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Change",
+                  "Business that grew"
+                ],
+                "rows": [
+                  [
+                    "Swachh Bharat",
+                    "Waste, sanitation solutions"
+                  ],
+                  [
+                    "Corruption",
+                    "IT transparency (computerised railway reservation)"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c11-2",
+            "kind": "example",
+            "title": "Change -> opportunity (lecturer's examples) (2/2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Change",
+                  "Business that grew"
+                ],
+                "rows": [
+                  [
+                    "GST",
+                    "Compliance software"
+                  ],
+                  [
+                    "Demonetization",
+                    "E-payment companies"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c12",
+            "kind": "concept",
+            "title": "The three I's",
+            "lines": [
+              "**Idea, Implementation, Impact.**",
+              "Official **Q2**: Idea, Implementation, Impact. Distractors: Integration, Industry.",
+              "Idea: keep open, do not judge early. Implementation: execution. Impact: measurable result."
+            ],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea"
+                  },
+                  {
+                    "label": "Implementation"
+                  },
+                  {
+                    "label": "Impact"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c13",
+            "kind": "concept",
+            "title": "Invention vs innovation",
+            "lines": [
+              "**Idea + Implementation = Invention** (lab or experiment stage).",
+              "**Invention + Impact = Innovation.** Work left in a file has no impact.",
+              "Official **Q3** figure: Invention + Impact = ? -> **Innovation**."
+            ],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea + Implementation",
+                    "detail": "= Invention"
+                  },
+                  {
+                    "label": "+ Impact",
+                    "detail": "= Innovation"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l2x10",
+            "kind": "concept",
+            "title": "Invention defined",
+            "lines": [
+              "New concept executed in a **controlled setting**: lab prototype, project report, dissertation.",
+              "Stays in the file, never reaches market = **not innovation**."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1l2x11",
+            "kind": "concept",
+            "title": "Idea stage rule",
+            "lines": [
+              "Do **not evaluate** at idea stage: eyes, ears, brain open.",
+              "Quantity and novelty first, judgement later. Idea need not be new if implementation is novel."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c14",
+            "kind": "contrast",
+            "title": "Impact depends on the organisation",
+            "lines": [
+              "Business: market share, cost, profit.",
+              "School: students going on to higher education.",
+              "Religious organisation: people overcoming addictions."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c15",
+            "kind": "example",
+            "title": "Implementation can be the novelty",
+            "lines": [
+              "**Gandhi's non-violence**: idea was ancient (Jainism, Buddhism). Novelty was implementing it as a mass movement for the freedom struggle."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c16",
+            "kind": "contrast",
+            "title": "Myths vs realities",
+            "lines": [
+              "Official **Q4**: 'begins with curiosity' TRUE; 'always smooth linear' FALSE."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Myth",
+                  "Reality"
+                ],
+                "rows": [
+                  [
+                    "Begins with creativity",
+                    "Begins with **curiosity** (why, how, what if)"
+                  ],
+                  [
+                    "Smooth linear process",
+                    "**Iterative**, outcome of a series of experiments"
+                  ],
+                  [
+                    "About risk-taking",
+                    "Risk-taking + **assessment + mitigation**"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c17",
+            "kind": "example",
+            "title": "Risk and teamwork",
+            "lines": [
+              "Risk mitigation example: motorbike on a hill (helmet, brakes, speed limit).",
+              "Innovation is a **team activity**: one asks, another answers, another tests, another commercialises."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c18a",
+            "kind": "remember",
+            "title": "Remember 1",
+            "lines": [
+              "Drucker: **specific tool of entrepreneurs**, exploit **change**.",
+              "3 I's: **Idea, Implementation, Impact**.",
+              "Idea + Implementation = **Invention**; + Impact = **Innovation**."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c18b",
+            "kind": "remember",
+            "title": "Remember 2",
+            "lines": [
+              "**Curiosity** not creativity; **iterative** not linear; risk + assessment + mitigation.",
+              "Team activity."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          }
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "id": "w1l3",
+        "title": "L3 Innovation in Current Environment",
+        "cards": [
+          {
+            "id": "w1c19",
+            "kind": "concept",
+            "title": "Two challenges",
+            "lines": [
+              "**Resistance to change** and **prediction disability** (slide)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c20-1",
+            "kind": "concept",
+            "title": "Resistance to change: four forms (1/2)",
+            "lines": [
+              "Official **Q5**: **Ignoring the Idea** and **Inertia**. Wrong: 'ignoring the chances of failure', 'ability to exude confidence'.",
+              "Lecture form is **fear of failure** (prefer tested formulas)."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Form",
+                  "Meaning / example"
+                ],
+                "rows": [
+                  [
+                    "Ignoring the idea",
+                    "Idea dismissed (boss ignores junior; parents dismiss career dream)"
+                  ],
+                  [
+                    "Fear of failure",
+                    "Failure seen as bad; stick to tested formulas"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c20-2",
+            "kind": "concept",
+            "title": "Resistance to change: four forms (2/2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Form",
+                  "Meaning / example"
+                ],
+                "rows": [
+                  [
+                    "Inertia",
+                    "'I cannot do this'; needs a mentor (Jambavanth reminding Hanuman)"
+                  ],
+                  [
+                    "Lack of confidence",
+                    "Low belief in own ability"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c21-1",
+            "kind": "concept",
+            "title": "VUCA (1/2)",
+            "lines": [
+              "Prediction disability is described by **VUCA**: Volatility, Uncertainty, Complexity, Ambiguity.",
+              "Official **Q10**: 'unknown unknowns' = **Ambiguity**."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Element",
+                  "As taught"
+                ],
+                "rows": [
+                  [
+                    "Volatility",
+                    "Unexpected/unstable, maybe unknown duration, not hard to understand; knowledge available (demonetization)"
+                  ],
+                  [
+                    "Uncertainty",
+                    "Basic cause and effect known; change possible but not a given"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c21-2",
+            "kind": "concept",
+            "title": "VUCA (2/2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Element",
+                  "As taught"
+                ],
+                "rows": [
+                  [
+                    "Complexity",
+                    "Named; **no definition given** in slides or lecture"
+                  ],
+                  [
+                    "Ambiguity",
+                    "Causal links completely unclear; no precedents; **unknown unknowns**"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l3x7",
+            "kind": "example",
+            "title": "Resistance: lecture examples",
+            "lines": [
+              "**Ignoring**: boss dismisses junior; parents dismiss career wish (doctor, engineer, IAS).",
+              "**Inertia**: Hanuman needs Jambavanth to remind him of his powers.",
+              "Myths are dangerous: believing it is linear leaves founders depressed when profit is not instant."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c22",
+            "kind": "concept",
+            "title": "Two systems of thinking",
+            "lines": [
+              "**Emotional/intuitive** and **deliberate/analytical**. Learn to use both (driving: deliberate at first, intuitive with expertise)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1l3x8",
+            "kind": "concept",
+            "title": "VUCA: lecture glosses",
+            "lines": [
+              "Volatility: **demonetization**, GST rollout.",
+              "Uncertainty: cause-effect known but other factors can shift the outcome.",
+              "Ambiguity: no precedent, e.g. new market or product outside core competency. VUCA concept is from **Harvard Business Review**."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c23",
+            "kind": "contrast",
+            "title": "Elephant and rider",
+            "lines": [
+              "Harmony needed: rider steers elephant off the tiger path to the green-grass path.",
+              "No harmony: elephant's inertia takes the old path."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "",
+                  "Elephant",
+                  "Rider"
+                ],
+                "rows": [
+                  [
+                    "Side",
+                    "Emotional",
+                    "Analytical"
+                  ],
+                  [
+                    "Traits (slides)",
+                    "Heavy, powerful, slow moving",
+                    "Ability to see, powerless, intelligent"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c24a",
+            "kind": "remember",
+            "title": "Remember 1",
+            "lines": [
+              "Challenges: **resistance to change**, **prediction disability**.",
+              "Resistance: ignoring the idea, fear of failure, inertia, lack of confidence. Q5 key: **Ignoring the Idea + Inertia**."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1l3x9",
+            "kind": "example",
+            "title": "Alarm clock",
+            "lines": [
+              "Rider sets the **5 am alarm** at night. Elephant switches it off in the morning.",
+              "Progress when emotional side follows the analytical side. Rider handles prediction disability, a mentor/champion handles resistance."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c24b",
+            "kind": "remember",
+            "title": "Remember 2",
+            "lines": [
+              "VUCA = Volatility, Uncertainty, Complexity, Ambiguity. **Unknown unknowns = Ambiguity**.",
+              "Elephant = emotional (heavy, powerful, slow). Rider = analytical (sees, intelligent, powerless)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          }
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "id": "w1l4",
+        "title": "L4 Types of Innovation",
+        "cards": [
+          {
+            "id": "w1c25",
+            "kind": "contrast",
+            "title": "Jugaad vs systematic",
+            "lines": [
+              "**Jugaad**: ad hoc improvised fix (North India), not sustainable.",
+              "**Systematic**: planned, in enabling environments (universities, corporations); aims at **IP rights**, commercialisation, technology transfer."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c26",
+            "kind": "contrast",
+            "title": "Incremental vs breakthrough",
+            "lines": [
+              "Official **Q7**: breakthrough = **steam engine, wheel, fire**. 'Evolution 2G to 3G' is **incremental**, not in the key.",
+              "Increments follow breakthroughs; many increments can build a breakthrough. A genuinely new cure is the lecture's hypothetical breakthrough example."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Incremental",
+                  "Breakthrough (radical)"
+                ],
+                "rows": [
+                  [
+                    "Small, continuous; **Kaizen**; reduce scrap/rework",
+                    "New concept changing the status quo"
+                  ],
+                  [
+                    "Mobile 2G -> 3G -> 4G -> 5G",
+                    "Fire, wheel, steam engine, landline -> mobile"
+                  ],
+                  [
+                    "Often internal, less visible",
+                    "Creates new industries"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l4x7",
+            "kind": "concept",
+            "title": "Incremental and breakthrough interact",
+            "lines": [
+              "Breakthrough sets a new level. Incremental work adapts it for real users.",
+              "Accumulated increments prepare the next breakthrough.",
+              "Incremental happens inside the organisation, so often invisible outside."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c27",
+            "kind": "concept",
+            "title": "Frugal innovation",
+            "lines": [
+              "Sees resource constraints **as an opportunity, not a liability**; favours **agility over efficiency**.",
+              "Good-quality solutions with **greatest value at lowest cost**; not technically sophisticated to wow customers.",
+              "Official **Q6**: both statements TRUE.",
+              "Avoid 'marketing myopia'; co-create with customers; often serves underserved people."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c28-1",
+            "kind": "concept",
+            "title": "Four areas of innovation (slide) (1/2)",
+            "lines": [
+              "**Product, Process, Customer Experience, Business Model.**"
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Area",
+                  "Meaning",
+                  "Examples"
+                ],
+                "rows": [
+                  [
+                    "Product",
+                    "New/improved goods or services; most visible",
+                    "iPhone, iPad, smartwatch, smart glasses"
+                  ],
+                  [
+                    "Process",
+                    "Better production/delivery; mostly invisible",
+                    "Six Sigma, Lean, Kanban, TQM"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c28-2",
+            "kind": "concept",
+            "title": "Four areas of innovation (slide) (2/2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Area",
+                  "Meaning",
+                  "Examples"
+                ],
+                "rows": [
+                  [
+                    "Customer experience",
+                    "Smoother, more transparent journey",
+                    "Speed post or visa tracking; Facebook birthday/memory reminders"
+                  ],
+                  [
+                    "Business model",
+                    "How value is created and captured",
+                    "Google/Facebook free core service; IPL"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c29",
+            "kind": "example",
+            "title": "IPL (touches all four)",
+            "lines": [
+              "Franchise system borrowed from European soccer (business model), 20-20 format (product), new rules (process), entertainment (customer experience).",
+              "Categories are not mutually exclusive."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1l4x8",
+            "kind": "concept",
+            "title": "Business model innovation",
+            "lines": [
+              "Rethinks how value is **created, delivered and captured**: most encompassing type.",
+              "Process innovation (Six Sigma, Lean, TQM, Kanban) is invisible to customers but felt in cost, quality, speed."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c30a",
+            "kind": "remember",
+            "title": "Remember 1",
+            "lines": [
+              "Jugaad = ad hoc, not sustainable. Systematic = planned, IP.",
+              "Incremental = Kaizen, 2G->3G. Breakthrough = fire, wheel, steam engine, landline->mobile."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c30b",
+            "kind": "remember",
+            "title": "Remember 2",
+            "lines": [
+              "Frugal = constraint as opportunity, agility over efficiency, great value at lowest cost.",
+              "4 areas: product, process, customer experience, business model."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          }
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "id": "w1l5",
+        "title": "L5 School of Innovation",
+        "cards": [
+          {
+            "id": "w1c31",
+            "kind": "concept",
+            "title": "Can innovation be taught?",
+            "lines": [
+              "Emotions: hard. **Analysis: teachable.**",
+              "Teachable (slide): **awareness creation, development of confidence, removal of myths**.",
+              "Awareness example: positive campaign ('remove polio from India') vs negative ('take this vaccine to avoid illness')."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c32",
+            "kind": "concept",
+            "title": "Three schools of creative thinking",
+            "lines": [
+              "**Design thinking, Systems thinking, Lateral thinking.**"
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "School",
+                  "Core"
+                ],
+                "rows": [
+                  [
+                    "Design thinking",
+                    "Solution-focused, action-oriented, preferred future; human centered; prototyping; rapid iterative improvement; cross-functional teams"
+                  ],
+                  [
+                    "Systems thinking",
+                    "Model larger system; **point of leverage**; **silver bullet**; Senge *The Fifth Discipline*; Goldratt **Theory of Constraints** (*The Goal*)"
+                  ],
+                  [
+                    "Lateral thinking",
+                    "New idea from a known idea in another context; **Six Thinking Hats**"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l5x8",
+            "kind": "concept",
+            "title": "Prototyping and 3D printing",
+            "lines": [
+              "Technologies like **3D printing** make prototyping cheap, enabling rapid iteration."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c33",
+            "kind": "concept",
+            "title": "Design thinking facts",
+            "lines": [
+              "Official **Q8** (INCORRECT statement): **'product-centered'**. It is solution-focused, action-oriented, **human-centered**.",
+              "Human centered = empathy: time with people to see behaviour, emotions, anxieties, aspirations.",
+              "Case: demonetization (public feedback, fast rule changes, RBI + banks + police)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c34",
+            "kind": "concept",
+            "title": "Systems and lateral thinking examples",
+            "lines": [
+              "Systems: fix one constraint and the next appears (continuous).",
+              "Lateral: **IPL** = known franchise idea from European soccer applied to cricket; European solid waste management applied to India."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c35-1",
+            "kind": "concept",
+            "title": "Six Thinking Hats (Edward de Bono) (1/3)",
+            "lines": [
+              "Official **Q9** key: I-C, II-D, III-A, IV-F, V-E, VI-B.",
+              "Black hat: barriers, warns of dangers (lecturer calls it the negative person)."
+            ],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Hat",
+                  "Role"
+                ],
+                "rows": [
+                  [
+                    "White",
+                    "Information"
+                  ],
+                  [
+                    "Black",
+                    "Barriers"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c35-2",
+            "kind": "concept",
+            "title": "Six Thinking Hats (Edward de Bono) (2/3)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Hat",
+                  "Role"
+                ],
+                "rows": [
+                  [
+                    "Red",
+                    "Feelings, intuition"
+                  ],
+                  [
+                    "Yellow",
+                    "Values and benefits"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1c35-3",
+            "kind": "concept",
+            "title": "Six Thinking Hats (Edward de Bono) (3/3)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Hat",
+                  "Role"
+                ],
+                "rows": [
+                  [
+                    "Green",
+                    "Creativity, new ideas"
+                  ],
+                  [
+                    "Blue",
+                    "Manage process"
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "id": "w1l5x7",
+            "kind": "example",
+            "title": "Demonetization as design thinking",
+            "lines": [
+              "Public feedback, rapid changes: old-note over-the-counter exchange limit **Rs 4,000** then raised, then cut again, then stopped (lecture; exact middle figures not verified).",
+              "Coordinated RBI, banks, police, intelligence, government."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c36a",
+            "kind": "remember",
+            "title": "Remember 1",
+            "lines": [
+              "Teachable: awareness, confidence, removing myths.",
+              "Design: human centered, prototyping, rapid iteration, cross-functional. **Not product-centered**."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          },
+          {
+            "id": "w1c36b",
+            "kind": "remember",
+            "title": "Remember 2",
+            "lines": [
+              "Systems: leverage point, silver bullet, Senge, Goldratt ToC.",
+              "Lateral: known idea -> new context; Six Hats (de Bono)."
+            ],
+            "visual": {
+              "type": "none",
+              "spec": {}
+            }
+          }
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Week 1 in 10 lines",
+        "bullets": [
+          "Pressures: shrinking PLCs, rising expectations, high uncertainty, global impact -> innovation is the way out.",
+          "Drucker: innovation = **specific tool of entrepreneurs** to exploit **change**.",
+          "3 I's: **Idea, Implementation, Impact**. Idea + Implementation = Invention; + Impact = Innovation.",
+          "Myths: creativity->**curiosity**; linear->**iterative**; risk-taking->risk + assessment + mitigation.",
+          "Resistance: **ignoring the idea, fear of failure, inertia, lack of confidence**.",
+          "VUCA: Volatility, Uncertainty, Complexity, Ambiguity. **Unknown unknowns = Ambiguity**.",
+          "Elephant = emotional, Rider = analytical.",
+          "Types: jugaad/systematic; incremental/breakthrough; frugal; product/process/customer experience/business model.",
+          "Schools: design, systems, lateral.",
+          "Hats: White info, Black barriers, Red feelings, Yellow values/benefits, Green creativity, Blue process."
+        ]
+      },
+      {
+        "heading": "Official Week 1 answers (all 10)",
+        "bullets": [
+          "Q1 Innovation",
+          "Q2 Idea, Implementation, Impact",
+          "Q3 Innovation (Invention + Impact)",
+          "Q4 Statement 1 true, Statement 2 false",
+          "Q5 Ignoring the Idea; Inertia",
+          "Q6 Both true",
+          "Q7 Steam engine; wheel; fire",
+          "Q8 Design thinking is product-centered (INCORRECT)",
+          "Q9 I-C, II-D, III-A, IV-F, V-E, VI-B",
+          "Q10 Ambiguity"
+        ]
+      },
+      {
+        "heading": "Traps",
+        "bullets": [
+          "Q5: 'ignoring the chances of failure' is wrong.",
+          "Q7: 2G to 3G is incremental, not breakthrough.",
+          "Q8 asks for the INCORRECT statement.",
+          "Q10: Ambiguity, not Uncertainty."
+        ]
+      },
+      {
+        "heading": "Gaps",
+        "bullets": [
+          "Complexity (VUCA) not defined in lecture or slides.",
+          "Company claims (Ola, Alibaba, free apps) are recording-era examples."
+        ]
+      }
+    ],
+    "coverage": {
+      "covered": [
+        "5 lecture transcripts (YouTube English captions, read in full)",
+        "5 slide decks",
+        "Official W1 solution PDF (all 10 keys read from highlights; Q3 and Q9 figures viewed)"
+      ],
+      "notChecked": [
+        "The app's wider quiz bank / the portal's AI practice questions (~2000) were not accessible to me; every one of the 10 official W1 questions is covered and keyed above",
+        "Master Revision PDF and Master Notes v2 W1 sections compared: every testable fact is now in the cards. Notes v2 defines Complexity as 'many interconnected parts'. NOT in lecture/slides, so not stated as fact. Notes v2 'Kahneman' attribution and the Rs 4,500/2,000 limits also not found in transcript."
+      ]
+    }
+  }
+]
