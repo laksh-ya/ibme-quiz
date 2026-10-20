@@ -26,20 +26,21 @@ export function renderCards() {
     return goHome();
   }
   const n = q.q.length + q.why.length;
-  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-cx="1">${I.x}</button><div class="bar"><i style="width:${ui.fc.i / ui.fc.l.length * 100}%"></i></div><span class="chip">${ui.fc.i + 1}/${ui.fc.l.length}</span></div>
+  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" aria-label="Close flashcards" data-cx="1">${I.x}</button><div class="bar"><i style="width:${ui.fc.i / ui.fc.l.length * 100}%"></i></div><span class="chip">${ui.fc.i + 1}/${ui.fc.l.length}</span></div>
 <div class="ex-body" style="--fs:${n < 300 ? 21 : n < 600 ? 18 : 15.5}px"><div class="stage"><h1 class="head">Flashcard <span style="font-size:.6em;color:var(--sub)">W${q.w} Q${q.n}</span></h1>
-<div class="fc ${ui.fc.flip ? "flip" : ""}" data-flip="1"><div class="in"><div class="face"><div>${esc(q.q).replace(/\n/g, "<br>")}</div>${q.img ? `<img class="qimg" style="max-height:22vh" src="${IMGS[q.img]}" alt="">` : ""}${q.opts.map((o, i) => `<div style="color:var(--sub)">${L[i]}) ${esc(o)}</div>`).join("")}<div class="kb" style="margin-top:6px">Tap or press Space to flip</div></div>
+<div class="fc ${ui.fc.flip ? "flip" : ""}" role="button" tabindex="0" aria-label="Flip flashcard" aria-pressed="${ui.fc.flip}" data-flip="1"><div class="in"><div class="face"><div>${esc(q.q).replace(/\n/g, "<br>")}</div>${q.img ? `<img class="qimg" style="max-height:22vh" src="${IMGS[q.img]}" alt="">` : ""}${q.opts.map((o, i) => `<div style="color:var(--sub)">${L[i]}) ${esc(o)}</div>`).join("")}<div class="kb" style="margin-top:6px">Tap or press Space to flip</div></div>
 <div class="face back"><b>${q.ans.map((i) => L[i] + ") " + esc(q.opts[i])).join("<br>")}</b><div style="color:var(--text);font-size:.92em">${esc(q.why)}</div></div></div></div></div></div>
-<div class="ex-foot"><div class="in"><button class="btn skip" data-again="1" style="${ui.fc.flip ? "" : "opacity:.4"}">Again</button><span class="kb" style="flex:1;text-align:center">Right arrow: got it \xB7 Left arrow: again</span><button class="btn" data-got="1" style="${ui.fc.flip ? "" : "opacity:.4"}">Got it</button></div></div></div>`;
+<div class="ex-foot"><div class="in"><button class="btn skip" data-again="1" ${ui.fc.flip ? "" : "disabled"}>Again</button><span class="kb" style="flex:1;text-align:center">Right arrow: got it \xB7 Left arrow: again</span><button class="btn" data-got="1" ${ui.fc.flip ? "" : "disabled"}>Got it</button></div></div></div>`;
 }
 
 export function renderCardsFlip() {
   const f = $(".fc", ui.el);
   if (f) {
     f.classList.toggle("flip", ui.fc.flip);
+    f.setAttribute("aria-pressed", String(ui.fc.flip));
     snd.tap();
     const a = $("[data-again]", ui.el), g = $("[data-got]", ui.el);
-    if (a) a.style.opacity = ui.fc.flip ? 1 : 0.4;
-    if (g) g.style.opacity = ui.fc.flip ? 1 : 0.4;
+    if (a) a.disabled = !ui.fc.flip;
+    if (g) g.disabled = !ui.fc.flip;
   }
 }

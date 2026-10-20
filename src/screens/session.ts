@@ -126,7 +126,7 @@ export function check() {
       s.first++;
       s.xp += 10;
     } else s.xp += 5;
-    if (s.key === "mistakes") st.m = 0;
+    st.m = 0;
   } else {
     st.x++;
     if (s.phase === "main") st.m = 1;
@@ -257,8 +257,12 @@ export function reviewAnswers() {
 export function exit() {
   const m = document.createElement("div");
   m.className = "modal";
+  m.setAttribute("role", "dialog");
+  m.setAttribute("aria-modal", "true");
+  m.setAttribute("aria-label", "Leave this lesson?");
   m.innerHTML = `<div class="box"><div style="width:110px;margin:0 auto">${mascot(S.set.av, "sad")}</div><h2>Leave this lesson?</h2><div style="color:var(--sub)">Your answers so far are saved.</div><button class="btn wide" data-cancel="1">Keep going</button><button class="btn white wide" style="color:var(--red)" data-leave="1">End session</button></div>`;
   ui.el.appendChild(m);
+  $("[data-cancel]", m)?.focus();
 }
 
 export function goHome() {
