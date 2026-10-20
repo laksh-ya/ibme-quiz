@@ -318,6 +318,10 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w4c20':body=person(65,72)+person(292,72)+path('M43 161q139 81 269 0','figure-main')+path('M98 97h156','figure-fine')+label(124,76,'Beyond',true)+label(107,128,'transactions',true)+label(31,250,'Customers feel the company stands by them',true);break;
  case 'w4c22':body=person(57,71)+person(183,71)+person(308,71)+arrow(57,151,162,197)+arrow(308,151,203,197)+label(133,231,'Opportunity',true)+label(23,37,'Background need not be a limit',true);break;
  case 'w4c52':body=path('M23 47h63v53H23Zm83 0h63v53h-63Zm83 0h63v53h-63Zm83 0h63v53h-63','figure-fine')+path('M53 115v43h254v-43M137 115v43M222 115v43','figure-main')+label(23,223,'Four visual steps reveal the big picture',true);break;
+
+ case 'w5c18':body=sheet(23,42,88,133)+arrow(125,105,204,105)+path('M222 192V95l36-24v24l35-24v24h41v97Zm15-73h18v22h-18Zm41 0h18v22h-18Z','figure-main')+label(15,236,'Technical knowledge',true)+label(228,236,'Use at scale',true);break;
+ case 'w5c37':body=path('M23 205h314M23 205V32','figure-fine')+path('M39 192q76 0 100-74t81-74','figure-main')+path('M238 191v-61h95','figure-red')+label(33,243,'S-curve',true)+label(217,243,'Radical leap?',true);break;
+ case 'w5c65':body=path('M33 201V39m0 162h297','figure-fine')+path('M58 180h250v-125H58Z','figure-main')+label(118,125,'Above 90%')+label(64,243,'NTPC plant load factor, once',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
