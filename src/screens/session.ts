@@ -74,7 +74,7 @@ export function footHtml() {
   const mine = !learn && !good ? [...s.sel].filter((i) => !q.ans.includes(i)).map((i) => q.wrong[i] ? `<div style="margin-top:4px"><b>Your pick:</b> ${esc(q.wrong[i])}</div>` : "").join("") : "";
   const pname = esc((S.set.name || "").trim());
   const hype = pname && s.combo >= 3 ? [pname + ", you're on fire!", "Unstoppable, " + pname + "!", pname + ", what a run!"][(s.i + s.combo) % 3] : "";
-  const praise = hype || ["Nicely done!", "Excellent!", "You got it!", "Great job!", "Sharp!"][(s.i + s.combo) % 5];
+  const praise = hype || (pname && (s.i + s.combo) % 2 === 0 ? ["Keep it up, " + pname + "!", "Way to go, " + pname + "!", "Nice work, " + pname + "!"][(s.i + s.combo) % 3] : "") || ["Nicely done!", "Excellent!", "You got it!", "Great job!", "Sharp!"][(s.i + s.combo) % 5];
   const ansLine = good ? "" : `<b>${ansTxt}</b>`;
   const whyLine = good || !learn ? `<div>${esc(q.why)}</div>` : "";
   return `<div class="ex-foot ${good ? "ok" : "no"}"><div class="in"><div class="fb"><div class="ico">${good ? I.checkG : I.cross}</div><div style="min-width:0"><h3>${good ? praise : "Correct solution:"}</h3>
@@ -235,7 +235,7 @@ export function finish() {
   const line = quiz ? `${S.set.name ? esc(S.set.name) + ", you" : "You"} got ${s.first} of ${s.total} right${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}` : `${s.first} of ${s.total} right on the first try${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}`;
   const acts = `<div class="acts">${missedN ? `<button class="btn white g" data-retry="1">Retry missed (${missedN})</button>` : ""}${quiz ? "" : '<button class="btn white g" data-review="1">Review answers</button>'}<button class="btn" data-home="1">Continue</button></div>`;
   const rows = quiz ? `<div class="donerv">${s.log.filter((l) => l.first).map((l) => rv2row(l)).join("")}</div>` : "";
-  ui.el.innerHTML = `<div class="done${quiz ? " quizdone" : ""}"><div class="mas">${mascot(S.set.av, "cheer")}</div><h1>${acc === 100 ? "Perfect run!" : quiz ? "Quiz complete!" : "Lesson complete!"}</h1>
+  ui.el.innerHTML = `<div class="done${quiz ? " quizdone" : ""}"><div class="mas">${mascot(S.set.av, "cheer")}</div><h1>${acc === 100 ? (S.set.name ? `Perfect run, ${esc(S.set.name)}!` : "Perfect run!") : quiz ? "Quiz complete!" : "Lesson complete!"}</h1>
 ${cards}
 <div style="font-size:16px;color:var(--sub)">${line}</div>
 ${acts}

@@ -106,3 +106,10 @@
 .duo .gate-avatars button{display:grid;place-items:center;min-height:64px;background:var(--snow);border:2px solid var(--line);border-radius:16px;}
 .duo .gate-avatars button.on{border-color:var(--blue);background:var(--sel-bg);box-shadow:0 3px 0 var(--blue-d);}
 .duo .gate .gcard{padding:16px 0;}
+.duo .home-greeting{font-size:16px;color:var(--sub);margin:0 0 14px;font-weight:800;line-height:1.5;}
+@media(max-width:640px){
+ .duo .pdfrow{display:grid;grid-template-columns:28px minmax(0,1fr);padding:16px;}
+ .duo .pdfrow .pacts{grid-column:2;display:flex;gap:10px;margin-top:8px;}
+ .duo .pdfrow .pacts .btn{min-height:44px;min-width:76px;}
+ .duo .gate .gcard{padding-top:8px;}
+}

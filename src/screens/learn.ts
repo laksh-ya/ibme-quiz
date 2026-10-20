@@ -1,4 +1,4 @@
-import { $ } from "../lib/util";
+import { $, esc } from "../lib/util";
 import { S } from "../state";
 import { I, mascot } from "../lib/icons";
 import { wkStat } from "../quiz";
@@ -23,6 +23,6 @@ export function pgLearn() {
   ${firstOpen === w && ui.popW !== w ? '<div class="start">Start</div>' : ""}
   <button class="node ${done ? "done" : ""} ${ui.popW === w ? "open" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>${ui.popW === w ? popover({ w, off: offs[w - 1] }) : ""}</div>`;
   }).join("");
-  return `<div class="banner"><div><small>Section 1</small><h2>Innovation, Business Models and Entrepreneurship</h2></div></div>
+  return `<p class="home-greeting">${S.set.name ? `Ready for another step, ${esc(S.set.name)}?` : "Ready for your next step?"}</p><div class="banner"><div><small>Section 1</small><h2>Innovation, Business Models and Entrepreneurship</h2></div></div>
 <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>`;
 }

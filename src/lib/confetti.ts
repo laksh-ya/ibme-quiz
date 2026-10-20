@@ -1,4 +1,5 @@
 export function confetti(root) {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const c = document.createElement("canvas");
   c.className = "conf";
   c.width = root.clientWidth;

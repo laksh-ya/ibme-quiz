@@ -1,4 +1,4 @@
-import { $ } from "../lib/util";
+import { $, esc } from "../lib/util";
 import { S, streak } from "../state";
 import { I, mascot } from "../lib/icons";
 import { Q, qid, stat, wrongQs } from "../quiz";
@@ -19,7 +19,7 @@ export function railHtml() {
   return `${topStats()}
 <div class="card"><h3>Your progress</h3><div style="font-size:15px;color:var(--sub)">Seen ${seen}/${tot}</div><div class="prog"><i style="width:${seen / tot * 100}%"></i></div>
 <div style="font-size:15px;color:var(--sub);margin-top:8px">Answered right at least once ${good}/${tot}</div><div class="prog"><i style="width:${good / tot * 100}%;background:var(--blue)"></i></div></div>
-<div class="card"><h3>Mistakes to fix</h3><div style="display:flex;gap:14px;align-items:center"><div style="width:64px;flex:none">${mascot(S.set.av, nw ? "sad" : "happy")}</div><div style="font-size:15px;line-height:1.4">${nw ? nw + " questions are waiting for a clean run." : "Nothing to fix. Nice."}</div></div>
+<div class="card"><h3>Mistakes to fix</h3><div style="display:flex;gap:14px;align-items:center"><div style="width:64px;flex:none">${mascot(S.set.av, nw ? "sad" : "happy")}</div><div style="font-size:15px;line-height:1.4">${nw ? nw + " questions are waiting for a clean run." : S.set.name ? `All clear, ${esc(S.set.name)}. Nice work!` : "Nothing to fix. Nice."}</div></div>
 ${nw ? '<button class="btn white wide" style="margin-top:12px" data-start="mistakes">Practice mistakes</button>' : ""}</div>
 <div class="card"><h3>Keyboard</h3><div style="font-size:14px;line-height:1.9;color:var(--sub)">1-6 or A-F pick an option<br>Enter checks and continues<br>Arrows move, Space selects<br>Esc leaves the lesson</div></div>`;
 }
