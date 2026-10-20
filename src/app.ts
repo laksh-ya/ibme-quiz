@@ -145,10 +145,14 @@ export function mount(root, data, images) {
       return renderCards();
     }
     if (d.av != null) {
+      const gateName = ui.gate ? $("#gname", ui.el)?.value : null;
       S.set.av = +d.av;
+      if (gateName != null) S.set.name = gateName;
       save();
       snd.tap();
-      return render();
+      render();
+      if (gateName != null) $("#gname", ui.el).value = gateName;
+      return;
     }
     if (d.tg) {
       if (d.tg === "theme") S.set.theme = S.set.theme === "light" ? "dark" : "light";

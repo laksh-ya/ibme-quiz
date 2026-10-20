@@ -102,3 +102,7 @@
 @media(prefers-reduced-motion:reduce){
  .duo *, .duo *::before,.duo *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important;}
 }
+.duo .gate-avatars{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:8px 0 22px;}
+.duo .gate-avatars button{display:grid;place-items:center;min-height:64px;background:var(--snow);border:2px solid var(--line);border-radius:16px;}
+.duo .gate-avatars button.on{border-color:var(--blue);background:var(--sel-bg);box-shadow:0 3px 0 var(--blue-d);}
+.duo .gate .gcard{padding:16px 0;}
