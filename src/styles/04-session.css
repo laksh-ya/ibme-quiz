@@ -1,0 +1,280 @@
+.duo .ex {
+  position: absolute;
+  inset: 0;
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+}
+.duo .ex-top {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 24px 6px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.duo .x {
+  background: none;
+  border: 0;
+  padding: 4px;
+  color: #afafaf;
+  display: grid;
+  place-items: center;
+}
+.duo .x:hover {
+  color: #777;
+}
+.duo .x svg {
+  width: 30px;
+  height: 30px;
+}
+.duo .bar {
+  flex: 1;
+  height: 16px;
+  background: var(--line);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.duo .bar i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--green);
+  border-radius: 10px;
+  transition: width .45s cubic-bezier(.3, 1.3, .5, 1);
+  min-width: 16px;
+}
+.duo .bar i:after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .3);
+}
+.duo .chip {
+  font-family: "Titan One";
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.duo .chip svg {
+  width: 26px;
+  height: 26px;
+}
+.duo .ex-body {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: min(5vh, 44px) 24px 16px;
+  --fs:21px;
+}
+.duo .stage {
+  width: 100%;
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.duo .stage.wide {
+  max-width: 1100px;
+}
+.duo .head {
+  font-family: "Titan One";
+  font-size: clamp(22px, 3.4vh, 30px);
+  color: var(--text);
+  margin: 0;
+}
+.duo .tag {
+  display: inline-block;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 2px;
+}
+.duo .qrow {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.duo .qrow .mas {
+  width: clamp(70px, 13vh, 120px);
+  flex: none;
+}
+.duo .bubble {
+  position: relative;
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  padding: 14px 18px;
+  font-size: calc(var(--fs) * var(--ts, 1) + 1px);
+  line-height: 1.38;
+  font-weight: 800;
+  color: var(--text);
+  flex: 1;
+}
+.duo .bubble:before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 22px;
+  width: 14px;
+  height: 14px;
+  background: var(--card);
+  border-left: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+  transform: rotate(45deg);
+}
+.duo .qimg {
+  display: block;
+  max-width: 100%;
+  max-height: 30vh;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  margin: 10px auto 0;
+  background: var(--card);
+  object-fit: contain;
+}
+.duo .cols {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+}
+.duo .opts {
+  display: grid;
+  gap: 11px;
+  grid-template-columns: 1fr;
+  align-content: start;
+}
+.duo .opts.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.duo .opt {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  border: 2px solid var(--line);
+  border-bottom-width: 5px;
+  border-radius: 16px;
+  background: var(--card);
+  padding: 12px 16px;
+  font-size: calc(var(--fs) * var(--ts, 1));
+  line-height: 1.3;
+  font-weight: 700;
+  color: var(--text);
+  transition: transform .05s, background .1s;
+  width: 100%;
+}
+.duo .opt:hover {
+  background: var(--snow);
+}
+.duo .opt:active:not(.lock) {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  margin-bottom: 3px;
+}
+.duo .opt .k {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--line);
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-family: "Titan One";
+  color: #afafaf;
+}
+.duo .opt .t {
+  flex: 1;
+}
+.duo .opt .why {
+  display: block;
+  font-size: calc(var(--fs) - 5px);
+  font-weight: 700;
+  opacity: .9;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+.duo .opt.sel {
+  background: var(--sel-bg);
+  border-color: var(--sel-line);
+  color: var(--blue-d);
+}
+.duo .opt.sel .k {
+  border-color: var(--sel-line);
+  color: var(--blue);
+}
+.duo .opt.foc:not(.lock) {
+  outline: 3px solid #84d8ff55;
+  outline-offset: 2px;
+}
+.duo .opt.ok {
+  background: var(--ok-bg);
+  border-color: var(--green);
+  color: var(--green-d);
+}
+.duo .opt.ok .k {
+  border-color: var(--green);
+  color: var(--green-d);
+  background: var(--card);
+}
+.duo .opt.no {
+  background: var(--bad-bg);
+  border-color: var(--red);
+  color: var(--red-d);
+}
+.duo .opt.no .k {
+  border-color: var(--red);
+  color: var(--red-d);
+  background: var(--card);
+}
+.duo .opt.lock {
+  cursor: default;
+}
+.duo .opt.miss {
+  border-style: dashed;
+}
+.duo .ex-foot {
+  border-top: 2px solid var(--line);
+  padding: 16px 24px;
+  min-height: 100px;
+  flex: none;
+}
+.duo .ex-foot .in {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: space-between;
+}
+.duo .ex-foot.ok {
+  background: var(--ok-bg);
+  border-color: transparent;
+}
+.duo .ex-foot.no {
+  background: var(--bad-bg);
+  border-color: transparent;
+}
+.duo .ex-foot.ok,
+.duo .ex-foot.no {
+  animation: slideup .22s cubic-bezier(.2, 1, .4, 1);
+}
+@keyframes slideup {
+  from {
+    transform: translateY(100%);
+  }
+}

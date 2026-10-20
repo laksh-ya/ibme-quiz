@@ -1,0 +1,162 @@
+/* ---- mobile-first polish, safe areas, tap feedback ---- */
+.duo{ -webkit-tap-highlight-color: transparent; }
+.duo #main{ scrollbar-width: none; }
+.duo #main::-webkit-scrollbar{ display: none; }
+.duo .ex-body{ scrollbar-width: none; }
+.duo .ex-body::-webkit-scrollbar{ display: none; }
+.duo .tile,.duo .opt,.duo .btn,.duo .node,.duo .nb{ touch-action: manipulation; }
+.duo .opt:active{ transform: scale(.985); }
+.duo .tile:active{ transform: translateY(2px); }
+.duo .morebtn{ display:block; margin:16px auto 4px; background:none; border:0; color:var(--blue); font-weight:800; font-size:15px; padding:12px 18px; }
+/* settings rows: label wraps, toggle never pushed off */
+.duo .sw span{ flex:1; min-width:0; padding-right:14px; }
+.duo .sw .tg{ flex:none; }
+/* glimm wave layers */
+.sweep{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:1000; }
+.sweep-curtain{ position:fixed; inset:0; pointer-events:none; z-index:999; display:none; }
+/* learn-path label: centered, never clipped off-screen */
+.duo .node .lab{ left:50%; transform:translateX(-50%); bottom:-30px; text-align:center; }
+/* feedback sheet can scroll when the explanation is long */
+.duo .ex-foot{ max-height:52vh; overflow-y:auto; }
+/* text-size segmented control */
+.duo .segc{ display:flex; gap:8px; padding:14px 4px; border-bottom:2px solid var(--line); align-items:center; }
+.duo .segc > span{ flex:1; min-width:0; font-size:17px; }
+.duo .opts3{ display:flex; gap:6px; flex:none; }
+.duo .opts3 button{ border:2px solid var(--line); border-bottom-width:4px; background:var(--card); color:var(--sub); border-radius:12px; padding:8px 12px; font-weight:800; font-size:13px; font-family:inherit; }
+.duo .opts3 button.on{ border-color:var(--blue); color:var(--blue); background:var(--sel-bg); }
+/* quiz results screen with inline review */
+.duo .done.quizdone{ justify-content:flex-start; overflow-y:auto; padding:26px 16px 48px; }
+.duo .donerv{ width:100%; max-width:760px; margin-top:20px; display:flex; flex-direction:column; gap:10px; }
+/* profile life */
+@keyframes bobav{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-6px); } }
+.duo .profav{ animation:bobav 3.2s ease-in-out infinite; }
+.duo .lvlbar{ height:16px; border-radius:10px; background:var(--snow); border:2px solid var(--line); overflow:hidden; }
+.duo .lvlbar i{ display:block; height:100%; background:linear-gradient(90deg,var(--green),#a2e838); border-radius:8px; transition:width .6s; }
+@keyframes flamewob{ 0%,100%{ transform:scale(1) rotate(-3deg); } 50%{ transform:scale(1.12) rotate(3deg); } }
+.duo .stat svg{ display:inline-block; vertical-align:-4px; }
+.duo .stat:first-child svg{ animation:flamewob 2.2s ease-in-out infinite; transform-origin:50% 80%; }
+/* official PDFs list */
+.duo .plist{ display:flex; flex-direction:column; gap:10px; }
+.duo .pdfrow{ display:flex; align-items:center; gap:12px; border:2px solid var(--line); border-radius:16px; padding:12px 14px; background:var(--card); }
+.duo .pdfrow .pic{ width:42px; height:42px; border-radius:12px; background:var(--sel-bg); display:grid; place-items:center; flex:none; color:var(--blue); }
+.duo .pdfrow .pic svg{ width:22px; height:22px; }
+.duo .pdfrow .pmeta{ flex:1; min-width:0; display:flex; flex-direction:column; }
+.duo .pdfrow .pmeta b{ font-size:15px; }
+.duo .pdfrow .pmeta span{ color:var(--sub); font-size:12.5px; }
+.duo .pdfrow .pacts{ display:flex; gap:8px; flex:none; }
+.duo .pdfrow .btn{ padding:10px 14px; font-size:12px; text-decoration:none; display:inline-block; }
+/* phone layout: thumb-zone nav, safe areas, smaller type */
+@media (max-width: 1000px){
+  .duo .side{ padding-bottom:max(6px, env(safe-area-inset-bottom)); }
+  .duo .side .nb{ min-height:48px; }
+}
+@media (max-width: 640px){
+  .duo .opts.two{ grid-template-columns:1fr; }
+  .duo .qrow .mas{ width:52px; }
+  .duo .fb .ico{ width:54px; height:54px; }
+  .duo .fb .ico svg{ width:30px; height:30px; }
+  .duo .fb h3{ font-size:20px; }
+  .duo .ex-foot{ padding:12px 14px calc(12px + env(safe-area-inset-bottom)); max-height:56vh; }
+  .duo .pg{ font-size:24px; }
+  .duo .sub{ font-size:14px; }
+  .duo h1.head{ font-size:clamp(19px, 5.4vw, 24px); }
+  .duo .btn{ min-height:48px; padding:13px 18px; font-size:14px; }
+  .duo .sw{ font-size:15px; padding:12px 4px; }
+  .duo .segc > span{ font-size:15px; }
+  .duo .banner h2{ font-size:20px; }
+  .duo .tile b{ font-size:15px; }
+  .duo .done h1{ font-size:24px; }
+}
+@media (max-width: 360px){
+  .duo .qrow .mas{ display:none; }
+  .duo .pg{ font-size:22px; }
+  .duo .btn{ padding:12px 14px; letter-spacing:.4px; }
+  .duo .pdfrow .pacts .btn{ padding:10px 10px; }
+}
+@media (max-height: 620px){
+  .duo .qrow .mas{ width:44px; }
+  .duo .ex-top{ padding-top:8px; }
+  .duo .qimg{ max-height:14vh; }
+}
+@media (max-width: 360px){
+  .duo .opts3 button{ padding:8px 7px; font-size:12px; }
+  .duo .segc > span{ font-size:14px; }
+}
+
+/* ---- long-question layout: question scrolls internally, options always visible ---- */
+.duo .stage.longq{ height:100%; min-height:0; }
+@media (max-width: 700px){
+  .duo .stage.longq .cols{ flex:1; min-height:0; display:flex; flex-direction:column; gap:10px; }
+  .duo .stage.longq .cols > div:first-child{ flex:0 1 auto; min-height:0; display:flex; flex-direction:column; }
+  .duo .stage.longq .qrow{ flex:1; min-height:0; }
+  .duo .stage.longq .bubble{ overflow-y:auto; min-height:0; max-height:100%; line-height:1.3; padding:10px 12px; scrollbar-width:thin; scrollbar-color:var(--line) transparent; }
+  .duo .stage.longq .bubble::-webkit-scrollbar{ width:4px; }
+  .duo .stage.longq .bubble::-webkit-scrollbar-thumb{ background:var(--line); border-radius:4px; }
+  .duo .stage.longq .opts{ flex:none; }
+  .duo .stage.longq .head{ font-size:21px; }
+  .duo .stage.longq .tag{ font-size:11px; }
+}
+@media (min-width: 701px){
+  .duo .stage.longq .cols.w > div:first-child{ min-height:0; }
+  .duo .stage.longq .bubble{ max-height:72vh; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--line) transparent; }
+}
+
+/* ---- wave CSS fallback band + update toast + scrollbar consistency ---- */
+.sweep-band{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:1000; }
+.upd{ position:fixed; left:16px; right:16px; bottom:86px; z-index:2000; background:var(--blue); color:#fff; border:0; border-radius:14px; padding:14px; font-weight:800; font-size:15px; font-family:inherit; box-shadow:0 4px 0 var(--blue-d, #0e7fb8); }
+.duo .main, .duo .ex-body, .duo .bubble, .duo .pop, .duo .plist, .duo .rv, .duo .bd, .duo .done{ scrollbar-width:none; }
+.duo .main::-webkit-scrollbar, .duo .ex-body::-webkit-scrollbar, .duo .bubble::-webkit-scrollbar, .duo .pop::-webkit-scrollbar, .duo .plist::-webkit-scrollbar, .duo .rv::-webkit-scrollbar, .duo .bd::-webkit-scrollbar, .duo .done::-webkit-scrollbar{ display:none; }
+.duo .stage.longq .bubble{ scrollbar-width:none; }
+.duo .stage.longq .bubble::-webkit-scrollbar{ display:none; }
+/* popover clears the node label */
+.duo .pop{ top:134px; }
+
+/* ---- Learn rebuild: static slim banner, bottom sheet, start clearance ---- */
+.duo .banner{ position:static; padding:12px 16px; margin-bottom:6px; }
+.duo .banner h2{ font-size:19px; }
+.duo .banner small{ font-size:11px; }
+.duo .path{ padding:22px 0 60px; }
+.duo .bk{ position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:60; animation:fadein .16s ease-out; }
+.duo .sheet{ position:fixed; left:50%; transform:translateX(-50%); bottom:calc(78px + env(safe-area-inset-bottom, 0px)); width:min(420px, calc(100% - 32px)); background:var(--green); color:#fff; border-radius:18px; padding:16px; z-index:61; animation:sheetup .2s cubic-bezier(.2,1,.4,1); text-align:left; }
+.duo .sheet h3{ margin:0; font-size:22px; }
+.duo .sheet p{ margin:4px 0 12px; font-weight:700; opacity:.95; font-size:15px; }
+.duo .sheet .row{ display:flex; gap:10px; }
+.duo .sheet .btn{ flex:1; padding:12px 8px; }
+.duo .sheet .btn.white{ border:0; box-shadow:0 4px 0 #d0d0d0; color:var(--green); }
+.duo .sheet .snote{ font-size:12px; margin-top:10px; opacity:.9; font-weight:800; letter-spacing:.5px; text-transform:uppercase; }
+@keyframes sheetup{ from{ transform:translate(-50%, 30px); opacity:0; } }
+@keyframes fadein{ from{ opacity:0; } }
+
+/* ---- results review: compact collapsible cards ---- */
+.duo .donerv{ width:100%; max-width:640px; margin:18px auto 0; text-align:left; }
+.duo .rv2{ border:2px solid var(--line); border-radius:14px; margin-bottom:10px; background:var(--card); overflow:hidden; }
+.duo .rv2 > button{ width:100%; display:flex; align-items:center; gap:10px; padding:11px 12px; background:none; border:0; font-family:inherit; cursor:pointer; text-align:left; }
+.duo .rv2 .nn{ font-weight:800; color:var(--blue); font-size:13px; flex:none; }
+.duo .rv2 .pill2{ font-size:11px; font-weight:800; letter-spacing:.4px; text-transform:uppercase; padding:3px 8px; border-radius:99px; flex:none; background:var(--bad-bg); color:var(--red-d); }
+.duo .rv2.ok .pill2{ background:var(--ok-bg); color:var(--green-d); }
+.duo .rv2 .chev{ margin-left:auto; color:var(--sub); font-size:18px; transition:transform .15s; }
+.duo .rv2 > button.open .chev{ transform:rotate(90deg); }
+.duo .rv2b{ padding:2px 14px 12px; font-size:14.5px; line-height:1.45; color:var(--text); text-align:left; }
+.duo .rv2b .qimg{ max-height:150px; border:2px solid var(--line); border-radius:12px; margin:2px 0 8px; display:block; }
+.duo .rv2b .rq{ font-weight:800; margin-bottom:8px; }
+.duo .rv2b .ra{ margin:4px 0; }
+.duo .rv2b .ra.good b{ color:var(--green-d); }
+.duo .rv2b .ra.bad b{ color:var(--red-d); }
+.duo .rv2b .rw{ margin-top:8px; color:var(--sub); }
+.duo .done .acts{ margin-top:14px; }
+
+/* ---- onboarding gate ---- */
+.duo .gate{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--card); z-index:500; padding:22px; }
+.duo .gcard{ width:100%; max-width:340px; }
+.duo .gcard .pg{ margin-bottom:4px; }
+/* neutralize .done results-screen styles leaking into done week nodes */
+.duo .path .node.done{ position:relative; inset:auto; overflow:visible; padding:0; gap:0; text-align:center; display:grid; }
+/* sweep layers must clear the app root (.duo is z-index:9999) */
+.sweep{ z-index:10002; }
+.sweep-curtain{ z-index:10000; }
+.sweep-band{ z-index:10001; }
+.duo .gate{ z-index:500; }
+.upd{ z-index:10003; }
+/* instant learn mode: no dead footer bar before answering */
+.duo .ex-foot.ghost{ min-height:0; padding:0; border-top:0; }
+.duo .ex-foot.ghost .in{ display:none; }

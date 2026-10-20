@@ -1,0 +1,125 @@
+html,body{margin:0;background:#131f24}
+.duo {
+  --card:#fff;
+  --green:#58cc02;
+  --green-d:#58a700;
+  --green-l:#89e219;
+  --blue:#1cb0f6;
+  --blue-d:#1899d6;
+  --red:#ff4b4b;
+  --red-d:#ea2b2b;
+  --orange:#ff9600;
+  --orange-d:#cc7900;
+  --yellow:#ffc800;
+  --yellow-d:#e5b400;
+  --purple:#ce82ff;
+  --purple-d:#a568cc;
+  --text:#4b4b4b;
+  --sub:#777;
+  --line:#e5e5e5;
+  --snow:#f7f7f7;
+  --ok-bg:#d7ffb8;
+  --bad-bg:#ffdfe0;
+  --sel-bg:#ddf4ff;
+  --sel-line:#84d8ff;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--card);
+  color: var(--text);
+  font-family:
+    "M PLUS Rounded 1c",
+    system-ui,
+    sans-serif;
+  font-weight: 700;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.duo * {
+  box-sizing: border-box;
+}
+.duo button {
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+}
+.duo h1,
+.duo h2,
+.duo h3,
+.duo .ti {
+  font-family:
+    "Titan One",
+    "M PLUS Rounded 1c",
+    sans-serif;
+  font-weight: 400;
+  letter-spacing: .2px;
+}
+.duo .btn {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .9px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 16px;
+  padding: 14px 22px;
+  color: #fff;
+  background: var(--green);
+  box-shadow: 0 4px 0 var(--green-d);
+  transition:
+    transform .06s,
+    box-shadow .06s,
+    filter .15s;
+  position: relative;
+  top: 0;
+}
+.duo .btn:hover {
+  filter: brightness(1.07);
+}
+.duo .btn:active,
+.duo .btn.down {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 var(--green-d);
+}
+.duo .btn.blue {
+  background: var(--blue);
+  box-shadow: 0 4px 0 var(--blue-d);
+}
+.duo .btn.blue:active {
+  box-shadow: 0 0 0;
+}
+.duo .btn.red {
+  background: var(--red);
+  box-shadow: 0 4px 0 var(--red-d);
+}
+.duo .btn.red:active {
+  box-shadow: 0 0 0;
+}
+.duo .btn.orange {
+  background: var(--orange);
+  box-shadow: 0 4px 0 var(--orange-d);
+}
+.duo .btn.white {
+  background: var(--card);
+  color: var(--blue);
+  border: 2px solid var(--line);
+  box-shadow: 0 4px 0 var(--line);
+  padding: 12px 20px;
+}
+.duo .btn.white.g {
+  color: var(--green);
+}
+.duo .btn.white:active {
+  box-shadow: 0 0 0 var(--line);
+}
+.duo .btn.dis {
+  background: var(--line);
+  color: #afafaf;
+  box-shadow: none;
+  cursor: default;
+  pointer-events: none;
+}
+.duo .btn.wide {
+  width: 100%;
+}

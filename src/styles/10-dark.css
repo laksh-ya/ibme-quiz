@@ -1,0 +1,248 @@
+.duo.dark {
+  --card:#131f24;
+  --text:#f1f7fb;
+  --sub:#8f9ca3;
+  --line:#37464f;
+  --snow:#202f36;
+  --ok-bg:#202f36;
+  --bad-bg:#202f36;
+  --sel-bg:#1d3440;
+  --sel-line:#49c0f8;
+  --green:#58cc02;
+  --red:#ff4b4b;
+  background: #131f24;
+}
+.duo.dark .nav {
+  color: #afafaf;
+}
+.duo.dark .nav:hover {
+  background: #202f36;
+}
+.duo.dark .nav.on {
+  background: #1d3440;
+  border-color: #49c0f8;
+  color: #49c0f8;
+}
+.duo.dark .logo {
+  text-shadow: none;
+}
+.duo.dark .card,
+.duo.dark .tile,
+.duo.dark .rv,
+.duo.dark .modal .box {
+  background: #131f24;
+}
+.duo.dark .modal .box {
+  background: #202f36;
+}
+.duo.dark .opt {
+  background: #131f24;
+  color: #f1f7fb;
+}
+.duo.dark .opt.sel {
+  color: #49c0f8;
+  background: #1d3440;
+}
+.duo.dark .opt.sel .k {
+  color: #49c0f8;
+  border-color: #49c0f8;
+}
+.duo.dark .opt.ok {
+  background: #23360f;
+  border-color: #58cc02;
+  color: #8be12b;
+}
+.duo.dark .opt.ok .k {
+  background: #23360f;
+  color: #8be12b;
+}
+.duo.dark .opt.no {
+  background: #3a1c1e;
+  border-color: #ff4b4b;
+  color: #ff7878;
+}
+.duo.dark .opt.no .k {
+  background: #3a1c1e;
+  color: #ff7878;
+}
+.duo.dark .ex-foot {
+  background: #131f24;
+}
+.duo.dark .ex-foot.ok,
+.duo.dark .ex-foot.no {
+  background: #202f36;
+  border-top: 2px solid #202f36;
+}
+.duo.dark .fb .ico {
+  background: #131f24;
+}
+.duo.dark .ex-foot.ok h3,
+.duo.dark .ex-foot.ok .fx {
+  color: #8be12b;
+}
+.duo.dark .ex-foot.no h3,
+.duo.dark .ex-foot.no .fx {
+  color: #ff6b6b;
+}
+.duo.dark .ex-foot .btn.dis {
+  background: #37464f;
+  color: #6b7a82;
+}
+.duo.dark .btn.dis {
+  background: #37464f;
+  color: #6b7a82;
+}
+.duo.dark .btn {
+  color: #131f24;
+}
+.duo.dark .btn.white,
+.duo.dark .skip {
+  background: #131f24;
+  color: #49c0f8;
+  border-color: #37464f;
+  box-shadow: 0 4px 0 #37464f;
+}
+.duo.dark .skip {
+  color: #6b7a82;
+}
+.duo.dark .btn.white.g {
+  color: #58cc02;
+}
+.duo.dark .start {
+  background: #131f24;
+  border-color: #37464f;
+}
+.duo.dark .start:after {
+  background: #131f24;
+  border-color: #37464f;
+}
+.duo.dark .pop .btn.white {
+  background: #fff;
+  color: #58a700;
+  box-shadow: 0 4px 0 #cfcfcf;
+}
+.duo.dark .pop .btn:not(.white) {
+  background: #131f24;
+  color: #fff;
+  box-shadow: none;
+}
+.duo.dark .bubble {
+  background: #131f24;
+  color: #f1f7fb;
+}
+.duo.dark .bubble:before {
+  background: #131f24;
+}
+.duo.dark .seg {
+  background: #202f36;
+}
+.duo.dark .pill {
+  background: #131f24;
+}
+.duo.dark .search {
+  background: #202f36;
+  color: #f1f7fb;
+}
+.duo.dark .ex {
+  background: #131f24;
+}
+.duo.dark .fc .face,
+.duo.dark .sb,
+.duo.dark .avs button {
+  background: #131f24;
+}
+.duo.dark .tg:not(.on) {
+  background: #37464f;
+}
+.duo .stage:has(.why) .bubble {
+  font-size: calc(var(--fs) - 3px);
+  padding: 10px 16px;
+}
+.duo .stage:has(.why) .opt {
+  padding: 8px 14px;
+  font-size: calc(var(--fs) - 3px);
+}
+.duo .stage:has(.why) .opt .why {
+  font-size: 14px;
+  margin-top: 2px;
+  opacity: .85;
+  font-weight: 700;
+}
+.duo .stage:has(.why) .opts {
+  gap: 8px;
+}
+@media (max-width: 640px) {
+  .duo .stage:has(.why) .bubble {
+    font-size: calc(15px * var(--ts, 1));
+    padding: 8px 12px;
+  }
+  .duo .stage:has(.why) .opt {
+    font-size: calc(16px * var(--ts, 1));
+    padding: 6px 12px;
+  }
+  .duo .stage:has(.why) .opt .why {
+    font-size: 12.5px;
+  }
+  .duo .stage:has(.why) .head {
+    display: none;
+  }
+  .duo .stage:has(.why) .opts {
+    gap: 6px;
+  }
+}
+.duo.dark .ex-foot.no .fx {
+  color: #e6edf1;
+}
+.duo.dark .ex-foot.ok .fx {
+  color: #e6edf1;
+}
+.duo.dark .ex-foot.no .fx b,
+.duo.dark .ex-foot.no .fx > div:first-child {
+  color: #ff6b6b;
+}
+.duo .ex-foot {
+  padding: 12px 24px;
+}
+.duo .fx {
+  max-height: none;
+}
+.duo .fb h3 {
+  font-size: 22px;
+}
+.duo.dark {
+  --green:#a2e838;
+  --green-d:#85cc38;
+}
+.duo.dark .opt.sel {
+  background: #202f36;
+}
+.duo.dark .opt.ok {
+  background: #202f36;
+  border-color: #85cc38;
+  color: #a2e838;
+}
+.duo.dark .opt.ok .k {
+  background: #202f36;
+  color: #a2e838;
+  border-color: #85cc38;
+}
+.duo.dark .ex-foot.ok h3,
+.duo.dark .ex-foot.ok .fx {
+  color: #a2e838;
+}
+.duo.dark .ex-foot.ok .fx {
+  color: #a2e838;
+}
+.duo.dark .ex-foot.no .fx {
+  color: #e6edf1;
+}
+.duo.dark .ex-foot.ok .btn {
+  background: #a2e838;
+  box-shadow: 0 4px 0 #85cc38;
+}
+.duo.dark .logo {
+  color: #a2e838;
+}
+.duo .ex-foot .btn:focus-visible {
+  outline: none;
+}

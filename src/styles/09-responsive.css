@@ -1,0 +1,174 @@
+@media (max-width: 1180px) {
+  .duo .rail {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .duo .app {
+    flex-direction: column-reverse;
+  }
+  .duo .side {
+    width: 100%;
+    flex-direction: row;
+    border-right: 0;
+    border-top: 2px solid var(--line);
+    padding: 6px 8px;
+    justify-content: space-around;
+    gap: 0;
+    overflow: hidden;
+  }
+  .duo .logo {
+    display: none;
+  }
+  .duo .nav {
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 8px;
+    font-size: 10px;
+    letter-spacing: .3px;
+    min-width: 0;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+  }
+  .duo .nav svg {
+    width: 26px;
+    height: 26px;
+  }
+  .duo .main {
+    padding: 0 14px 30px;
+  }
+  .duo .col {
+    padding-top: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .duo .ex-top {
+    padding: 12px 14px 4px;
+    gap: 12px;
+  }
+  .duo .ex-body {
+    padding: 4px 14px 10px;
+  }
+  .duo .ex-foot {
+    padding: 12px 14px;
+    min-height: 88px;
+  }
+  .duo .ex-foot .in {
+    gap: 10px;
+  }
+  .duo .ex-foot .btn {
+    min-width: 0;
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+  .duo .ex-foot .in {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .duo .ex-foot .btn {
+    width: 100%;
+  }
+  .duo .fb .ico {
+    width: 44px;
+    height: 44px;
+  }
+  .duo .fb .ico svg {
+    width: 26px;
+    height: 26px;
+  }
+  .duo .fb h3 {
+    font-size: 19px;
+  }
+  .duo .fx {
+    font-size: 14px;
+    max-height: 5.6em;
+  }
+  .duo .head {
+    font-size: 21px;
+  }
+  .duo .qrow .mas {
+    display: none;
+  }
+  .duo .bubble:before {
+    display: none;
+  }
+  .duo .opts.two {
+    grid-template-columns: 1fr;
+  }
+  .duo .opt {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+  .duo .opt .k {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+  }
+  .duo .skip {
+    display: none;
+  }
+  .duo .sb {
+    width: 30vw;
+  }
+  .duo .sb div:last-child {
+    font-size: 18px;
+  }
+  .duo .stats {
+    gap: 12px;
+    font-size: 15px;
+  }
+  .duo .kb {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .duo .cols.w {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    align-items: start;
+  }
+}
+@media (max-height: 700px) {
+  .duo .qimg {
+    max-height: 22vh;
+  }
+  .duo .opt {
+    padding: 8px 14px;
+  }
+  .duo .opts {
+    gap: 8px;
+  }
+  .duo .ex-foot {
+    min-height: 84px;
+    padding: 12px 24px;
+  }
+  .duo .fb .ico {
+    width: 56px;
+    height: 56px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .duo * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.duo button:focus {
+  outline: none;
+}
+.duo button:focus-visible {
+  outline: 3px solid #84d8ff;
+  outline-offset: 2px;
+}
+@media (max-width: 640px) {
+  .duo .qimg {
+    max-height: 17vh;
+  }
+  .duo .bubble {
+    font-size: calc(var(--fs) - 1px);
+    padding: 10px 14px;
+  }
+  .duo .stage {
+    gap: 10px;
+  }
+}

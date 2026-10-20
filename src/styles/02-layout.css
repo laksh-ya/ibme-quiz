@@ -1,0 +1,127 @@
+.duo .app {
+  display: flex;
+  height: 100%;
+}
+.duo .side {
+  width: 256px;
+  flex: none;
+  border-right: 2px solid var(--line);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: auto;
+}
+.duo .logo {
+  font-family: "Titan One";
+  font-size: 34px;
+  color: var(--green);
+  padding: 8px 12px 18px;
+  letter-spacing: .5px;
+  text-shadow: 0 3px 0 #46a302;
+}
+.duo .nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 14px;
+  border-radius: 14px;
+  border: 2px solid transparent;
+  font-family: "Titan One";
+  font-size: 15px;
+  letter-spacing: .9px;
+  text-transform: uppercase;
+  color: #777;
+  background: none;
+  text-align: left;
+}
+.duo .nav:hover {
+  background: var(--snow);
+}
+.duo .nav.on {
+  background: var(--sel-bg);
+  border-color: var(--sel-line);
+  color: var(--blue);
+}
+.duo .nav svg {
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+.duo .main {
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 0 24px 40px;
+  scroll-behavior: smooth;
+}
+.duo .col {
+  width: 100%;
+  max-width: 640px;
+  padding-top: 24px;
+}
+.duo .rail {
+  width: 340px;
+  flex: none;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.duo .stats {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  font-family: "Titan One";
+  font-size: 17px;
+}
+.duo .stat {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.duo .stat svg {
+  width: 26px;
+  height: 26px;
+}
+.duo .card {
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  padding: 18px;
+  background: var(--card);
+}
+.duo .card h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: var(--text);
+}
+.duo .banner {
+  background: var(--green);
+  border-radius: 18px;
+  color: #fff;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 0 var(--green-d);
+  margin-bottom: 14px;
+  position: sticky;
+  top: 6px;
+  z-index: 5;
+}
+.duo .banner small {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 800;
+  letter-spacing: .6px;
+  opacity: .85;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+}
+.duo .banner h2 {
+  margin: 2px 0 0;
+  font-size: 22px;
+}

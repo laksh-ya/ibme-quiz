@@ -1,0 +1,226 @@
+.duo .path {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 70px 0 60px;
+}
+.duo .node {
+  position: relative;
+  width: 88px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0;
+  display: grid;
+  place-items: center;
+  background: var(--green);
+  box-shadow: 0 8px 0 var(--green-d);
+  transition: transform .08s, box-shadow .08s;
+}
+.duo .node:active {
+  transform: translateY(6px);
+  box-shadow: 0 2px 0 var(--green-d);
+}
+.duo .node svg {
+  width: 40px;
+  height: 40px;
+}
+.duo .node.done {
+  background: var(--yellow);
+  box-shadow: 0 8px 0 var(--yellow-d);
+}
+.duo .node.done:active {
+  box-shadow: 0 2px 0 var(--yellow-d);
+}
+.duo .node .lab {
+  position: absolute;
+  bottom: -34px;
+  font-size: 13px;
+  color: var(--sub);
+  font-weight: 800;
+  white-space: nowrap;
+}
+.duo .node .ring {
+  position: absolute;
+  inset: -9px;
+  border-radius: 50%;
+}
+.duo .start {
+  position: absolute;
+  top: -52px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--card);
+  border: 2px solid var(--line);
+  color: var(--green);
+  border-radius: 14px;
+  padding: 7px 14px;
+  font-family: "Titan One";
+  font-size: 14px;
+  letter-spacing: .8px;
+  animation: bob 1.4s ease-in-out infinite;
+  white-space: nowrap;
+}
+.duo .start:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 12px;
+  height: 12px;
+  background: var(--card);
+  border-right: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+  transform: translateX(-50%) rotate(45deg);
+}
+@keyframes bob {
+  50% {
+    transform: translateX(-50%) translateY(-6px);
+  }
+}
+.duo .pop {
+  position: absolute;
+  z-index: 40;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 124px;
+  width: 310px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 18px;
+  padding: 16px;
+  text-align: left;
+  animation: popin .18s ease-out;
+}
+.duo .pop:before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background: var(--green);
+  transform: translateX(-50%) rotate(45deg);
+  border-radius: 3px;
+}
+.duo .pop h3 {
+  margin: 0;
+  font-size: 22px;
+}
+.duo .pop p {
+  margin: 4px 0 12px;
+  font-weight: 700;
+  opacity: .95;
+  font-size: 15px;
+}
+.duo .pop .row {
+  display: flex;
+  gap: 10px;
+}
+.duo .pop .btn {
+  flex: 1;
+  padding: 12px 8px;
+}
+.duo .pop .btn.white {
+  border: 0;
+  box-shadow: 0 4px 0 #d0d0d0;
+  color: var(--green);
+}
+@keyframes popin {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-8px) scale(.96);
+  }
+}
+.duo .seg {
+  display: inline-flex;
+  background: var(--snow);
+  border: 2px solid var(--line);
+  border-radius: 16px;
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+.duo .seg button {
+  border: 0;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: "Titan One";
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-size: 14px;
+  color: var(--sub);
+}
+.duo .seg button.on {
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 3px 0 var(--blue-d);
+}
+.duo .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 14px;
+}
+.duo .tile {
+  border: 2px solid var(--line);
+  border-bottom-width: 5px;
+  border-radius: 18px;
+  padding: 16px;
+  background: var(--card);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform .06s, border-color .1s;
+}
+.duo .tile:hover {
+  background: var(--snow);
+}
+.duo .tile:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  margin-bottom: 3px;
+}
+.duo .tile .ic {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.duo .tile .ic svg {
+  width: 28px;
+  height: 28px;
+}
+.duo .tile b {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text);
+}
+.duo .tile span {
+  font-size: 14px;
+  color: var(--sub);
+  font-weight: 700;
+  line-height: 1.35;
+}
+.duo .tile .n {
+  font-family: "Titan One";
+  font-size: 13px;
+  letter-spacing: .8px;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+.duo h1.pg {
+  font-size: 30px;
+  margin: 0 0 14px;
+  color: var(--text);
+}
+.duo .sub {
+  color: var(--sub);
+  margin: -6px 0 18px;
+  font-size: 16px;
+}

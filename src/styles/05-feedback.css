@@ -1,0 +1,90 @@
+.duo .fb {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+.duo .fb .ico {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.duo .fb .ico svg {
+  width: 44px;
+  height: 44px;
+}
+.duo .fb h3 {
+  margin: 0;
+  font-size: 25px;
+}
+.duo .ex-foot.ok h3,
+.duo .ex-foot.ok .fx {
+  color: var(--green-d);
+}
+.duo .ex-foot.no h3,
+.duo .ex-foot.no .fx {
+  color: var(--red-d);
+}
+.duo .fx {
+  font-size: calc(16px * var(--ts, 1));
+  line-height: 1.4;
+  margin-top: 4px;
+  max-height: 5.6em;
+  overflow: auto;
+  font-weight: 700;
+}
+.duo .fx b {
+  font-weight: 800;
+}
+.duo .btn.ok {
+  background: var(--green);
+  box-shadow: 0 4px 0 var(--green-d);
+}
+.duo .ex-foot.no .btn {
+  background: var(--red);
+  box-shadow: 0 4px 0 var(--red-d);
+}
+.duo .ex-foot .btn {
+  min-width: 170px;
+}
+.duo .ex-foot .btn.dis {
+  background: var(--line);
+  box-shadow: none;
+}
+.duo .skip {
+  background: var(--card);
+  color: #afafaf;
+  border: 2px solid var(--line);
+  box-shadow: 0 4px 0 var(--line);
+  min-width: 120px !important;
+}
+.duo .shake {
+  animation: shake .4s;
+}
+@keyframes shake {
+  20% {
+    transform: translateX(-9px);
+  }
+  40% {
+    transform: translateX(8px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+}
+.duo .pulse {
+  animation: pulse .3s;
+}
+@keyframes pulse {
+  40% {
+    transform: scale(1.04);
+  }
+}
