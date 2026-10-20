@@ -1790,18 +1790,15 @@
     }
   }
   var snd = {
-    tap: () => tone(520, 0, 0.05, "triangle", 0.1),
+    tap: () => tone(660, 0, 0.045, "sine", 0.05),
     ok: () => {
-      tone(784, 0, 0.14, "triangle", 0.2);
-      tone(1175, 0.09, 0.3, "triangle", 0.2);
-      tone(1568, 0.09, 0.3, "sine", 0.06);
+      tone(1046.5, 0, 0.14, "sine", 0.075);
+      tone(1318.5, 0.08, 0.22, "sine", 0.075);
+      tone(2093, 0.08, 0.18, "sine", 0.02);
     },
-    no: () => {
-      tone(196, 0, 0.22, "sawtooth", 0.12, 150);
-      tone(147, 0.14, 0.3, "sawtooth", 0.12, 110);
-    },
-    done: () => [523, 659, 784, 1047, 1319].forEach((f, i) => tone(f, i * 0.1, 0.35, "triangle", 0.17)),
-    swoosh: () => tone(300, 0, 0.35, "sine", 0.07, 1400)
+    no: () => tone(180, 0, 0.18, "sine", 0.09, 120),
+    done: () => [659.3, 784, 1046.5].forEach((f, i) => tone(f, i * 0.09, 0.26, "sine", 0.085)),
+    swoosh: () => tone(240, 0, 0.28, "sine", 0.04, 880)
   };
   var buzz = (p) => {
     if (S.set.haptic && navigator.vibrate) try {
@@ -2049,7 +2046,7 @@
     const rvf = { w: 0, t: "", q: "" };
     const rvOpen = /* @__PURE__ */ new Set();
     const topStats = () => `<div class="stats"><span class="stat" title="Day streak">${I.flame}<span style="color:var(--orange)">${streak()}</span></span><span class="stat" title="XP">${I.bolt}<span style="color:var(--yellow-d)">${S.xp}</span></span><span class="stat" title="Mistakes waiting">${I.heart}<span style="color:var(--red)">${wrongQs().length}</span></span></div>`;
-    const PDFS = /*PDFS-INLINE*/[];
+    const PDFS = [{t:"Week 1 - Assignment 1 Solutions (official NPTEL PDF)",d:"3 pages - 120 KB",u:"pdfs/week1-solution.pdf",f:"IBME-Week1-Solutions.pdf"},{t:"Week 2 - Assignment 2 Solutions (official NPTEL PDF)",d:"2 pages - 195 KB",u:"pdfs/week2-solution.pdf",f:"IBME-Week2-Solutions.pdf"},{t:"Week 3 - Assignment 3 Solutions (official NPTEL PDF)",d:"2 pages - 193 KB",u:"pdfs/week3-solution.pdf",f:"IBME-Week3-Solutions.pdf"},{t:"Week 4 - Assignment 4 Solutions (official NPTEL PDF)",d:"2 pages - 199 KB",u:"pdfs/week4-solution.pdf",f:"IBME-Week4-Solutions.pdf"},{t:"Week 5 - Assignment 5 Solutions (official NPTEL PDF)",d:"4 pages - 118 KB",u:"pdfs/week5-solution.pdf",f:"IBME-Week5-Solutions.pdf"},{t:"Week 6 - Assignment 6 Solutions (official NPTEL PDF)",d:"3 pages - 137 KB",u:"pdfs/week6-solution.pdf",f:"IBME-Week6-Solutions.pdf"},{t:"Week 7 - Assignment 7 Solutions (official NPTEL PDF)",d:"4 pages - 114 KB",u:"pdfs/week7-solution.pdf",f:"IBME-Week7-Solutions.pdf"},{t:"Week 8 - Assignment 8 Solutions (official NPTEL PDF)",d:"4 pages - 116 KB",u:"pdfs/week8-solution.pdf",f:"IBME-Week8-Solutions.pdf"}];
   const NAVS = [["learn", "Learn", I.home], ["practice", "Practice", I.target], ["pdfs", "PDFs", I.book], ["me", "Profile", I.user]];
     function shell(inner, rail) {
       return `<div class="app"><nav class="side"><div class="logo">ibme</div>${NAVS.map(([k, n, ic]) => `<button class="nav ${page === k ? "on" : ""}" data-go="${k}">${ic}<span>${n}</span></button>`).join("")}</nav>
