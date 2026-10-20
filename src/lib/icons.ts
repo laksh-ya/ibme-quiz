@@ -2,6 +2,7 @@ import { $, shuf } from "./util";
 import { check } from "../screens/session";
 
 export var I = {
+  lesson: '<svg viewBox="0 0 32 32"><path d="M16 3a9 9 0 0 0-5 16c2 1 2 3 2 4h6c0-1 0-3 2-4a9 9 0 0 0-5-16Z" fill="#ffc800"/><path d="M13 26h6M14 29h4" stroke="#ff9600" stroke-width="3" stroke-linecap="round"/><path d="m12 12 3 4 5-7" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></svg>',
   home: '<svg viewBox="0 0 32 32"><path d="M16 3 3 14v13a2 2 0 0 0 2 2h7v-8h8v8h7a2 2 0 0 0 2-2V14z" fill="#1cb0f6"/><path d="M16 3 3 14h26z" fill="#84d8ff"/></svg>',
   target: '<svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="#ff4b4b"/><circle cx="16" cy="16" r="9" fill="#fff"/><circle cx="16" cy="16" r="5.5" fill="#ff4b4b"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg>',
   heart: '<svg viewBox="0 0 32 32"><path d="M16 28S3 20 3 11a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 9-13 17-13 17z" fill="#ff4b4b"/><path d="M8 9a3 3 0 0 1 3-2" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none" opacity=".6"/></svg>',

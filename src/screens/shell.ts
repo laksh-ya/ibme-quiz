@@ -9,7 +9,7 @@ export const topStats = () => `<div class="stats"><span class="stat" title="Stre
 export const NAVS = [["learn", "Learn", I.home], ["practice", "Practice", I.target], ["pdfs", "PDFs", I.book], ["me", "Profile", I.user]];
 
 export function shell(inner, rail) {
-  return `<div class="app"><nav class="side"><div class="logo">ibme</div>${[...NAVS.slice(0,2),["lessons","Lessons",I.book],...NAVS.slice(2)].map(([k, n, ic]) => `<button class="nav ${(ui.page === k || k === "practice" && ["review", "cards"].includes(ui.page)) ? "on" : ""}" data-go="${k}">${ic}<span>${n}</span></button>`).join("")}</nav>
+  return `<div class="app"><nav class="side"><div class="logo">ibme</div>${[...NAVS.slice(0,2),["lessons","Lessons",I.lesson],...NAVS.slice(2)].map(([k, n, ic]) => `<button class="nav ${(ui.page === k || k === "practice" && ["review", "cards"].includes(ui.page)) ? "on" : ""}" data-go="${k}">${ic}<span>${n}</span></button>`).join("")}</nav>
 <div class="main" id="main"><div class="col">${inner}</div><aside class="rail">${rail}</aside></div></div>`;
 }
 
