@@ -1,3 +1,4 @@
+import { pgLessons, renderTeaching, openLesson, closeTeaching, teachingBack, teachingNext, teachingPick, teachingCheck } from "./screens/teaching";
 import { $, L } from "./lib/util";
 import { S, TSMUL, resetProgress, save } from "./state";
 import { buzz, snd } from "./lib/audio";
@@ -21,7 +22,8 @@ export function render() {
   if (ui.gate) return renderGate();
   if (ui.ses) return renderSes();
   if (ui.fc) return renderCards();
-  const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe, review: pgReview, cards: pgCards }[ui.page]();
+  if (ui.teach) return renderTeaching();
+  const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe, review: pgReview, cards: pgCards, lessons: pgLessons }[ui.page]();
   const keep = renderedPage === ui.page && $("#main", ui.el) ? $("#main", ui.el).scrollTop : 0;
   renderedPage = ui.page;
   ui.el.innerHTML = shell(pg, railHtml());
@@ -52,6 +54,14 @@ export function mount(root, data, images) {
       return;
     }
     const d = t.dataset;
+    if (d.study) { ui.studyWeek=+d.study;ui.page="lessons";ui.popW=null;return render(); }
+    if (d.lesson) return openLesson(d.lesson);
+    if (d.teachclose) return closeTeaching();
+    if (d.teachback) return teachingBack();
+    if (d.teachnext) return teachingNext();
+    if (d.teachpick!=null) return teachingPick(+d.teachpick);
+    if (d.teachcheck) return teachingCheck();
+
     if (d.rvx) {
       const b = t.parentElement.querySelector(".rv2b");
       b.hidden = !b.hidden;
@@ -210,6 +220,7 @@ export function mount(root, data, images) {
       }
       return;
     }
+    if (ui.teach) { if (k === "Escape") closeTeaching(); return; }
     if (ui.fc) {
       if ((k === "Enter" || k === " ") && e.target?.tagName === "BUTTON") return;
       if (k === " " || k === "Enter" || k === "ArrowUp" || k === "ArrowDown") {

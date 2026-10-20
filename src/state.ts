@@ -19,6 +19,7 @@ S.best = record(S.best) ? Object.fromEntries(Object.entries(S.best).filter(([k,v
 S.days = Array.isArray(S.days) ? [...new Set(S.days.filter(d => typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d)))] : [];
 S.xp = count(S.xp);
 S.set.beta = S.set.beta === true;
+S.study = record(S.study) ? Object.fromEntries(Object.entries(S.study).filter(([k,v])=>/^[a-zA-Z0-9_-]+$/.test(k) && record(v)).map(([k,v]:[string,any])=>[k,{step:count(v.step),done:v.done===true}])) : {};
 S.set.name = String(S.set.name || "").slice(0, 18);
 S.set.av = Math.max(0, Math.min(7, Math.floor(Number(S.set.av) || 0)));
 if (S.set.theme !== "light") S.set.theme = "dark";

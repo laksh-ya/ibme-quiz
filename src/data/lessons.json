@@ -1,0 +1,464 @@
+[
+  {
+    "week": 1,
+    "title": "Innovation: why, what, types and schools",
+    "summary": "Why business conditions force innovation, Drucker's definition, the three I's, myths, challenges (resistance, VUCA), types of innovation and the three schools of creative thinking.",
+    "sourceUrls": [
+      "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145",
+      "https://drive.google.com/file/d/1ToMfX8oI2ze0GZVuimM6oYkb81JKM55a/view"
+    ],
+    "lessons": [
+      {
+        "id": "w1l1",
+        "title": "Why innovation is the way out",
+        "lectureRefs": [
+          "W1 L1 Analyzing the Current Business Scenario"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=17",
+          "https://drive.google.com/uc?export=download&id=1mlArqE8Jq00UKWQ8nTLpKIauEz1hJuA2"
+        ],
+        "steps": [
+          {
+            "title": "The new kind of company",
+            "body": [
+              "The lecture uses Ola and Uber as examples of taxi platforms that coordinate services without owning the taxis, and Alibaba as an example of a retailer built around a platform rather than its own inventory. It also points to services such as Gmail and YouTube that users can access without a direct charge.",
+              "The lecturer's point: value is created in ways the user does not see. Buying a car is simple (money for a product, profit for the seller). A free Gmail account looks different: he compares it with the postcard, a welfare service that still charges a small fee, while Gmail carries big attachments for nothing. So how do these firms earn? That is why the course studies business models, not only products."
+            ],
+            "check": {
+              "question": "A service is free for its users. What is the most useful business-model question to ask next?",
+              "options": [
+                "How does it create value, and who pays for that value?",
+                "Why does free mean it has no business model?",
+                "Which product can it copy without change?",
+                "How can it ignore costs?"
+              ],
+              "answer": 0,
+              "explanation": "The lecture uses free services to show that the user and the payer need not be the same. Study how value is created and captured rather than assuming a free service earns nothing."
+            }
+          },
+          {
+            "title": "Four pressures on every business",
+            "body": [
+              "The slide lists the business environment as four pressures. Learn them as a set.",
+              "1. Reducing product life cycles. 2. Increasing customer expectations. 3. High uncertainty. 4. Global impact.",
+              "The lecture describes product life cycles becoming shorter: introduction, growth, maturity and decline happen faster. Its comparison is older consumer durables lasting 10-20 years versus newer products turning over in 2-3 years. Treat those figures as the lecture's illustration, not a rule for every product."
+            ],
+            "example": "The lecture contrasts decades of black-and-white television with successive colour, flat-screen and high-definition products. The lesson is faster change: a successful product cannot be assumed to stay successful.",
+            "check": {
+              "question": "Customers compare prices instantly and expect better quality with faster delivery. Which pressure does this show?",
+              "options": [
+                "Increasing customer expectations",
+                "Falling tax rates",
+                "A longer product life cycle",
+                "Less global impact"
+              ],
+              "answer": 0,
+              "explanation": "Connected customers can compare alternatives and expect cost, quality and speed together. This is one of the four pressures, alongside shorter life cycles, uncertainty and global impact."
+            }
+          },
+          {
+            "title": "Customers want everything at once",
+            "body": [
+              "The lecture contrasts an older cost-quality-delivery trade-off with customers who compare sellers online and expect low cost, high quality and fast delivery together.",
+              "Uncertainty and heterogeneity: Kedarnath and Delhi smog show how unpredictable events are. Application forms that moved from two gender options to also include transgender and 'do not wish to disclose' show society getting more varied."
+            ],
+            "trap": "Do not describe this as 'trade-offs are getting worse'. The lecture says the old trade-off is disappearing because customers demand all three at once."
+          },
+          {
+            "title": "Global impact and the story of development",
+            "body": [
+              "The lecture uses Apple to show global interdependence: a company can design in one country, manufacture in another and sell worldwide. A disruption in one place can affect the entire chain.",
+              "The slide's series of development: industrialization in Europe, then North America becoming a major economic power, then Japan industrializing on quality principles, then low-cost manufacturing from China."
+            ],
+            "example": "In the lecture's development narrative, Japan illustrates quality improvement through waste reduction, while China illustrates low-cost manufacturing. These are the lecturer's broad historical comparisons, not a current ranking of every country or firm.",
+            "check": {
+              "question": "Japan's industrial rise in this lecture is tied to what?",
+              "options": [
+                "Quality principles",
+                "Low-cost labour",
+                "Colonial markets",
+                "Large-scale US production"
+              ],
+              "answer": 0,
+              "explanation": "The slide says industrialization in Japan based on quality principles. Low-cost manufacturing is China."
+            }
+          },
+          {
+            "title": "The way out",
+            "body": [
+              "In the lecturer's comparison, matching an established quality or cost leader is hard. A newcomer needs a \"bigger line\": a new dimension of value. Innovation is the proposed way out.",
+              "The lecture adds that innovation should be pervasive in the organisation, not limited to one department. This course is meant to help commercialize innovations and business models for growth, jobs and development."
+            ],
+            "check": {
+              "question": "In the lecture, what is the 'way out' for newcomers against Japan (quality) and China (cost)?",
+              "options": [
+                "Marketing",
+                "Innovation",
+                "Design",
+                "Communication"
+              ],
+              "answer": 1,
+              "explanation": "Slide 4: 'What is the way out? Innovation'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "w1l2",
+        "title": "What innovation really is",
+        "lectureRefs": [
+          "W1 L2 Innovation and Creativity - An Introduction"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18",
+          "https://drive.google.com/file/d/1xRo9rRPdwxBxukZ43PVHcB-cKE21ddhH/view?usp=sharing"
+        ],
+        "steps": [
+          {
+            "title": "Drucker's definition",
+            "body": [
+              "Drucker describes innovation as the specific tool of entrepreneurs: they exploit change as an opportunity for a different business or service. Keep the exact term \"innovation\" in mind, but understand the idea behind it.",
+              "Three parts: it is a tool (practical), entrepreneurs use it, and the raw material is change."
+            ],
+            "example": "Examples used in the lecture: Swachh Bharat created demand for waste and sanitation solutions. IT firms treated corruption as an opportunity (computerised railway reservation). GST created a software opportunity. Demonetization boosted e-payment companies.",
+            "check": {
+              "question": "A change in tax rules creates demand for new accounting software. What is the entrepreneur doing in Drucker's definition?",
+              "options": [
+                "Using change as an opportunity for innovation",
+                "Avoiding every change",
+                "Treating an idea alone as impact",
+                "Proving innovation needs no implementation"
+              ],
+              "answer": 0,
+              "explanation": "The entrepreneur uses change to create a new service. That is why Drucker calls innovation the specific tool of entrepreneurs."
+            }
+          },
+          {
+            "title": "The three I's",
+            "body": [
+              "Idea, Implementation, Impact. All three make innovation.",
+              "Idea + Implementation = Invention. Add Impact and the invention becomes innovation. A project that stays in a file or a lab has no impact, so it is not innovation.",
+              "Impact depends on the organisation: market share, cost or profit for a business; students going on to higher study for a school; people overcoming addiction for a religious organisation."
+            ],
+            "trap": "An idea alone is not enough. In this course's three-I model, implementation makes the idea real, and impact turns that result into innovation.",
+            "check": {
+              "question": "A team builds a working prototype, but nobody uses it and it changes no outcome. Which of the three I's is still missing?",
+              "options": [
+                "Idea",
+                "Implementation",
+                "Impact",
+                "Industry"
+              ],
+              "answer": 2,
+              "explanation": "The idea has been implemented, but the required impact is missing. In the lecture's model: Idea + Implementation = Invention; adding Impact gives Innovation."
+            },
+            "example": "The assignment diagram makes the sequence explicit: Idea and Implementation combine to form Invention. Adding Impact gives Innovation. For example, a working prototype is an invention; meaningful use gives it impact."
+          },
+          {
+            "title": "An old idea can still be innovation",
+            "body": [
+              "Novelty can sit in the implementation. Gandhi's non-violence was an ancient idea (Jainism, Buddhism). His innovation was running it as a mass movement for India's freedom struggle.",
+              "So innovation does not need a brand new idea. A new way to implement an existing one can count."
+            ]
+          },
+          {
+            "title": "Three myths and three realities",
+            "body": [
+              "Myth: innovation begins with creativity. Reality: it begins with curiosity (why, how, what if). A child asking 'why' is the model.",
+              "Myth: innovation is a smooth linear process. Reality: it is iterative and the outcome of a series of experiments. You loop back and revise.",
+              "Myth: innovation is about risk-taking. Reality: effective innovation involves risk-taking, assessment and mitigation. Motorbike on a hill road: you still ride, but with a helmet, brakes and speed limits."
+            ],
+            "trap": "Iterative does not mean careless. Each experiment should help you learn, reassess risk and improve the next attempt.",
+            "check": {
+              "question": "An experiment fails, so the team studies the result and revises the idea. Does that make it a failed innovation process?",
+              "options": [
+                "Yes, innovation must be a smooth straight line",
+                "No, learning through experiments is part of an iterative process",
+                "Yes, curiosity should stop after the first idea",
+                "No, because risks never need assessment"
+              ],
+              "answer": 1,
+              "explanation": "Innovation loops through experiments. Curiosity starts it; risk assessment and mitigation keep the experiments useful."
+            }
+          },
+          {
+            "title": "Innovation is a team sport",
+            "body": [
+              "The person who asks the first question may not have the answer. One person has the answer, another has the tools to experiment, another can commercialize. Because the process is iterative, a team carries it through many experiments."
+            ],
+            "check": {
+              "question": "One person spots a problem, another builds a solution, and a third gets it into use. Why is the team valuable?",
+              "options": [
+                "It combines curiosity, implementation and the ability to create impact",
+                "It removes the need for experiments",
+                "It guarantees there is no risk",
+                "It makes impact optional"
+              ],
+              "answer": 0,
+              "explanation": "Different people contribute different strengths. The lecture treats innovation as a team effort because finding a question, testing an answer and creating impact need not be done by the same person."
+            }
+          }
+        ]
+      },
+      {
+        "id": "w1l3",
+        "title": "What blocks innovation: change, prediction and VUCA",
+        "lectureRefs": [
+          "W1 L3 Innovation in Current Environment"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19",
+          "https://drive.google.com/open?id=1Ehx5pLnDxyI7mmUqRFqtGEWvBNkKOEgl"
+        ],
+        "steps": [
+          {
+            "title": "Two big challenges",
+            "body": [
+              "The slide says the challenges are resistance to change and prediction disability. Both are human problems more than technical ones."
+            ]
+          },
+          {
+            "title": "Resistance to change: four forms",
+            "body": [
+              "Ignoring the idea (a boss dismisses a subordinate's suggestion; parents wave away a child's career idea because they expect doctor, engineer or IAS).",
+              "Fear of failure (people prefer tested formulas over risky paths).",
+              "Inertia (a lack of belief in one's own capability). The lecture uses Jambavanth reminding Hanuman of his powers: sometimes a mentor has to say 'you can'.",
+              "Lack of confidence (shown on the slide as the fourth item)."
+            ],
+            "trap": "Fear of failure is resistance. \"Ignoring the chances of failure\" is different: it means failing to assess risk. Confidence also helps change rather than resisting it.",
+            "check": {
+              "question": "A manager dismisses an idea without hearing it, while a capable colleague says \"I cannot do it\" and never starts. Which two forms of resistance are shown?",
+              "options": [
+                "Ignoring the idea and inertia",
+                "Ignoring failure chances and confidence",
+                "Inertia and confidence",
+                "Creativity and implementation"
+              ],
+              "answer": 0,
+              "explanation": "Dismissing the suggestion is ignoring the idea. Not acting because you doubt your ability is inertia in the lecture's classification. Fear of failure and lack of confidence are the other listed forms."
+            }
+          },
+          {
+            "title": "Prediction disability and VUCA",
+            "body": [
+              "VUCA = Volatility, Uncertainty, Complexity, Ambiguity.",
+              "Volatility: unexpected or unstable, may be of unknown duration, but not necessarily hard to understand; knowledge is often available. Example given: demonetization.",
+              "Uncertainty: despite a lack of other information, the basic cause and effect are known. Change is possible but not a given.",
+              "Ambiguity: causal relationships are completely unclear. No precedents exist; you face 'unknown unknowns'. Entering a new market or product line with no experience is the lecture's kind of case."
+            ],
+            "trap": "For the exam distinction, unknown unknowns point to Ambiguity, not Uncertainty. Complexity is also part of VUCA; the supplied slide does not explain it in detail.",
+            "check": {
+              "question": "'Innovators face unknown unknowns' best describes which VUCA element?",
+              "options": [
+                "Complexity",
+                "Volatility",
+                "Ambiguity",
+                "Uncertainty"
+              ],
+              "answer": 2,
+              "explanation": "Ambiguity (no precedent, causal links unclear)."
+            }
+          },
+          {
+            "title": "The elephant and the rider",
+            "body": [
+              "Two systems of thinking: emotional/intuitive and deliberate/analytical. The lecture's analogy: the elephant is the emotional side (heavy, powerful, slow). The rider is the analytical side (can see, intelligent, but powerless alone).",
+              "Three paths: the elephant's usual path to water has a tiger. A new path leads to green grass. If rider and elephant are in harmony the elephant takes the new path. If not, inertia wins and the tiger gets them.",
+              "Everyday case: you set the alarm for study (rider) but switch it off in the morning (elephant)."
+            ],
+            "example": "Learning to drive: first you deliberate on everything, later it becomes intuitive and you can talk while driving. Expertise fuses the two systems.",
+            "check": {
+              "question": "In the analogy, which side is slow-moving, heavy and powerful?",
+              "options": [
+                "The rider (analysis)",
+                "The elephant (emotional)",
+                "Both",
+                "Neither"
+              ],
+              "answer": 1,
+              "explanation": "Slides 11-12: elephant = heavy, powerful, slow moving. Rider = ability to see, powerless, intelligent."
+            }
+          }
+        ]
+      },
+      {
+        "id": "w1l4",
+        "title": "Types of innovation",
+        "lectureRefs": [
+          "W1 L4 Types of Innovation"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20",
+          "https://drive.google.com/file/d/1S3h8UQZrZqhZQrS45kfUPjgDXxuTSgkV/view?usp=sharing"
+        ],
+        "steps": [
+          {
+            "title": "Jugaad vs systematic",
+            "body": [
+              "Jugaad (North India term): an ad hoc, improvised fix for an immediate problem. Fine for a quick local fix, but not sustainable.",
+              "Systematic innovation: planned, in an enabling environment (university, corporation), aiming at intellectual property rights, commercialization and technology transfer."
+            ],
+            "check": {
+              "question": "Which is ad hoc and usually not sustainable?",
+              "options": [
+                "Jugaad",
+                "Systematic innovation",
+                "Breakthrough",
+                "Process innovation"
+              ],
+              "answer": 0,
+              "explanation": "Jugaad is the improvised, immediate fix. Systematic innovation is structured and aims for IP."
+            }
+          },
+          {
+            "title": "Incremental vs breakthrough",
+            "body": [
+              "Incremental: small continuous improvements, shaped by Kaizen (continuous improvement), cutting scrap and rework. Mobile 2G to 3G to 4G to 5G.",
+              "Breakthrough (radical): a new concept that changes the status quo. The lecture's examples: discovery of fire, invention of the wheel, steam engine, landline to mobile phone.",
+              "They depend on each other: a breakthrough is followed by incremental improvements, and accumulated improvements can enable a breakthrough. A genuinely new cure is the lecture's hypothetical breakthrough example; later improvements could refine it."
+            ],
+            "trap": "Classify the size of the change, not whether the technology is impressive. In the lecture, 2G to 3G is incremental; the wheel, fire and steam engine are breakthrough examples.",
+            "check": {
+              "question": "Which is the lecture's example of INCREMENTAL innovation?",
+              "options": [
+                "Steam engine",
+                "Wheel",
+                "Evolution from 2G to 3G",
+                "Invention of fire"
+              ],
+              "answer": 2,
+              "explanation": "2G to 3G is incremental. Steam engine, wheel and fire are breakthrough."
+            }
+          },
+          {
+            "title": "Frugal innovation",
+            "body": [
+              "Slide: frugal innovation sees resource constraints not as a liability but as an opportunity, and favors agility over efficiency. Frugal organisations do not try to wow customers with technically sophisticated products. They create good-quality solutions that deliver the greatest value at the lowest cost.",
+              "It does not mean poor quality. It means keeping only the features the target customer values."
+            ],
+            "trap": "Low cost does not mean low quality. Frugal innovation removes unnecessary sophistication while preserving the value the intended user needs.",
+            "check": {
+              "question": "A team builds a reliable low-cost device with only the features its users need. Which explanation best fits frugal innovation?",
+              "options": [
+                "Constraints are an opportunity to deliver value without unnecessary sophistication",
+                "Poor quality is acceptable whenever the price is low",
+                "Every possible feature must be included",
+                "Resource constraints prevent all innovation"
+              ],
+              "answer": 0,
+              "explanation": "Frugal innovation treats resource constraints as an opportunity. The aim is good quality and high value at low cost, not stripped-down quality."
+            }
+          },
+          {
+            "title": "Four areas of innovation",
+            "body": [
+              "Product (iPhone, smartwatch): visible. Process (Six Sigma, Lean, Kanban, TQM): mostly invisible, internal efficiency. Customer experience (online tracking of speed post or visa, Facebook birthday reminders). Business model (how value is created and captured, e.g. Google and Facebook give core service free and earn elsewhere).",
+              "IPL is the lecture's mix: franchise teams, shorter format and new revenue ideas touch business model, product, process and customer experience together."
+            ],
+            "check": {
+              "question": "Online tracking of a speed post or visa application is which type?",
+              "options": [
+                "Product",
+                "Process",
+                "Customer experience",
+                "Business model"
+              ],
+              "answer": 2,
+              "explanation": "Lecture lists it under customer experience innovation."
+            }
+          }
+        ]
+      },
+      {
+        "id": "w1l5",
+        "title": "Schools of innovation: design, systems, lateral",
+        "lectureRefs": [
+          "W1 L5 School of Innovation"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21",
+          "https://drive.google.com/file/d/1vm8tCbmuOAK26FIXfHiN4QkB_uMNScDD/view?usp=sharing"
+        ],
+        "steps": [
+          {
+            "title": "Can innovation be taught?",
+            "body": [
+              "Emotions are hard to teach. Analysis can be taught. The slide lists three teachable things: awareness creation, development of confidence, removal of myths.",
+              "Awareness example: campaigns can be positive ('remove polio from India') or negative ('take this vaccine to avoid illness'). Choosing between them is teachable."
+            ]
+          },
+          {
+            "title": "Design thinking",
+            "body": [
+              "Use of design principles in innovation. It is solution-focused and action-oriented toward creating a preferred future, not problem-focused.",
+              "Four features on the slide: human centered (empathy, time with people to see behaviour, emotions, anxieties, aspirations), prototyping, rapid iterative improvements, collaboration through cross-functional teams."
+            ],
+            "example": "The lecture reads demonetization as a design-thinking style case: public feedback and rapid policy changes, with RBI, banks and police working together.",
+            "trap": "Human-centered is not the same as product-centered. Begin with people's needs, test a possible solution, and use feedback to improve it.",
+            "check": {
+              "question": "Which statement about design thinking is INCORRECT?",
+              "options": [
+                "It is solution focused",
+                "It is action-oriented",
+                "It is human-centered",
+                "It is product-centered"
+              ],
+              "answer": 3,
+              "explanation": "product-centered is the incorrect one."
+            }
+          },
+          {
+            "title": "Systems thinking",
+            "body": [
+              "Model the larger system, find the point of leverage, apply a silver bullet there. Resources: The Fifth Discipline by Peter Senge, and Theory of Constraints (ToC) by Goldratt (The Goal).",
+              "When you fix one constraint the next one shows up, so it is a loop."
+            ],
+            "check": {
+              "question": "A factory improves one machine, but total output does not rise because a later stage is still overloaded. What should a systems-thinking team do next?",
+              "options": [
+                "Study the whole flow and find the current constraint",
+                "Keep improving the same machine without checking the flow",
+                "Assume no other constraint exists",
+                "Ignore how the stages depend on each other"
+              ],
+              "answer": 0,
+              "explanation": "Systems thinking looks at the larger system and its point of leverage. Theory of Constraints (Goldratt) explains why fixing one bottleneck can reveal another. The Fifth Discipline is Peter Senge's related systems-thinking resource."
+            }
+          },
+          {
+            "title": "Lateral thinking and the six hats",
+            "body": [
+              "Lateral thinking: from one known idea, create a new idea. IPL took the franchise model from European football to Indian cricket. Using European solid waste management ideas in India is the same move.",
+              "Six Thinking Hats (Edward de Bono): White = information. Black = barriers. Red = feelings, intuition. Yellow = values and benefits. Green = creativity, new ideas. Blue = manage process."
+            ],
+            "trap": "Black tests barriers and risks; yellow looks for value and benefits; blue organizes the thinking process. In the assignment table: I-C, II-D, III-A, IV-F, V-E, VI-B. Learn the meanings, not only the letters.",
+            "check": {
+              "question": "Which hat manages the thinking process?",
+              "options": [
+                "White",
+                "Blue",
+                "Green",
+                "Black"
+              ],
+              "answer": 1,
+              "explanation": "Slide: Blue manages process. White information, Black barriers, Red feelings, Yellow values and benefits, Green creativity."
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "covered": [
+        "5 lecture YouTube English caption transcripts (full text, read via the transcript panel)",
+        "5 lecture AI summary notes from the NPTEL portal",
+        "5 lecture slide decks (Drive)",
+        "Week 1 official solution PDF: highlighted keys and the Q3 and Q9 images were read directly"
+      ],
+      "gaps": [
+        "The NPTEL portal itself shows no transcript, so transcripts come from YouTube captions (auto-style English tracks that contain some recognition errors)",
+        "Complexity (VUCA) is named in the lecture but not defined in the slides, AI notes or transcript, so no definition is given here"
+      ]
+    }
+  }
+]
