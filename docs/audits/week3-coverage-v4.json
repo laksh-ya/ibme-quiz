@@ -1,0 +1,227 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "a-ii, b-i, c-iii, d-iv",
+    "correct": false,
+    "card": "w3.l1.f11"
+   },
+   {
+    "option": "a-i, b-iv, c-ii, d-iii",
+    "correct": false,
+    "card": "w3.l1.f11"
+   },
+   {
+    "option": "a-ii, b-iii, c-iv, d-i",
+    "correct": true,
+    "card": "w3.l1.f11"
+   },
+   {
+    "option": "a-i, b-iii, c-iv, d-ii",
+    "correct": false,
+    "card": "w3.l1.f11"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w3.l1.f13"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": true,
+    "card": "w3.l1.f13"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w3.l1.f13"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w3.l1.f13"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Low-cost experimental setup",
+    "correct": false,
+    "card": "w3.l1.f20"
+   },
+   {
+    "option": "To keep trying until desired results are achieved",
+    "correct": false,
+    "card": "w3.l1.f20"
+   },
+   {
+    "option": "The failure fallacy",
+    "correct": true,
+    "card": "w3.l1.f20"
+   },
+   {
+    "option": "All of the above",
+    "correct": false,
+    "card": "w3.l1.f20"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Building support for the new idea or technology",
+    "correct": false,
+    "card": "w3.l2.f19"
+   },
+   {
+    "option": "Help overcoming resistance",
+    "correct": false,
+    "card": "w3.l2.f19"
+   },
+   {
+    "option": "Make our idea sticky",
+    "correct": false,
+    "card": "w3.l2.f19"
+   },
+   {
+    "option": "All of the above",
+    "correct": true,
+    "card": "w3.l2.f19"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Concrete",
+    "correct": false,
+    "card": "w3.l2.f08"
+   },
+   {
+    "option": "Concern",
+    "correct": true,
+    "card": "w3.l2.f08"
+   },
+   {
+    "option": "Curiosity",
+    "correct": false,
+    "card": "w3.l2.f08"
+   },
+   {
+    "option": "Credibility",
+    "correct": false,
+    "card": "w3.l2.f08"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Ajay",
+    "correct": false,
+    "card": "w3.l2.f20"
+   },
+   {
+    "option": "Sunil",
+    "correct": false,
+    "card": "w3.l2.f20"
+   },
+   {
+    "option": "Jaya",
+    "correct": true,
+    "card": "w3.l2.f20"
+   },
+   {
+    "option": "All of the above",
+    "correct": false,
+    "card": "w3.l2.f20"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "Learning environment",
+    "correct": false,
+    "card": "w3.l3.f18"
+   },
+   {
+    "option": "A team activity",
+    "correct": false,
+    "card": "w3.l3.f18"
+   },
+   {
+    "option": "Community of practice",
+    "correct": true,
+    "card": "w3.l3.f18"
+   },
+   {
+    "option": "A group of role models",
+    "correct": false,
+    "card": "w3.l3.f18"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Giving cash incentives to bring in new ideas",
+    "correct": false,
+    "card": "w3.l3.f14"
+   },
+   {
+    "option": "Putting up employee’s photo as “Innovator of the Month”",
+    "correct": false,
+    "card": "w3.l3.f14"
+   },
+   {
+    "option": "Taking most idea givers on a holiday retreat",
+    "correct": false,
+    "card": "w3.l3.f14"
+   },
+   {
+    "option": "All of the above",
+    "correct": true,
+    "card": "w3.l3.f14"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w3.l4.f04"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w3.l4.f04"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": true,
+    "card": "w3.l4.f04"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w3.l4.f04"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Co-creation is a linear process.",
+    "correct": false,
+    "card": "w3.l4.f14"
+   },
+   {
+    "option": "Lego creating a platform “Lego Ideas” inviting ideas and suggestions from over 1 million people where fans voted for the most popular ideas, would be an example of co-creation.",
+    "correct": true,
+    "card": "w3.l4.f14"
+   },
+   {
+    "option": "In co-creation process the burden of value addition lies with the producer.",
+    "correct": false,
+    "card": "w3.l4.f14"
+   },
+   {
+    "option": "Concept of co-creation is only applicable in service industry.",
+    "correct": false,
+    "card": "w3.l4.f14"
+   }
+  ]
+ },
+ "notes": [
+  "Q2 map: statement I false (experiments teach, not guarantee), statement II true (low-cost experiment is key)"
+ ]
+}

@@ -5481,51 +5481,33 @@
             "factId": "w3.l1.f10"
           },
           {
-            "id": "w3c11s1",
+            "id": "w3c11",
             "kind": "example",
-            "title": "Child-safe app mapping (1)",
+            "title": "Assumption types in an example",
             "lines": [],
             "visual": {
               "type": "table",
               "spec": {
                 "headers": [
                   "Type",
-                  "Assumption"
+                  "Child-safe social media app"
                 ],
                 "rows": [
                   [
                     "Need",
-                    "Demand for app to monitor teens, kids"
+                    "Demand for such an app"
                   ],
                   [
                     "Technical",
-                    "Child psychology + social media expertise"
-                  ]
-                ]
-              }
-            },
-            "factId": "w3.l1.f11"
-          },
-          {
-            "id": "w3c11s2",
-            "kind": "example",
-            "title": "Child-safe app mapping (2)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Type",
-                  "Assumption"
-                ],
-                "rows": [
+                    "Child psychology, social media expertise"
+                  ],
                   [
                     "Production",
-                    "App versions for Android, iOS"
+                    "Android, iOS versions"
                   ],
                   [
                     "Commercial",
-                    "Enough parents ready to pay"
+                    "Parents ready to pay"
                   ]
                 ]
               }
@@ -5559,21 +5541,21 @@
           {
             "id": "w3c13",
             "kind": "concept",
-            "title": "Experiment statements",
+            "title": "What an experiment gives",
             "lines": [],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
-                    "label": "Wrong",
-                    "detail": "Key is desired result every time",
-                    "icon": "lock"
+                    "label": "Experiment gives",
+                    "detail": "Learning; validate with low-cost tests",
+                    "icon": "flask"
                   },
                   {
-                    "label": "Right",
-                    "detail": "Key is a low-cost experiment",
-                    "icon": "coin"
+                    "label": "Not",
+                    "detail": "Desired result every time",
+                    "icon": "lock"
                   }
                 ]
               }
@@ -5651,16 +5633,56 @@
           {
             "id": "w3c17",
             "kind": "concept",
-            "title": "The failure fallacy",
+            "title": "Chief villain",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Fear of failure blocks experimentation",
-                "detail": "Treat an experiment as a chance to learn, not a verdict on your ability."
+                "label": "Failure fallacy",
+                "detail": "Main villain of experimentation",
+                "icon": "lock"
               }
             },
             "factId": "w3.l1.f17"
+          },
+          {
+            "id": "w3_l1_f20",
+            "kind": "contrast",
+            "title": "Main hindrance",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Main hindrance",
+                    "detail": "Failure fallacy",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not a hindrance",
+                    "detail": "Low-cost experimental setup",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l1.f20"
+          },
+          {
+            "id": "w3_l1_f21",
+            "kind": "concept",
+            "title": "Failure fallacy",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Failure fallacy",
+                "detail": "Failed test read as failed idea",
+                "icon": "lock"
+              }
+            },
+            "factId": "w3.l1.f21"
           },
           {
             "id": "w3c18",
@@ -5689,7 +5711,7 @@
           {
             "id": "w3c19",
             "kind": "remember",
-            "title": "Review: experiments",
+            "title": "Remember: experiments",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -5786,13 +5808,14 @@
           {
             "id": "w3c23",
             "kind": "concept",
-            "title": "Originator vs champion",
+            "title": "Champion vs originator",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "An originator and a champion need not be the same person",
-                "detail": "An idea's originator may lack the platform or influence to win support."
+                "label": "Not the originator",
+                "detail": "May lack platform",
+                "icon": "people"
               }
             },
             "factId": "w3.l2.f04"
@@ -5815,13 +5838,14 @@
           {
             "id": "w3c25",
             "kind": "concept",
-            "title": "Making an idea stick",
+            "title": "Sticky idea",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "A sticky idea stays with its audience",
-                "detail": "Concrete content, curiosity and credibility help an idea be remembered."
+                "label": "Made to Stick",
+                "detail": "Idea stays permanently with audience",
+                "icon": "target"
               }
             },
             "factId": "w3.l2.f06"
@@ -5854,6 +5878,30 @@
               }
             },
             "factId": "w3.l2.f07"
+          },
+          {
+            "id": "w3c27",
+            "kind": "concept",
+            "title": "Sticky needs",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Sticky needs",
+                    "detail": "Concrete, curiosity, credibility",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not needed",
+                    "detail": "Concern",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f08"
           },
           {
             "id": "w3c28",
@@ -6007,6 +6055,35 @@
             "factId": "w3.l2.f15"
           },
           {
+            "id": "w3_l2_f19",
+            "kind": "concept",
+            "title": "A champion does all three",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Builds support",
+                    "detail": "For new idea or technology",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Beats resistance",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Makes it sticky",
+                    "detail": "",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l2.f19"
+          },
+          {
             "id": "w3c35",
             "kind": "example",
             "title": "Champion scenario",
@@ -6038,21 +6115,52 @@
           {
             "id": "w3c36",
             "kind": "concept",
-            "title": "Identifying the champion",
+            "title": "Who is champion",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Jaya is the champion in this case",
-                "detail": "She used her leadership to win acceptance and get the idea implemented."
+                "label": "Jaya",
+                "detail": "Leader: made people accept, work",
+                "icon": "target"
               }
             },
             "factId": "w3.l2.f17"
           },
           {
+            "id": "w3_l2_f20",
+            "kind": "example",
+            "title": "Idea, support, champion",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Person",
+                  "Part played"
+                ],
+                "rows": [
+                  [
+                    "Ajay",
+                    "Had idea, could not communicate it"
+                  ],
+                  [
+                    "Sunil",
+                    "Believed it, eased resistance"
+                  ],
+                  [
+                    "Jaya",
+                    "Had hold, pushed it through: champion"
+                  ]
+                ]
+              }
+            },
+            "factId": "w3.l2.f20"
+          },
+          {
             "id": "w3c37",
             "kind": "remember",
-            "title": "Review: champion",
+            "title": "Remember: champion",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -6220,6 +6328,30 @@
             "factId": "w3.l3.f06"
           },
           {
+            "id": "w3_l3_f18",
+            "kind": "contrast",
+            "title": "Coding club",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Community of practice",
+                    "detail": "Shared-interest group learning together",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Not this",
+                    "detail": "Learning environment, team activity, role models",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w3.l3.f18"
+          },
+          {
             "id": "w3c44",
             "kind": "example",
             "title": "Communities examples",
@@ -6369,13 +6501,33 @@
           {
             "id": "w3c51",
             "kind": "concept",
-            "title": "Recognising contributions",
+            "title": "Ways to recognise",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Recognition can take several forms",
-                "detail": "Cash, a public photo, a retreat or inviting the family can recognise employees' ideas."
+                "items": [
+                  {
+                    "label": "Cash",
+                    "detail": "Incentive for new ideas",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Photo",
+                    "detail": "Innovator of the Month",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Holiday retreat",
+                    "detail": "For most idea givers",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "All three",
+                    "detail": "Each recognises effort",
+                    "icon": "target"
+                  }
+                ]
               }
             },
             "factId": "w3.l3.f14"
@@ -6432,7 +6584,7 @@
           {
             "id": "w3c54",
             "kind": "remember",
-            "title": "Review: participation",
+            "title": "Remember: participation",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -6538,13 +6690,23 @@
           {
             "id": "w3c58",
             "kind": "concept",
-            "title": "Two ideas about value",
+            "title": "Value and efficiency",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Value is central to exchange",
-                "detail": "Separate value-adding activities from activities that do not add value."
+                "items": [
+                  {
+                    "label": "Japanese firms",
+                    "detail": "Separate value-added from non-value-added",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Core of exchange",
+                    "detail": "Value creation",
+                    "icon": "coin"
+                  }
+                ]
               }
             },
             "factId": "w3.l4.f04"
@@ -6757,7 +6919,7 @@
           {
             "id": "w3c68",
             "kind": "concept",
-            "title": "Co-creation traps",
+            "title": "What co-creation is not",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -6769,14 +6931,19 @@
                     "icon": "lock"
                   },
                   {
-                    "label": "Not producer-only burden",
-                    "detail": "",
-                    "icon": "lock"
+                    "label": "Not producer-only",
+                    "detail": "Value shared with customers",
+                    "icon": "people"
                   },
                   {
-                    "label": "Not only services",
-                    "detail": "",
-                    "icon": "lock"
+                    "label": "Not services-only",
+                    "detail": "Products and services",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Example",
+                    "detail": "Lego Ideas: 1 million fans vote",
+                    "icon": "spark"
                   }
                 ]
               }
@@ -6815,7 +6982,7 @@
           {
             "id": "w3c70",
             "kind": "remember",
-            "title": "Review: co-creation",
+            "title": "Remember: co-creation",
             "lines": [],
             "visual": {
               "type": "compare",
@@ -6848,13 +7015,14 @@
           {
             "id": "w3c71",
             "kind": "concept",
-            "title": "Prototyping in practice",
+            "title": "Kishore Biyani",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Prototype before committing at scale",
-                "detail": "Kishore Biyani emphasises prototyping in the ventures he attempts."
+                "label": "Prototyping",
+                "detail": "Crucial in everything attempted",
+                "icon": "target"
               }
             },
             "factId": "w3.l5.f01"
@@ -7261,13 +7429,14 @@
           {
             "id": "w3c90",
             "kind": "concept",
-            "title": "Leaving the incubator",
+            "title": "Graduate",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Graduation means becoming self-sustaining",
-                "detail": "The venture should be able to operate without the incubator's support."
+                "label": "Graduation",
+                "detail": "Stand and run on own legs",
+                "icon": "rocket"
               }
             },
             "factId": "w3.l5.f20"
@@ -7275,7 +7444,7 @@
           {
             "id": "w3c91",
             "kind": "remember",
-            "title": "Review: incubation",
+            "title": "Remember: incubation",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -7311,7 +7480,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Four assumption types (1)",
+        "heading": "Four assumption types",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7332,22 +7501,7 @@
               [
                 "Production",
                 "Can we build, supply, scale?"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Four assumption types (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Type",
-              "Asks"
-            ],
-            "rows": [
+              ],
               [
                 "Commercial",
                 "Will money come in?"
@@ -7357,7 +7511,7 @@
         }
       },
       {
-        "heading": "Experimentation facts (1)",
+        "heading": "Experimentation facts",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7377,18 +7531,7 @@
                 "label": "Villain",
                 "detail": "Failure fallacy",
                 "icon": "lock"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Experimentation facts (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Taleb",
                 "detail": "Fail with pride",
@@ -7399,7 +7542,7 @@
         }
       },
       {
-        "heading": "Idea champion (1)",
+        "heading": "Idea champion",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7419,18 +7562,7 @@
                 "label": "Not a C",
                 "detail": "Concern",
                 "icon": "lock"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Idea champion (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Schumpeter",
                 "detail": "Resistance: villain of diffusion",
@@ -7441,7 +7573,7 @@
         }
       },
       {
-        "heading": "Participation elements (1)",
+        "heading": "Participation elements",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7462,22 +7594,7 @@
               [
                 "Innovation catalyst",
                 "Encourages, constructive input"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Participation elements (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Element",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Rewards, recognition",
                 "Idea givers appreciated"
@@ -7487,7 +7604,7 @@
         }
       },
       {
-        "heading": "Ways to recognise ideas (1)",
+        "heading": "Ways to recognise ideas",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7507,18 +7624,7 @@
                 "label": "Holiday retreat",
                 "detail": "Top idea givers",
                 "icon": "heart"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Ways to recognise ideas (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Family invite",
                 "detail": "Maruti idea givers",
@@ -7560,7 +7666,7 @@
         }
       },
       {
-        "heading": "Co-creation (1)",
+        "heading": "Co-creation",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7580,18 +7686,7 @@
                 "label": "Heart",
                 "detail": "Customer, employee creativity",
                 "icon": "bulb"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Co-creation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Fits",
                 "detail": "Rural, bottom of pyramid",
@@ -7602,7 +7697,7 @@
         }
       },
       {
-        "heading": "Prototyping to incubation (1)",
+        "heading": "Prototyping to incubation",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7622,18 +7717,7 @@
                 "label": "Measure",
                 "detail": "Process, not only output",
                 "icon": "chart"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Prototyping to incubation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Incubator types",
                 "detail": "HEI, private, independent, company",
@@ -7644,7 +7728,7 @@
         }
       },
       {
-        "heading": "Incubation review (1)",
+        "heading": "Incubation review",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7665,22 +7749,7 @@
               [
                 "3",
                 "Incubate: Or mentorship, re-review"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Incubation review (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Step",
-              "Stage"
-            ],
-            "rows": [
+              ],
               [
                 "4",
                 "Graduate: Self-sustaining"

@@ -296,3 +296,5 @@
 .duo .figure-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;border-top:1px solid var(--line);padding-top:18px;margin-top:12px;}
 .duo .teaching-content .figure-facts p{margin:0;font-size:16px;line-height:1.4;}.duo .figure-facts b{display:block;}.duo .figure-facts span{display:block;color:var(--sub);margin-top:4px;}
 @media(max-height:700px){.duo .has-figure .lesson-figure svg{max-height:165px;}.duo .figure-facts{gap:10px 16px;padding-top:12px;margin-top:8px;}.duo .teaching-content .figure-facts p{font-size:14px;line-height:1.35;}}
+.duo .visual-table .multi-table section{padding:12px 0;}
+@media(max-height:700px){.duo .visual-table .multi-table section{padding:8px 0;}.duo .visual-table .multi-table h2{margin-bottom:8px;}}
