@@ -299,6 +299,11 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w1c86':body=path('M30 91h107v53H30m96-65 28 38-28 38m44-64h160v53H170','figure-fine')+path('M119 71l60 88m-56 0 60-88','figure-main')+label(25,212,'Problem',true)+label(218,212,'Ad hoc fix',true)+label(80,253,'Jugaad: local improvisation',true);break;
  case 'w1c63':body=sheet(29,60,81,112)+arrow(122,114,210,114)+sheet(225,60,81,112)+path('M267 183v39H70v-39','figure-main')+label(31,43,'Implement',true)+label(224,43,'Feedback',true)+label(110,254,'Change quickly',true);break;
  case 'w1c102':body=path('M28 38h125v73H28Zm179 0h125v73H207ZM28 155h125v73H28Zm179 0h125v73H207Z','figure-fine')+label(52,82,'Quality',true)+label(241,82,'Cost',true)+label(53,197,'Delivery',true)+label(227,197,'Features',true)+path('M153 76l54 116m0-116-54 116','figure-main')+label(65,259,'Cross-functional collaboration',true);break;
+
+ case 'w2c15':body=`<circle cx="180" cy="115" r="87" class="figure-fine"/>`+path('M180 28a87 87 0 1 1-16 1','figure-main')+label(132,129,'97%')+label(45,239,'Fortune 500: new ideas matter most',true);break;
+ case 'w2c22':body=path('M31 178V61h91v117m-100-117h110L116 33H39Z','figure-fine')+arrow(148,124,213,124)+person(251,72)+person(311,72)+label(20,232,'Companies Act',true)+label(202,232,'Social sustainability',true);break;
+ case 'w2c29':body=path('M44 203V65h35v138m0-70h48v70m0-114h48v114m0-48h48v48m0-125h48v125m0-50h48v50','figure-fine')+path('M27 37h61v72h94v37h60V49h82','figure-main')+label(22,244,'Difficult challenges prompt new solutions',true);break;
+ case 'w2c58':body=sheet(29,46,105,147)+label(59,147,'Ideas',true)+path('M43 163h75','figure-red')+arrow(153,126,215,126)+path('M230 190V76h99v114m-109-114h119L280 34Z','figure-fine')+label(21,239,'Institutions need fresh thought',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
