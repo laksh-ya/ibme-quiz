@@ -1,0 +1,247 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Fear of Failure",
+    "correct": false,
+    "card": "w2.l1.f06"
+   },
+   {
+    "option": "Lack of internal heroes",
+    "correct": true,
+    "card": "w2.l1.f06"
+   },
+   {
+    "option": "Lack of role clarity",
+    "correct": false,
+    "card": "w2.l1.f06"
+   },
+   {
+    "option": "Lack of recognition for efforts",
+    "correct": true,
+    "card": "w2.l1.f06"
+   },
+   {
+    "option": "No innovation strategy",
+    "correct": true,
+    "card": "w2.l1.f06"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Assessment of Ideas, Selection of Ideas, Prototyping",
+    "correct": false,
+    "card": "w2.l2.f14"
+   },
+   {
+    "option": "Brainstorming, Designing, Validation",
+    "correct": false,
+    "card": "w2.l2.f14"
+   },
+   {
+    "option": "Selection of Idea, Experimentation with Idea, Developing the Business model",
+    "correct": true,
+    "card": "w2.l2.f13"
+   },
+   {
+    "option": "Conducting research, designing the identity, Developing the beta version",
+    "correct": false,
+    "card": "w2.l2.f14"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "The process of thinking that explores multiple possible solutions in order to generate creative ideas is divergent thinking.",
+    "correct": true,
+    "card": "w2.l4.f14"
+   },
+   {
+    "option": "Divergent thinking helps in finding solutions to a problem through deducing by applying established rules and logical reasoning.",
+    "correct": false,
+    "card": "w2.l4.f15"
+   },
+   {
+    "option": "It generally means the ability to give the \"correct\" answer to standard questions that do not require significant creativity.",
+    "correct": false,
+    "card": "w2.l4.f15"
+   },
+   {
+    "option": "The term divergent thinking is coined by Joy Paul Guilford.",
+    "correct": false,
+    "card": "w2.l4.f14"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Both statements are false.",
+    "correct": false,
+    "card": "w2.l3.f02"
+   },
+   {
+    "option": "Statement 1 is True, and Statement 2 is false.",
+    "correct": false,
+    "card": "w2.l3.f02"
+   },
+   {
+    "option": "Both statements are true.",
+    "correct": true,
+    "card": "w2.l3.f02"
+   },
+   {
+    "option": "Statement 1 is False, and Statement 2 is True.",
+    "correct": false,
+    "card": "w2.l3.f02"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Idea Management",
+    "correct": true,
+    "card": "w2.l3.f03"
+   },
+   {
+    "option": "Buzz Creation",
+    "correct": true,
+    "card": "w2.l3.f03"
+   },
+   {
+    "option": "Implementing employee recreational activities",
+    "correct": false,
+    "card": "w2.l3.f18"
+   },
+   {
+    "option": "Vendor Management",
+    "correct": false,
+    "card": "w2.l3.f18"
+   },
+   {
+    "option": "Training and Development",
+    "correct": true,
+    "card": "w2.l3.f03"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Elon Musk",
+    "correct": false,
+    "card": "w2.l3.f19"
+   },
+   {
+    "option": "Ratan Tata",
+    "correct": true,
+    "card": "w2.l3.f19"
+   },
+   {
+    "option": "Thomas Lockwood",
+    "correct": false,
+    "card": "w2.l3.f19"
+   },
+   {
+    "option": "Peter F Drucker",
+    "correct": false,
+    "card": "w2.l3.f19"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "The above statement is false.",
+    "correct": false,
+    "card": "w2.l3.f05"
+   },
+   {
+    "option": "The above statement is partially false.",
+    "correct": false,
+    "card": "w2.l3.f05"
+   },
+   {
+    "option": "The above statement is true.",
+    "correct": true,
+    "card": "w2.l3.f05"
+   },
+   {
+    "option": "The above statement is partially true.",
+    "correct": false,
+    "card": "w2.l3.f05"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Feel the pain source.",
+    "correct": true,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "Sense the wave source.",
+    "correct": false,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "See the waste source.",
+    "correct": false,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "Perceive the change source.",
+    "correct": false,
+    "card": "w2.l3.f20"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "Product",
+    "correct": false,
+    "card": "w2.l2.f15"
+   },
+   {
+    "option": "People",
+    "correct": true,
+    "card": "w2.l2.f15"
+   },
+   {
+    "option": "Participation",
+    "correct": false,
+    "card": "w2.l2.f15"
+   },
+   {
+    "option": "Planet",
+    "correct": true,
+    "card": "w2.l2.f15"
+   },
+   {
+    "option": "Profit",
+    "correct": true,
+    "card": "w2.l2.f15"
+   },
+   {
+    "option": "Process",
+    "correct": false,
+    "card": "w2.l2.f15"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "Feel the pain source",
+    "correct": false,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "Sense the wave source",
+    "correct": false,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "See the waste source",
+    "correct": true,
+    "card": "w2.l3.f20"
+   },
+   {
+    "option": "None of the above",
+    "correct": false,
+    "card": "w2.l3.f20"
+   }
+  ]
+ },
+ "notes": [
+  "Q3 option d (Guilford coined the term): not in captions or slides, no card states it either way"
+ ]
+}

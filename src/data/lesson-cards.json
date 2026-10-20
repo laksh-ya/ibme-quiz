@@ -3071,7 +3071,7 @@
           {
             "id": "w2c3",
             "kind": "concept",
-            "title": "Organisation (1/3)",
+            "title": "Organisation (1/2)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -3105,7 +3105,7 @@
           {
             "id": "w2c4",
             "kind": "concept",
-            "title": "Organisation (2/3)",
+            "title": "Organisation (2/2)",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -3163,7 +3163,7 @@
           {
             "id": "w2c6",
             "kind": "concept",
-            "title": "Organisation vs individual",
+            "title": "Organisational vs individual",
             "lines": [],
             "visual": {
               "type": "compare",
@@ -3171,13 +3171,13 @@
                 "items": [
                   {
                     "label": "Organisational",
-                    "detail": "Internal heroes, recognition, no strategy",
-                    "icon": "target"
+                    "detail": "Internal heroes, recognition, innovation strategy",
+                    "icon": "factory"
                   },
                   {
                     "label": "Individual",
                     "detail": "Fear of failure, role clarity",
-                    "icon": "lock"
+                    "icon": "people"
                   }
                 ]
               }
@@ -3187,13 +3187,14 @@
           {
             "id": "w2c7",
             "kind": "example",
-            "title": "Motivation and Maslow",
+            "title": "Motivation",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Motivation extends beyond basic needs",
-                "detail": "The lecture uses Maslow to discuss higher needs and the motivation to innovate."
+                "label": "Maslow",
+                "detail": "Stuck below top needs",
+                "icon": "chart"
               }
             },
             "factId": "w2.l1.f07"
@@ -3273,13 +3274,14 @@
           {
             "id": "w2c11",
             "kind": "example",
-            "title": "Why diversity matters",
+            "title": "Diversity",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Diversity brings different ways of thinking",
-                "detail": "A team using only one thinking style is like using just one of the Six Thinking Hats."
+                "label": "Six Hats",
+                "detail": "All one colour fails",
+                "icon": "hat"
               }
             },
             "factId": "w2.l1.f11"
@@ -3287,13 +3289,14 @@
           {
             "id": "w2c12",
             "kind": "example",
-            "title": "Building internal heroes",
+            "title": "Internal heroes",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Make internal innovators visible",
-                "detail": "An employee-of-the-month board and photo can recognise effort and create role models."
+                "label": "Employee of month",
+                "detail": "Board, photo",
+                "icon": "people"
               }
             },
             "factId": "w2.l1.f12"
@@ -3316,13 +3319,14 @@
           {
             "id": "w2c62",
             "kind": "example",
-            "title": "Higher-level motivation",
+            "title": "Motivation levels",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Higher needs can motivate innovation",
-                "detail": "The lecture points to Maslow's highest needs rather than basic needs alone."
+                "label": "Maslow top two",
+                "detail": "Higher needs, few reach them",
+                "icon": "chart"
               }
             },
             "factId": "w2.l1.f14"
@@ -3335,8 +3339,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Unclear roles make participation harder",
-                "detail": "People need to know what is expected of them and where they can contribute."
+                "label": "Many roles",
+                "detail": "Unsure of exact role",
+                "icon": "people"
               }
             },
             "factId": "w2.l1.f15"
@@ -3347,16 +3352,16 @@
             "title": "Remember",
             "lines": [],
             "visual": {
-              "type": "compare",
+              "type": "tiles",
               "spec": {
                 "items": [
                   {
                     "label": "Individual",
-                    "detail": "Motivation, role, fear, chalta hai",
+                    "detail": "Motivation, role clarity, fear, chalta hai",
                     "icon": "people"
                   },
                   {
-                    "label": "Organisation",
+                    "label": "Organisational",
                     "detail": "Heroes, recognition, strategy",
                     "icon": "factory"
                   }
@@ -3377,21 +3382,21 @@
           {
             "id": "w2c14",
             "kind": "concept",
-            "title": "Serendipity vs management",
+            "title": "Deliberate, not chance",
             "lines": [],
             "visual": {
               "type": "compare",
               "spec": {
                 "items": [
                   {
-                    "label": "Wrong",
-                    "detail": "Serendipity",
-                    "icon": "spark"
-                  },
-                  {
-                    "label": "Right",
+                    "label": "Innovation needs",
                     "detail": "Deliberate management",
                     "icon": "gear"
+                  },
+                  {
+                    "label": "Not left to",
+                    "detail": "Serendipity",
+                    "icon": "spark"
                   }
                 ]
               }
@@ -3401,21 +3406,22 @@
           {
             "id": "w2c15",
             "kind": "concept",
-            "title": "Ideas and competitiveness",
+            "title": "Why ideas matter",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "New ideas matter to large firms",
-                "detail": "The lecture cites 97% of surveyed Fortune 500 firms identifying new ideas as important."
+                "label": "97%",
+                "detail": "Fortune 500: new ideas most important",
+                "icon": "chart"
               }
             },
             "factId": "w2.l2.f02"
           },
           {
-            "id": "w2c16p1s1",
+            "id": "w2c16",
             "kind": "concept",
-            "title": "Five steps (1)",
+            "title": "Five steps",
             "lines": [],
             "visual": {
               "type": "journey",
@@ -3435,21 +3441,7 @@
                     "label": "Experiment",
                     "detail": "",
                     "icon": "flask"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l2.f03"
-          },
-          {
-            "id": "w2c16p1s2",
-            "kind": "concept",
-            "title": "Five steps (2)",
-            "lines": [],
-            "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
+                  },
                   {
                     "label": "Business model",
                     "detail": "",
@@ -3464,6 +3456,93 @@
               }
             },
             "factId": "w2.l2.f03"
+          },
+          {
+            "id": "w2_l2_f13",
+            "kind": "concept",
+            "title": "Middle steps of innovation management",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Collect ideas"
+                  },
+                  {
+                    "label": "Select idea",
+                    "detail": "Step X"
+                  },
+                  {
+                    "label": "Experiment",
+                    "detail": "Step Y"
+                  },
+                  {
+                    "label": "Business model",
+                    "detail": "Step Z"
+                  },
+                  {
+                    "label": "Diffusion, impact"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f13"
+          },
+          {
+            "id": "w2_l2_f14",
+            "kind": "contrast",
+            "title": "Steps that do not fit",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Innovation steps",
+                    "detail": "Select, experiment, business model",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not steps",
+                    "detail": "Brainstorming, designing, validation, beta version",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f14"
+          },
+          {
+            "id": "w2c17",
+            "kind": "concept",
+            "title": "Steps 2-4",
+            "lines": [
+              "Collection, then these three, then diffusion."
+            ],
+            "visual": {
+              "type": "equation",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Selection of idea",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Experimentation with idea",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Developing business model",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f04"
           },
           {
             "id": "w2c18",
@@ -3512,8 +3591,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Experiments teach what does not work",
-                "detail": "The lecture uses Faraday's repeated experiments to show the value of learning through attempts."
+                "label": "Faraday",
+                "detail": "999 ways it cannot work",
+                "icon": "flask"
               }
             },
             "factId": "w2.l2.f07"
@@ -3521,7 +3601,7 @@
           {
             "id": "w2c21",
             "kind": "concept",
-            "title": "Three Ps",
+            "title": "Three Ps of sustainability",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -3546,6 +3626,30 @@
               }
             },
             "factId": "w2.l2.f08"
+          },
+          {
+            "id": "w2_l2_f15",
+            "kind": "contrast",
+            "title": "Look-alike Ps",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "The three Ps",
+                    "detail": "People, Planet, Profit",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Not among them",
+                    "detail": "Product, Participation, Process",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f15"
           },
           {
             "id": "w2c22",
@@ -3591,6 +3695,45 @@
               }
             },
             "factId": "w2.l2.f11"
+          },
+          {
+            "id": "w2c23",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Collect",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Select",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Experiment",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Model",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Impact",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l2.f12"
           }
         ]
       },
@@ -3628,20 +3771,20 @@
           {
             "id": "w2c25",
             "kind": "concept",
-            "title": "IMS objectives",
+            "title": "Idea Management System aims",
             "lines": [],
             "visual": {
-              "type": "compare",
+              "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Objective 1",
-                    "detail": "Beat resistance to change",
-                    "icon": "target"
+                    "label": "Overcome",
+                    "detail": "Resistance to change",
+                    "icon": "shield"
                   },
                   {
-                    "label": "Objective 2",
-                    "detail": "Beat prediction disability",
+                    "label": "Overcome",
+                    "detail": "Prediction disability",
                     "icon": "eye"
                   }
                 ]
@@ -3679,27 +3822,51 @@
             "factId": "w2.l3.f03"
           },
           {
+            "id": "w2_l3_f18",
+            "kind": "contrast",
+            "title": "Processes that do not count",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Key processes",
+                    "detail": "Idea management, buzz creation, training",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not key processes",
+                    "detail": "Recreation, vendor management",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f18"
+          },
+          {
             "id": "w2c27",
             "kind": "concept",
-            "title": "Idea management decisions",
+            "title": "Idea management asks",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Submission",
-                    "detail": "Who submits",
+                    "label": "Who submits?",
+                    "detail": "",
                     "icon": "people"
                   },
                   {
-                    "label": "Selection",
-                    "detail": "Who selects",
+                    "label": "Who selects?",
+                    "detail": "",
                     "icon": "target"
                   },
                   {
-                    "label": "Funding",
-                    "detail": "Who funds",
+                    "label": "Who funds?",
+                    "detail": "",
                     "icon": "coin"
                   }
                 ]
@@ -3713,11 +3880,20 @@
             "title": "Challenge book",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Right problem",
-                "detail": "Identify before solving",
-                "icon": "target"
+                "items": [
+                  {
+                    "label": "Purpose",
+                    "detail": "Builds the Idea Bank",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "First step",
+                    "detail": "Identify the right problem",
+                    "icon": "target"
+                  }
+                ]
               }
             },
             "factId": "w2.l3.f05"
@@ -3736,6 +3912,30 @@
               }
             },
             "factId": "w2.l3.f06"
+          },
+          {
+            "id": "w2_l3_f19",
+            "kind": "contrast",
+            "title": "Who said it",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ratan Tata",
+                    "detail": "Difficult challenges bring innovative solutions",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not him",
+                    "detail": "Musk, Lockwood, Drucker",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f19"
           },
           {
             "id": "w2c30",
@@ -3879,9 +4079,38 @@
             "factId": "w2.l3.f11"
           },
           {
+            "id": "w2_l3_f20",
+            "kind": "contrast",
+            "title": "Source by situation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Feel the pain",
+                    "detail": "Customers want high quality, low cost",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Sense the wave",
+                    "detail": "Technology, demographic, regulatory change",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "See the waste",
+                    "detail": "Wasted resources, e.g. power generation",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l3.f20"
+          },
+          {
             "id": "w2c35",
             "kind": "example",
-            "title": "Sources of ideas",
+            "title": "Which source?",
             "lines": [],
             "visual": {
               "type": "compare",
@@ -4039,11 +4268,11 @@
                   },
                   {
                     "label": "Tata",
-                    "detail": "Challenges bring innovation",
+                    "detail": "Challenge quote",
                     "icon": "people"
                   },
                   {
-                    "label": "Three decisions",
+                    "label": "3 who's",
                     "detail": "Submit, select, fund",
                     "icon": "target"
                   }
@@ -4062,15 +4291,110 @@
         ],
         "cards": [
           {
-            "id": "w2c38",
+            "id": "w2c37",
             "kind": "concept",
-            "title": "Explore, then choose",
+            "title": "Thinking pairs",
             "lines": [],
             "visual": {
-              "type": "divergence",
-              "spec": {}
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Slow, fast",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Divergent, convergent",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Micro, macro",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "This, that",
+                    "detail": "",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f01"
+          },
+          {
+            "id": "w2c38",
+            "kind": "concept",
+            "title": "Divergent",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Divergent",
+                    "detail": "Explore many solutions",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Convergent",
+                    "detail": "Narrow to one",
+                    "icon": "target"
+                  }
+                ]
+              }
             },
             "factId": "w2.l4.f02"
+          },
+          {
+            "id": "w2_l4_f14",
+            "kind": "contrast",
+            "title": "Divergent or convergent",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Divergent",
+                    "detail": "Explore many solutions, creative ideas",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Convergent",
+                    "detail": "Standard question, one correct answer",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f14"
+          },
+          {
+            "id": "w2_l4_f15",
+            "kind": "contrast",
+            "title": "Divergent is not",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Deducing",
+                    "detail": "Applying rules and logic",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Correct answer",
+                    "detail": "To standard questions",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l4.f15"
           },
           {
             "id": "w2c39",
@@ -4225,13 +4549,14 @@
           {
             "id": "w2c45",
             "kind": "example",
-            "title": "Exploring healthcare ideas",
+            "title": "Health ideas",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Healthcare can combine different approaches",
-                "detail": "The lecture discusses allopathy, Ayurveda and homeopathy as a prompt for exploring alternatives."
+                "label": "Allopathy, ayurveda, homeopathy",
+                "detail": "",
+                "icon": "heart"
               }
             },
             "factId": "w2.l4.f09"
@@ -4239,23 +4564,31 @@
           {
             "id": "w2c46",
             "kind": "concept",
-            "title": "The transition phase",
+            "title": "Transition phase",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Challenge",
-                    "detail": "The transition can be interesting, testing and difficult."
+                    "label": "Interesting",
+                    "detail": "",
+                    "icon": "spark"
                   },
                   {
-                    "label": "Hope",
-                    "detail": "It can also open new possibilities."
+                    "label": "Testing",
+                    "detail": "",
+                    "icon": "flask"
                   },
                   {
-                    "label": "Cost",
-                    "detail": "Moving to a new state takes time and resources."
+                    "label": "Difficult",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Brings hope",
+                    "detail": "",
+                    "icon": "heart"
                   }
                 ]
               }
@@ -4271,7 +4604,7 @@
               "type": "key",
               "spec": {
                 "label": "Incurs cost",
-                "detail": "Transition requires time and resources",
+                "detail": "5th property",
                 "icon": "coin"
               }
             },
@@ -4280,23 +4613,26 @@
           {
             "id": "w2c48",
             "kind": "concept",
-            "title": "Three responses to change",
+            "title": "Change management",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Manage change",
-                    "detail": "Act deliberately rather than only reacting."
+                    "label": "Managed",
+                    "detail": "",
+                    "icon": "target"
                   },
                   {
-                    "label": "Move through change",
-                    "detail": "The transition still has to be experienced."
+                    "label": "Passed through",
+                    "detail": "",
+                    "icon": "branch"
                   },
                   {
-                    "label": "Be managed by change",
-                    "detail": "Without a response, events dictate the outcome."
+                    "label": "Change manages us",
+                    "detail": "",
+                    "icon": "lock"
                   }
                 ]
               }
@@ -4339,7 +4675,7 @@
           {
             "id": "w2c50",
             "kind": "concept",
-            "title": "Entrepreneurship",
+            "title": "Slide keywords",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -4427,8 +4763,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Reflexivity means examining your own thinking",
-                "detail": "It is part of entrepreneurial practice, not only a research method."
+                "label": "Reflexivity",
+                "detail": "Central, not just a research method",
+                "icon": "eye"
               }
             },
             "factId": "w2.l5.f04"
@@ -4497,6 +4834,40 @@
             "factId": "w2.l5.f06"
           },
           {
+            "id": "w2c56",
+            "kind": "example",
+            "title": "Someone makes...",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Pencils",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Robots",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Hospitals",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Ships",
+                    "detail": "",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w2.l5.f07"
+          },
+          {
             "id": "w2c57",
             "kind": "example",
             "title": "Pencil",
@@ -4514,13 +4885,14 @@
           {
             "id": "w2c58",
             "kind": "example",
-            "title": "Innovation in institutions",
+            "title": "Institutions",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Institutions also need fresh thinking",
-                "detail": "The lecture challenges a lack of new ideas in institutional development."
+                "label": "Bankruptcy of thoughts",
+                "detail": "In institutional development",
+                "icon": "lock"
               }
             },
             "factId": "w2.l5.f09"
@@ -4593,7 +4965,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Individual challenges (1)",
+        "heading": "Individual challenges",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -4613,18 +4985,7 @@
                 "label": "Fear of failure",
                 "detail": "Individual, not systemic",
                 "icon": "shield"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Individual challenges (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Chalta hai",
                 "detail": "Status-quo attitude",
@@ -4635,7 +4996,7 @@
         }
       },
       {
-        "heading": "Organisational challenges (1)",
+        "heading": "Organisational challenges",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4656,13 +5017,17 @@
               [
                 "Innovation strategy",
                 "None"
+              ],
+              [
+                "Empowerment",
+                "Employees not empowered"
               ]
             ]
           }
         }
       },
       {
-        "heading": "Organisational challenges (2)",
+        "heading": "Organisational challenges: more",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4672,10 +5037,6 @@
               "Detail"
             ],
             "rows": [
-              [
-                "Empowerment",
-                "Employees not empowered"
-              ],
               [
                 "Centralised",
                 "One functional group"
@@ -4683,22 +5044,7 @@
               [
                 "Collaboration, diversity",
                 "Lacking"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Organisational challenges (3)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Challenge",
-              "Detail"
-            ],
-            "rows": [
+              ],
               [
                 "Complacency",
                 "Current offerings successful"
@@ -4712,7 +5058,7 @@
         }
       },
       {
-        "heading": "Five steps (1)",
+        "heading": "Five steps",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4733,22 +5079,7 @@
               [
                 "3",
                 "Experiment"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Five steps (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Step",
-              "Stage"
-            ],
-            "rows": [
+              ],
               [
                 "4",
                 "Business model"
@@ -4762,7 +5093,7 @@
         }
       },
       {
-        "heading": "Three Ps and thinking modes (1)",
+        "heading": "Three Ps and thinking modes",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4783,22 +5114,7 @@
               [
                 "Profit",
                 "Economic"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Three Ps and thinking modes (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Divergent",
                 "Explore many solutions"
@@ -4838,7 +5154,7 @@
         }
       },
       {
-        "heading": "Challenge book (1)",
+        "heading": "Challenge book",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4859,22 +5175,7 @@
               [
                 "See the waste",
                 "Human effort, natural, technology resources"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Challenge book (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Source",
-              "Look at"
-            ],
-            "rows": [
+              ],
               [
                 "Ratan Tata",
                 "Difficult challenges bring innovation"
@@ -4884,7 +5185,7 @@
         }
       },
       {
-        "heading": "Transition phase (1)",
+        "heading": "Transition phase",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4905,22 +5206,7 @@
               [
                 "3",
                 "Difficult"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Transition phase (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "#",
-              "Transition phase is"
-            ],
-            "rows": [
+              ],
               [
                 "4",
                 "Brings hope"
@@ -4934,7 +5220,7 @@
         }
       },
       {
-        "heading": "Design thinking, entrepreneur (1)",
+        "heading": "Design thinking, entrepreneur",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -4954,18 +5240,7 @@
                 "label": "Jamshedji Tata",
                 "detail": "Mill, cr\u00e8che, steel",
                 "icon": "factory"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Design thinking, entrepreneur (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Himalaya fires",
                 "detail": "Pine needles to energy",
