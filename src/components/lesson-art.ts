@@ -1,3 +1,4 @@
+import{lessonDiagram}from'./lesson-diagrams';
 import{esc}from'../lib/util';
 const paths:Record<string,string>={
  hat:'<path d="M12 33 16 10q8-7 16 0l4 23M5 35q19-10 38 0-19 10-38 0Z"/>',
@@ -24,6 +25,7 @@ export const artIcon=(kind='bulb')=>`<svg viewBox="0 0 48 48" aria-hidden="true"
 const palette=['#58cc02','#1cb0f6','#ce82ff','#ff9600'];
 const list=(s:any)=>s.items||s.nodes||[];
 export function lessonArt(type:string,s:any):string|null{
+ const diagram=lessonDiagram(type,s);if(diagram!==null)return diagram;
  const ns=list(s);
  if(type==='flow'||type==='timeline')return lessonArt('journey',{nodes:s.nodes||s.steps||s.events||[]});
  if(type==='plc')return `<div class="art-plc"><svg viewBox="0 0 330 220" role="img" aria-label="Sales rise through introduction and growth, peak at maturity, then decline"><defs><linearGradient id="curve" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#58cc02" stop-opacity=".4"/><stop offset="1" stop-color="#58cc02" stop-opacity="0"/></linearGradient></defs><path d="M20 190C70 190 75 155 110 85S200 15 240 50 280 155 315 175V195H20Z" fill="url(#curve)"/><path d="M20 190C70 190 75 155 110 85S200 15 240 50 280 155 315 175" fill="none" stroke="#58cc02" stroke-width="8" stroke-linecap="round"/><path d="M15 10v190h310" stroke="currentColor" stroke-opacity=".35" fill="none" stroke-width="2"/>${[[45,184],[115,78],[206,32],[290,150]].map(([x,y],i)=>`<circle cx="${x}" cy="${y}" r="10" fill="${palette[i]}" stroke="var(--bg)" stroke-width="4"/>`).join('')}</svg><div class="art-plc-labels">${(s.labels||['Introduction','Growth','Maturity','Decline']).map((l,i)=>`<span style="--tone:${palette[i]}"><b>${i+1}</b>${esc(l)}</span>`).join('')}</div><div class="art-axis"><span>Sales ↑</span><span>Time →</span></div></div>`;

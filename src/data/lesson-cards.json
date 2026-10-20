@@ -16,7 +16,7 @@
             "title": "Business environment",
             "lines": [],
             "visual": {
-              "type": "tiles",
+              "type": "business-pressure",
               "spec": {
                 "items": [
                   {
@@ -47,14 +47,13 @@
           {
             "id": "w1c2",
             "kind": "concept",
-            "title": "Fifth pressure",
+            "title": "Customer heterogeneity",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Heterogeneity",
-                "detail": "More diverse customers",
-                "icon": "people"
+                "label": "Customers are becoming more diverse",
+                "detail": "Different customer groups have different needs and expectations."
               }
             },
             "factId": "w1.l1.f02"
@@ -181,26 +180,23 @@
           {
             "id": "w1c8",
             "kind": "example",
-            "title": "Global impact: Apple",
+            "title": "Apple: global interdependence",
             "lines": [],
             "visual": {
-              "type": "journey",
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
-                    "label": "USA",
-                    "detail": "",
-                    "icon": "bulb"
+                    "label": "United States",
+                    "detail": "Design"
                   },
                   {
                     "label": "China",
-                    "detail": "",
-                    "icon": "factory"
+                    "detail": "Manufacturing"
                   },
                   {
-                    "label": "World",
-                    "detail": "",
-                    "icon": "globe"
+                    "label": "Worldwide",
+                    "detail": "Customers and markets"
                   }
                 ]
               }
@@ -292,20 +288,19 @@
           {
             "id": "w1c12",
             "kind": "concept",
-            "title": "The way out",
+            "title": "Responding to pressure",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Innovation",
-                "detail": "Throughout the whole organisation",
-                "icon": "bulb"
+                "label": "Innovation across the organisation",
+                "detail": "Respond to business pressures through innovation in products, processes, customer experience and business models."
               }
             },
             "factId": "w1.l1.f12"
           },
           {
-            "id": "w1c68p1",
+            "id": "w1c68p1s1",
             "kind": "example",
             "title": "TV sequence (1)",
             "lines": [],
@@ -327,11 +322,6 @@
                     "label": "Flat screen",
                     "detail": "",
                     "icon": "gear"
-                  },
-                  {
-                    "label": "HD, plasma",
-                    "detail": "",
-                    "icon": "gear"
                   }
                 ]
               }
@@ -339,7 +329,7 @@
             "factId": "w1.l1.f13"
           },
           {
-            "id": "w1c68p2",
+            "id": "w1c68p1s2",
             "kind": "example",
             "title": "TV sequence (2)",
             "lines": [],
@@ -347,6 +337,11 @@
               "type": "journey",
               "spec": {
                 "nodes": [
+                  {
+                    "label": "HD, plasma",
+                    "detail": "",
+                    "icon": "gear"
+                  },
                   {
                     "label": "LED, LCD",
                     "detail": "",
@@ -360,14 +355,13 @@
           {
             "id": "w1c69",
             "kind": "example",
-            "title": "Mobiles in India",
+            "title": "Mobile-phone evolution",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "1996",
-                "detail": "Heavy to smart, ~2-year life",
-                "icon": "clock"
+                "label": "Mobile phones changed rapidly",
+                "detail": "The lecture traces phones in India from bulky devices in 1996 to smartphones with much shorter product lives."
               }
             },
             "factId": "w1.l1.f14"
@@ -436,17 +430,17 @@
                 "items": [
                   {
                     "label": "Ola, Uber",
-                    "detail": "Own no taxis",
+                    "detail": "Operate a platform connecting riders and drivers",
                     "icon": "rocket"
                   },
                   {
                     "label": "Alibaba",
-                    "detail": "Holds no inventory",
+                    "detail": "Connects buyers and sellers without holding the listed inventory",
                     "icon": "coin"
                   },
                   {
                     "label": "WhatsApp, Gmail",
-                    "detail": "Free, still profitable",
+                    "detail": "Offer a free core service through a different revenue model",
                     "icon": "spark"
                   }
                 ]
@@ -457,14 +451,13 @@
           {
             "id": "w1c73",
             "kind": "concept",
-            "title": "Course aim",
+            "title": "Why commercialisation matters",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Commercialise",
-                "detail": "Innovation, jobs, national growth",
-                "icon": "target"
+                "label": "Turn innovation into use and value",
+                "detail": "Commercialisation can create jobs and support economic growth."
               }
             },
             "factId": "w1.l1.f18"
@@ -606,30 +599,6 @@
             "factId": "w1.l2.f03"
           },
           {
-            "id": "w1c17",
-            "kind": "concept",
-            "title": "Not the I's",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Right",
-                    "detail": "Idea, Implementation, Impact",
-                    "icon": "bulb"
-                  },
-                  {
-                    "label": "Wrong",
-                    "detail": "Integration, Industry",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w1.l2.f04"
-          },
-          {
             "id": "w1c18",
             "kind": "concept",
             "title": "Invention",
@@ -690,16 +659,15 @@
           {
             "id": "w1c20",
             "kind": "concept",
-            "title": "Lab is not market",
+            "title": "From laboratory to use",
             "lines": [
               "Lab prototype, report, dissertation: invention only."
             ],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Invention",
-                "detail": "Stays in lab or file",
-                "icon": "flask"
+                "label": "An invention needs impact to become innovation",
+                "detail": "A working invention alone may remain in a laboratory or a file."
               }
             },
             "factId": "w1.l2.f07"
@@ -752,16 +720,15 @@
           {
             "id": "w1c23",
             "kind": "example",
-            "title": "Gandhi",
+            "title": "Novelty in implementation",
             "lines": [
               "Old idea, new implementation: non-violence as mass movement."
             ],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Implementation",
-                "detail": "Was the novelty",
-                "icon": "people"
+                "label": "Gandhi changed how an existing idea was used",
+                "detail": "Non-violence was not new. Its implementation as a mass movement was the innovation."
               }
             },
             "factId": "w1.l2.f10"
@@ -900,14 +867,13 @@
           {
             "id": "w1c78",
             "kind": "concept",
-            "title": "Linear myth",
+            "title": "Why the linear model misleads",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Expects instant profit",
-                "detail": "Founder gets depressed",
-                "icon": "heart"
+                "label": "Iteration takes time and money",
+                "detail": "Expecting an idea to produce immediate profit ignores the cost of repeated experiments."
               }
             },
             "factId": "w1.l2.f18"
@@ -915,7 +881,7 @@
           {
             "id": "w1c28",
             "kind": "remember",
-            "title": "Remember: equation",
+            "title": "Review: equation",
             "lines": [],
             "visual": {
               "type": "table",
@@ -941,7 +907,7 @@
           {
             "id": "w1c29",
             "kind": "remember",
-            "title": "Remember: myths",
+            "title": "Review: myths",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -1090,16 +1056,15 @@
           {
             "id": "w1c34",
             "kind": "example",
-            "title": "Inertia",
+            "title": "Overcoming inertia",
             "lines": [
               "Hanuman needed Jambavanth to remind him."
             ],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Mentor",
-                "detail": "Turns I cannot to I can",
-                "icon": "people"
+                "label": "A mentor can help overcome inertia",
+                "detail": "Encouragement can turn \"I cannot\" into \"I can\"."
               }
             },
             "factId": "w1.l3.f05"
@@ -1182,30 +1147,6 @@
               }
             },
             "factId": "w1.l3.f09"
-          },
-          {
-            "id": "w1c39",
-            "kind": "concept",
-            "title": "Unknown unknowns",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Key",
-                    "detail": "Ambiguity",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Not",
-                    "detail": "Uncertainty, volatility",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w1.l3.f10"
           },
           {
             "id": "w1c40",
@@ -1297,14 +1238,13 @@
           {
             "id": "w1c80",
             "kind": "concept",
-            "title": "VUCA origin",
+            "title": "Four kinds of change",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Harvard Business Review",
-                "detail": "Source of VUCA",
-                "icon": "bulb"
+                "label": "VUCA describes a changing business environment",
+                "detail": "Volatility, uncertainty, complexity and ambiguity."
               }
             },
             "factId": "w1.l3.f15"
@@ -1423,7 +1363,7 @@
           {
             "id": "w1c43",
             "kind": "remember",
-            "title": "Remember: resistance",
+            "title": "Review: resistance",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -1457,7 +1397,7 @@
           {
             "id": "w1c44",
             "kind": "remember",
-            "title": "Remember: VUCA",
+            "title": "Review: VUCA",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -1544,32 +1484,6 @@
               }
             },
             "factId": "w1.l4.f02"
-          },
-          {
-            "id": "w1c47",
-            "kind": "concept",
-            "title": "Breakthrough key",
-            "lines": [
-              "Landline to mobile is also breakthrough."
-            ],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Key",
-                    "detail": "Steam engine, wheel, fire",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Not",
-                    "detail": "2G to 3G",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w1.l4.f03"
           },
           {
             "id": "w1c48",
@@ -2322,9 +2236,9 @@
             "factId": "w1.l5.f11"
           },
           {
-            "id": "w1c66",
+            "id": "w1c66s1",
             "kind": "concept",
-            "title": "Six Thinking Hats",
+            "title": "Six Thinking Hats (1)",
             "lines": [
               "Edward de Bono."
             ],
@@ -2351,7 +2265,23 @@
                     "label": "Yellow",
                     "detail": "Values, benefits",
                     "color": "#f5c400"
-                  },
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f12"
+          },
+          {
+            "id": "w1c66s2",
+            "kind": "concept",
+            "title": "Six Thinking Hats (2)",
+            "lines": [
+              "Edward de Bono."
+            ],
+            "visual": {
+              "type": "hats",
+              "spec": {
+                "items": [
                   {
                     "label": "Green",
                     "detail": "Creativity",
@@ -2429,14 +2359,13 @@
           {
             "id": "w1c102",
             "kind": "concept",
-            "title": "Cross-functional",
+            "title": "Why cross-functional teams matter",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Why",
-                "detail": "Quality, cost, delivery, features span functions",
-                "icon": "people"
+                "label": "Design needs several functions working together",
+                "detail": "Quality, cost, delivery and features span different parts of an organisation."
               }
             },
             "factId": "w1.l5.f16"
@@ -2508,7 +2437,7 @@
           {
             "id": "w1c67",
             "kind": "remember",
-            "title": "Remember: schools",
+            "title": "Review: schools",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -2539,48 +2468,24 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Innovation equation (1)",
+        "heading": "Innovation equation",
         "bullets": [],
         "visual": {
-          "type": "equation",
+          "type": "table",
           "spec": {
-            "nodes": [
-              {
-                "label": "Idea",
-                "detail": "",
-                "icon": "bulb"
-              },
-              {
-                "label": "+ Implementation",
-                "detail": "",
-                "icon": "gear"
-              },
-              {
-                "label": "= Invention",
-                "detail": "",
-                "icon": "flask"
-              },
-              {
-                "label": "+ Impact",
-                "detail": "",
-                "icon": "rocket"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Innovation equation (2)",
-        "bullets": [],
-        "visual": {
-          "type": "equation",
-          "spec": {
-            "nodes": [
-              {
-                "label": "= Innovation",
-                "detail": "",
-                "icon": "bulb"
-              }
+            "headers": [
+              "Inputs",
+              "Result"
+            ],
+            "rows": [
+              [
+                "Idea + implementation",
+                "Invention"
+              ],
+              [
+                "Invention + impact",
+                "Innovation"
+              ]
             ]
           }
         }
@@ -2607,10 +2512,6 @@
               [
                 "Just risk-taking",
                 "Risk + assessment + mitigation"
-              ],
-              [
-                "Solo work",
-                "Team activity"
               ]
             ]
           }
@@ -2628,6 +2529,10 @@
             ],
             "rows": [
               [
+                "Solo work",
+                "Team activity"
+              ],
+              [
                 "Drucker: entrepreneurs' tool",
                 "Exploit change as opportunity"
               ]
@@ -2636,10 +2541,10 @@
         }
       },
       {
-        "heading": "Business pressures",
+        "heading": "Business pressures (1)",
         "bullets": [],
         "visual": {
-          "type": "tiles",
+          "type": "business-pressure",
           "spec": {
             "items": [
               {
@@ -2656,7 +2561,18 @@
                 "label": "High uncertainty",
                 "detail": "Kedarnath, Delhi smog",
                 "icon": "eye"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Business pressures (2)",
+        "bullets": [],
+        "visual": {
+          "type": "business-pressure",
+          "spec": {
+            "items": [
               {
                 "label": "Global impact",
                 "detail": "Apple: US, China, world",
@@ -2667,7 +2583,7 @@
         }
       },
       {
-        "heading": "Resistance to change: 4 forms",
+        "heading": "Resistance to change: 4 forms (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2687,7 +2603,18 @@
                 "label": "Inertia",
                 "detail": "I cannot: needs mentor",
                 "icon": "gear"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Resistance to change: 4 forms (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Low confidence",
                 "detail": "Disbelief in own ability",
@@ -2698,7 +2625,7 @@
         }
       },
       {
-        "heading": "VUCA",
+        "heading": "VUCA (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2719,7 +2646,22 @@
               [
                 "Complexity",
                 "Named only: no definition taught"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "VUCA (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Ambiguity",
                 "No precedent: unknown unknowns"
@@ -2729,7 +2671,7 @@
         }
       },
       {
-        "heading": "Elephant, rider, incremental, breakthrough",
+        "heading": "Elephant, rider, incremental, breakthrough (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2750,7 +2692,22 @@
               [
                 "Incremental",
                 "Kaizen, 2G to 3G to 4G"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Elephant, rider, incremental, breakthrough (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Breakthrough",
                 "Steam engine, wheel, fire"
@@ -2760,7 +2717,7 @@
         }
       },
       {
-        "heading": "Frugal innovation",
+        "heading": "Frugal innovation (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2780,7 +2737,18 @@
                 "label": "Goal",
                 "detail": "Greatest value, lowest cost",
                 "icon": "coin"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Frugal innovation (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Avoid",
                 "detail": "Technical wow, marketing myopia",
@@ -2791,7 +2759,7 @@
         }
       },
       {
-        "heading": "Four areas of innovation",
+        "heading": "Four areas of innovation (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -2812,7 +2780,22 @@
               [
                 "Customer experience",
                 "Tracking, Facebook reminders"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four areas of innovation (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Area",
+              "Examples"
+            ],
+            "rows": [
               [
                 "Business model",
                 "Free core service, IPL"
@@ -2822,7 +2805,7 @@
         }
       },
       {
-        "heading": "Three schools of thinking (1)",
+        "heading": "Three schools of thinking",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -2837,18 +2820,7 @@
                 "label": "Systems",
                 "detail": "Leverage point, Senge, Goldratt",
                 "icon": "target"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Three schools of thinking (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Lateral",
                 "detail": "Known idea, new context",
@@ -2859,7 +2831,7 @@
         }
       },
       {
-        "heading": "Six Thinking Hats",
+        "heading": "Six Thinking Hats (1)",
         "bullets": [],
         "visual": {
           "type": "hats",
@@ -2879,7 +2851,18 @@
                 "label": "Red",
                 "detail": "Feelings",
                 "color": "#e03131"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Six Thinking Hats (2)",
+        "bullets": [],
+        "visual": {
+          "type": "hats",
+          "spec": {
+            "items": [
               {
                 "label": "Yellow",
                 "detail": "Values, benefits",
@@ -3096,14 +3079,13 @@
           {
             "id": "w2c7",
             "kind": "example",
-            "title": "Motivation",
+            "title": "Motivation and Maslow",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Maslow",
-                "detail": "Stuck below top needs",
-                "icon": "chart"
+                "label": "Motivation extends beyond basic needs",
+                "detail": "The lecture uses Maslow to discuss higher needs and the motivation to innovate."
               }
             },
             "factId": "w2.l1.f07"
@@ -3183,14 +3165,13 @@
           {
             "id": "w2c11",
             "kind": "example",
-            "title": "Diversity",
+            "title": "Why diversity matters",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Six Hats",
-                "detail": "All one colour fails",
-                "icon": "hat"
+                "label": "Diversity brings different ways of thinking",
+                "detail": "A team using only one thinking style is like using just one of the Six Thinking Hats."
               }
             },
             "factId": "w2.l1.f11"
@@ -3198,14 +3179,13 @@
           {
             "id": "w2c12",
             "kind": "example",
-            "title": "Internal heroes",
+            "title": "Building internal heroes",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Employee of month",
-                "detail": "Board, photo",
-                "icon": "people"
+                "label": "Make internal innovators visible",
+                "detail": "An employee-of-the-month board and photo can recognise effort and create role models."
               }
             },
             "factId": "w2.l1.f12"
@@ -3228,14 +3208,13 @@
           {
             "id": "w2c62",
             "kind": "example",
-            "title": "Motivation levels",
+            "title": "Higher-level motivation",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Maslow top two",
-                "detail": "Higher needs, few reach them",
-                "icon": "chart"
+                "label": "Higher needs can motivate innovation",
+                "detail": "The lecture points to Maslow's highest needs rather than basic needs alone."
               }
             },
             "factId": "w2.l1.f14"
@@ -3248,9 +3227,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Many roles",
-                "detail": "Unsure of exact role",
-                "icon": "people"
+                "label": "Unclear roles make participation harder",
+                "detail": "People need to know what is expected of them and where they can contribute."
               }
             },
             "factId": "w2.l1.f15"
@@ -3315,20 +3293,19 @@
           {
             "id": "w2c15",
             "kind": "concept",
-            "title": "Why ideas matter",
+            "title": "Ideas and competitiveness",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "97%",
-                "detail": "Fortune 500: new ideas most important",
-                "icon": "chart"
+                "label": "New ideas matter to large firms",
+                "detail": "The lecture cites 97% of surveyed Fortune 500 firms identifying new ideas as important."
               }
             },
             "factId": "w2.l2.f02"
           },
           {
-            "id": "w2c16p1",
+            "id": "w2c16p1s1",
             "kind": "concept",
             "title": "Five steps (1)",
             "lines": [],
@@ -3350,11 +3327,6 @@
                     "label": "Experiment",
                     "detail": "",
                     "icon": "flask"
-                  },
-                  {
-                    "label": "Business model",
-                    "detail": "",
-                    "icon": "coin"
                   }
                 ]
               }
@@ -3362,7 +3334,7 @@
             "factId": "w2.l2.f03"
           },
           {
-            "id": "w2c16p2",
+            "id": "w2c16p1s2",
             "kind": "concept",
             "title": "Five steps (2)",
             "lines": [],
@@ -3370,6 +3342,11 @@
               "type": "journey",
               "spec": {
                 "nodes": [
+                  {
+                    "label": "Business model",
+                    "detail": "",
+                    "icon": "coin"
+                  },
                   {
                     "label": "Diffusion, impact",
                     "detail": "",
@@ -3379,37 +3356,6 @@
               }
             },
             "factId": "w2.l2.f03"
-          },
-          {
-            "id": "w2c17",
-            "kind": "concept",
-            "title": "Steps 2-4",
-            "lines": [
-              "Collection, then these three, then diffusion."
-            ],
-            "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Selection of idea",
-                    "detail": "",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Experimentation with idea",
-                    "detail": "",
-                    "icon": "flask"
-                  },
-                  {
-                    "label": "Developing business model",
-                    "detail": "",
-                    "icon": "coin"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l2.f04"
           },
           {
             "id": "w2c18",
@@ -3458,9 +3404,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Faraday",
-                "detail": "999 ways it cannot work",
-                "icon": "flask"
+                "label": "Experiments teach what does not work",
+                "detail": "The lecture uses Faraday's repeated experiments to show the value of learning through attempts."
               }
             },
             "factId": "w2.l2.f07"
@@ -3538,59 +3483,6 @@
               }
             },
             "factId": "w2.l2.f11"
-          },
-          {
-            "id": "w2c23p1",
-            "kind": "remember",
-            "title": "Remember (1)",
-            "lines": [],
-            "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Collect",
-                    "detail": "",
-                    "icon": "bulb"
-                  },
-                  {
-                    "label": "Select",
-                    "detail": "",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Experiment",
-                    "detail": "",
-                    "icon": "flask"
-                  },
-                  {
-                    "label": "Model",
-                    "detail": "",
-                    "icon": "coin"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l2.f12"
-          },
-          {
-            "id": "w2c23p2",
-            "kind": "remember",
-            "title": "Remember (2)",
-            "lines": [],
-            "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Impact",
-                    "detail": "",
-                    "icon": "rocket"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l2.f12"
           }
         ]
       },
@@ -4043,7 +3935,7 @@
                     "icon": "people"
                   },
                   {
-                    "label": "3 who's",
+                    "label": "Three decisions",
                     "detail": "Submit, select, fund",
                     "icon": "target"
                   }
@@ -4062,60 +3954,13 @@
         ],
         "cards": [
           {
-            "id": "w2c37",
-            "kind": "concept",
-            "title": "Thinking pairs",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Slow, fast",
-                    "detail": "",
-                    "icon": "clock"
-                  },
-                  {
-                    "label": "Divergent, convergent",
-                    "detail": "",
-                    "icon": "branch"
-                  },
-                  {
-                    "label": "Micro, macro",
-                    "detail": "",
-                    "icon": "eye"
-                  },
-                  {
-                    "label": "This, that",
-                    "detail": "",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l4.f01"
-          },
-          {
             "id": "w2c38",
             "kind": "concept",
-            "title": "Divergent",
+            "title": "Explore, then choose",
             "lines": [],
             "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Divergent",
-                    "detail": "Explore many solutions",
-                    "icon": "branch"
-                  },
-                  {
-                    "label": "Convergent",
-                    "detail": "Narrow to one",
-                    "icon": "target"
-                  }
-                ]
-              }
+              "type": "divergence",
+              "spec": {}
             },
             "factId": "w2.l4.f02"
           },
@@ -4272,14 +4117,13 @@
           {
             "id": "w2c45",
             "kind": "example",
-            "title": "Health ideas",
+            "title": "Exploring healthcare ideas",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Allopathy, ayurveda, homeopathy",
-                "detail": "",
-                "icon": "heart"
+                "label": "Healthcare can combine different approaches",
+                "detail": "The lecture discusses allopathy, Ayurveda and homeopathy as a prompt for exploring alternatives."
               }
             },
             "factId": "w2.l4.f09"
@@ -4287,31 +4131,23 @@
           {
             "id": "w2c46",
             "kind": "concept",
-            "title": "Transition phase",
+            "title": "The transition phase",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Interesting",
-                    "detail": "",
-                    "icon": "spark"
+                    "label": "Challenge",
+                    "detail": "The transition can be interesting, testing and difficult."
                   },
                   {
-                    "label": "Testing",
-                    "detail": "",
-                    "icon": "flask"
+                    "label": "Hope",
+                    "detail": "It can also open new possibilities."
                   },
                   {
-                    "label": "Difficult",
-                    "detail": "",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Brings hope",
-                    "detail": "",
-                    "icon": "heart"
+                    "label": "Cost",
+                    "detail": "Moving to a new state takes time and resources."
                   }
                 ]
               }
@@ -4336,26 +4172,23 @@
           {
             "id": "w2c48",
             "kind": "concept",
-            "title": "Change management",
+            "title": "Three responses to change",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Managed",
-                    "detail": "",
-                    "icon": "target"
+                    "label": "Manage change",
+                    "detail": "Act deliberately rather than only reacting."
                   },
                   {
-                    "label": "Passed through",
-                    "detail": "",
-                    "icon": "branch"
+                    "label": "Move through change",
+                    "detail": "The transition still has to be experienced."
                   },
                   {
-                    "label": "Change manages us",
-                    "detail": "",
-                    "icon": "lock"
+                    "label": "Be managed by change",
+                    "detail": "Without a response, events dictate the outcome."
                   }
                 ]
               }
@@ -4486,9 +4319,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Reflexivity",
-                "detail": "Central, not just a research method",
-                "icon": "eye"
+                "label": "Reflexivity means examining your own thinking",
+                "detail": "It is part of entrepreneurial practice, not only a research method."
               }
             },
             "factId": "w2.l5.f04"
@@ -4557,40 +4389,6 @@
             "factId": "w2.l5.f06"
           },
           {
-            "id": "w2c56",
-            "kind": "example",
-            "title": "Someone makes...",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Pencils",
-                    "detail": "",
-                    "icon": "gear"
-                  },
-                  {
-                    "label": "Robots",
-                    "detail": "",
-                    "icon": "gear"
-                  },
-                  {
-                    "label": "Hospitals",
-                    "detail": "",
-                    "icon": "heart"
-                  },
-                  {
-                    "label": "Ships",
-                    "detail": "",
-                    "icon": "globe"
-                  }
-                ]
-              }
-            },
-            "factId": "w2.l5.f07"
-          },
-          {
             "id": "w2c57",
             "kind": "example",
             "title": "Pencil",
@@ -4608,14 +4406,13 @@
           {
             "id": "w2c58",
             "kind": "example",
-            "title": "Institutions",
+            "title": "Innovation in institutions",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Bankruptcy of thoughts",
-                "detail": "In institutional development",
-                "icon": "lock"
+                "label": "Institutions also need fresh thinking",
+                "detail": "The lecture challenges a lack of new ideas in institutional development."
               }
             },
             "factId": "w2.l5.f09"
@@ -4688,7 +4485,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Individual challenges",
+        "heading": "Individual challenges (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -4708,7 +4505,18 @@
                 "label": "Fear of failure",
                 "detail": "Individual, not systemic",
                 "icon": "shield"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Individual challenges (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Chalta hai",
                 "detail": "Status-quo attitude",
@@ -4740,10 +4548,6 @@
               [
                 "Innovation strategy",
                 "None"
-              ],
-              [
-                "Empowerment",
-                "Employees not empowered"
               ]
             ]
           }
@@ -4761,13 +4565,32 @@
             ],
             "rows": [
               [
+                "Empowerment",
+                "Employees not empowered"
+              ],
+              [
                 "Centralised",
                 "One functional group"
               ],
               [
                 "Collaboration, diversity",
                 "Lacking"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Organisational challenges (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Challenge",
+              "Detail"
+            ],
+            "rows": [
               [
                 "Complacency",
                 "Current offerings successful"
@@ -4802,10 +4625,6 @@
               [
                 "3",
                 "Experiment"
-              ],
-              [
-                "4",
-                "Business model"
               ]
             ]
           }
@@ -4822,6 +4641,10 @@
               "Stage"
             ],
             "rows": [
+              [
+                "4",
+                "Business model"
+              ],
               [
                 "5",
                 "Diffusion, impact"
@@ -4852,10 +4675,6 @@
               [
                 "Profit",
                 "Economic"
-              ],
-              [
-                "Divergent",
-                "Explore many solutions"
               ]
             ]
           }
@@ -4873,6 +4692,10 @@
             ],
             "rows": [
               [
+                "Divergent",
+                "Explore many solutions"
+              ],
+              [
                 "Convergent",
                 "Narrow to one"
               ]
@@ -4881,7 +4704,7 @@
         }
       },
       {
-        "heading": "Idea management system (1)",
+        "heading": "Idea management system",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -4896,18 +4719,7 @@
                 "label": "Processes",
                 "detail": "Idea mgmt, buzz, training",
                 "icon": "bulb"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Idea management system (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Asks",
                 "detail": "Who submits, selects, funds",
@@ -4918,7 +4730,7 @@
         }
       },
       {
-        "heading": "Challenge book",
+        "heading": "Challenge book (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4939,7 +4751,22 @@
               [
                 "See the waste",
                 "Human effort, natural, technology resources"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Challenge book (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Source",
+              "Look at"
+            ],
+            "rows": [
               [
                 "Ratan Tata",
                 "Difficult challenges bring innovation"
@@ -4970,10 +4797,6 @@
               [
                 "3",
                 "Difficult"
-              ],
-              [
-                "4",
-                "Brings hope"
               ]
             ]
           }
@@ -4991,6 +4814,10 @@
             ],
             "rows": [
               [
+                "4",
+                "Brings hope"
+              ],
+              [
                 "5",
                 "Incurs cost"
               ]
@@ -4999,7 +4826,7 @@
         }
       },
       {
-        "heading": "Design thinking, entrepreneur",
+        "heading": "Design thinking, entrepreneur (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -5019,7 +4846,18 @@
                 "label": "Jamshedji Tata",
                 "detail": "Mill, cr\u00e8che, steel",
                 "icon": "factory"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Design thinking, entrepreneur (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Himalaya fires",
                 "detail": "Pine needles to energy",
@@ -5260,9 +5098,9 @@
             "factId": "w3.l1.f10"
           },
           {
-            "id": "w3c11",
+            "id": "w3c11s1",
             "kind": "example",
-            "title": "Child-safe app mapping",
+            "title": "Child-safe app mapping (1)",
             "lines": [],
             "visual": {
               "type": "table",
@@ -5279,7 +5117,25 @@
                   [
                     "Technical",
                     "Child psychology + social media expertise"
-                  ],
+                  ]
+                ]
+              }
+            },
+            "factId": "w3.l1.f11"
+          },
+          {
+            "id": "w3c11s2",
+            "kind": "example",
+            "title": "Child-safe app mapping (2)",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Type",
+                  "Assumption"
+                ],
+                "rows": [
                   [
                     "Production",
                     "App versions for Android, iOS"
@@ -5412,14 +5268,13 @@
           {
             "id": "w3c17",
             "kind": "concept",
-            "title": "Chief villain",
+            "title": "The failure fallacy",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Failure fallacy",
-                "detail": "Main villain of experimentation",
-                "icon": "lock"
+                "label": "Fear of failure blocks experimentation",
+                "detail": "Treat an experiment as a chance to learn, not a verdict on your ability."
               }
             },
             "factId": "w3.l1.f17"
@@ -5451,7 +5306,7 @@
           {
             "id": "w3c19",
             "kind": "remember",
-            "title": "Remember: experiments",
+            "title": "Review: experiments",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -5548,14 +5403,13 @@
           {
             "id": "w3c23",
             "kind": "concept",
-            "title": "Champion vs originator",
+            "title": "Originator vs champion",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Not the originator",
-                "detail": "May lack platform",
-                "icon": "people"
+                "label": "An originator and a champion need not be the same person",
+                "detail": "An idea's originator may lack the platform or influence to win support."
               }
             },
             "factId": "w3.l2.f04"
@@ -5578,14 +5432,13 @@
           {
             "id": "w3c25",
             "kind": "concept",
-            "title": "Sticky idea",
+            "title": "Making an idea stick",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Made to Stick",
-                "detail": "Idea stays permanently with audience",
-                "icon": "target"
+                "label": "A sticky idea stays with its audience",
+                "detail": "Concrete content, curiosity and credibility help an idea be remembered."
               }
             },
             "factId": "w3.l2.f06"
@@ -5618,30 +5471,6 @@
               }
             },
             "factId": "w3.l2.f07"
-          },
-          {
-            "id": "w3c27",
-            "kind": "concept",
-            "title": "Not a C",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Requirement",
-                    "detail": "Concrete, Curiosity, Credibility",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Not required",
-                    "detail": "Concern",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w3.l2.f08"
           },
           {
             "id": "w3c28",
@@ -5826,14 +5655,13 @@
           {
             "id": "w3c36",
             "kind": "concept",
-            "title": "Who is champion",
+            "title": "Identifying the champion",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Jaya",
-                "detail": "Leader: made people accept, work",
-                "icon": "target"
+                "label": "Jaya is the champion in this case",
+                "detail": "She used her leadership to win acceptance and get the idea implemented."
               }
             },
             "factId": "w3.l2.f17"
@@ -5841,7 +5669,7 @@
           {
             "id": "w3c37",
             "kind": "remember",
-            "title": "Remember: champion",
+            "title": "Review: champion",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -6158,14 +5986,13 @@
           {
             "id": "w3c51",
             "kind": "concept",
-            "title": "Recognition key",
+            "title": "Recognising contributions",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "All of these",
-                "detail": "Each recognises employees' efforts",
-                "icon": "target"
+                "label": "Recognition can take several forms",
+                "detail": "Cash, a public photo, a retreat or inviting the family can recognise employees' ideas."
               }
             },
             "factId": "w3.l3.f14"
@@ -6222,7 +6049,7 @@
           {
             "id": "w3c54",
             "kind": "remember",
-            "title": "Remember: participation",
+            "title": "Review: participation",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -6328,14 +6155,13 @@
           {
             "id": "w3c58",
             "kind": "concept",
-            "title": "Value statements",
+            "title": "Two ideas about value",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Both true",
-                "detail": "Value-added split; value is core",
-                "icon": "target"
+                "label": "Value is central to exchange",
+                "detail": "Separate value-adding activities from activities that do not add value."
               }
             },
             "factId": "w3.l4.f04"
@@ -6606,7 +6432,7 @@
           {
             "id": "w3c70",
             "kind": "remember",
-            "title": "Remember: co-creation",
+            "title": "Review: co-creation",
             "lines": [],
             "visual": {
               "type": "compare",
@@ -6639,14 +6465,13 @@
           {
             "id": "w3c71",
             "kind": "concept",
-            "title": "Kishore Biyani",
+            "title": "Prototyping in practice",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Prototyping",
-                "detail": "Crucial in everything attempted",
-                "icon": "target"
+                "label": "Prototype before committing at scale",
+                "detail": "Kishore Biyani emphasises prototyping in the ventures he attempts."
               }
             },
             "factId": "w3.l5.f01"
@@ -7053,14 +6878,13 @@
           {
             "id": "w3c90",
             "kind": "concept",
-            "title": "Graduate",
+            "title": "Leaving the incubator",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Graduation",
-                "detail": "Stand and run on own legs",
-                "icon": "rocket"
+                "label": "Graduation means becoming self-sustaining",
+                "detail": "The venture should be able to operate without the incubator's support."
               }
             },
             "factId": "w3.l5.f20"
@@ -7068,7 +6892,7 @@
           {
             "id": "w3c91",
             "kind": "remember",
-            "title": "Remember: incubation",
+            "title": "Review: incubation",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -7104,7 +6928,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Four assumption types",
+        "heading": "Four assumption types (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7125,7 +6949,22 @@
               [
                 "Production",
                 "Can we build, supply, scale?"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four assumption types (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Type",
+              "Asks"
+            ],
+            "rows": [
               [
                 "Commercial",
                 "Will money come in?"
@@ -7135,7 +6974,7 @@
         }
       },
       {
-        "heading": "Experimentation facts",
+        "heading": "Experimentation facts (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7155,7 +6994,18 @@
                 "label": "Villain",
                 "detail": "Failure fallacy",
                 "icon": "lock"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Experimentation facts (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Taleb",
                 "detail": "Fail with pride",
@@ -7166,7 +7016,7 @@
         }
       },
       {
-        "heading": "Idea champion",
+        "heading": "Idea champion (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7186,7 +7036,18 @@
                 "label": "Not a C",
                 "detail": "Concern",
                 "icon": "lock"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Idea champion (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Schumpeter",
                 "detail": "Resistance: villain of diffusion",
@@ -7197,7 +7058,7 @@
         }
       },
       {
-        "heading": "Participation elements",
+        "heading": "Participation elements (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7218,7 +7079,22 @@
               [
                 "Innovation catalyst",
                 "Encourages, constructive input"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Participation elements (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Element",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Rewards, recognition",
                 "Idea givers appreciated"
@@ -7228,7 +7104,7 @@
         }
       },
       {
-        "heading": "Ways to recognise ideas",
+        "heading": "Ways to recognise ideas (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7248,7 +7124,18 @@
                 "label": "Holiday retreat",
                 "detail": "Top idea givers",
                 "icon": "heart"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Ways to recognise ideas (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Family invite",
                 "detail": "Maruti idea givers",
@@ -7290,7 +7177,7 @@
         }
       },
       {
-        "heading": "Co-creation",
+        "heading": "Co-creation (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -7310,7 +7197,18 @@
                 "label": "Heart",
                 "detail": "Customer, employee creativity",
                 "icon": "bulb"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Co-creation (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Fits",
                 "detail": "Rural, bottom of pyramid",
@@ -7336,6 +7234,11 @@
                 "label": "Rapid prototyping",
                 "detail": "Early experiments",
                 "icon": "rocket"
+              },
+              {
+                "label": "Measure",
+                "detail": "Process, not only output",
+                "icon": "chart"
               }
             ]
           }
@@ -7349,11 +7252,6 @@
           "spec": {
             "items": [
               {
-                "label": "Measure",
-                "detail": "Process, not only output",
-                "icon": "chart"
-              },
-              {
                 "label": "Incubator types",
                 "detail": "HEI, private, independent, company",
                 "icon": "factory"
@@ -7363,7 +7261,7 @@
         }
       },
       {
-        "heading": "Incubation review",
+        "heading": "Incubation review (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -7384,7 +7282,22 @@
               [
                 "3",
                 "Incubate: Or mentorship, re-review"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Incubation review (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Step",
+              "Stage"
+            ],
+            "rows": [
               [
                 "4",
                 "Graduate: Self-sustaining"
@@ -7650,30 +7563,6 @@
             "factId": "w4.l1.f10"
           },
           {
-            "id": "w4c11",
-            "kind": "concept",
-            "title": "Official: scenario statements",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Statement 1",
-                    "detail": "Never directed by models: false",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Statement 2",
-                    "detail": "Needs, people integration direct it: true",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l1.f11"
-          },
-          {
             "id": "w4c12",
             "kind": "concept",
             "title": "Forces shaping scenario",
@@ -7727,7 +7616,7 @@
             "factId": "w4.l1.f13"
           },
           {
-            "id": "w4c14p1",
+            "id": "w4c14p1s1",
             "kind": "example",
             "title": "Company roster (1)",
             "lines": [],
@@ -7761,7 +7650,7 @@
             "factId": "w4.l1.f14"
           },
           {
-            "id": "w4c14p2",
+            "id": "w4c14p1s2",
             "kind": "example",
             "title": "Company roster (2)",
             "lines": [],
@@ -7863,21 +7752,6 @@
             "factId": "w4.l2.f01"
           },
           {
-            "id": "w4c17",
-            "kind": "concept",
-            "title": "Official: entrepreneur",
-            "lines": [],
-            "visual": {
-              "type": "key",
-              "spec": {
-                "label": "Entrepreneur",
-                "detail": "Organises, manages, takes risks",
-                "icon": "rocket"
-              }
-            },
-            "factId": "w4.l2.f02"
-          },
-          {
             "id": "w4c18",
             "kind": "concept",
             "title": "Qualities needed",
@@ -7972,14 +7846,13 @@
           {
             "id": "w4c22",
             "kind": "concept",
-            "title": "Does background matter?",
+            "title": "Choosing a business",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Not limiting",
-                "detail": "Avoid fads like apps",
-                "icon": "eye"
+                "label": "Your background does not fix your business choice",
+                "detail": "Choose a business you understand rather than following a fashionable category."
               }
             },
             "factId": "w4.l2.f07"
@@ -8098,16 +7971,15 @@
           {
             "id": "w4c27",
             "kind": "concept",
-            "title": "Social = marketing's value",
+            "title": "Value beyond the transaction",
             "lines": [
               "Marketing exchanges offerings with value for society at large."
             ],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Same principle",
-                "detail": "Social, marketing, entrepreneurship",
-                "icon": "heart"
+                "label": "Social entrepreneurship creates value for people",
+                "detail": "It applies entrepreneurial effort to social needs."
               }
             },
             "factId": "w4.l3.f02"
@@ -8177,35 +8049,6 @@
             "factId": "w4.l3.f05"
           },
           {
-            "id": "w4c31",
-            "kind": "concept",
-            "title": "Official: three statements",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Statement 1",
-                    "detail": "Positive impact explorer: true",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Statement 2",
-                    "detail": "Owns for-profit business: false",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Statement 3",
-                    "detail": "Funding social solutions: true",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l3.f06"
-          },
-          {
             "id": "w4c32",
             "kind": "concept",
             "title": "Not philanthropy",
@@ -8232,7 +8075,7 @@
           {
             "id": "w4c33",
             "kind": "concept",
-            "title": "Official: social examples",
+            "title": "social examples",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -8261,7 +8104,7 @@
           {
             "id": "w4c34",
             "kind": "concept",
-            "title": "Official: not social",
+            "title": "not social",
             "lines": [],
             "visual": {
               "type": "compare",
@@ -8441,7 +8284,7 @@
           {
             "id": "w4c41p1",
             "kind": "remember",
-            "title": "Remember (1)",
+            "title": "Remember",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -8456,21 +8299,7 @@
                     "label": "Not",
                     "detail": "Just owning for-profit firm",
                     "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l3.f16"
-          },
-          {
-            "id": "w4c41p2",
-            "kind": "remember",
-            "title": "Remember (2)",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
+                  },
                   {
                     "label": "Yes",
                     "detail": "Grameen, Aravind, Study Hall",
@@ -8522,20 +8351,19 @@
           {
             "id": "w4c43",
             "kind": "concept",
-            "title": "Reconstruct market boundaries",
+            "title": "Reconstructing market boundaries",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Six paths",
-                "detail": "Look across",
-                "icon": "target"
+                "label": "Look across market boundaries",
+                "detail": "The six paths help identify alternatives to competing within an existing market."
               }
             },
             "factId": "w4.l4.f02"
           },
           {
-            "id": "w4c44p1",
+            "id": "w4c44p1s1",
             "kind": "concept",
             "title": "Six paths (1)",
             "lines": [],
@@ -8569,7 +8397,7 @@
             "factId": "w4.l4.f03"
           },
           {
-            "id": "w4c44p2",
+            "id": "w4c44p1s2",
             "kind": "concept",
             "title": "Six paths (2)",
             "lines": [],
@@ -8591,30 +8419,6 @@
               }
             },
             "factId": "w4.l4.f03"
-          },
-          {
-            "id": "w4c45",
-            "kind": "concept",
-            "title": "Not a path",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Not a path",
-                    "detail": "Look across space",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Paths",
-                    "detail": "Industries, groups, buyers, offerings, appeal, time",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l4.f04"
           },
           {
             "id": "w4c46",
@@ -8784,14 +8588,13 @@
           {
             "id": "w4c52",
             "kind": "concept",
-            "title": "Big picture, not numbers",
+            "title": "Visualising strategy",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Four visual steps",
-                "detail": "Exercise to see the big picture",
-                "icon": "eye"
+                "label": "See the strategic picture before focusing on numbers",
+                "detail": "Use visual awakening, exploration, a strategy fair and communication."
               }
             },
             "factId": "w4.l4.f11"
@@ -8829,21 +8632,6 @@
               }
             },
             "factId": "w4.l4.f12"
-          },
-          {
-            "id": "w4c54",
-            "kind": "concept",
-            "title": "Official: four visual steps",
-            "lines": [],
-            "visual": {
-              "type": "key",
-              "spec": {
-                "label": "Four visual steps",
-                "detail": "Awakening, exploration, fair, communication",
-                "icon": "target"
-              }
-            },
-            "factId": "w4.l4.f13"
           },
           {
             "id": "w4c55",
@@ -9011,57 +8799,30 @@
             "title": "Four Actions Framework",
             "lines": [],
             "visual": {
-              "type": "tiles",
+              "type": "matrix",
               "spec": {
                 "items": [
                   {
                     "label": "Eliminate",
-                    "detail": "",
-                    "icon": "lock"
+                    "detail": "Which accepted factors should disappear?"
                   },
                   {
                     "label": "Reduce",
-                    "detail": "",
-                    "icon": "chart"
+                    "detail": "Which factors should fall below industry standard?"
                   },
                   {
                     "label": "Raise",
-                    "detail": "",
-                    "icon": "rocket"
+                    "detail": "Which factors should exceed industry standard?"
                   },
                   {
                     "label": "Create",
-                    "detail": "",
-                    "icon": "bulb"
+                    "detail": "Which factors has the industry never offered?"
                   }
-                ]
+                ],
+                "axis": "Change existing factors \u00b7 introduce new value"
               }
             },
             "factId": "w4.l5.f03"
-          },
-          {
-            "id": "w4c62",
-            "kind": "concept",
-            "title": "Official: missing elements",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Right",
-                    "detail": "Reduce and Raise",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Wrong",
-                    "detail": "Reuse, Recycle, Recreate",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l5.f04"
           },
           {
             "id": "w4c63",
@@ -9238,35 +8999,6 @@
             "factId": "w4.l5.f10"
           },
           {
-            "id": "w4c69",
-            "kind": "example",
-            "title": "Strategy canvas",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Patanjali Ayurveda",
-                    "detail": "Own canvas in slides",
-                    "icon": "leaf"
-                  },
-                  {
-                    "label": "DoMS IIT Roorkee",
-                    "detail": "Own canvas",
-                    "icon": "people"
-                  },
-                  {
-                    "label": "Bio-residue energy",
-                    "detail": "Own canvas",
-                    "icon": "leaf"
-                  }
-                ]
-              }
-            },
-            "factId": "w4.l5.f11"
-          },
-          {
             "id": "w4c70",
             "kind": "remember",
             "title": "Remember",
@@ -9328,7 +9060,7 @@
         }
       },
       {
-        "heading": "Entrepreneur",
+        "heading": "Entrepreneur (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -9348,7 +9080,18 @@
                 "label": "Not needed",
                 "detail": "Physical appeal",
                 "icon": "lock"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Entrepreneur (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Avoid",
                 "detail": "Chasing fads and buzz",
@@ -9374,6 +9117,11 @@
                 "label": "Is not",
                 "detail": "Merely owning a for-profit firm",
                 "icon": "lock"
+              },
+              {
+                "label": "Yes",
+                "detail": "Grameen, Aravind, Study Hall",
+                "icon": "target"
               }
             ]
           }
@@ -9386,11 +9134,6 @@
           "type": "tiles",
           "spec": {
             "items": [
-              {
-                "label": "Yes",
-                "detail": "Grameen, Aravind, Study Hall",
-                "icon": "target"
-              },
               {
                 "label": "No",
                 "detail": "Plastic bottles for profit",
@@ -9422,10 +9165,6 @@
               [
                 "Chain of buyers",
                 "Novo Nordisk"
-              ],
-              [
-                "Complementary offerings",
-                "Education extras"
               ]
             ]
           }
@@ -9443,13 +9182,32 @@
             ],
             "rows": [
               [
+                "Complementary offerings",
+                "Education extras"
+              ],
+              [
                 "Emotional or functional",
                 "Cemex"
               ],
               [
                 "Time",
                 "Apple music"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Six paths, Kahneman (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Look across",
+              "Example"
+            ],
+            "rows": [
               [
                 "Not a path",
                 "Space"
@@ -9463,7 +9221,7 @@
         }
       },
       {
-        "heading": "Four visual steps",
+        "heading": "Four visual steps (1)",
         "bullets": [],
         "visual": {
           "type": "journey",
@@ -9483,7 +9241,18 @@
                 "label": "Visual strategy fair",
                 "detail": "World cafe",
                 "icon": "people"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four visual steps (2)",
+        "bullets": [],
+        "visual": {
+          "type": "journey",
+          "spec": {
+            "nodes": [
               {
                 "label": "Visual communication",
                 "detail": "Among peers",
@@ -9494,10 +9263,10 @@
         }
       },
       {
-        "heading": "Four Actions",
+        "heading": "Four Actions (1)",
         "bullets": [],
         "visual": {
-          "type": "tiles",
+          "type": "matrix",
           "spec": {
             "items": [
               {
@@ -9514,18 +9283,31 @@
                 "label": "Raise",
                 "detail": "Above standard",
                 "icon": "rocket"
-              },
+              }
+            ],
+            "axis": "Eliminate / reduce \u00b7 raise / create"
+          }
+        }
+      },
+      {
+        "heading": "Four Actions (2)",
+        "bullets": [],
+        "visual": {
+          "type": "matrix",
+          "spec": {
+            "items": [
               {
                 "label": "Create",
                 "detail": "Never offered",
                 "icon": "bulb"
               }
-            ]
+            ],
+            "axis": "Eliminate / reduce \u00b7 raise / create"
           }
         }
       },
       {
-        "heading": "Cirque du Soleil",
+        "heading": "Cirque du Soleil (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -9546,7 +9328,22 @@
               [
                 "Raise",
                 "Unique venue"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Cirque du Soleil (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Action",
+              "What"
+            ],
+            "rows": [
               [
                 "Create",
                 "Theme, refined viewing, music, dance"
@@ -9635,9 +9432,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Intensity of efforts",
-                "detail": "Realising marketing needs commitment",
-                "icon": "target"
+                "label": "Marketing takes sustained effort",
+                "detail": "A definition is not enough: putting marketing into practice requires commitment."
               }
             },
             "factId": "w5.l1.f03"
@@ -9876,30 +9672,6 @@
             "factId": "w5.l2.f01"
           },
           {
-            "id": "w5c13",
-            "kind": "concept",
-            "title": "Official: invention statements",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Statement 1",
-                    "detail": "All inventions lead to innovation: false",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Statement 2",
-                    "detail": "Innovation = socially usable product: true",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w5.l2.f02"
-          },
-          {
             "id": "w5c14",
             "kind": "concept",
             "title": "Order",
@@ -9987,30 +9759,6 @@
             "factId": "w5.l2.f05"
           },
           {
-            "id": "w5c17",
-            "kind": "concept",
-            "title": "Not true of it",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Not true",
-                    "detail": "Creating new use of existing technology",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "True",
-                    "detail": "Complex, long, needs big investment",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w5.l2.f06"
-          },
-          {
             "id": "w5c18",
             "kind": "concept",
             "title": "Process definition",
@@ -10058,30 +9806,6 @@
               }
             },
             "factId": "w5.l2.f08"
-          },
-          {
-            "id": "w5c20",
-            "kind": "concept",
-            "title": "Official: process key",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "In key",
-                    "detail": "Basic research, development, co-creation, scaling, experimentation",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Not in key",
-                    "detail": "Societal impact, trial-and-error, excluding knowledge",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w5.l2.f09"
           },
           {
             "id": "w5c21",
@@ -10310,7 +10034,7 @@
           {
             "id": "w5c30",
             "kind": "concept",
-            "title": "Official: type to example",
+            "title": "type to example",
             "lines": [],
             "visual": {
               "type": "table",
@@ -10397,14 +10121,13 @@
           {
             "id": "w5c33",
             "kind": "example",
-            "title": "Incremental example",
+            "title": "Incremental innovation",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Car mileage",
-                "detail": "20 to higher km per litre",
-                "icon": "chart"
+                "label": "Improve fuel efficiency",
+                "detail": "Better kilometres per litre is an incremental improvement to an existing car."
               }
             },
             "factId": "w5.l3.f08"
@@ -10412,43 +10135,24 @@
           {
             "id": "w5c34",
             "kind": "concept",
-            "title": "S-curve",
+            "title": "Technology performance over time",
             "lines": [],
             "visual": {
-              "type": "journey",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Slow start",
-                    "detail": "",
-                    "icon": "clock"
-                  },
-                  {
-                    "label": "Rapid growth",
-                    "detail": "",
-                    "icon": "rocket"
-                  },
-                  {
-                    "label": "Maturity",
-                    "detail": "",
-                    "icon": "chart"
-                  }
-                ]
-              }
+              "type": "s-curve",
+              "spec": {}
             },
             "factId": "w5.l3.f09"
           },
           {
             "id": "w5c35",
             "kind": "concept",
-            "title": "S-curve use",
+            "title": "Using an S-curve",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "S-curve",
-                "detail": "Helps anticipate technology trajectory",
-                "icon": "eye"
+                "label": "An S-curve helps anticipate a technology's trajectory",
+                "detail": "Performance begins slowly, improves rapidly, then approaches maturity."
               }
             },
             "factId": "w5.l3.f10"
@@ -10493,21 +10197,6 @@
             "factId": "w5.l3.f12"
           },
           {
-            "id": "w5c38",
-            "kind": "concept",
-            "title": "Official: not true",
-            "lines": [],
-            "visual": {
-              "type": "key",
-              "spec": {
-                "label": "Indian firms",
-                "detail": "Mostly 3rd generation: not true",
-                "icon": "lock"
-              }
-            },
-            "factId": "w5.l3.f13"
-          },
-          {
             "id": "w5c39",
             "kind": "concept",
             "title": "R&D generations",
@@ -10532,7 +10221,7 @@
             "factId": "w5.l3.f14"
           },
           {
-            "id": "w5c40p1",
+            "id": "w5c40p1s1",
             "kind": "example",
             "title": "Corporate technology identity (1)",
             "lines": [],
@@ -10555,10 +10244,6 @@
                   [
                     "Honda",
                     "Engines and power trains"
-                  ],
-                  [
-                    "NEC",
-                    "VLSI, systems integration"
                   ]
                 ]
               }
@@ -10566,7 +10251,7 @@
             "factId": "w5.l3.f15"
           },
           {
-            "id": "w5c40p2",
+            "id": "w5c40p1s2",
             "kind": "example",
             "title": "Corporate technology identity (2)",
             "lines": [],
@@ -10578,6 +10263,10 @@
                   "Technology"
                 ],
                 "rows": [
+                  [
+                    "NEC",
+                    "VLSI, systems integration"
+                  ],
                   [
                     "DuPont",
                     "Chemistry"
@@ -10814,14 +10503,13 @@
           {
             "id": "w5c50",
             "kind": "concept",
-            "title": "Timing strategies",
+            "title": "Combining strategies",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Continuum",
-                "detail": "Use one or more strategies together",
-                "icon": "branch"
+                "label": "Strategies lie on a continuum",
+                "detail": "A firm may use more than one technology strategy at the same time."
               }
             },
             "factId": "w5.l4.f08"
@@ -10930,45 +10618,6 @@
               }
             },
             "factId": "w5.l4.f15"
-          },
-          {
-            "id": "w5c58",
-            "kind": "concept",
-            "title": "Official: true for strategy",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "True",
-                    "detail": "Absorbent: license to exploit innovation",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "False",
-                    "detail": "Offensive keeps status quo; imitative researches",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w5.l4.f16"
-          },
-          {
-            "id": "w5c59",
-            "kind": "concept",
-            "title": "Dependent trap",
-            "lines": [],
-            "visual": {
-              "type": "key",
-              "spec": {
-                "label": "Dependent",
-                "detail": "Not core strategy with parent company",
-                "icon": "lock"
-              }
-            },
-            "factId": "w5.l4.f17"
           },
           {
             "id": "w5c60",
@@ -11089,16 +10738,15 @@
           {
             "id": "w5c64",
             "kind": "concept",
-            "title": "Forecasting importance",
+            "title": "Why forecast technology?",
             "lines": [
               "Both statements true."
             ],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Both true",
-                "detail": "Anticipate trends; inform R&D, investment, planning",
-                "icon": "target"
+                "label": "Forecasting informs decisions",
+                "detail": "Anticipate trends to guide R&D, investment and business planning."
               }
             },
             "factId": "w5.l5.f04"
@@ -11106,14 +10754,13 @@
           {
             "id": "w5c65",
             "kind": "example",
-            "title": "Why it matters",
+            "title": "Why monitoring matters",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "NTPC",
-                "detail": "Plant load factor once above 90%",
-                "icon": "spark"
+                "label": "A strong current position can change",
+                "detail": "The NTPC example shows why firms should monitor technology even when existing assets perform well."
               }
             },
             "factId": "w5.l5.f05"
@@ -11121,7 +10768,7 @@
           {
             "id": "w5c66",
             "kind": "concept",
-            "title": "Official: forecasting tools",
+            "title": "forecasting tools",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -11153,40 +10800,14 @@
             "factId": "w5.l5.f06"
           },
           {
-            "id": "w5c67",
-            "kind": "concept",
-            "title": "Not in the key",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Not tools here",
-                    "detail": "Time series, moving average",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Tools here",
-                    "detail": "Morphological, Delphi, Pearl, envelope",
-                    "icon": "target"
-                  }
-                ]
-              }
-            },
-            "factId": "w5.l5.f07"
-          },
-          {
             "id": "w5c68",
             "kind": "concept",
             "title": "Pearl function",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "s-curve",
               "spec": {
-                "label": "Pearl",
-                "detail": "S-curve with upper limit L",
-                "icon": "chart"
+                "detail": "The Pearl function models an S-curve with an upper limit, L."
               }
             },
             "factId": "w5.l5.f08"
@@ -11194,14 +10815,12 @@
           {
             "id": "w5c69",
             "kind": "concept",
-            "title": "Gompertz",
+            "title": "Gompertz function",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "s-curve",
               "spec": {
-                "label": "Gompertz",
-                "detail": "Another S-curve function",
-                "icon": "chart"
+                "detail": "The Gompertz function is another model of S-shaped technology growth."
               }
             },
             "factId": "w5.l5.f09"
@@ -11248,26 +10867,23 @@
           {
             "id": "w5c72",
             "kind": "concept",
-            "title": "Delphi",
+            "title": "Delphi: an iterative expert process",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "Method",
-                    "detail": "Invite experts",
-                    "icon": "people"
+                    "label": "Panel",
+                    "detail": "Choose experts with relevant knowledge."
                   },
                   {
-                    "label": "Approach",
-                    "detail": "Iterative",
-                    "icon": "loop"
+                    "label": "Rounds",
+                    "detail": "Gather views, feed back the results and let experts revise."
                   },
                   {
-                    "label": "Key",
-                    "detail": "Right panel members",
-                    "icon": "target"
+                    "label": "Aim",
+                    "detail": "Move towards a considered consensus."
                   }
                 ]
               }
@@ -11290,7 +10906,7 @@
             "factId": "w5.l5.f13"
           },
           {
-            "id": "w5c74p1",
+            "id": "w5c74p1s1",
             "kind": "example",
             "title": "Building bricks (1)",
             "lines": [],
@@ -11313,10 +10929,6 @@
                   [
                     "Bonding",
                     "Heat, chemical, molecular"
-                  ],
-                  [
-                    "Properties",
-                    "Opacity, insulation, elasticity, aesthetics"
                   ]
                 ]
               }
@@ -11324,7 +10936,7 @@
             "factId": "w5.l5.f14"
           },
           {
-            "id": "w5c74p2",
+            "id": "w5c74p1s2",
             "kind": "example",
             "title": "Building bricks (2)",
             "lines": [],
@@ -11336,6 +10948,10 @@
                   "Options"
                 ],
                 "rows": [
+                  [
+                    "Properties",
+                    "Opacity, insulation, elasticity, aesthetics"
+                  ],
                   [
                     "Form",
                     "Rectangular, spherical, interlocking, cubical"
@@ -11420,10 +11036,6 @@
               [
                 "Technology",
                 "Impact, wealth"
-              ],
-              [
-                "Scientific invention",
-                "New idea from R&D"
               ]
             ]
           }
@@ -11441,6 +11053,10 @@
             ],
             "rows": [
               [
+                "Scientific invention",
+                "New idea from R&D"
+              ],
+              [
                 "Technological innovation",
                 "Socially usable product"
               ]
@@ -11449,7 +11065,7 @@
         }
       },
       {
-        "heading": "Technological innovation traits",
+        "heading": "Technological innovation traits (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -11469,7 +11085,18 @@
                 "label": "Costly",
                 "detail": "Substantial investment",
                 "icon": "coin"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Technological innovation traits (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Not",
                 "detail": "Just new use of old tech",
@@ -11501,10 +11128,6 @@
               [
                 "Yes",
                 "Co-creation"
-              ],
-              [
-                "Yes",
-                "Scaling up"
               ]
             ]
           }
@@ -11523,6 +11146,10 @@
             "rows": [
               [
                 "Yes",
+                "Scaling up"
+              ],
+              [
+                "Yes",
                 "Experimentation"
               ],
               [
@@ -11534,7 +11161,7 @@
         }
       },
       {
-        "heading": "Four types of technological innovation",
+        "heading": "Four types of technological innovation (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11555,7 +11182,22 @@
               [
                 "Generational",
                 "3G to 4G"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four types of technological innovation (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Type",
+              "Example"
+            ],
+            "rows": [
               [
                 "Incremental",
                 "Smartphone camera enhancement"
@@ -11565,7 +11207,7 @@
         }
       },
       {
-        "heading": "Technology classes",
+        "heading": "Technology classes (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -11586,7 +11228,22 @@
               [
                 "Pacing",
                 "Proven, now in development"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Technology classes (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Class",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Emerging",
                 "Early research, unknown potential"
@@ -11617,10 +11274,6 @@
               [
                 "Counter-offensive",
                 "Counter leader"
-              ],
-              [
-                "Imitative",
-                "Not research heavy"
               ]
             ]
           }
@@ -11638,13 +11291,32 @@
             ],
             "rows": [
               [
+                "Imitative",
+                "Not research heavy"
+              ],
+              [
                 "Applications engineering",
                 "Design on existing tech"
               ],
               [
                 "Dependent",
                 "Branch plant: production, marketing"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Seven strategies (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Strategy",
+              "Know"
+            ],
+            "rows": [
               [
                 "Absorbent",
                 "License for domestic market"
@@ -11696,10 +11368,6 @@
               [
                 "Pearl function",
                 "S-curve based"
-              ],
-              [
-                "Envelope curve",
-                "Trend extrapolation"
               ]
             ]
           }
@@ -11716,6 +11384,10 @@
               "Know"
             ],
             "rows": [
+              [
+                "Envelope curve",
+                "Trend extrapolation"
+              ],
               [
                 "Not tools here",
                 "Time series, moving average"
@@ -11746,10 +11418,6 @@
               [
                 "3",
                 "Verification"
-              ],
-              [
-                "4",
-                "Lab demonstration"
               ]
             ]
           }
@@ -11767,13 +11435,32 @@
             ],
             "rows": [
               [
+                "4",
+                "Lab demonstration"
+              ],
+              [
                 "5",
                 "Alternatives, prototype, field trial"
               ],
               [
                 "6",
                 "Commercial introduction"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Bright's 8 stages (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Stage",
+              "What"
+            ],
+            "rows": [
               [
                 "7",
                 "Widespread adoption"
@@ -11812,41 +11499,18 @@
           {
             "id": "w6c1",
             "kind": "concept",
-            "title": "Sustainability themes",
+            "title": "Sustainability across generations",
             "lines": [],
             "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Generations",
-                    "detail": "",
-                    "icon": "people"
-                  },
-                  {
-                    "label": "Ganges",
-                    "detail": "",
-                    "icon": "leaf"
-                  },
-                  {
-                    "label": "PILs",
-                    "detail": "Public interest litigation as reference",
-                    "icon": "shield"
-                  },
-                  {
-                    "label": "Think big",
-                    "detail": "",
-                    "icon": "rocket"
-                  }
-                ]
-              }
+              "type": "sustainability",
+              "spec": {}
             },
             "factId": "w6.l1.f01"
           },
           {
             "id": "w6c2p1",
             "kind": "example",
-            "title": "Sustainable innovations (1)",
+            "title": "Sustainable innovations",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -11861,21 +11525,7 @@
                     "label": "Cardboard packaging",
                     "detail": "Directions to turn into something new",
                     "icon": "gear"
-                  }
-                ]
-              }
-            },
-            "factId": "w6.l1.f02"
-          },
-          {
-            "id": "w6c2p2",
-            "kind": "example",
-            "title": "Sustainable innovations (2)",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
+                  },
                   {
                     "label": "Wood stoves",
                     "detail": "Waste heat to electricity",
@@ -11923,21 +11573,19 @@
           {
             "id": "w6c4",
             "kind": "example",
-            "title": "Ganges",
+            "title": "Why the Ganges matters",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "500 million people",
-                    "detail": "Linked to the river",
-                    "icon": "people"
+                    "label": "About 500 million people",
+                    "detail": "Depend on the river system for food, irrigation and water."
                   },
                   {
-                    "label": "Project team",
-                    "detail": "About 110 people, 8 IITs",
-                    "icon": "people"
+                    "label": "About 110 people from 8 IITs",
+                    "detail": "Worked across cultural, social, scientific and technological aspects."
                   }
                 ]
               }
@@ -11945,33 +11593,9 @@
             "factId": "w6.l1.f04"
           },
           {
-            "id": "w6c5",
-            "kind": "example",
-            "title": "Avoidable disasters",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Chennai floods",
-                    "detail": "",
-                    "icon": "leaf"
-                  },
-                  {
-                    "label": "Kedarnath floods",
-                    "detail": "",
-                    "icon": "leaf"
-                  }
-                ]
-              }
-            },
-            "factId": "w6.l1.f05"
-          },
-          {
             "id": "w6c6",
             "kind": "concept",
-            "title": "Official: societal development",
+            "title": "societal development",
             "lines": [],
             "visual": {
               "type": "key",
@@ -12035,14 +11659,13 @@
           {
             "id": "w6c9",
             "kind": "concept",
-            "title": "Official: sustainable examples",
+            "title": "Healthcare and sustainability",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Both",
-                "detail": "Aravind Eye Care and Narayana Hrudayalaya",
-                "icon": "heart"
+                "label": "Aravind Eye Care and Narayana Hrudayalaya",
+                "detail": "Both are examples of sustainable innovation in the course."
               }
             },
             "factId": "w6.l1.f09"
@@ -12050,7 +11673,7 @@
           {
             "id": "w6c10",
             "kind": "remember",
-            "title": "Remember",
+            "title": "Putting sustainability into practice",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -12058,23 +11681,15 @@
                 "items": [
                   {
                     "label": "Societal development",
-                    "detail": "Narmada ji ka Safai Abhiyan",
-                    "icon": "leaf"
+                    "detail": "Narmada ji ka Safai Abhiyan."
                   },
                   {
-                    "label": "Sustainable innovation",
-                    "detail": "Aravind and Narayana both",
-                    "icon": "heart"
+                    "label": "Sustainable healthcare",
+                    "detail": "Aravind Eye Care and Narayana Hrudayalaya."
                   },
                   {
-                    "label": "Ganges",
-                    "detail": "500 million people",
-                    "icon": "people"
-                  },
-                  {
-                    "label": "Think big",
-                    "detail": "Build bit by bit",
-                    "icon": "rocket"
+                    "label": "Practical approach",
+                    "detail": "Think at scale, build in small steps and involve people."
                   }
                 ]
               }
@@ -12127,23 +11742,13 @@
           {
             "id": "w6c12",
             "kind": "concept",
-            "title": "Plus",
+            "title": "The role of media",
             "lines": [],
             "visual": {
-              "type": "tiles",
+              "type": "key",
               "spec": {
-                "items": [
-                  {
-                    "label": "Media",
-                    "detail": "",
-                    "icon": "eye"
-                  },
-                  {
-                    "label": "All",
-                    "detail": "Together",
-                    "icon": "people"
-                  }
-                ]
+                "label": "Media is the fifth actor",
+                "detail": "Government, businesses, individuals, academia and media need to work together."
               }
             },
             "factId": "w6.l2.f02"
@@ -12214,14 +11819,13 @@
           {
             "id": "w6c15",
             "kind": "concept",
-            "title": "Criticism and skepticism",
+            "title": "From skepticism to participation",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Reduce",
-                "detail": "Criticism and skepticism; develop belief",
-                "icon": "lock"
+                "label": "Build belief in sustainable change",
+                "detail": "Constructive participation matters more than dismissing every proposed effort."
               }
             },
             "factId": "w6.l2.f05"
@@ -12273,14 +11877,13 @@
           {
             "id": "w6c18",
             "kind": "example",
-            "title": "Academia example",
+            "title": "Academia in practice",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Pedal rickshaw",
-                "detail": "Efficiency project",
-                "icon": "gear"
+                "label": "Improve the efficiency of pedal rickshaws",
+                "detail": "The lecture uses a low-cost transport project as an example of applied academic work."
               }
             },
             "factId": "w6.l2.f08"
@@ -12388,29 +11991,26 @@
             "title": "Product-usage matrix",
             "lines": [],
             "visual": {
-              "type": "table",
+              "type": "matrix",
               "spec": {
-                "headers": [
-                  "Category",
-                  "Meaning"
-                ],
-                "rows": [
-                  [
-                    "1",
-                    "New product/process, old usage or problem"
-                  ],
-                  [
-                    "2",
-                    "Old product/process, old usage"
-                  ],
-                  [
-                    "3",
-                    "New product/process, new usage"
-                  ],
-                  [
-                    "4",
-                    "Old product/process, new usage"
-                  ]
+                "axis": "Product or process: old / new \u00b7 Usage or problem: old / new",
+                "items": [
+                  {
+                    "label": "1 \u00b7 New / old",
+                    "detail": "New product or process; existing usage or problem."
+                  },
+                  {
+                    "label": "2 \u00b7 Old / old",
+                    "detail": "Existing product or process; existing usage."
+                  },
+                  {
+                    "label": "3 \u00b7 New / new",
+                    "detail": "New product or process; new usage or problem."
+                  },
+                  {
+                    "label": "4 \u00b7 Old / new",
+                    "detail": "Existing product or process; new usage."
+                  }
                 ]
               }
             },
@@ -12419,7 +12019,7 @@
           {
             "id": "w6c24",
             "kind": "example",
-            "title": "Official: bar code inventory",
+            "title": "bar code inventory",
             "lines": [],
             "visual": {
               "type": "key",
@@ -12692,7 +12292,7 @@
           {
             "id": "w6c36",
             "kind": "concept",
-            "title": "MSME limits: manufacturing",
+            "title": "MSME limits: manufacturing: course-era limits",
             "lines": [],
             "visual": {
               "type": "table",
@@ -12726,7 +12326,7 @@
           {
             "id": "w6c37",
             "kind": "concept",
-            "title": "MSME limits: services",
+            "title": "MSME limits: services: course-era limits",
             "lines": [],
             "visual": {
               "type": "table",
@@ -12756,14 +12356,13 @@
           {
             "id": "w6c38",
             "kind": "concept",
-            "title": "Official: medium limit",
+            "title": "Medium manufacturing: course threshold",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
                 "label": "Rs 10 crore",
-                "detail": "Medium manufacturing, plant and machinery",
-                "icon": "coin"
+                "detail": "The course uses this older plant-and-machinery investment limit for medium manufacturing enterprises."
               }
             },
             "factId": "w6.l4.f04"
@@ -12815,14 +12414,13 @@
           {
             "id": "w6c41",
             "kind": "concept",
-            "title": "Official: KVIC",
+            "title": "KVIC",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "KVIC",
-                "detail": "Khadi and Village Industries Committee",
-                "icon": "target"
+                "label": "Khadi and Village Industries Commission",
+                "detail": "The assignment option uses the word \"Committee\"."
               }
             },
             "factId": "w6.l4.f07"
@@ -12888,7 +12486,7 @@
           {
             "id": "w6c44",
             "kind": "concept",
-            "title": "Official: social innovation",
+            "title": "social innovation",
             "lines": [],
             "visual": {
               "type": "key",
@@ -12903,7 +12501,7 @@
           {
             "id": "w6c45p1",
             "kind": "concept",
-            "title": "Environmental initiatives (1)",
+            "title": "Environmental initiatives",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -12918,21 +12516,7 @@
                     "label": "Sustainable materials",
                     "detail": "Eco-designed, recyclable",
                     "icon": "leaf"
-                  }
-                ]
-              }
-            },
-            "factId": "w6.l4.f11"
-          },
-          {
-            "id": "w6c45p2",
-            "kind": "concept",
-            "title": "Environmental initiatives (2)",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
+                  },
                   {
                     "label": "Biodiversity",
                     "detail": "Reforestation association",
@@ -12946,7 +12530,7 @@
           {
             "id": "w6c46",
             "kind": "concept",
-            "title": "Official: environmental innovation",
+            "title": "environmental innovation",
             "lines": [],
             "visual": {
               "type": "key",
@@ -13176,14 +12760,13 @@
           {
             "id": "w6c57",
             "kind": "example",
-            "title": "Coincidences",
+            "title": "Insight through coincidences",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Gottlieb",
-                "detail": "Symptom coincidences led to AIDS",
-                "icon": "eye"
+                "label": "Gottlieb noticed a pattern of symptoms",
+                "detail": "Connections between unusual cases contributed to recognising AIDS."
               }
             },
             "factId": "w6.l5.f10"
@@ -13211,9 +12794,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Only 10%",
-                "detail": "Coincidences, curiosities can mislead",
-                "icon": "lock"
+                "label": "Coincidences and curiosities are less reliable",
+                "detail": "Klein attributes only about 10% of the studied insights to these routes; they can mislead."
               }
             },
             "factId": "w6.l5.f12"
@@ -13251,25 +12833,6 @@
               }
             },
             "factId": "w6.l5.f13"
-          },
-          {
-            "id": "w6c61",
-            "kind": "example",
-            "title": "More insight cases",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Trans Disciplinary University",
-                    "detail": "",
-                    "icon": "bulb"
-                  }
-                ]
-              }
-            },
-            "factId": "w6.l5.f14"
           },
           {
             "id": "w6c62",
@@ -13325,6 +12888,11 @@
                 "label": "Sustainable innovation",
                 "detail": "Aravind and Narayana both",
                 "icon": "heart"
+              },
+              {
+                "label": "Ganges",
+                "detail": "River system supports about 500 million people.",
+                "icon": "people"
               }
             ]
           }
@@ -13338,13 +12906,8 @@
           "spec": {
             "items": [
               {
-                "label": "Ganges",
-                "detail": "About 500 million people",
-                "icon": "people"
-              },
-              {
-                "label": "Think big",
-                "detail": "Build bit by bit",
+                "label": "Start with practical steps",
+                "detail": "Build bit by bit and involve people in the cause.",
                 "icon": "rocket"
               }
             ]
@@ -13373,10 +12936,6 @@
               [
                 "2",
                 "Old product, old usage"
-              ],
-              [
-                "3",
-                "New product, new usage (bar codes)"
               ]
             ]
           }
@@ -13394,13 +12953,32 @@
             ],
             "rows": [
               [
+                "3",
+                "New product, new usage (bar codes)"
+              ],
+              [
                 "4",
                 "Old product, new usage"
               ],
               [
                 "Random",
                 "Schumpeterian: trial and error, risk"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Innovation basics (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Systematic",
                 "Value innovation: pattern, theory"
@@ -13410,7 +12988,7 @@
         }
       },
       {
-        "heading": "MSME limits",
+        "heading": "MSME limits used in the course",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -13430,7 +13008,23 @@
                 "Small",
                 "Rs 5 crore",
                 "Rs 2 crore"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "MSME limits used in the course: continued",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Class",
+              "Manufacturing",
+              "Service"
+            ],
+            "rows": [
               [
                 "Medium",
                 "Rs 10 crore",
@@ -13441,7 +13035,7 @@
         }
       },
       {
-        "heading": "Schemes and bodies",
+        "heading": "Schemes and bodies (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -13454,14 +13048,25 @@
               },
               {
                 "label": "KVIC",
-                "detail": "Khadi and Village Industries Committee",
+                "detail": "Khadi and Village Industries Commission",
                 "icon": "target"
               },
               {
                 "label": "LBI",
                 "detail": "Livelihood Business Incubator",
                 "icon": "factory"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Schemes and bodies (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "First LBI",
                 "detail": "Uttar Pradesh",
@@ -13520,10 +13125,6 @@
               [
                 "Creative desperation",
                 "Fire to escape fire"
-              ],
-              [
-                "Coincidences",
-                "10%, can mislead"
               ]
             ]
           }
@@ -13540,6 +13141,10 @@
               "Know"
             ],
             "rows": [
+              [
+                "Coincidences",
+                "10%, can mislead"
+              ],
               [
                 "Curiosities",
                 "Fleming, penicillin"
@@ -13668,9 +13273,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Identified, documented, shared",
-                "detail": "Intellectual capital replicable in the organization",
-                "icon": "shield"
+                "label": "Turn knowledge into a shareable asset",
+                "detail": "Identify, document and share intellectual capital so it can be replicated within the organisation."
               }
             },
             "factId": "w7.l1.f05"
@@ -13715,7 +13319,7 @@
             "factId": "w7.l1.f07"
           },
           {
-            "id": "w7c8p1",
+            "id": "w7c8p1s1",
             "kind": "concept",
             "title": "IC management process (1)",
             "lines": [],
@@ -13741,7 +13345,7 @@
             "factId": "w7.l1.f08"
           },
           {
-            "id": "w7c8p2",
+            "id": "w7c8p1s2",
             "kind": "concept",
             "title": "IC management process (2)",
             "lines": [],
@@ -13784,20 +13388,23 @@
           {
             "id": "w7c10",
             "kind": "concept",
-            "title": "Hierarchy",
+            "title": "From knowledge to protected property",
             "lines": [],
             "visual": {
-              "type": "flow",
+              "type": "hierarchy",
               "spec": {
                 "nodes": [
                   {
-                    "label": "Intellectual capital"
+                    "label": "Intellectual capital",
+                    "detail": "Knowledge that can create wealth."
                   },
                   {
-                    "label": "Intellectual assets"
+                    "label": "Intellectual assets",
+                    "detail": "Knowledge identified, documented and shareable."
                   },
                   {
-                    "label": "Intellectual property"
+                    "label": "Intellectual property",
+                    "detail": "Assets protected by law."
                   }
                 ]
               }
@@ -13967,7 +13574,7 @@
           {
             "id": "w7c17",
             "kind": "concept",
-            "title": "Official: WIPO balance",
+            "title": "WIPO balance",
             "lines": [],
             "visual": {
               "type": "key",
@@ -13993,21 +13600,6 @@
               }
             },
             "factId": "w7.l2.f05"
-          },
-          {
-            "id": "w7c19",
-            "kind": "concept",
-            "title": "Official: IPR vs patent",
-            "lines": [],
-            "visual": {
-              "type": "key",
-              "spec": {
-                "label": "Not interchangeable",
-                "detail": "Patent is one type of IPR",
-                "icon": "lock"
-              }
-            },
-            "factId": "w7.l2.f06"
           },
           {
             "id": "w7c20",
@@ -14061,9 +13653,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "20 years",
-                "detail": "Generally, limited period",
-                "icon": "clock"
+                "label": "Generally 20 years",
+                "detail": "A patent grants protection for a limited period, subject to the applicable patent system."
               }
             },
             "factId": "w7.l2.f09"
@@ -14219,30 +13810,6 @@
         ],
         "cards": [
           {
-            "id": "w7c28",
-            "kind": "concept",
-            "title": "Two groups",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Industrial property",
-                    "detail": "",
-                    "icon": "factory"
-                  },
-                  {
-                    "label": "Copyrights",
-                    "detail": "",
-                    "icon": "hat"
-                  }
-                ]
-              }
-            },
-            "factId": "w7.l3.f01"
-          },
-          {
             "id": "w7c29",
             "kind": "concept",
             "title": "The big three",
@@ -14352,9 +13919,8 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Geographical boundary",
-                "detail": "Valid within it",
-                "icon": "globe"
+                "label": "Patent rights are territorial",
+                "detail": "Protection applies within the jurisdiction where the patent is granted."
               }
             },
             "factId": "w7.l3.f06"
@@ -14587,14 +14153,13 @@
           {
             "id": "w7c44",
             "kind": "concept",
-            "title": "Official: IPR category",
+            "title": "IP is broader than patents",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "All three",
-                "detail": "Car design, recipe, Darjeeling Tea",
-                "icon": "shield"
+                "label": "Different creations can receive different IP protection",
+                "detail": "Car designs, recipes and Darjeeling Tea all fall within intellectual-property categories."
               }
             },
             "factId": "w7.l3.f17"
@@ -14602,7 +14167,7 @@
           {
             "id": "w7c45",
             "kind": "concept",
-            "title": "Official: match types",
+            "title": "match types",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -14689,14 +14254,13 @@
           {
             "id": "w7c48",
             "kind": "concept",
-            "title": "Myth",
+            "title": "Purpose of patent protection",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Patents promote technology",
-                "detail": "Not monopolies",
-                "icon": "target"
+                "label": "Patents are intended to encourage technological progress",
+                "detail": "They grant time-limited exclusive rights in return for disclosure of the invention."
               }
             },
             "factId": "w7.l4.f02"
@@ -14781,7 +14345,7 @@
             "factId": "w7.l4.f05"
           },
           {
-            "id": "w7c52p1",
+            "id": "w7c52p1s1",
             "kind": "concept",
             "title": "Patent process (1)",
             "lines": [],
@@ -14807,7 +14371,7 @@
             "factId": "w7.l4.f06"
           },
           {
-            "id": "w7c52p2",
+            "id": "w7c52p1s2",
             "kind": "concept",
             "title": "Patent process (2)",
             "lines": [],
@@ -14861,7 +14425,7 @@
           {
             "id": "w7c54",
             "kind": "concept",
-            "title": "Official: copyright",
+            "title": "copyright",
             "lines": [],
             "visual": {
               "type": "key",
@@ -14889,40 +14453,15 @@
             "factId": "w7.l4.f09"
           },
           {
-            "id": "w7c56",
-            "kind": "concept",
-            "title": "Official: copyright and idea",
-            "lines": [],
-            "visual": {
-              "type": "compare",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Right",
-                    "detail": "Protects creators' works",
-                    "icon": "target"
-                  },
-                  {
-                    "label": "Wrong",
-                    "detail": "Protects the original idea",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w7.l4.f10"
-          },
-          {
             "id": "w7c57",
             "kind": "example",
-            "title": "Official: scenario",
+            "title": "Public demonstration: patent case",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Seminar demo",
-                "detail": "Packaging material: no protection",
-                "icon": "lock"
+                "label": "Disclosure before filing can undermine patent protection",
+                "detail": "In the course case, packaging material was publicly demonstrated at a seminar before protection was secured."
               }
             },
             "factId": "w7.l4.f11"
@@ -15207,35 +14746,27 @@
         "heading": "Capital to property",
         "bullets": [],
         "visual": {
-          "type": "table",
+          "type": "hierarchy",
           "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
-              [
-                "Intellectual capital",
-                "Employees' knowledge"
-              ],
-              [
-                "Intellectual assets",
-                "Documented, shareable"
-              ],
-              [
-                "Intellectual property",
-                "Legally protected"
-              ],
-              [
-                "Creation order",
-                "Purpose, strategy, information, knowledge"
-              ]
+            "nodes": [
+              {
+                "label": "Intellectual capital",
+                "detail": "Knowledge that can create wealth."
+              },
+              {
+                "label": "Intellectual assets",
+                "detail": "Knowledge identified, documented and shareable."
+              },
+              {
+                "label": "Intellectual property",
+                "detail": "Assets protected by law."
+              }
             ]
           }
         }
       },
       {
-        "heading": "IPR basics",
+        "heading": "IPR basics (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -15255,7 +14786,18 @@
                 "label": "Protection",
                 "detail": "Encourages more innovation",
                 "icon": "coin"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "IPR basics (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Treaties",
                 "detail": "Paris 1883, Berne 1886",
@@ -15287,10 +14829,6 @@
               [
                 "Copyright",
                 "Expression, automatic"
-              ],
-              [
-                "GI",
-                "Darjeeling Tea"
               ]
             ]
           }
@@ -15307,6 +14845,10 @@
               "Know"
             ],
             "rows": [
+              [
+                "GI",
+                "Darjeeling Tea"
+              ],
               [
                 "Trade secret",
                 "Coca-Cola formula"
@@ -15337,10 +14879,6 @@
               [
                 "Darjeeling Tea",
                 "IPR"
-              ],
-              [
-                "Copyright: manuscript",
-                "Novelist's original"
               ]
             ]
           }
@@ -15358,13 +14896,32 @@
             ],
             "rows": [
               [
+                "Copyright: manuscript",
+                "Novelist's original"
+              ],
+              [
                 "Patent: medicine",
                 "Exclusive right to sell"
               ],
               [
                 "Trademark: Nike",
                 "Logo and brand name"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Falls under IPR (3)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Item",
+              "Know"
+            ],
+            "rows": [
               [
                 "Copyright protects",
                 "Expression of idea"
@@ -15378,24 +14935,35 @@
         }
       },
       {
-        "heading": "Indian patent system",
+        "heading": "Indian patent system (1)",
         "bullets": [],
         "visual": {
           "type": "timeline",
           "spec": {
             "nodes": [
               {
-                "label": "1959",
-                "detail": "Ayyangar Committee report"
-              },
-              {
                 "label": "1911",
                 "detail": "First Patents and Designs Act"
               },
               {
+                "label": "1959",
+                "detail": "Ayyangar Committee report"
+              },
+              {
                 "label": "1970",
                 "detail": "Patent Act"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Indian patent system (2)",
+        "bullets": [],
+        "visual": {
+          "type": "timeline",
+          "spec": {
+            "nodes": [
               {
                 "label": "1999",
                 "detail": "TRIPS amendment"
@@ -15455,14 +15023,25 @@
           {
             "id": "w8c1",
             "kind": "concept",
-            "title": "Business model",
+            "title": "What a business model does",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "value-cycle",
               "spec": {
-                "label": "Business model",
-                "detail": "Creates, delivers, captures value",
-                "icon": "coin"
+                "nodes": [
+                  {
+                    "label": "Create value",
+                    "detail": "Develop an offering for customers."
+                  },
+                  {
+                    "label": "Deliver value",
+                    "detail": "Make the offering available to them."
+                  },
+                  {
+                    "label": "Capture value",
+                    "detail": "Earn revenue through the model."
+                  }
+                ]
               }
             },
             "factId": "w8.l1.f01"
@@ -15470,20 +15049,23 @@
           {
             "id": "w8c2",
             "kind": "concept",
-            "title": "Value flow",
+            "title": "Three parts of value",
             "lines": [],
             "visual": {
-              "type": "flow",
+              "type": "value-cycle",
               "spec": {
                 "nodes": [
                   {
-                    "label": "Creates"
+                    "label": "Create",
+                    "detail": "The offering"
                   },
                   {
-                    "label": "Delivers"
+                    "label": "Deliver",
+                    "detail": "The route to the customer"
                   },
                   {
-                    "label": "Captures"
+                    "label": "Capture",
+                    "detail": "The return to the business"
                   }
                 ]
               }
@@ -15527,7 +15109,7 @@
           {
             "id": "w8c4",
             "kind": "concept",
-            "title": "Official: platform model parts",
+            "title": "platform model parts",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -15561,104 +15143,16 @@
           {
             "id": "w8c5",
             "kind": "concept",
-            "title": "Plus",
+            "title": "Reaching customers",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Promotion, distribution channels",
-                "detail": "Fifth component",
-                "icon": "globe"
+                "label": "Promotion and distribution channels",
+                "detail": "These complete the course's five-component platform business model."
               }
             },
             "factId": "w8.l1.f05"
-          },
-          {
-            "id": "w8c6",
-            "kind": "concept",
-            "title": "Not in the set",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Competition",
-                    "detail": "",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Regulations",
-                    "detail": "",
-                    "icon": "lock"
-                  },
-                  {
-                    "label": "Review, feedback",
-                    "detail": "",
-                    "icon": "lock"
-                  }
-                ]
-              }
-            },
-            "factId": "w8.l1.f06"
-          },
-          {
-            "id": "w8c7",
-            "kind": "example",
-            "title": "Examples discussed",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Heavy Electricals",
-                    "detail": "",
-                    "icon": "factory"
-                  },
-                  {
-                    "label": "MDH, salt producer",
-                    "detail": "",
-                    "icon": "coin"
-                  },
-                  {
-                    "label": "Construction company",
-                    "detail": "",
-                    "icon": "gear"
-                  },
-                  {
-                    "label": "Hospital",
-                    "detail": "",
-                    "icon": "heart"
-                  }
-                ]
-              }
-            },
-            "factId": "w8.l1.f07"
-          },
-          {
-            "id": "w8c8",
-            "kind": "example",
-            "title": "More examples",
-            "lines": [],
-            "visual": {
-              "type": "tiles",
-              "spec": {
-                "items": [
-                  {
-                    "label": "Forest bio-residue",
-                    "detail": "",
-                    "icon": "leaf"
-                  },
-                  {
-                    "label": "Automotive manufacturer",
-                    "detail": "",
-                    "icon": "gear"
-                  }
-                ]
-              }
-            },
-            "factId": "w8.l1.f08"
           },
           {
             "id": "w8c9",
@@ -15750,14 +15244,13 @@
           {
             "id": "w8c13",
             "kind": "concept",
-            "title": "Official: failure reasons",
+            "title": "Business-model failure",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Both causes",
-                "detail": "Element failing and inability to adapt",
-                "icon": "shield"
+                "label": "A model can fail in two ways",
+                "detail": "An element may stop working, or the model may fail to adapt to a changing environment."
               }
             },
             "factId": "w8.l2.f04"
@@ -15794,14 +15287,13 @@
           {
             "id": "w8c15",
             "kind": "concept",
-            "title": "Official: remedies",
+            "title": "Three remedies",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "All of them",
-                "detail": "Futuristic, eliminate causes, match capacity",
-                "icon": "target"
+                "label": "Anticipate, diagnose and align",
+                "detail": "Anticipate future needs, remove causes of failure and match capabilities to the value proposition."
               }
             },
             "factId": "w8.l2.f06"
@@ -15858,14 +15350,13 @@
           {
             "id": "w8c18",
             "kind": "example",
-            "title": "Nano",
+            "title": "Failure example",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Nano",
-                "detail": "Listed failure example",
-                "icon": "gear"
+                "label": "Tata Nano is a business-model failure case",
+                "detail": "The lecture includes it when discussing models that do not deliver the expected result."
               }
             },
             "factId": "w8.l2.f09"
@@ -16132,14 +15623,13 @@
           {
             "id": "w8c31",
             "kind": "concept",
-            "title": "Official: incubator support limit",
+            "title": "Incubator support: course scope",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Not whole journey",
-                "detail": "No hand-holding to early development",
-                "icon": "lock"
+                "label": "The course focuses on pre-founding and founding support",
+                "detail": "It does not describe incubators as hand-holding a venture through its entire early-development journey."
               }
             },
             "factId": "w8.l3.f12"
@@ -16147,14 +15637,13 @@
           {
             "id": "w8c32",
             "kind": "concept",
-            "title": "Official: not a feature",
+            "title": "Who incubators support",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Established firms only",
-                "detail": "Not a feature of incubators",
-                "icon": "lock"
+                "label": "Incubators are not only for established firms",
+                "detail": "Their purpose includes helping new ventures develop."
               }
             },
             "factId": "w8.l3.f13"
@@ -16191,7 +15680,7 @@
           {
             "id": "w8c34",
             "kind": "concept",
-            "title": "Official: stay",
+            "title": "stay",
             "lines": [],
             "visual": {
               "type": "key",
@@ -16436,14 +15925,13 @@
           {
             "id": "w8c45",
             "kind": "concept",
-            "title": "Finance",
+            "title": "Funding the venture",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Fuel for innovation",
-                "detail": "Finance runs the vehicle of innovation",
-                "icon": "coin"
+                "label": "Finance supports innovation",
+                "detail": "A venture needs money to develop its offering and keep operating."
               }
             },
             "factId": "w8.l4.f01"
@@ -16523,14 +16011,13 @@
           {
             "id": "w8c49",
             "kind": "concept",
-            "title": "Official: early funding",
+            "title": "Early-stage investment",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
                 "label": "Angel investors",
-                "detail": "Primary early-stage source per key",
-                "icon": "coin"
+                "detail": "The course identifies them as an important source of early-stage startup finance."
               }
             },
             "factId": "w8.l4.f05"
@@ -16617,7 +16104,7 @@
           {
             "id": "w8c54",
             "kind": "concept",
-            "title": "Official: debt on IP",
+            "title": "debt on IP",
             "lines": [],
             "visual": {
               "type": "key",
@@ -16632,14 +16119,13 @@
           {
             "id": "w8c55",
             "kind": "concept",
-            "title": "Official: debt first",
+            "title": "Funding sequence",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Equity follows debt",
-                "detail": "Debt is not the first level",
-                "icon": "lock"
+                "label": "Equity follows debt in the course sequence",
+                "detail": "Debt is not presented as the first level of funding."
               }
             },
             "factId": "w8.l4.f11"
@@ -16647,14 +16133,13 @@
           {
             "id": "w8c56",
             "kind": "concept",
-            "title": "Debt financing for",
+            "title": "Why venture debt exists",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Startups lacking assets",
-                "detail": "Cannot get traditional loans",
-                "icon": "people"
+                "label": "Some startups lack collateral for traditional loans",
+                "detail": "Venture debt can serve funded startups that do not have conventional assets to pledge."
               }
             },
             "factId": "w8.l4.f12"
@@ -16894,7 +16379,7 @@
           {
             "id": "w8c65",
             "kind": "concept",
-            "title": "Official: future-market areas",
+            "title": "future-market areas",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -16962,14 +16447,13 @@
           {
             "id": "w8c67",
             "kind": "concept",
-            "title": "Last of nine",
+            "title": "A further innovation market",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Defense",
-                "detail": "Ninth area in the official key",
-                "icon": "lock"
+                "label": "Defence",
+                "detail": "The ninth area in the course's list of future markets."
               }
             },
             "factId": "w8.l5.f06"
@@ -16977,14 +16461,13 @@
           {
             "id": "w8c68",
             "kind": "concept",
-            "title": "Official: answer",
+            "title": "Future markets for India",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "All nine",
-                "detail": "All listed areas create future markets",
-                "icon": "target"
+                "label": "All nine areas offer innovation opportunities",
+                "detail": "Digital technology, renewable energy, healthcare, agriculture, disaster management, education, finance, cities and defence."
               }
             },
             "factId": "w8.l5.f07"
@@ -17030,10 +16513,6 @@
               [
                 "Value proposition",
                 "Platform component"
-              ],
-              [
-                "Revenue and costs",
-                "Platform component"
               ]
             ]
           }
@@ -17051,6 +16530,10 @@
             ],
             "rows": [
               [
+                "Revenue and costs",
+                "Platform component"
+              ],
+              [
                 "Key activities",
                 "Platform component"
               ],
@@ -17063,7 +16546,7 @@
         }
       },
       {
-        "heading": "Model failure",
+        "heading": "Model failure (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -17083,7 +16566,18 @@
                 "label": "Remedy 1",
                 "detail": "Futuristic approach",
                 "icon": "bulb"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Model failure (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Remedy 2",
                 "detail": "Match capacity to value",
@@ -17115,10 +16609,6 @@
               [
                 "Early development",
                 "Build company, penetrate market"
-              ],
-              [
-                "Business incubator",
-                "Regional growth, early-stage ventures"
               ]
             ]
           }
@@ -17136,6 +16626,10 @@
             ],
             "rows": [
               [
+                "Business incubator",
+                "Regional growth, early-stage ventures"
+              ],
+              [
                 "Technology incubator",
                 "TBI: technology, knowledge-intensive firms"
               ]
@@ -17144,7 +16638,7 @@
         }
       },
       {
-        "heading": "Incubators",
+        "heading": "Incubators (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17165,7 +16659,22 @@
               [
                 "Support",
                 "Pre-founding and founding only"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Incubators (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
               [
                 "Not a feature",
                 "Established firms only"
@@ -17196,10 +16705,6 @@
               [
                 "Venture capitalist",
                 "Massive return sought"
-              ],
-              [
-                "Debt",
-                "Collateral incl. IP"
               ]
             ]
           }
@@ -17217,6 +16722,10 @@
             ],
             "rows": [
               [
+                "Debt",
+                "Collateral incl. IP"
+              ],
+              [
                 "Equity",
                 "Follows debt"
               ]
@@ -17225,7 +16734,7 @@
         }
       },
       {
-        "heading": "Venture debt",
+        "heading": "Venture debt (1)",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -17245,7 +16754,18 @@
                 "label": "10%-15%",
                 "detail": "Equity option",
                 "icon": "chart"
-              },
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Venture debt (2)",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
               {
                 "label": "Collateral",
                 "detail": "Assets, receivables, IP",
