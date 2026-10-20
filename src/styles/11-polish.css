@@ -103,7 +103,6 @@
 
 /* ---- wave CSS fallback band + update toast + scrollbar consistency ---- */
 .sweep-band{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:1000; }
-.upd{ position:fixed; left:16px; right:16px; bottom:86px; z-index:2000; background:var(--blue); color:#fff; border:0; border-radius:14px; padding:14px; font-weight:800; font-size:15px; font-family:inherit; box-shadow:0 4px 0 var(--blue-d, #0e7fb8); }
 .duo .main, .duo .ex-body, .duo .bubble, .duo .pop, .duo .plist, .duo .rv, .duo .bd, .duo .done{ scrollbar-width:none; }
 .duo .main::-webkit-scrollbar, .duo .ex-body::-webkit-scrollbar, .duo .bubble::-webkit-scrollbar, .duo .pop::-webkit-scrollbar, .duo .plist::-webkit-scrollbar, .duo .rv::-webkit-scrollbar, .duo .bd::-webkit-scrollbar, .duo .done::-webkit-scrollbar{ display:none; }
 .duo .stage.longq .bubble{ scrollbar-width:none; }
@@ -156,7 +155,6 @@
 .sweep-curtain{ z-index:10000; }
 .sweep-band{ z-index:10001; }
 .duo .gate{ z-index:500; }
-.upd{ z-index:10003; }
 /* instant learn mode: no dead footer bar before answering */
 .duo .ex-foot.ghost{ min-height:0; padding:0; border-top:0; }
 .duo .ex-foot.ghost .in{ display:none; }
