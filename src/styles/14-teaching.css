@@ -309,3 +309,5 @@
 .duo .has-figure[data-card="w6c20"] svg,.duo .has-figure[data-card="w6c45"] svg{max-height:225px;}
 @media(max-height:700px){.duo .has-figure [data-figure="w5c74"] svg{max-height:155px;}.duo .has-figure[data-card="w6c20"] svg,.duo .has-figure[data-card="w6c45"] svg{max-height:175px;}}
 .duo .lesson-figure .figure-seal,.duo .lesson-figure .figure-paper{fill:var(--card);}
+.duo .lesson-figure .figure-solid{fill:var(--green-d);stroke:none;}
+.duo.dark .lesson-figure .figure-solid{fill:var(--green);}
