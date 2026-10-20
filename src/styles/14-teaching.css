@@ -329,3 +329,5 @@
 }
 @media(min-height:701px) and (max-width:640px){.duo .card-short.has-figure .lesson-figure svg{max-height:300px;}}
 @media(min-height:701px) and (min-width:641px){.duo .card-short.has-figure .lesson-figure svg{max-height:265px;}}
+
+.duo .has-figure.card-long-key .lesson-figure svg{max-height:180px;}
