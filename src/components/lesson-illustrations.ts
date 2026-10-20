@@ -242,6 +242,11 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w2c20':body=path('M28 62h101v115H28Zm0 0h101m-80 21h58m-58 24h58','figure-fine')+label(45,148,'999')+arrow(143,120,214,120)+path('M235 173v-68l21-35h39l21 35v68Z','figure-main')+label(17,217,'Trials that fail',true)+label(221,217,'What is learned',true)+label(51,254,'Experiments reveal what does not work',true);break;
  case 'w2c52':body=[[-1,-1],[-1,1],[1,-1],[1,1]].map(([x,y])=>person(180+x*120,105+y*65)).join('')+path('M85 79 153 113M207 113l68-34M85 209l68-58m54 0 68 58','figure-fine')+`<circle cx="180" cy="132" r="37" class="figure-seal"/>`+label(158,137,'Care',true)+label(25,253,'Connect stakeholders through empathy',true);break;
  case 'w2c53':body=path('M45 55h115v83H45Zm155 58h115v83H200Z','figure-fine')+label(66,106,'Act')+label(216,164,'Reflect')+path('M167 91h79','figure-fine')+arrow(246,91,246,104)+path('M193 170h-92','figure-fine')+arrow(101,170,101,147)+label(48,242,'Reflect on action, then change the next action',true);break;
+
+ case 'w3c28':body=[['Input',26],['Process',139],['Output',252]].map(([t,x])=>path(`M${x} 66h85v94H${x}Z`,'figure-fine')+label(Number(x)+12,119,String(t),true)).join('')+arrow(117,114,132,114)+arrow(231,114,246,114)+path('M25 185v26h311v-26','figure-main')+label(64,250,'A complete, tangible solution',true);break;
+ case 'w3c41':body=person(78,62)+person(282,62)+path('M65 164l20 20 49-58','figure-main')+arrow(129,102,231,102)+label(35,217,'They can do it',true)+label(225,217,'Why not me?',true)+label(61,256,'A visible example makes action believable',true);break;
+ case 'w3c63':body=person(58,70)+person(302,70)+arrow(98,94,261,94)+arrow(261,147,98,147)+path('M42 187l16 16 36-40m192 24 16 16 36-40','figure-main')+label(17,237,'Benefit to one',true)+label(229,237,'Benefit to both',true)+label(105,259,'Co-created value',true);break;
+ case 'w3c81':body=path('M23 65h72v72H23Zm119 0h72v72h-72Zm119 0h72v72h-72Z','figure-fine')+arrow(103,100,134,100)+arrow(222,100,253,100)+label(35,109,'Step 1',true)+label(153,109,'Step 2',true)+label(271,109,'Result',true)+path('M34 173v36h51v-36m69 0v36h51v-36m68 0v36h51v-36','figure-main')+label(34,250,'Measure the process, not only the result',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
