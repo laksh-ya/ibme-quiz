@@ -76,3 +76,4 @@
  .duo .teaching-content .tag {font-size:10px;margin-bottom:12px;}
 }
 .duo .card-lines {overflow-wrap:break-word;}
+.duo .lesson-return {display:block;margin-top:16px;background:transparent!important;color:var(--sub)!important;border:2px solid var(--line);box-shadow:none;}
