@@ -146,3 +146,9 @@
  .duo .question-layout .opts { grid-auto-rows:max-content; }
  .duo .question-layout .opt { height:auto; overflow:visible; flex-shrink:0; }
 }
+/* Preserve the winding course path; centering belongs to each node, not the page. */
+.duo .node .lab { width:160px; }
+.duo .node.available { background:var(--snow); box-shadow:0 8px 0 var(--line); border:2px solid var(--line); }
+.duo .node.available>svg { opacity:.6; }
+.duo .node.current { background:var(--green); box-shadow:0 8px 0 var(--green-d); }
+.duo .node-anchor { width:88px; }
