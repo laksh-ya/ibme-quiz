@@ -244,9 +244,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w5c70':body=path('M28 218V25m0 193h306','figure-axis')+[0,1,2].map(i=>path(`M${35+i*83} ${200-i*51}C${91+i*73} ${200-i*51} ${81+i*83} ${130-i*51} ${166+i*75} ${130-i*51}`,'figure-fine')).join('')+path('M35 200Q180 85 330 28','figure-main')+label(29,248,'Successive technologies',true)+label(209,123,'Envelope',true);break;
  case 'w5c75':body=path('M30 159V67h74v92m-61-92V31h18v36m24 0V31h18v36','figure-fine')+path('M49 21q12-18 28 0t28 0','figure-fine')+arrow(120,111,218,111)+path('M239 95l61-24 32 22v62l-61 23-32-23Zm0 0 32 24 61-26m-61 26v59','figure-main')+label(23,222,'Fly ash waste',true)+label(256,222,'Bricks',true)+label(53,256,'Waste becomes a useful material',true);break;
 
- case 'w6c26':body=path('M31 108l108-28 30 32-108 28Zm30 32v46h108v-74M43 176h115','figure-main')+arrow(183,125,232,125)+path('M251 78h73v115h-73Zm12 20h49m-49 24h49m-49 24h49','figure-fine')+label(22,229,'Existing stapler',true)+label(238,229,'Existing use',true)+label(75,259,'Old product + old usage',true);break;
- case 'w6c27':body=path('M42 55h55v28l12 18v104H30V101l12-18Zm-5 73h65v42H37','figure-main')+label(39,154,'Listerine',true)+arrow(126,130,219,130)+path('M245 83q31-18 63 0v59q-32 29-63 0Zm0 59 12 49h39l12-49','figure-fine')+label(25,239,'Existing product',true)+label(241,239,'New usage',true);break;
- case 'w6c35':body=path('M25 179V115h70v64m42 0V83h85v96m42 0V48h71v131','figure-fine')+path('M42 204l15 15 30-37m67 22 15 15 30-37m67 22 15 15 30-37','figure-main')+label(21,256,'Innovation matters at every business size',true);break;
 
  case 'w7c5':body=person(41,61)+arrow(78,99,124,99)+sheet(139,45,81,116)+arrow(232,99,268,99)+sheet(280,36,56,74)+sheet(280,140,56,74)+label(15,234,'Identify',true)+label(132,234,'Document',true)+label(277,234,'Share',true);break;
  case 'w7c9':body=sheet(27,40,112,153)+label(37,145,'Asset',true)+arrow(152,116,212,116)+path('M231 42h101v92q-50 72-101 0Z','figure-main')+label(251,101,'Law')+path('M252 131l17 17 38-43','figure-main')+label(35,242,'Intellectual assets protected under law',true);break;
@@ -271,10 +268,6 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
 
 
 
- case 'w6c15':body=label(21,57,'Skepticism',true)+label(218,57,'Belief',true)+path('M22 86l90 90m0-90-90 90','figure-red')+arrow(142,128,209,128)+path('M234 136l27 27 59-71','figure-main')+label(42,245,'Reduce criticism; develop belief',true);break;
- case 'w6c18':body=path('M34 164h107l43-80h70l43 80m-209 0 49-80 47 80m-51-99h32','figure-main')+`<circle cx="82" cy="168" r="44"/><circle cx="297" cy="168" r="44"/>`+path('M193 65V39h93v80h-54','figure-fine')+label(41,248,'Pedal-rickshaw efficiency project',true);break;
- case 'w6c33':body=path('M25 201h309M25 201V27','figure-fine')+path('M41 187l65-136 68 20 58 73 83 39','figure-main')+label(34,237,'Pioneer',true)+label(227,237,'Market lost',true)+label(125,44,'PET jars',true);break;
- case 'w6c59':body=path('M26 82h308v52H26Z','figure-fine')+path('M26 82h31v52H26Z','figure-main')+label(22,57,'Only 10%',true)+label(23,202,'Coincidences and curiosities',true)+label(23,233,'can mislead',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
