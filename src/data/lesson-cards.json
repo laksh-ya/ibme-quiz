@@ -13321,5 +13321,1887 @@
         "Notes v2 items not in captions or slides: DAVP, bagasse, Jaago Re, MP3/cassette, almirah, Pearl Buds, Jaldooth, KVIC Rs 1 lakh artisan figures"
       ]
     }
+  },
+  {
+    "week": 7,
+    "title": "Week 7: Intellectual property rights",
+    "lectures": [
+      {
+        "id": "w7l1",
+        "title": "Management of Innovation: Creation of IPR I",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ],
+        "cards": [
+          {
+            "id": "w7c1",
+            "kind": "concept",
+            "title": "Intellectual capital",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Intellectual capital",
+                "detail": "Employees' knowledge, usable to create wealth",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w7.l1.f01"
+          },
+          {
+            "id": "w7c2",
+            "kind": "concept",
+            "title": "Intellectual capital is",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "What is left",
+                "detail": "After stripping all tangible assets",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l1.f02"
+          },
+          {
+            "id": "w7c3",
+            "kind": "concept",
+            "title": "Intellectual capital includes",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Employee knowledge, skills",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Processes, designs, inventions",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Customer, supplier relationships",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Software, manuals, databases",
+                    "detail": "",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f03"
+          },
+          {
+            "id": "w7c4",
+            "kind": "concept",
+            "title": "Creating intellectual capital",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Purpose"
+                  },
+                  {
+                    "label": "Strategy"
+                  },
+                  {
+                    "label": "Information"
+                  },
+                  {
+                    "label": "Knowledge"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f04"
+          },
+          {
+            "id": "w7c5",
+            "kind": "concept",
+            "title": "Intellectual assets",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Identified, documented, shared",
+                "detail": "Intellectual capital replicable in the organization",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l1.f05"
+          },
+          {
+            "id": "w7c6",
+            "kind": "example",
+            "title": "Customer relationships",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Intellectual asset",
+                "detail": "Customer relationships at a CRM firm",
+                "icon": "heart"
+              }
+            },
+            "factId": "w7.l1.f06"
+          },
+          {
+            "id": "w7c7",
+            "kind": "concept",
+            "title": "Ownership",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Not owned",
+                    "detail": "Employees",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Owned",
+                    "detail": "Assets they create at the organization",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f07"
+          },
+          {
+            "id": "w7c8p1",
+            "kind": "concept",
+            "title": "IC management process (1)",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Search out"
+                  },
+                  {
+                    "label": "Identify"
+                  },
+                  {
+                    "label": "Capture"
+                  },
+                  {
+                    "label": "Document"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f08"
+          },
+          {
+            "id": "w7c8p2",
+            "kind": "concept",
+            "title": "IC management process (2)",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Index"
+                  },
+                  {
+                    "label": "Store"
+                  },
+                  {
+                    "label": "Augment"
+                  },
+                  {
+                    "label": "Replicate"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f08"
+          },
+          {
+            "id": "w7c9",
+            "kind": "concept",
+            "title": "Intellectual property",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Intellectual property",
+                "detail": "Intellectual assets protected under law",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l1.f09"
+          },
+          {
+            "id": "w7c10",
+            "kind": "concept",
+            "title": "Hierarchy",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Intellectual capital"
+                  },
+                  {
+                    "label": "Intellectual assets"
+                  },
+                  {
+                    "label": "Intellectual property"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f10"
+          },
+          {
+            "id": "w7c11",
+            "kind": "concept",
+            "title": "WIPO definition",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "IP",
+                "detail": "Creations of the mind in commerce",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w7.l1.f11"
+          },
+          {
+            "id": "w7c12",
+            "kind": "concept",
+            "title": "Two families of IP",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Industrial property",
+                    "detail": "Patents, trademarks, designs, GIs",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Copyright",
+                    "detail": "Literary, film, music, art, architecture",
+                    "icon": "hat"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f12"
+          },
+          {
+            "id": "w7c13",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Capital",
+                    "detail": "Employees' knowledge",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Assets",
+                    "detail": "Documented, shareable",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Property",
+                    "detail": "Legally protected",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Creation order",
+                    "detail": "Purpose, strategy, information, knowledge",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l1.f13"
+          }
+        ]
+      },
+      {
+        "id": "w7l2",
+        "title": "Creation of IPR II",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ],
+        "cards": [
+          {
+            "id": "w7c14",
+            "kind": "concept",
+            "title": "IPRs",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "IPR",
+                "detail": "Owners benefit from patents, trademarks, copyrights",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l2.f01"
+          },
+          {
+            "id": "w7c15",
+            "kind": "concept",
+            "title": "Legal roots",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Article 27",
+                    "detail": "Universal Declaration of Human Rights",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Paris Convention",
+                    "detail": "1883, industrial property",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Berne Convention",
+                    "detail": "1886, literary and artistic works",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "WIPO",
+                    "detail": "Administers both treaties",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f02"
+          },
+          {
+            "id": "w7c16",
+            "kind": "concept",
+            "title": "Why protect IP",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Resources",
+                    "detail": "Protection encourages more for innovation",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Growth",
+                    "detail": "Jobs and new industries",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Quality of life",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f03"
+          },
+          {
+            "id": "w7c17",
+            "kind": "concept",
+            "title": "Official: WIPO balance",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Innovators and public",
+                "detail": "IPR system balances their interests",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l2.f04"
+          },
+          {
+            "id": "w7c18",
+            "kind": "concept",
+            "title": "Protection and monopoly",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Legal protection",
+                "detail": "Encourages more resources, not discourages",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l2.f05"
+          },
+          {
+            "id": "w7c19",
+            "kind": "concept",
+            "title": "Official: IPR vs patent",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Not interchangeable",
+                "detail": "Patent is one type of IPR",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l2.f06"
+          },
+          {
+            "id": "w7c20",
+            "kind": "concept",
+            "title": "Benefits to people",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Copyright",
+                    "detail": "Film, recording, publishing, software",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Patents",
+                    "detail": "Incentive for better products",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Trademarks",
+                    "detail": "Confidence, stops counterfeiting",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f07"
+          },
+          {
+            "id": "w7c21",
+            "kind": "concept",
+            "title": "Patent",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Patent",
+                "detail": "Exclusive right to an invention",
+                "icon": "gear"
+              }
+            },
+            "factId": "w7.l2.f08"
+          },
+          {
+            "id": "w7c22",
+            "kind": "concept",
+            "title": "Patent term",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "20 years",
+                "detail": "Generally, limited period",
+                "icon": "clock"
+              }
+            },
+            "factId": "w7.l2.f09"
+          },
+          {
+            "id": "w7c23",
+            "kind": "concept",
+            "title": "Patent application",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Title, technical field",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Background, description",
+                    "detail": "Reproducible by average person",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Drawings",
+                    "detail": "",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Claims",
+                    "detail": "Extent of protection",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f10"
+          },
+          {
+            "id": "w7c24",
+            "kind": "concept",
+            "title": "Who grants patents",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "National offices",
+                    "detail": "",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Regional offices",
+                    "detail": "EPO, OAPI",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "PCT",
+                    "detail": "One international application",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f11"
+          },
+          {
+            "id": "w7c25",
+            "kind": "concept",
+            "title": "PCT",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Patent Cooperation Treaty",
+                "detail": "Administered by WIPO",
+                "icon": "globe"
+              }
+            },
+            "factId": "w7.l2.f12"
+          },
+          {
+            "id": "w7c26",
+            "kind": "concept",
+            "title": "Trademark registration",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Distinctive",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Not misleading",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Not similar",
+                    "detail": "As an existing mark",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f13"
+          },
+          {
+            "id": "w7c27",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Paris, Berne",
+                    "detail": "1883, 1886",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Patent term",
+                    "detail": "20 years",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "IPR balance",
+                    "detail": "Innovators and public",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "PCT",
+                    "detail": "One application, many countries",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l2.f14"
+          }
+        ]
+      },
+      {
+        "id": "w7l3",
+        "title": "Types of IPR",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ],
+        "cards": [
+          {
+            "id": "w7c28",
+            "kind": "concept",
+            "title": "Two groups",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Industrial property",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Copyrights",
+                    "detail": "",
+                    "icon": "hat"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f01"
+          },
+          {
+            "id": "w7c29",
+            "kind": "concept",
+            "title": "The big three",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Patents",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Copyrights",
+                    "detail": "",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Trademarks",
+                    "detail": "",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f02"
+          },
+          {
+            "id": "w7c30",
+            "kind": "concept",
+            "title": "Supporting players",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Trade secrets, know-how",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Industrial design",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Geographical indicators",
+                    "detail": "",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "IC layout design",
+                    "detail": "",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f03"
+          },
+          {
+            "id": "w7c31",
+            "kind": "concept",
+            "title": "Also supporting",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Non-competition",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Non-disclosure agreements",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f04"
+          },
+          {
+            "id": "w7c32",
+            "kind": "concept",
+            "title": "Patent right",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Prevent others",
+                "detail": "Making, using, selling, offering, importing",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l3.f05"
+          },
+          {
+            "id": "w7c33",
+            "kind": "concept",
+            "title": "Patent territory",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Geographical boundary",
+                "detail": "Valid within it",
+                "icon": "globe"
+              }
+            },
+            "factId": "w7.l3.f06"
+          },
+          {
+            "id": "w7c34",
+            "kind": "concept",
+            "title": "Patentable if",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Novel",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Nonobvious",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Useful",
+                    "detail": "",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f07"
+          },
+          {
+            "id": "w7c35",
+            "kind": "concept",
+            "title": "Trademark",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Perpetual life",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Registration",
+                    "detail": "Legally not required",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Generic terms",
+                    "detail": "Not protectable",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f08"
+          },
+          {
+            "id": "w7c36",
+            "kind": "concept",
+            "title": "Trademark covers",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Distinctive appearance",
+                "detail": "Product, packaging: size, shape, colour, texture",
+                "icon": "eye"
+              }
+            },
+            "factId": "w7.l3.f09"
+          },
+          {
+            "id": "w7c37",
+            "kind": "example",
+            "title": "Trademark examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Google",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "IBM",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Apple",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Microsoft",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f10"
+          },
+          {
+            "id": "w7c38",
+            "kind": "concept",
+            "title": "Geographical indication",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "GI",
+                "detail": "Origin gives quality, distinctiveness",
+                "icon": "globe"
+              }
+            },
+            "factId": "w7.l3.f11"
+          },
+          {
+            "id": "w7c39",
+            "kind": "example",
+            "title": "GI example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Darjeeling Tea",
+                "detail": "Labelled so only from Darjeeling region",
+                "icon": "leaf"
+              }
+            },
+            "factId": "w7.l3.f12"
+          },
+          {
+            "id": "w7c40",
+            "kind": "concept",
+            "title": "GI protection",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "No misleading use",
+                "detail": "Sanctions: injunction, damages, fines, prison",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l3.f13"
+          },
+          {
+            "id": "w7c41",
+            "kind": "concept",
+            "title": "Copyright",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Protects",
+                    "detail": "Expression of an idea",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Not the idea",
+                    "detail": "Idea itself",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f14"
+          },
+          {
+            "id": "w7c42",
+            "kind": "concept",
+            "title": "Trade secret",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Chemical formula",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Manufacturing process",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Machine design",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Business model",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f15"
+          },
+          {
+            "id": "w7c43",
+            "kind": "example",
+            "title": "Trade secret example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Coca-Cola",
+                "detail": "Secret formula never disclosed",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l3.f16"
+          },
+          {
+            "id": "w7c44",
+            "kind": "concept",
+            "title": "Official: IPR category",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "All three",
+                "detail": "Car design, recipe, Darjeeling Tea",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l3.f17"
+          },
+          {
+            "id": "w7c45",
+            "kind": "concept",
+            "title": "Official: match types",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Copyright",
+                    "detail": "Novelist's manuscript",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Patent",
+                    "detail": "Exclusive right to sell a medicine",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Trademark",
+                    "detail": "Nike logo, brand name",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f18"
+          },
+          {
+            "id": "w7c46",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Big three",
+                    "detail": "Patents, copyrights, trademarks",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Patentable",
+                    "detail": "Novel, nonobvious, useful",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Trademark",
+                    "detail": "Perpetual life",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Copyright",
+                    "detail": "Expression, not idea",
+                    "icon": "hat"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l3.f19"
+          }
+        ]
+      },
+      {
+        "id": "w7l4",
+        "title": "Patents and Copyrights",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ],
+        "cards": [
+          {
+            "id": "w7c47",
+            "kind": "concept",
+            "title": "Patent objective",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Encourage technology",
+                "detail": "And industry development",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w7.l4.f01"
+          },
+          {
+            "id": "w7c48",
+            "kind": "concept",
+            "title": "Myth",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Patents promote technology",
+                "detail": "Not monopolies",
+                "icon": "target"
+              }
+            },
+            "factId": "w7.l4.f02"
+          },
+          {
+            "id": "w7c49",
+            "kind": "concept",
+            "title": "Indian patent system",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Ayyangar Committee",
+                "detail": "Report of 1959 is the base",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l4.f03"
+          },
+          {
+            "id": "w7c50",
+            "kind": "concept",
+            "title": "Exclusive rights stimulate progress",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Research",
+                    "detail": "Encourages invention",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Disclosure",
+                    "detail": "Instead of trade secret",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Reward",
+                    "detail": "For development expenses",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Investment",
+                    "detail": "In new production lines",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f04"
+          },
+          {
+            "id": "w7c51",
+            "kind": "concept",
+            "title": "Indian patent timeline",
+            "lines": [],
+            "visual": {
+              "type": "timeline",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "1911",
+                    "detail": "First Patents and Designs Act"
+                  },
+                  {
+                    "label": "1970",
+                    "detail": "Patent Act, in force 1972"
+                  },
+                  {
+                    "label": "1999",
+                    "detail": "Amended for TRIPS"
+                  },
+                  {
+                    "label": "2002, 2005",
+                    "detail": "Further amendments"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f05"
+          },
+          {
+            "id": "w7c52p1",
+            "kind": "concept",
+            "title": "Patent process (1)",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "File application"
+                  },
+                  {
+                    "label": "Priority date"
+                  },
+                  {
+                    "label": "Publication"
+                  },
+                  {
+                    "label": "Examination"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f06"
+          },
+          {
+            "id": "w7c52p2",
+            "kind": "concept",
+            "title": "Patent process (2)",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Controller"
+                  },
+                  {
+                    "label": "Pre-grant opposition"
+                  },
+                  {
+                    "label": "Grant or refusal"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f06"
+          },
+          {
+            "id": "w7c53",
+            "kind": "concept",
+            "title": "Copyright",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Automatic",
+                    "detail": "No registration needed",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Optional registration",
+                    "detail": "Helps prove ownership",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Symbol",
+                    "detail": "Not required",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f07"
+          },
+          {
+            "id": "w7c54",
+            "kind": "concept",
+            "title": "Official: copyright",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Legal protection",
+                "detail": "For original literary, artistic, creative works",
+                "icon": "hat"
+              }
+            },
+            "factId": "w7.l4.f08"
+          },
+          {
+            "id": "w7c55",
+            "kind": "concept",
+            "title": "Copyright rights",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Exclusive control",
+                "detail": "Use, reproduce, distribute, perform, display",
+                "icon": "hat"
+              }
+            },
+            "factId": "w7.l4.f09"
+          },
+          {
+            "id": "w7c56",
+            "kind": "concept",
+            "title": "Official: copyright and idea",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Right",
+                    "detail": "Protects creators' works",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Wrong",
+                    "detail": "Protects the original idea",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f10"
+          },
+          {
+            "id": "w7c57",
+            "kind": "example",
+            "title": "Official: scenario",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Seminar demo",
+                "detail": "Packaging material: no protection",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l4.f11"
+          },
+          {
+            "id": "w7c58",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Indian base",
+                    "detail": "Ayyangar Committee 1959",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Act",
+                    "detail": "Patent Act 1970",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Copyright",
+                    "detail": "Automatic",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Idea",
+                    "detail": "Not protected",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l4.f12"
+          }
+        ]
+      },
+      {
+        "id": "w7l5",
+        "title": "Patents in India and Cases",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=71"
+        ],
+        "cards": [
+          {
+            "id": "w7c59",
+            "kind": "example",
+            "title": "Patent cases in India",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Bajaj vs TVS",
+                    "detail": "Patent: twin spark",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Coca-Cola vs Bisleri",
+                    "detail": "Trademark: Maaza",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Ericsson vs Xiaomi",
+                    "detail": "Patents: standard essential",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f01"
+          },
+          {
+            "id": "w7c60",
+            "kind": "example",
+            "title": "Bajaj vs TVS",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Bajaj",
+                    "detail": "DTSi",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "TVS",
+                    "detail": "CCVTi",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f02"
+          },
+          {
+            "id": "w7c61",
+            "kind": "example",
+            "title": "Bajaj patent",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "No. 195904",
+                    "detail": "Twin spark plugs",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Priority date",
+                    "detail": "16 July 2002",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Validity",
+                    "detail": "20 years",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f03"
+          },
+          {
+            "id": "w7c62",
+            "kind": "example",
+            "title": "Bajaj vs TVS outcome",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Patent valid",
+                "detail": "TVS may sell; receiver audits",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l5.f04"
+          },
+          {
+            "id": "w7c63",
+            "kind": "example",
+            "title": "Coca-Cola vs Bisleri",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Maaza",
+                "detail": "Bisleri sold India rights to Coca-Cola",
+                "icon": "shield"
+              }
+            },
+            "factId": "w7.l5.f05"
+          },
+          {
+            "id": "w7c64",
+            "kind": "example",
+            "title": "Maaza ruling",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Export is sale",
+                "detail": "Exporting from India infringes the mark",
+                "icon": "globe"
+              }
+            },
+            "factId": "w7.l5.f06"
+          },
+          {
+            "id": "w7c65",
+            "kind": "example",
+            "title": "Maaza injunction",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Delhi High Court",
+                "detail": "Barred use in India, export",
+                "icon": "lock"
+              }
+            },
+            "factId": "w7.l5.f07"
+          },
+          {
+            "id": "w7c66",
+            "kind": "example",
+            "title": "Ericsson vs Xiaomi",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ericsson",
+                    "detail": "Sued over 8 patents",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Xiaomi",
+                    "detail": "Held Qualcomm chip licence claim",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Delhi High Court",
+                    "detail": "Allowed sales on conditions",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f08"
+          },
+          {
+            "id": "w7c67",
+            "kind": "example",
+            "title": "Xiaomi conditions",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Qualcomm chips only",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Rs 100 each",
+                    "detail": "Royalty deposit",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f09"
+          },
+          {
+            "id": "w7c68",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Bajaj vs TVS",
+                    "detail": "Patent",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Coca-Cola vs Bisleri",
+                    "detail": "Trademark",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Ericsson vs Xiaomi",
+                    "detail": "Standard essential patents",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Court",
+                    "detail": "Delhi High Court: Maaza, Xiaomi",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w7.l5.f10"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Capital to property",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Intellectual capital",
+                "Employees' knowledge"
+              ],
+              [
+                "Intellectual assets",
+                "Documented, shareable"
+              ],
+              [
+                "Intellectual property",
+                "Legally protected"
+              ],
+              [
+                "Creation order",
+                "Purpose, strategy, information, knowledge"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "IPR basics",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "WIPO balance",
+                "detail": "Innovators and public",
+                "icon": "shield"
+              },
+              {
+                "label": "Not same",
+                "detail": "IPR is not only patents",
+                "icon": "lock"
+              },
+              {
+                "label": "Protection",
+                "detail": "Encourages more innovation",
+                "icon": "coin"
+              },
+              {
+                "label": "Treaties",
+                "detail": "Paris 1883, Berne 1886",
+                "icon": "globe"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Types of IPR (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Type",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Patent",
+                "20 years, novel, nonobvious, useful"
+              ],
+              [
+                "Trademark",
+                "Perpetual life, registration optional"
+              ],
+              [
+                "Copyright",
+                "Expression, automatic"
+              ],
+              [
+                "GI",
+                "Darjeeling Tea"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Types of IPR (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Type",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Trade secret",
+                "Coca-Cola formula"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Falls under IPR (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Item",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Luxury car design",
+                "IPR"
+              ],
+              [
+                "Soft drink recipe",
+                "IPR"
+              ],
+              [
+                "Darjeeling Tea",
+                "IPR"
+              ],
+              [
+                "Copyright: manuscript",
+                "Novelist's original"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Falls under IPR (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Item",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Patent: medicine",
+                "Exclusive right to sell"
+              ],
+              [
+                "Trademark: Nike",
+                "Logo and brand name"
+              ],
+              [
+                "Copyright protects",
+                "Expression of idea"
+              ],
+              [
+                "Copyright does not",
+                "Protect the idea itself"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Indian patent system",
+        "bullets": [],
+        "visual": {
+          "type": "timeline",
+          "spec": {
+            "nodes": [
+              {
+                "label": "1959",
+                "detail": "Ayyangar Committee report"
+              },
+              {
+                "label": "1911",
+                "detail": "First Patents and Designs Act"
+              },
+              {
+                "label": "1970",
+                "detail": "Patent Act"
+              },
+              {
+                "label": "1999",
+                "detail": "TRIPS amendment"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Patent cases",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Case",
+              "Core"
+            ],
+            "rows": [
+              [
+                "Bajaj vs TVS",
+                "Patent valid"
+              ],
+              [
+                "Coca-Cola vs Bisleri",
+                "Export is sale: Maaza"
+              ],
+              [
+                "Ericsson vs Xiaomi",
+                "Qualcomm chips, Rs 100 deposit"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W7 solution PDF (with its answer list)",
+      "notes": [
+        "Q9 official key: no protection; the scenario mentions a seminar demo, the sources do not state the reason",
+        "Q8 official key: all of the above"
+      ],
+      "dropped": []
+    }
   }
 ]

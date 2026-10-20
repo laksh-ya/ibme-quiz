@@ -128,3 +128,22 @@
 @media(max-height:700px){.duo .art-journey .art-emblem,.duo .art-loop .art-emblem{width:40px;height:40px;}.duo .art-journey .art-icon,.duo .art-loop .art-icon{width:32px;height:32px;}.duo .art-journey .art-unit,.duo .art-loop .art-unit{min-height:44px;}.duo .art-journey .art-link,.duo .art-loop .art-link{font-size:18px;margin:0;}}
 .duo .art-journey.art-dense,.duo .art-loop.art-dense{gap:0;}.duo .art-dense .art-unit{padding:4px 0;min-height:46px;}.duo .art-dense .art-emblem{width:42px;height:42px;}.duo .art-dense .art-icon{width:30px;height:30px;}.duo .art-dense .art-link{font-size:18px;line-height:1;margin:1px;}
 .duo .art-pair{padding:14px 0;}.duo .art-pairs{gap:0;}@media(max-height:700px){.duo .art-pair{padding:10px 0;font-size:15px;}}
+/* Illustrated lesson stage */
+.duo .teaching{background:var(--bg);}
+.duo .teaching-body{background:radial-gradient(ellipse at 90% 10%,#58cc0210,transparent 55%);}
+.duo .visual-card{justify-content:flex-start;padding-top:28px;}
+.duo .visual-card>.head{font-size:29px;letter-spacing:-.5px;line-height:1.15;margin-bottom:28px;max-width:460px;}
+.duo .visual-card>.head:after{content:'';display:block;width:44px;height:5px;border-radius:4px;background:var(--green);margin-top:16px;}
+.duo .art-key{padding:26px 18px 24px;border-radius:30px;background:linear-gradient(155deg,color-mix(in srgb,var(--tone) 13%,var(--bg)),var(--bg));border:1px solid color-mix(in srgb,var(--tone) 25%,var(--line));box-shadow:0 8px 0 color-mix(in srgb,var(--tone) 8%,var(--bg));position:relative;isolation:isolate;}
+.duo .art-key-orbit{width:160px;height:160px;border-radius:50%;position:relative;background:color-mix(in srgb,var(--tone) 18%,var(--bg));box-shadow:inset 0 0 0 12px color-mix(in srgb,var(--tone) 7%,var(--bg));margin-bottom:26px;transform:rotate(-7deg);}
+.duo .art-key-orbit:before,.duo .art-key-orbit:after{content:'';position:absolute;border:2px solid color-mix(in srgb,var(--tone) 42%,transparent);border-radius:50%;inset:-12px;transform:rotate(25deg) scaleX(1.18);}
+.duo .art-key-orbit:after{inset:14px -30px;transform:rotate(-35deg);border-style:dashed;}
+.duo .art-key-orbit .art-icon{width:90px;height:90px;filter:drop-shadow(3px 4px 0 color-mix(in srgb,var(--tone) 12%,transparent));transform:rotate(7deg);z-index:1;}
+.duo .art-key strong{font-size:30px;}.duo .art-key p{font-size:20px;margin:16px 0 0;}
+.duo .art-tiles,.duo .art-compare{gap:14px;margin:6px 0 24px;}
+.duo .art-tiles .art-unit,.duo .art-compare .art-unit{border:1px solid color-mix(in srgb,var(--tone) 28%,var(--line));border-bottom:5px solid color-mix(in srgb,var(--tone) 65%,var(--line));border-radius:24px;padding:20px 10px;background:color-mix(in srgb,var(--tone) 7%,var(--bg));}
+.duo .art-tiles .art-emblem,.duo .art-compare .art-emblem{width:70px;height:70px;border-radius:24px;box-shadow:0 5px 0 color-mix(in srgb,var(--tone) 22%,transparent);transform:rotate(-6deg);margin-bottom:20px;}
+.duo .art-emblem .art-icon{transform:rotate(6deg);}.duo .art-tiles .art-unit b,.duo .art-compare .art-unit b{font-size:19px;}
+.duo .art-journey,.duo .art-loop{border-radius:24px;padding:14px;background:color-mix(in srgb,var(--green) 6%,var(--bg));border:1px solid var(--line);margin-top:0;}
+.duo .art-journey .art-unit,.duo .art-loop .art-unit{grid-template-columns:48px 1fr;column-gap:12px;padding:8px 0;}.duo .art-pairs{margin-top:0;}.duo .art-pair{background:color-mix(in srgb,var(--tone) 5%,var(--bg));padding:14px 10px;border-bottom:1px solid var(--line);}.duo .art-pair:first-child{border-radius:18px 18px 0 0;}.duo .art-pair:last-child{border-radius:0 0 18px 18px;}
+@media(max-height:700px){.duo .visual-card{padding-top:10px;}.duo .visual-card>.head{font-size:24px;margin-bottom:18px;}.duo .visual-card>.head:after{margin-top:10px;}.duo .art-key{padding:20px 12px;}.duo .art-key-orbit{width:110px;height:110px;margin-bottom:18px;}.duo .art-key-orbit .art-icon{width:65px;height:65px;}.duo .art-key strong{font-size:25px;}.duo .art-key p{font-size:18px;}.duo .art-tiles .art-unit,.duo .art-compare .art-unit{padding:12px 7px;}.duo .art-tiles .art-emblem,.duo .art-compare .art-emblem{width:48px;height:48px;margin-bottom:12px;}.duo .art-tiles .art-unit b,.duo .art-compare .art-unit b{font-size:16px;}.duo .art-pair{padding:10px 8px;}}
