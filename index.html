@@ -1798,10 +1798,74 @@
 .duo .ex-foot.ghost{ min-height:0; padding:0; border-top:0; }
 .duo .ex-foot.ghost .in{ display:none; }
 
-</style></head><body><div id="root"></div><script type="module">import * as GLIMM from "./glimm.js"; window.GLIMM = GLIMM;</script>
+
+/* ---- v5: single-layer wave, node-attached popover, readability ---- */
+.wave{ position:fixed; top:0; left:0; width:124vw; height:100%; z-index:10002; pointer-events:none;
+  background:linear-gradient(90deg,#A2E838 0%,#58CC02 45%,#1CB0F6 100%);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 12vw,#000 calc(100% - 12vw),transparent 100%);
+  mask-image:linear-gradient(90deg,transparent 0,#000 12vw,#000 calc(100% - 12vw),transparent 100%); will-change:transform; }
+.duo .bk{ display:none; }
+.duo .wrow{ position:relative; width:100%; display:flex; flex-direction:column; align-items:center; margin-bottom:46px; }
+.duo .path{ gap:0; }
+.duo .node .lab{ font-size:16px; line-height:1.2; color:var(--text); font-weight:800; bottom:-34px; }
+.duo .node.open{ outline:3px solid var(--text); outline-offset:4px; }
+.duo .start{ font-size:16px; padding:8px 16px; color:var(--green); top:-56px; }
+.duo.dark .start{ border-color:#5b6f7a; }
+.duo .pop2{ position:relative; width:min(340px, calc(100% - 8px)); margin-top:50px; background:var(--green); color:#12250a; border-radius:18px; padding:18px; text-align:left; box-shadow:0 5px 0 var(--green-d); animation:popin3 .18s ease-out; }
+.duo .pop2:before{ content:""; position:absolute; top:-9px; left:calc(50% + var(--ax, 0px)); width:18px; height:18px; background:var(--green); transform:translateX(-50%) rotate(45deg); border-radius:3px; }
+.duo .pop2 h3{ margin:0; font-size:24px; color:#12250a; }
+.duo .pop2 p{ margin:6px 0 14px; font-size:16px; line-height:1.4; font-weight:800; color:#12250a; opacity:1; }
+.duo .pop2 .row{ display:flex; gap:10px; }
+.duo .pop2 .btn{ flex:1; padding:14px 8px; font-size:16px; min-height:50px; }
+.duo .pop2 .btn.white{ background:#fff; color:#2b6a00; box-shadow:0 4px 0 #cfd8cc; }
+.duo .pop2 .btn.ink{ background:#131f24; color:#a2e838; box-shadow:0 4px 0 #050b0d; }
+.duo .pop2 .snote{ font-size:13px; margin-top:12px; color:#12250a; opacity:1; font-weight:800; letter-spacing:.4px; text-transform:uppercase; }
+@keyframes popin3{ from{ opacity:0; transform:translateY(-6px) scale(.97); } }
+/* banner */
+.duo .banner{ padding:14px 18px; }
+.duo .banner small{ font-size:13px; opacity:1; color:#12250a; letter-spacing:.8px; }
+.duo .banner h2{ font-size:22px; color:#12250a; }
+/* nav: bigger, higher contrast */
+.duo .nav{ font-size:17px; color:#d5e1e8; letter-spacing:1px; }
+.duo .nav svg{ width:32px; height:32px; }
+.duo.dark .nav{ color:#d5e1e8; }
+.duo.dark .nav.on{ color:#7fd4ff; }
+.duo .side{ width:272px; }
+.duo .logo{ font-size:38px; }
+.duo .seg button{ font-size:15px; }
+.duo .seg button.on{ color:#06222f; }
+.duo .sb div:first-child{ color:#1b1b1b; font-size:13px; }
+.duo .btn.blue{ color:#06222f; }
+.duo.dark .opts3 button.on{ background:#1d3440; color:#7fd4ff; border-color:#49c0f8; }
+.duo .opts3 button{ font-size:14px; }
+/* general text floor */
+.duo .sub{ font-size:16px; color:var(--sub); }
+.duo .card h3{ font-size:21px; }
+.duo .rail .card div{ font-size:16px !important; }
+.duo .stats{ font-size:19px; }
+.duo .kb, .duo .snote{ color:var(--sub); }
+.duo.dark{ --sub:#a9b6bd; }
+@media (max-width:1000px){
+  .duo .side{ width:100%; padding:6px 6px calc(6px + env(safe-area-inset-bottom)); }
+  .duo .nav{ font-size:12px; letter-spacing:.4px; gap:3px; padding:7px 4px; }
+  .duo .nav svg{ width:30px; height:30px; }
+  .duo .main{ padding:0 18px 36px; }
+}
+@media (min-width:641px) and (max-width:1000px){
+  .duo .col{ max-width:560px; }
+  .duo .nav{ font-size:13px; }
+}
+@media (max-width:640px){
+  .duo .node .lab{ font-size:15px; }
+  .duo .banner h2{ font-size:19px; }
+  .duo .banner small{ font-size:12px; }
+  .duo .pop2{ width:calc(100% - 4px); }
+  .duo .sub{ font-size:15px; }
+}
+</style></head><body><div id="root"></div>
 <script>(() => {
   // src/duo.ts
-  const BUILD = "2026.10.20-4";
+  const BUILD = "2026.10.20-5";
   {
     const chk = async () => {
       try {
@@ -1965,126 +2029,35 @@
   ${acc}</svg>`;
   }
   var avatar = (i, sz) => `<span class="av" style="width:${sz}px;height:${sz}px;background:${AVS[i % AVS.length].bl}">${mascot(i)}</span>`;
-    // Page transition built on the real glimm library (window.GLIMM, vendored
-    // unmodified from npm:glimm, MIT licence). One persistent shader controller
-    // plays the band; a CSS curtain underneath guarantees the sequence the user
-    // sees: the wipe fully covers, the page swaps while hidden, then it reveals.
-    // If WebGL or the module is unavailable (some Android GPUs, in-app webviews),
-    // or the OS asks for reduced motion, a pure-CSS band with the same palette,
-    // timing and sequence plays instead - the wave always runs.
-    let glCtrl = null, glHandle = null, glRaf = 0;
-    const glCurtain = () => {
-      let c = document.querySelector(".sweep-curtain");
-      if (!c) {
-        c = document.createElement("div");
-        c.className = "sweep-curtain";
-        document.body.appendChild(c);
-      }
-      return c;
-    };
+    // Page transition: exactly one layer (div.wave). It slides in until it fully
+    // covers the screen (the covered frame is the wave itself, never a blank page),
+    // the page swaps while covered, then the same layer slides out. Reduced motion:
+    // the same single layer just fades.
+    let waveEl = null;
     function sweep(root, mid) {
       return new Promise((res) => {
-        const finish = () => {
-          cancelAnimationFrame(glRaf);
-          const c = document.querySelector(".sweep-curtain");
-          if (c) c.remove();
-          const b = document.querySelector(".sweep-band");
-          if (b) b.remove();
-          res();
-        };
+        document.querySelectorAll(".wave").forEach((n) => n.remove());
+        const w = waveEl = document.createElement("div");
+        w.className = "wave";
+        document.body.appendChild(w);
         const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
-        const G = window.GLIMM;
-        if (G && !glCtrl) {
-          try {
-            glCtrl = G.createShader({ palette: G.accentChain(["#A2E838", "#58CC02", "#1CB0F6"]) });
-            if (glCtrl) {
-              glCtrl.canvas.className = "sweep";
-              document.body.appendChild(glCtrl.canvas);
-            }
-          } catch (e) {
-            glCtrl = null;
-          }
-        }
-        const useGl = !!glCtrl && !reduced;
-        const T1 = reduced ? 300 : 560, T2 = reduced ? 220 : 390, OUT = reduced ? 100 : 240;
-        if (glHandle) glHandle.cancel();
-        const curtain = glCurtain();
-        const bg = getComputedStyle(root).backgroundColor;
-        curtain.style.background = bg && bg !== "rgba(0, 0, 0, 0)" && bg !== "transparent" ? bg : "#131f24";
-        curtain.style.display = "block";
-        let band = null;
-        if (!useGl) {
-          band = document.createElement("div");
-          band.className = "sweep-band";
-          document.body.appendChild(band);
-        }
-        let phase = "cover", midFired = false, done = false, t0 = performance.now();
-        const ease = (p) => (p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2);
-        const prog = () => {
-          if (useGl) return glCtrl.getProgress();
-          const dur = phase === "cover" ? T1 : T2 + OUT;
-          return ease(Math.min(1, (performance.now() - t0) / dur));
-        };
-        const setEdge = (p) => {
-          const edge = (-0.2 + 1.4 * p) * 100;
-          const before = phase === "cover" ? "#000" : "transparent";
-          const after = phase === "cover" ? "transparent" : "#000";
-          const mask = `linear-gradient(to right, ${before} ${edge - 3}%, ${after} ${edge + 3}%)`;
-          curtain.style.maskImage = mask;
-          curtain.style.webkitMaskImage = mask;
-          if (band) {
-            band.style.background = `linear-gradient(100deg, transparent ${edge - 26}%, #A2E838 ${edge - 10}%, #58CC02 ${edge}%, #1CB0F6 ${edge + 10}%, transparent ${edge + 26}%)`;
-          }
-        };
-        const fireMid = () => {
-          if (midFired) return;
-          midFired = true;
-          curtain.style.maskImage = "none";
-          curtain.style.webkitMaskImage = "none";
-          try { mid(); } catch (e) {}
-        };
-        const startReveal = () => {
-          fireMid();
-          phase = "reveal";
-          t0 = performance.now();
-          if (useGl) {
-            glHandle = G.playSweep(glCtrl, { sweepMs: T2, outroMs: OUT, midpoint: 1 });
-            glHandle.done.then(() => {
-              if (done) return;
-              done = true;
-              finish();
-            });
-          }
-        };
-        const track = () => {
-          if (done) return;
-          const p = prog();
-          setEdge(p);
-          if (!useGl) {
-            if (phase === "cover" && performance.now() - t0 >= T1) startReveal();
-            else if (phase === "reveal" && performance.now() - t0 >= T2 + OUT) {
-              done = true;
-              finish();
-              return;
-            }
-          }
-          glRaf = requestAnimationFrame(track);
-        };
+        const COVER = reduced ? 140 : 340, REVEAL = reduced ? 140 : 380;
         try { snd.swoosh(); } catch (e) {}
-        track();
-        if (useGl) {
-          glHandle = G.playSweep(glCtrl, { sweepMs: T1, outroMs: 0, midpoint: 1 });
-          glHandle.done.then(() => {
-            if (done) return;
-            startReveal();
+        let swapped = false, over = false;
+        const swap = () => { if (swapped) return; swapped = true; try { mid(); } catch (e) {} };
+        const end = () => { if (over) return; over = true; w.remove(); res(); };
+        const k1 = reduced ? [{ opacity: 0 }, { opacity: 1 }] : [{ transform: "translateX(-124vw)" }, { transform: "translateX(-12vw)" }];
+        const k2 = reduced ? [{ opacity: 1 }, { opacity: 0 }] : [{ transform: "translateX(-12vw)" }, { transform: "translateX(100vw)" }];
+        w.style.transform = reduced ? "none" : "translateX(-124vw)";
+        const a1 = w.animate(k1, { duration: COVER, easing: "cubic-bezier(.5,0,.75,.5)", fill: "forwards" });
+        a1.onfinish = () => {
+          swap();
+          requestAnimationFrame(() => {
+            const a2 = w.animate(k2, { duration: REVEAL, easing: "cubic-bezier(.25,.5,.5,1)", fill: "forwards" });
+            a2.onfinish = end;
           });
-        }
-        setTimeout(() => {
-          if (done) return;
-          done = true;
-          fireMid();
-          finish();
-        }, T1 + T2 + OUT + 600);
+        };
+        setTimeout(() => { swap(); end(); }, COVER + REVEAL + 700);
       });
     }
   function confetti(root) {
@@ -2190,8 +2163,8 @@
     <div class="card"><h3>Keyboard</h3><div style="font-size:14px;line-height:1.9;color:var(--sub)">1-6 or A-F pick an option<br>Enter checks and continues<br>Arrows move, Space selects<br>Esc leaves the lesson</div></div>`;
     }
     function popover(w) {
-      return `<div class="bk"></div><div class="sheet"><h3>Week ${w}</h3><p>10 questions. Syllabus covered by the end of this week: ${Math.round(w * 12.5)}%</p>
-    <div class="row"><button class="btn white" data-start="week:${w}:learn">Learn</button><button class="btn white" data-start="week:${w}:quiz">Quiz</button></div>
+      return `<div class="pop2" style="--ax:${w.off}px"><h3>Week ${w.w}</h3><p>10 questions. Syllabus covered by the end of this week: ${Math.round(w.w * 12.5)}%</p>
+    <div class="row"><button class="btn white" data-start="week:${w.w}:learn">Learn</button><button class="btn ink" data-start="week:${w.w}:quiz">Quiz</button></div>
     <div class="snote">Learn: instant feedback. Quiz: results at the end.</div></div>`;
     }
     function pgLearn() {
@@ -2203,12 +2176,12 @@
       }
       const nodes = [1, 2, 3, 4, 5, 6, 7, 8].map((w) => {
         const b = wkStat(w), done = b != null && b >= 80;
-        return `<div style="transform:translateX(${offs[w - 1]}px);position:relative;margin-bottom:34px;margin-top:${firstOpen === w ? (w === 1 ? 48 : 120) : 0}px">
+        return `<div class="wrow" style="margin-top:${firstOpen === w ? (w === 1 ? 48 : 120) : 0}px"><div style="transform:translateX(${offs[w - 1]}px);position:relative">
       ${firstOpen === w && popW !== w ? '<div class="start">Start</div>' : ""}
-      <button class="node ${done ? "done" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>`;
+      <button class="node ${done ? "done" : ""} ${popW === w ? "open" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>${popW === w ? popover({ w, off: offs[w - 1] }) : ""}</div>`;
       }).join("");
       return `<div class="banner"><div><small>Section 1</small><h2>Innovation, Business Models and Entrepreneurship</h2></div></div>
-    <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>${popW ? popover(popW) : ""}`;
+    <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>`;
     }
     function pgPractice() {
       const prim = ["daily", "mistakes", "shuffle"];
@@ -2582,8 +2555,8 @@
         buzz(10);
         popW = popW == d.node ? null : +d.node;
         render();
-        const p = $(".pop", el);
-        if (p) p.scrollIntoView({ block: "nearest" });
+        const p = $(".pop2", el);
+        if (p) p.scrollIntoView({ block: "nearest", behavior: "smooth" });
         return;
       }
       if (d.start) {
