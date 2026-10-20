@@ -2525,48 +2525,60 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Innovation equation",
+        "heading": "Innovation equation (1)",
         "bullets": [],
         "visual": {
-          "type": "table",
+          "type": "equation",
           "spec": {
-            "headers": [
-              "Input",
-              "Result"
-            ],
-            "rows": [
-              [
-                "Idea + Implementation",
-                "Invention"
-              ],
-              [
-                "Invention + Impact",
-                "Innovation"
-              ]
+            "nodes": [
+              {
+                "label": "Idea",
+                "detail": "",
+                "icon": "bulb"
+              },
+              {
+                "label": "+ Implementation",
+                "detail": "",
+                "icon": "gear"
+              },
+              {
+                "label": "= Invention",
+                "detail": "",
+                "icon": "flask"
+              },
+              {
+                "label": "+ Impact",
+                "detail": "",
+                "icon": "rocket"
+              }
             ]
           }
         }
       },
       {
-        "heading": "Drucker",
+        "heading": "Innovation equation (2)",
         "bullets": [],
         "visual": {
-          "type": "key",
+          "type": "equation",
           "spec": {
-            "label": "Tool of entrepreneurs",
-            "detail": "Exploit change as opportunity",
-            "icon": "bulb"
+            "nodes": [
+              {
+                "label": "= Innovation",
+                "detail": "",
+                "icon": "bulb"
+              }
+            ]
           }
         }
       },
       {
-        "heading": "Myths to reality",
+        "heading": "Myths to reality (1)",
         "bullets": [],
         "visual": {
           "type": "table",
           "spec": {
             "headers": [
-              "Myth",
+              "Myth or fact",
               "Reality"
             ],
             "rows": [
@@ -2585,6 +2597,25 @@
               [
                 "Solo work",
                 "Team activity"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Myths to reality (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Myth or fact",
+              "Reality"
+            ],
+            "rows": [
+              [
+                "Drucker: entrepreneurs' tool",
+                "Exploit change as opportunity"
               ]
             ]
           }
@@ -2672,6 +2703,10 @@
                 "Cause-effect known, change possible"
               ],
               [
+                "Complexity",
+                "Named only: no definition taught"
+              ],
+              [
                 "Ambiguity",
                 "No precedent: unknown unknowns"
               ]
@@ -2680,43 +2715,32 @@
         }
       },
       {
-        "heading": "Elephant and rider",
+        "heading": "Elephant, rider, incremental, breakthrough",
         "bullets": [],
         "visual": {
-          "type": "compare",
+          "type": "table",
           "spec": {
-            "items": [
-              {
-                "label": "Elephant",
-                "detail": "Emotional, heavy, powerful, slow",
-                "icon": "heart"
-              },
-              {
-                "label": "Rider",
-                "detail": "Analytical, sees ahead, powerless alone",
-                "icon": "eye"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Incremental vs breakthrough",
-        "bullets": [],
-        "visual": {
-          "type": "compare",
-          "spec": {
-            "items": [
-              {
-                "label": "Incremental",
-                "detail": "Kaizen, 2G to 3G to 4G",
-                "icon": "gear"
-              },
-              {
-                "label": "Breakthrough",
-                "detail": "Steam engine, wheel, fire",
-                "icon": "rocket"
-              }
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Elephant",
+                "Emotional, heavy, powerful, slow"
+              ],
+              [
+                "Rider",
+                "Analytical, sees ahead, powerless alone"
+              ],
+              [
+                "Incremental",
+                "Kaizen, 2G to 3G to 4G"
+              ],
+              [
+                "Breakthrough",
+                "Steam engine, wheel, fire"
+              ]
             ]
           }
         }
@@ -4642,7 +4666,7 @@
         }
       },
       {
-        "heading": "Organisational challenges",
+        "heading": "Organisational challenges (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4667,7 +4691,22 @@
               [
                 "Empowerment",
                 "Employees not empowered"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Organisational challenges (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Challenge",
+              "Detail"
+            ],
+            "rows": [
               [
                 "Centralised",
                 "One functional group"
@@ -4689,7 +4728,7 @@
         }
       },
       {
-        "heading": "Five steps",
+        "heading": "Five steps (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4714,7 +4753,22 @@
               [
                 "4",
                 "Business model"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Five steps (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Step",
+              "Stage"
+            ],
+            "rows": [
               [
                 "5",
                 "Diffusion, impact"
@@ -4724,7 +4778,7 @@
         }
       },
       {
-        "heading": "Three Ps and thinking modes",
+        "heading": "Three Ps and thinking modes (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4749,7 +4803,22 @@
               [
                 "Divergent",
                 "Explore many solutions"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Three Ps and thinking modes (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
               [
                 "Convergent",
                 "Narrow to one"
@@ -4816,7 +4885,7 @@
         }
       },
       {
-        "heading": "Transition phase",
+        "heading": "Transition phase (1)",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -4841,7 +4910,22 @@
               [
                 "4",
                 "Brings hope"
-              ],
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Transition phase (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "#",
+              "Transition phase is"
+            ],
+            "rows": [
               [
                 "5",
                 "Incurs cost"
@@ -15200,6 +15284,1859 @@
       "notes": [
         "Q9 official key: no protection; the scenario mentions a seminar demo, the sources do not state the reason",
         "Q8 official key: all of the above"
+      ],
+      "dropped": []
+    }
+  },
+  {
+    "week": 8,
+    "title": "Week 8: Business models, incubators, investors",
+    "lectures": [
+      {
+        "id": "w8l1",
+        "title": "Business Models and Value Proposition",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ],
+        "cards": [
+          {
+            "id": "w8c1",
+            "kind": "concept",
+            "title": "Business model",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Business model",
+                "detail": "Creates, delivers, captures value",
+                "icon": "coin"
+              }
+            },
+            "factId": "w8.l1.f01"
+          },
+          {
+            "id": "w8c2",
+            "kind": "concept",
+            "title": "Value flow",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Creates"
+                  },
+                  {
+                    "label": "Delivers"
+                  },
+                  {
+                    "label": "Captures"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f02"
+          },
+          {
+            "id": "w8c3",
+            "kind": "concept",
+            "title": "Know your",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business",
+                    "detail": "What business are we in?",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Organization",
+                    "detail": "Who are we?",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Capabilities, capacities",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Customer, resources",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f03"
+          },
+          {
+            "id": "w8c4",
+            "kind": "concept",
+            "title": "Official: platform model parts",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Target customers",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Value proposition",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Revenue, costs",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Key activities",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f04"
+          },
+          {
+            "id": "w8c5",
+            "kind": "concept",
+            "title": "Plus",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Promotion, distribution channels",
+                "detail": "Fifth component",
+                "icon": "globe"
+              }
+            },
+            "factId": "w8.l1.f05"
+          },
+          {
+            "id": "w8c6",
+            "kind": "concept",
+            "title": "Not in the set",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Competition",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Regulations",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Review, feedback",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f06"
+          },
+          {
+            "id": "w8c7",
+            "kind": "example",
+            "title": "Examples discussed",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Heavy Electricals",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "MDH, salt producer",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Construction company",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Hospital",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f07"
+          },
+          {
+            "id": "w8c8",
+            "kind": "example",
+            "title": "More examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Forest bio-residue",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Automotive manufacturer",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f08"
+          },
+          {
+            "id": "w8c9",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business model",
+                    "detail": "Creates, delivers, captures value",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Components",
+                    "detail": "Customers, value, revenue, activities, channels",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f09"
+          }
+        ]
+      },
+      {
+        "id": "w8l2",
+        "title": "Business Model Failure: Reasons and Remedies",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ],
+        "cards": [
+          {
+            "id": "w8c10",
+            "kind": "concept",
+            "title": "Why models fail",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Element not working",
+                "detail": "Any model element not working properly",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l2.f01"
+          },
+          {
+            "id": "w8c11",
+            "kind": "concept",
+            "title": "Failure cause 2",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Cannot adapt",
+                "detail": "To changing environment, competitive landscape",
+                "icon": "eye"
+              }
+            },
+            "factId": "w8.l2.f02"
+          },
+          {
+            "id": "w8c12",
+            "kind": "concept",
+            "title": "Working properly means",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Expectations",
+                    "detail": "Is it meeting them?",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Potential",
+                    "detail": "Working to its potential?",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l2.f03"
+          },
+          {
+            "id": "w8c13",
+            "kind": "concept",
+            "title": "Official: failure reasons",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Both causes",
+                "detail": "Element failing and inability to adapt",
+                "icon": "shield"
+              }
+            },
+            "factId": "w8.l2.f04"
+          },
+          {
+            "id": "w8c14",
+            "kind": "concept",
+            "title": "Remedies",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Futuristic approach",
+                    "detail": "Anticipate features customers will want",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Find symptoms",
+                    "detail": "Eliminate causes, choose alternatives",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Match capacity",
+                    "detail": "Capabilities with value proposition",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l2.f05"
+          },
+          {
+            "id": "w8c15",
+            "kind": "concept",
+            "title": "Official: remedies",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "All of them",
+                "detail": "Futuristic, eliminate causes, match capacity",
+                "icon": "target"
+              }
+            },
+            "factId": "w8.l2.f06"
+          },
+          {
+            "id": "w8c16",
+            "kind": "concept",
+            "title": "Futuristic approach",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Features anticipated",
+                "detail": "Of product, service, process",
+                "icon": "eye"
+              }
+            },
+            "factId": "w8.l2.f07"
+          },
+          {
+            "id": "w8c17",
+            "kind": "example",
+            "title": "Turnaround examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Royal Enfield",
+                    "detail": "Almost a product of the past",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Bata",
+                    "detail": "Lost sales, then recovered",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Management education",
+                    "detail": "Demand-supply gap",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Forest bio-residue",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l2.f08"
+          },
+          {
+            "id": "w8c18",
+            "kind": "example",
+            "title": "Nano",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Nano",
+                "detail": "Listed failure example",
+                "icon": "gear"
+              }
+            },
+            "factId": "w8.l2.f09"
+          },
+          {
+            "id": "w8c19",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Fail",
+                    "detail": "Element broken or no adaptation",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Remedy",
+                    "detail": "Futuristic, causes, capacity-match",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l2.f10"
+          }
+        ]
+      },
+      {
+        "id": "w8l3",
+        "title": "Incubators: Business vs Technology",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ],
+        "cards": [
+          {
+            "id": "w8c20",
+            "kind": "concept",
+            "title": "Entrepreneurship",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Chain of events",
+                "detail": "Creating, developing, managing a venture",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w8.l3.f01"
+          },
+          {
+            "id": "w8c21",
+            "kind": "concept",
+            "title": "Entrepreneurship aims",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Identify opportunities",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Calculated risks",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Generate value",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f02"
+          },
+          {
+            "id": "w8c22",
+            "kind": "concept",
+            "title": "Schumpeter",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Critical for growth",
+                "detail": "Entrepreneurship drives economic development",
+                "icon": "chart"
+              }
+            },
+            "factId": "w8.l3.f03"
+          },
+          {
+            "id": "w8c23",
+            "kind": "concept",
+            "title": "Entrepreneurial process",
+            "lines": [],
+            "visual": {
+              "type": "flow",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Opportunity recognition"
+                  },
+                  {
+                    "label": "Resource acquisition"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f04"
+          },
+          {
+            "id": "w8c24",
+            "kind": "concept",
+            "title": "Three stages",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Pre-founding",
+                    "detail": "Identify, evaluate opportunity",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Founding",
+                    "detail": "Plan, resources, incorporation, entry",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Early development",
+                    "detail": "Build company, penetrate market",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f05"
+          },
+          {
+            "id": "w8c25",
+            "kind": "concept",
+            "title": "Incubation vs incubator",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Incubation",
+                    "detail": "Process of support",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Incubator",
+                    "detail": "Organization and infrastructure",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f06"
+          },
+          {
+            "id": "w8c26",
+            "kind": "concept",
+            "title": "Startup incubator",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Collaborative program",
+                "detail": "Helps new startups succeed",
+                "icon": "people"
+              }
+            },
+            "factId": "w8.l3.f07"
+          },
+          {
+            "id": "w8c27",
+            "kind": "concept",
+            "title": "Incubator provides",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Workspace",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Seed funding",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Mentoring",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Training",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f08"
+          },
+          {
+            "id": "w8c28",
+            "kind": "concept",
+            "title": "Incubator goal",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Viable, freestanding firms",
+                "detail": "That leave the program",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w8.l3.f09"
+          },
+          {
+            "id": "w8c29",
+            "kind": "concept",
+            "title": "Incubator type",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Usually non-profit",
+                "detail": "Run by public and private entities",
+                "icon": "shield"
+              }
+            },
+            "factId": "w8.l3.f10"
+          },
+          {
+            "id": "w8c30",
+            "kind": "concept",
+            "title": "Incubator links",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Universities",
+                "detail": "IITs, NITs, IIMs admit students, alumni",
+                "icon": "hat"
+              }
+            },
+            "factId": "w8.l3.f11"
+          },
+          {
+            "id": "w8c31",
+            "kind": "concept",
+            "title": "Official: incubator support limit",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Not whole journey",
+                "detail": "No hand-holding to early development",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l3.f12"
+          },
+          {
+            "id": "w8c32",
+            "kind": "concept",
+            "title": "Official: not a feature",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Established firms only",
+                "detail": "Not a feature of incubators",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l3.f13"
+          },
+          {
+            "id": "w8c33",
+            "kind": "concept",
+            "title": "Features of incubators",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Networking",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Shared resources",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Mentorship, experts",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f14"
+          },
+          {
+            "id": "w8c34",
+            "kind": "concept",
+            "title": "Official: stay",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "1-2 years",
+                "detail": "Usual incubator stay",
+                "icon": "clock"
+              }
+            },
+            "factId": "w8.l3.f15"
+          },
+          {
+            "id": "w8c35",
+            "kind": "concept",
+            "title": "Common services",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business basics",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Marketing",
+                    "detail": "",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "Accounting, finance",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Bank loans, guarantees",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f16"
+          },
+          {
+            "id": "w8c36",
+            "kind": "concept",
+            "title": "More services",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Angel, VC access",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Strategic partners",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "IP, legal counsel",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Regulatory compliance",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f17"
+          },
+          {
+            "id": "w8c37",
+            "kind": "concept",
+            "title": "Business incubators aim",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Regional growth",
+                "detail": "Employment through business development",
+                "icon": "chart"
+              }
+            },
+            "factId": "w8.l3.f18"
+          },
+          {
+            "id": "w8c38",
+            "kind": "concept",
+            "title": "Business incubator niche",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Early-stage, growth-oriented",
+                "detail": "Focused help in supportive environment",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w8.l3.f19"
+          },
+          {
+            "id": "w8c39",
+            "kind": "concept",
+            "title": "Third generation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "International Enterprise Centre",
+                "detail": "Knowledge-based business, full support",
+                "icon": "globe"
+              }
+            },
+            "factId": "w8.l3.f20"
+          },
+          {
+            "id": "w8c40",
+            "kind": "concept",
+            "title": "Technology incubators",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Technology development stage",
+                "detail": "Help complete technologies, promote tech firms",
+                "icon": "gear"
+              }
+            },
+            "factId": "w8.l3.f21"
+          },
+          {
+            "id": "w8c41",
+            "kind": "concept",
+            "title": "Technology incubators sit",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Universities, R&D institutes",
+                    "detail": "",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Science, technology parks",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Transfer, diffusion",
+                    "detail": "",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f22"
+          },
+          {
+            "id": "w8c42",
+            "kind": "concept",
+            "title": "Technology Innovation Centres",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "TIC",
+                "detail": "R&D, commercialisation; like technology parks",
+                "icon": "flask"
+              }
+            },
+            "factId": "w8.l3.f23"
+          },
+          {
+            "id": "w8c43",
+            "kind": "concept",
+            "title": "TBI",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Technology Business Incubator",
+                "detail": "Technology or knowledge-intensive firms, with academia",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w8.l3.f24"
+          },
+          {
+            "id": "w8c44",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Stages",
+                    "detail": "Pre-founding, founding, early development",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Incubator goal",
+                    "detail": "Freestanding viable firms",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Stay",
+                    "detail": "A year or two",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Not a feature",
+                    "detail": "Established firms only",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l3.f25"
+          }
+        ]
+      },
+      {
+        "id": "w8l4",
+        "title": "Managing Investors for Innovation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ],
+        "cards": [
+          {
+            "id": "w8c45",
+            "kind": "concept",
+            "title": "Finance",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Fuel for innovation",
+                "detail": "Finance runs the vehicle of innovation",
+                "icon": "coin"
+              }
+            },
+            "factId": "w8.l4.f01"
+          },
+          {
+            "id": "w8c46",
+            "kind": "concept",
+            "title": "Startup finance needs",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Initial capital",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Working capital",
+                    "detail": "",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f02"
+          },
+          {
+            "id": "w8c47",
+            "kind": "concept",
+            "title": "Sources of investment",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Self",
+                    "detail": "First source of investment",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Incubators",
+                    "detail": "",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f03"
+          },
+          {
+            "id": "w8c48",
+            "kind": "concept",
+            "title": "Next stage",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Debt financing",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Equity financing",
+                    "detail": "",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f04"
+          },
+          {
+            "id": "w8c49",
+            "kind": "concept",
+            "title": "Official: early funding",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Angel investors",
+                "detail": "Primary early-stage source per key",
+                "icon": "coin"
+              }
+            },
+            "factId": "w8.l4.f05"
+          },
+          {
+            "id": "w8c50",
+            "kind": "concept",
+            "title": "Angel investor",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Affluent individual",
+                "detail": "Startup capital for debt or equity",
+                "icon": "coin"
+              }
+            },
+            "factId": "w8.l4.f06"
+          },
+          {
+            "id": "w8c51",
+            "kind": "concept",
+            "title": "Angel also called",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business angel",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Informal investor",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Angel funder",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Seed investor",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f07"
+          },
+          {
+            "id": "w8c52",
+            "kind": "concept",
+            "title": "Venture capitalist",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Venture capitalist",
+                "detail": "Funds startups, expansion; seeks massive return",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w8.l4.f08"
+          },
+          {
+            "id": "w8c53",
+            "kind": "concept",
+            "title": "Debt financing",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Loan against collateral",
+                "detail": "Assets, receivables, or intellectual property",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l4.f09"
+          },
+          {
+            "id": "w8c54",
+            "kind": "concept",
+            "title": "Official: debt on IP",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Collateral: IP",
+                "detail": "Debt financing against intellectual property",
+                "icon": "shield"
+              }
+            },
+            "factId": "w8.l4.f10"
+          },
+          {
+            "id": "w8c55",
+            "kind": "concept",
+            "title": "Official: debt first",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Equity follows debt",
+                "detail": "Debt is not the first level",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l4.f11"
+          },
+          {
+            "id": "w8c56",
+            "kind": "concept",
+            "title": "Debt financing for",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Startups lacking assets",
+                "detail": "Cannot get traditional loans",
+                "icon": "people"
+              }
+            },
+            "factId": "w8.l4.f12"
+          },
+          {
+            "id": "w8c57",
+            "kind": "concept",
+            "title": "Equity option",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Equity if unpaid",
+                    "detail": "Option if repayment late",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "10%-15%",
+                    "detail": "Of the debt amount",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f13"
+          },
+          {
+            "id": "w8c58",
+            "kind": "concept",
+            "title": "Venture debt",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "For startups",
+                    "detail": "After VC funding, avoiding dilution",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "25% limit",
+                    "detail": "Of venture equity round",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "24-36 months",
+                    "detail": "Repayment term",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f14"
+          },
+          {
+            "id": "w8c59",
+            "kind": "example",
+            "title": "Debt funds",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Unicorn India",
+                    "detail": "Rs 600 Crore",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "IvyCap Ventures",
+                    "detail": "Rs 500 Crore",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Alteria Capital",
+                    "detail": "Rs 1000 Crore",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f15"
+          },
+          {
+            "id": "w8c60",
+            "kind": "example",
+            "title": "Big Basket",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Hari Menon",
+                "detail": "Venture debt funds capital expenditure",
+                "icon": "coin"
+              }
+            },
+            "factId": "w8.l4.f16"
+          },
+          {
+            "id": "w8c61",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Angel investors",
+                    "detail": "Early-stage source per key",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Debt",
+                    "detail": "Against collateral incl. IP",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Venture debt",
+                    "detail": "25% of equity round, 24-36 months",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Equity",
+                    "detail": "Follows debt",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l4.f17"
+          }
+        ]
+      },
+      {
+        "id": "w8l5",
+        "title": "Future Markets and Innovation Needs for India",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79"
+        ],
+        "cards": [
+          {
+            "id": "w8c62",
+            "kind": "concept",
+            "title": "Future lens",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Needs",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Available resources",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Innovation's place",
+                    "detail": "In the process",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l5.f01"
+          },
+          {
+            "id": "w8c63",
+            "kind": "concept",
+            "title": "Areas listed",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Education",
+                    "detail": "",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Energy",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Economy",
+                    "detail": "",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Food security",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l5.f02"
+          },
+          {
+            "id": "w8c64",
+            "kind": "concept",
+            "title": "More areas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Disasters",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Defense",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Housing",
+                    "detail": "",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l5.f03"
+          },
+          {
+            "id": "w8c65",
+            "kind": "concept",
+            "title": "Official: future-market areas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Technology, digital",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Renewable energy",
+                    "detail": "Sustainability",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Healthcare, biotech",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Agriculture, food security",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l5.f04"
+          },
+          {
+            "id": "w8c66",
+            "kind": "concept",
+            "title": "Also official",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Disaster management",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Ed-tech",
+                    "detail": "",
+                    "icon": "hat"
+                  },
+                  {
+                    "label": "Fintech",
+                    "detail": "Financial inclusion",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Urbanization, smart cities",
+                    "detail": "",
+                    "icon": "factory"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l5.f05"
+          },
+          {
+            "id": "w8c67",
+            "kind": "concept",
+            "title": "Last of nine",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Defense",
+                "detail": "Ninth area in the official key",
+                "icon": "lock"
+              }
+            },
+            "factId": "w8.l5.f06"
+          },
+          {
+            "id": "w8c68",
+            "kind": "concept",
+            "title": "Official: answer",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "All nine",
+                "detail": "All listed areas create future markets",
+                "icon": "target"
+              }
+            },
+            "factId": "w8.l5.f07"
+          },
+          {
+            "id": "w8c69",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Nine areas",
+                "detail": "All of the listed areas",
+                "icon": "target"
+              }
+            },
+            "factId": "w8.l5.f08"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Business model (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Business model",
+                "Creates, delivers, captures value"
+              ],
+              [
+                "Target customers",
+                "Platform component"
+              ],
+              [
+                "Value proposition",
+                "Platform component"
+              ],
+              [
+                "Revenue and costs",
+                "Platform component"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Business model (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Key activities",
+                "Platform component"
+              ],
+              [
+                "Promotion, distribution",
+                "Platform component"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Model failure",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Cause 1",
+                "detail": "Element not working",
+                "icon": "lock"
+              },
+              {
+                "label": "Cause 2",
+                "detail": "Cannot adapt to change",
+                "icon": "eye"
+              },
+              {
+                "label": "Remedy 1",
+                "detail": "Futuristic approach",
+                "icon": "bulb"
+              },
+              {
+                "label": "Remedy 2",
+                "detail": "Match capacity to value",
+                "icon": "gear"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Entrepreneurial stages (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Pre-founding",
+                "Identify, evaluate opportunity"
+              ],
+              [
+                "Founding",
+                "Plan, resources, incorporation, entry"
+              ],
+              [
+                "Early development",
+                "Build company, penetrate market"
+              ],
+              [
+                "Business incubator",
+                "Regional growth, early-stage ventures"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Entrepreneurial stages (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Technology incubator",
+                "TBI: technology, knowledge-intensive firms"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Incubators",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Fact",
+              "Detail"
+            ],
+            "rows": [
+              [
+                "Goal",
+                "Viable freestanding firms"
+              ],
+              [
+                "Stay",
+                "A year or two"
+              ],
+              [
+                "Support",
+                "Pre-founding and founding only"
+              ],
+              [
+                "Not a feature",
+                "Established firms only"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Funding sources (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Source",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Self",
+                "First source"
+              ],
+              [
+                "Angel investors",
+                "Early-stage source per key"
+              ],
+              [
+                "Venture capitalist",
+                "Massive return sought"
+              ],
+              [
+                "Debt",
+                "Collateral incl. IP"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Funding sources (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Source",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Equity",
+                "Follows debt"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Venture debt",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "25% limit",
+                "detail": "Of venture equity round",
+                "icon": "coin"
+              },
+              {
+                "label": "24-36 months",
+                "detail": "Repayment",
+                "icon": "clock"
+              },
+              {
+                "label": "10%-15%",
+                "detail": "Equity option",
+                "icon": "chart"
+              },
+              {
+                "label": "Collateral",
+                "detail": "Assets, receivables, IP",
+                "icon": "lock"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Future markets",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "All nine",
+              "Areas"
+            ],
+            "rows": [
+              [
+                "1-3",
+                "Digital, renewable energy, health"
+              ],
+              [
+                "4-6",
+                "Disaster, ed-tech, fintech"
+              ],
+              [
+                "7-9",
+                "Agriculture, cities, defense"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W8 solution PDF (with its answer list)",
+      "notes": [
+        "Q8 official key is Angel investors, while the lecture names Self as the first source; both stated as keyed/lectured",
+        "Q7 key 'a year or two'; lecturer says incubatee stays 2-3 years (not on cards to avoid conflict)",
+        "Nano appears only as a slide bullet; no lecture detail",
+        "Q2 component list is the official key; lectures do not enumerate it"
       ],
       "dropped": []
     }
