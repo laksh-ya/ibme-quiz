@@ -1665,8 +1665,8 @@
 .duo .done.quizdone{ justify-content:flex-start; overflow-y:auto; padding:26px 16px 48px; }
 .duo .donerv{ width:100%; max-width:760px; margin-top:20px; display:flex; flex-direction:column; gap:10px; }
 /* profile life */
-@keyframes bob{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-6px); } }
-.duo .profav{ animation:bob 3.2s ease-in-out infinite; }
+@keyframes bobav{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-6px); } }
+.duo .profav{ animation:bobav 3.2s ease-in-out infinite; }
 .duo .lvlbar{ height:16px; border-radius:10px; background:var(--snow); border:2px solid var(--line); overflow:hidden; }
 .duo .lvlbar i{ display:block; height:100%; background:linear-gradient(90deg,var(--green),#a2e838); border-radius:8px; transition:width .6s; }
 @keyframes flamewob{ 0%,100%{ transform:scale(1) rotate(-3deg); } 50%{ transform:scale(1.12) rotate(3deg); } }
@@ -1720,9 +1720,105 @@
   .duo .segc > span{ font-size:14px; }
 }
 
+/* ---- long-question layout: question scrolls internally, options always visible ---- */
+.duo .stage.longq{ height:100%; min-height:0; }
+@media (max-width: 700px){
+  .duo .stage.longq .cols{ flex:1; min-height:0; display:flex; flex-direction:column; gap:10px; }
+  .duo .stage.longq .cols > div:first-child{ flex:0 1 auto; min-height:0; display:flex; flex-direction:column; }
+  .duo .stage.longq .qrow{ flex:1; min-height:0; }
+  .duo .stage.longq .bubble{ overflow-y:auto; min-height:0; max-height:100%; line-height:1.3; padding:10px 12px; scrollbar-width:thin; scrollbar-color:var(--line) transparent; }
+  .duo .stage.longq .bubble::-webkit-scrollbar{ width:4px; }
+  .duo .stage.longq .bubble::-webkit-scrollbar-thumb{ background:var(--line); border-radius:4px; }
+  .duo .stage.longq .opts{ flex:none; }
+  .duo .stage.longq .head{ font-size:21px; }
+  .duo .stage.longq .tag{ font-size:11px; }
+}
+@media (min-width: 701px){
+  .duo .stage.longq .cols.w > div:first-child{ min-height:0; }
+  .duo .stage.longq .bubble{ max-height:72vh; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--line) transparent; }
+}
+
+/* ---- wave CSS fallback band + update toast + scrollbar consistency ---- */
+.sweep-band{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:1000; }
+.upd{ position:fixed; left:16px; right:16px; bottom:86px; z-index:2000; background:var(--blue); color:#fff; border:0; border-radius:14px; padding:14px; font-weight:800; font-size:15px; font-family:inherit; box-shadow:0 4px 0 var(--blue-d, #0e7fb8); }
+.duo .main, .duo .ex-body, .duo .bubble, .duo .pop, .duo .plist, .duo .rv, .duo .bd, .duo .done{ scrollbar-width:none; }
+.duo .main::-webkit-scrollbar, .duo .ex-body::-webkit-scrollbar, .duo .bubble::-webkit-scrollbar, .duo .pop::-webkit-scrollbar, .duo .plist::-webkit-scrollbar, .duo .rv::-webkit-scrollbar, .duo .bd::-webkit-scrollbar, .duo .done::-webkit-scrollbar{ display:none; }
+.duo .stage.longq .bubble{ scrollbar-width:none; }
+.duo .stage.longq .bubble::-webkit-scrollbar{ display:none; }
+/* popover clears the node label */
+.duo .pop{ top:134px; }
+
+/* ---- Learn rebuild: static slim banner, bottom sheet, start clearance ---- */
+.duo .banner{ position:static; padding:12px 16px; margin-bottom:6px; }
+.duo .banner h2{ font-size:19px; }
+.duo .banner small{ font-size:11px; }
+.duo .path{ padding:22px 0 60px; }
+.duo .bk{ position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:60; animation:fadein .16s ease-out; }
+.duo .sheet{ position:fixed; left:50%; transform:translateX(-50%); bottom:calc(78px + env(safe-area-inset-bottom, 0px)); width:min(420px, calc(100% - 32px)); background:var(--green); color:#fff; border-radius:18px; padding:16px; z-index:61; animation:sheetup .2s cubic-bezier(.2,1,.4,1); text-align:left; }
+.duo .sheet h3{ margin:0; font-size:22px; }
+.duo .sheet p{ margin:4px 0 12px; font-weight:700; opacity:.95; font-size:15px; }
+.duo .sheet .row{ display:flex; gap:10px; }
+.duo .sheet .btn{ flex:1; padding:12px 8px; }
+.duo .sheet .btn.white{ border:0; box-shadow:0 4px 0 #d0d0d0; color:var(--green); }
+.duo .sheet .snote{ font-size:12px; margin-top:10px; opacity:.9; font-weight:800; letter-spacing:.5px; text-transform:uppercase; }
+@keyframes sheetup{ from{ transform:translate(-50%, 30px); opacity:0; } }
+@keyframes fadein{ from{ opacity:0; } }
+
+/* ---- results review: compact collapsible cards ---- */
+.duo .donerv{ width:100%; max-width:640px; margin:18px auto 0; text-align:left; }
+.duo .rv2{ border:2px solid var(--line); border-radius:14px; margin-bottom:10px; background:var(--card); overflow:hidden; }
+.duo .rv2 > button{ width:100%; display:flex; align-items:center; gap:10px; padding:11px 12px; background:none; border:0; font-family:inherit; cursor:pointer; text-align:left; }
+.duo .rv2 .nn{ font-weight:800; color:var(--blue); font-size:13px; flex:none; }
+.duo .rv2 .pill2{ font-size:11px; font-weight:800; letter-spacing:.4px; text-transform:uppercase; padding:3px 8px; border-radius:99px; flex:none; background:var(--bad-bg); color:var(--red-d); }
+.duo .rv2.ok .pill2{ background:var(--ok-bg); color:var(--green-d); }
+.duo .rv2 .chev{ margin-left:auto; color:var(--sub); font-size:18px; transition:transform .15s; }
+.duo .rv2 > button.open .chev{ transform:rotate(90deg); }
+.duo .rv2b{ padding:2px 14px 12px; font-size:14.5px; line-height:1.45; color:var(--text); text-align:left; }
+.duo .rv2b .qimg{ max-height:150px; border:2px solid var(--line); border-radius:12px; margin:2px 0 8px; display:block; }
+.duo .rv2b .rq{ font-weight:800; margin-bottom:8px; }
+.duo .rv2b .ra{ margin:4px 0; }
+.duo .rv2b .ra.good b{ color:var(--green-d); }
+.duo .rv2b .ra.bad b{ color:var(--red-d); }
+.duo .rv2b .rw{ margin-top:8px; color:var(--sub); }
+.duo .done .acts{ margin-top:14px; }
+
+/* ---- onboarding gate ---- */
+.duo .gate{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--card); z-index:500; padding:22px; }
+.duo .gcard{ width:100%; max-width:340px; }
+.duo .gcard .pg{ margin-bottom:4px; }
+/* neutralize .done results-screen styles leaking into done week nodes */
+.duo .path .node.done{ position:relative; inset:auto; overflow:visible; padding:0; gap:0; text-align:center; display:grid; }
+/* sweep layers must clear the app root (.duo is z-index:9999) */
+.sweep{ z-index:10002; }
+.sweep-curtain{ z-index:10000; }
+.sweep-band{ z-index:10001; }
+.duo .gate{ z-index:500; }
+.upd{ z-index:10003; }
+/* instant learn mode: no dead footer bar before answering */
+.duo .ex-foot.ghost{ min-height:0; padding:0; border-top:0; }
+.duo .ex-foot.ghost .in{ display:none; }
+
 </style></head><body><div id="root"></div><script type="module">import * as GLIMM from "./glimm.js"; window.GLIMM = GLIMM;</script>
 <script>(() => {
   // src/duo.ts
+  const BUILD = "2026.10.20-4";
+  {
+    const chk = async () => {
+      try {
+        const r = await fetch("version.txt", { cache: "no-store" });
+        const v = (await r.text()).trim();
+        if (v && v !== BUILD && !document.querySelector(".upd")) {
+          const t = document.createElement("button");
+          t.className = "upd";
+          t.textContent = "New version ready - tap to update";
+          t.onclick = () => location.reload();
+          document.body.appendChild(t);
+        }
+      } catch (e) {}
+    };
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) chk(); });
+    setInterval(chk, 120000);
+  }
   var L = "ABCDEF";
   var $ = (s, r) => (r || document).querySelector(s);
   var esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
@@ -1745,7 +1841,7 @@
     return mem;
   }
   var TSMUL = { small: 0.86, std: 1, large: 1.18 };
-  var DEF = { sound: true, haptic: true, optShuf: false, theme: "dark", textSize: "small", name: "Learner", av: 0 };
+  var DEF = { sound: true, haptic: true, optShuf: false, theme: "dark", textSize: "small", name: "", av: 0 };
   var S = Object.assign({ q: {}, xp: 0, days: [], best: {} }, load());
   S.set = Object.assign({}, DEF, S.set);
   if (S.set.theme !== "light") S.set.theme = "dark";
@@ -1810,6 +1906,7 @@
     home: '<svg viewBox="0 0 32 32"><path d="M16 3 3 14v13a2 2 0 0 0 2 2h7v-8h8v8h7a2 2 0 0 0 2-2V14z" fill="#1cb0f6"/><path d="M16 3 3 14h26z" fill="#84d8ff"/></svg>',
     target: '<svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="#ff4b4b"/><circle cx="16" cy="16" r="9" fill="#fff"/><circle cx="16" cy="16" r="5.5" fill="#ff4b4b"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg>',
     heart: '<svg viewBox="0 0 32 32"><path d="M16 28S3 20 3 11a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 9-13 17-13 17z" fill="#ff4b4b"/><path d="M8 9a3 3 0 0 1 3-2" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none" opacity=".6"/></svg>',
+    heartW: '<svg viewBox="0 0 32 32"><path d="M16 28S3 20 3 11a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 9-13 17-13 17z" fill="#fff"/></svg>',
     book: '<svg viewBox="0 0 32 32"><path d="M4 6a2 2 0 0 1 2-2h8c1.2 0 2 .6 2 2v22c0-1-.8-2-2-2H4z" fill="#ce82ff"/><path d="M28 6a2 2 0 0 0-2-2h-8c-1.2 0-2 .6-2 2v22c0-1 .8-2 2-2h10z" fill="#a568cc"/></svg>',
     cards: '<svg viewBox="0 0 32 32"><rect x="3" y="9" width="20" height="18" rx="4" fill="#ffc800"/><rect x="9" y="4" width="20" height="18" rx="4" fill="#ff9600"/></svg>',
     user: '<svg viewBox="0 0 32 32"><circle cx="16" cy="11" r="7" fill="#58cc02"/><path d="M3 29c0-7 6-11 13-11s13 4 13 11z" fill="#58a700"/></svg>',
@@ -1872,8 +1969,9 @@
     // unmodified from npm:glimm, MIT licence). One persistent shader controller
     // plays the band; a CSS curtain underneath guarantees the sequence the user
     // sees: the wipe fully covers, the page swaps while hidden, then it reveals.
-    // glimm's own loop is wall-clock driven, so frame drops never change the
-    // end state; rapid repeats cancel into the next sweep.
+    // If WebGL or the module is unavailable (some Android GPUs, in-app webviews),
+    // or the OS asks for reduced motion, a pure-CSS band with the same palette,
+    // timing and sequence plays instead - the wave always runs.
     let glCtrl = null, glHandle = null, glRaf = 0;
     const glCurtain = () => {
       let c = document.querySelector(".sweep-curtain");
@@ -1890,12 +1988,11 @@
           cancelAnimationFrame(glRaf);
           const c = document.querySelector(".sweep-curtain");
           if (c) c.remove();
+          const b = document.querySelector(".sweep-band");
+          if (b) b.remove();
           res();
         };
-        if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
-          try { mid(); } catch (e) {}
-          return finish();
-        }
+        const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
         const G = window.GLIMM;
         if (G && !glCtrl) {
           try {
@@ -1908,16 +2005,26 @@
             glCtrl = null;
           }
         }
-        if (!G || !glCtrl) {
-          try { mid(); } catch (e) {}
-          return finish();
-        }
+        const useGl = !!glCtrl && !reduced;
+        const T1 = reduced ? 300 : 560, T2 = reduced ? 220 : 390, OUT = reduced ? 100 : 240;
         if (glHandle) glHandle.cancel();
         const curtain = glCurtain();
         const bg = getComputedStyle(root).backgroundColor;
         curtain.style.background = bg && bg !== "rgba(0, 0, 0, 0)" && bg !== "transparent" ? bg : "#131f24";
         curtain.style.display = "block";
-        let phase = "cover", midFired = false, done = false;
+        let band = null;
+        if (!useGl) {
+          band = document.createElement("div");
+          band.className = "sweep-band";
+          document.body.appendChild(band);
+        }
+        let phase = "cover", midFired = false, done = false, t0 = performance.now();
+        const ease = (p) => (p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2);
+        const prog = () => {
+          if (useGl) return glCtrl.getProgress();
+          const dur = phase === "cover" ? T1 : T2 + OUT;
+          return ease(Math.min(1, (performance.now() - t0) / dur));
+        };
         const setEdge = (p) => {
           const edge = (-0.2 + 1.4 * p) * 100;
           const before = phase === "cover" ? "#000" : "transparent";
@@ -1925,6 +2032,9 @@
           const mask = `linear-gradient(to right, ${before} ${edge - 3}%, ${after} ${edge + 3}%)`;
           curtain.style.maskImage = mask;
           curtain.style.webkitMaskImage = mask;
+          if (band) {
+            band.style.background = `linear-gradient(100deg, transparent ${edge - 26}%, #A2E838 ${edge - 10}%, #58CC02 ${edge}%, #1CB0F6 ${edge + 10}%, transparent ${edge + 26}%)`;
+          }
         };
         const fireMid = () => {
           if (midFired) return;
@@ -1933,31 +2043,48 @@
           curtain.style.webkitMaskImage = "none";
           try { mid(); } catch (e) {}
         };
+        const startReveal = () => {
+          fireMid();
+          phase = "reveal";
+          t0 = performance.now();
+          if (useGl) {
+            glHandle = G.playSweep(glCtrl, { sweepMs: T2, outroMs: OUT, midpoint: 1 });
+            glHandle.done.then(() => {
+              if (done) return;
+              done = true;
+              finish();
+            });
+          }
+        };
         const track = () => {
           if (done) return;
-          setEdge(glCtrl.getProgress());
+          const p = prog();
+          setEdge(p);
+          if (!useGl) {
+            if (phase === "cover" && performance.now() - t0 >= T1) startReveal();
+            else if (phase === "reveal" && performance.now() - t0 >= T2 + OUT) {
+              done = true;
+              finish();
+              return;
+            }
+          }
           glRaf = requestAnimationFrame(track);
         };
         try { snd.swoosh(); } catch (e) {}
         track();
-        glHandle = G.playSweep(glCtrl, { sweepMs: 560, outroMs: 0, midpoint: 1 });
-        glHandle.done.then(() => {
-          if (done) return;
-          fireMid();
-          phase = "reveal";
-          glHandle = G.playSweep(glCtrl, { sweepMs: 390, outroMs: 240, midpoint: 1 });
+        if (useGl) {
+          glHandle = G.playSweep(glCtrl, { sweepMs: T1, outroMs: 0, midpoint: 1 });
           glHandle.done.then(() => {
             if (done) return;
-            done = true;
-            finish();
+            startReveal();
           });
-        });
+        }
         setTimeout(() => {
           if (done) return;
           done = true;
           fireMid();
           finish();
-        }, 560 + 390 + 240 + 500);
+        }, T1 + T2 + OUT + 600);
       });
     }
   function confetti(root) {
@@ -2007,11 +2134,11 @@
     ["all", "All questions", "In order, week 1 to week 8.", I.all, "#1cb0f6"],
     ["shuffle", "Shuffle all", "Every question in random order, so nothing is memorised by position.", I.shuf, "#ce82ff"],
     ["daily", "Daily round", "Mistakes first, then unseen, then random. A quick daily round.", I.sun, "#ff9600"],
-    ["mistakes", "Recent mistakes", "Everything you got wrong, across all weeks. Clear it to zero.", I.heart, "#ff4b4b"],
+    ["mistakes", "Recent mistakes", "Everything you got wrong, across all weeks. Clear it to zero.", I.heartW, "#ff4b4b"],
     ["multi", "Multi-select only", "Questions with more than one correct option.", I.multi, "#58cc02"],
     ["single", "Single-answer only", "Questions with exactly one correct option.", I.one, "#2bd9c4"],
     ["unseen", "Not seen yet", "Only questions you have never answered.", I.new, "#ffc800"],
-    ["boss", "Boss round", "20 random questions, quiz style, check each answer.", I.boss, "#a568cc"],
+    ["boss", "Boss round", "20 random questions, quiz style, results at the end.", I.boss, "#a568cc"],
     ["hard", "Hard ones", "Questions you have missed more than once.", I.speed, "#ff86d0"]
   ];
   function modeList(k) {
@@ -2042,11 +2169,11 @@
     root.appendChild(el);
     const applyTs = () => el.style.setProperty("--ts", TSMUL[S.set.textSize] || 0.84);
     applyTs();
-    let page = "learn", ses = null, popW = null, hubMode = "learn", fc = null, hubMore = false;
+    let page = "learn", ses = null, popW = null, hubMode = "learn", fc = null, hubMore = false, gate = !S.set.name;
     const rvf = { w: 0, t: "", q: "" };
     const rvOpen = /* @__PURE__ */ new Set();
     const topStats = () => `<div class="stats"><span class="stat" title="Day streak">${I.flame}<span style="color:var(--orange)">${streak()}</span></span><span class="stat" title="XP">${I.bolt}<span style="color:var(--yellow-d)">${S.xp}</span></span><span class="stat" title="Mistakes waiting">${I.heart}<span style="color:var(--red)">${wrongQs().length}</span></span></div>`;
-    const PDFS = [{t:"Week 1 - Assignment 1 Solutions (official NPTEL PDF)",d:"3 pages - 120 KB",u:"pdfs/week1-solution.pdf",f:"IBME-Week1-Solutions.pdf"},{t:"Week 2 - Assignment 2 Solutions (official NPTEL PDF)",d:"2 pages - 195 KB",u:"pdfs/week2-solution.pdf",f:"IBME-Week2-Solutions.pdf"},{t:"Week 3 - Assignment 3 Solutions (official NPTEL PDF)",d:"2 pages - 193 KB",u:"pdfs/week3-solution.pdf",f:"IBME-Week3-Solutions.pdf"},{t:"Week 4 - Assignment 4 Solutions (official NPTEL PDF)",d:"2 pages - 199 KB",u:"pdfs/week4-solution.pdf",f:"IBME-Week4-Solutions.pdf"},{t:"Week 5 - Assignment 5 Solutions (official NPTEL PDF)",d:"4 pages - 118 KB",u:"pdfs/week5-solution.pdf",f:"IBME-Week5-Solutions.pdf"},{t:"Week 6 - Assignment 6 Solutions (official NPTEL PDF)",d:"3 pages - 137 KB",u:"pdfs/week6-solution.pdf",f:"IBME-Week6-Solutions.pdf"},{t:"Week 7 - Assignment 7 Solutions (official NPTEL PDF)",d:"4 pages - 114 KB",u:"pdfs/week7-solution.pdf",f:"IBME-Week7-Solutions.pdf"},{t:"Week 8 - Assignment 8 Solutions (official NPTEL PDF)",d:"4 pages - 116 KB",u:"pdfs/week8-solution.pdf",f:"IBME-Week8-Solutions.pdf"}];
+    const PDFS = [{t:"IBME Quiz Bank - all 80 questions with answers",d:"25 pages - 332 KB - study compilation from the official PDFs, not an official NPTEL file",u:"pdfs/ibme-quiz-bank.pdf",f:"IBME-Quiz-Bank.pdf"},{t:"Week 1 - Assignment 1 Solutions (official NPTEL PDF)",d:"3 pages - 120 KB",u:"pdfs/week1-solution.pdf",f:"IBME-Week1-Solutions.pdf"},{t:"Week 2 - Assignment 2 Solutions (official NPTEL PDF)",d:"2 pages - 195 KB",u:"pdfs/week2-solution.pdf",f:"IBME-Week2-Solutions.pdf"},{t:"Week 3 - Assignment 3 Solutions (official NPTEL PDF)",d:"2 pages - 193 KB",u:"pdfs/week3-solution.pdf",f:"IBME-Week3-Solutions.pdf"},{t:"Week 4 - Assignment 4 Solutions (official NPTEL PDF)",d:"2 pages - 199 KB",u:"pdfs/week4-solution.pdf",f:"IBME-Week4-Solutions.pdf"},{t:"Week 5 - Assignment 5 Solutions (official NPTEL PDF)",d:"4 pages - 118 KB",u:"pdfs/week5-solution.pdf",f:"IBME-Week5-Solutions.pdf"},{t:"Week 6 - Assignment 6 Solutions (official NPTEL PDF)",d:"3 pages - 137 KB",u:"pdfs/week6-solution.pdf",f:"IBME-Week6-Solutions.pdf"},{t:"Week 7 - Assignment 7 Solutions (official NPTEL PDF)",d:"4 pages - 114 KB",u:"pdfs/week7-solution.pdf",f:"IBME-Week7-Solutions.pdf"},{t:"Week 8 - Assignment 8 Solutions (official NPTEL PDF)",d:"4 pages - 116 KB",u:"pdfs/week8-solution.pdf",f:"IBME-Week8-Solutions.pdf"}];
   const NAVS = [["learn", "Learn", I.home], ["practice", "Practice", I.target], ["pdfs", "PDFs", I.book], ["me", "Profile", I.user]];
     function shell(inner, rail) {
       return `<div class="app"><nav class="side"><div class="logo">ibme</div>${NAVS.map(([k, n, ic]) => `<button class="nav ${page === k ? "on" : ""}" data-go="${k}">${ic}<span>${n}</span></button>`).join("")}</nav>
@@ -2063,12 +2190,12 @@
     <div class="card"><h3>Keyboard</h3><div style="font-size:14px;line-height:1.9;color:var(--sub)">1-6 or A-F pick an option<br>Enter checks and continues<br>Arrows move, Space selects<br>Esc leaves the lesson</div></div>`;
     }
     function popover(w) {
-      return `<div class="pop"><h3>Week ${w}</h3><p>10 questions. Syllabus covered by the end of this week: ${w * 12.5}%</p>
+      return `<div class="bk"></div><div class="sheet"><h3>Week ${w}</h3><p>10 questions. Syllabus covered by the end of this week: ${Math.round(w * 12.5)}%</p>
     <div class="row"><button class="btn white" data-start="week:${w}:learn">Learn</button><button class="btn white" data-start="week:${w}:quiz">Quiz</button></div>
-    <div style="font-size:12px;margin-top:10px;opacity:.9;font-weight:800;letter-spacing:.5px">LEARN: INSTANT ANSWERS. QUIZ: CHECK EACH ANSWER.</div></div>`;
+    <div class="snote">Learn: instant feedback. Quiz: results at the end.</div></div>`;
     }
     function pgLearn() {
-      const offs = [0, -46, -74, -46, 0, 46, 74, 46];
+      const zf = innerWidth <= 400 ? 0.62 : 1, offs = [0, -46, -74, -46, 0, 46, 74, 46].map((o) => Math.round(o * zf));
       let firstOpen = null;
       for (let w = 1; w <= 8; w++) if ((wkStat(w) || 0) < 80) {
         firstOpen = w;
@@ -2076,13 +2203,12 @@
       }
       const nodes = [1, 2, 3, 4, 5, 6, 7, 8].map((w) => {
         const b = wkStat(w), done = b != null && b >= 80;
-        return `<div style="transform:translateX(${offs[w - 1]}px);position:relative;margin-bottom:34px;z-index:${popW === w ? 30 : 1}">
+        return `<div style="transform:translateX(${offs[w - 1]}px);position:relative;margin-bottom:34px;margin-top:${firstOpen === w ? (w === 1 ? 48 : 120) : 0}px">
       ${firstOpen === w && popW !== w ? '<div class="start">Start</div>' : ""}
-      <button class="node ${done ? "done" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button>
-      ${popW === w ? popover(w) : ""}</div>`;
+      <button class="node ${done ? "done" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>`;
       }).join("");
       return `<div class="banner"><div><small>Section 1</small><h2>Innovation, Business Models and Entrepreneurship</h2></div></div>
-    <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>`;
+    <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>${popW ? popover(popW) : ""}`;
     }
     function pgPractice() {
       const prim = ["daily", "mistakes", "shuffle"];
@@ -2133,21 +2259,30 @@
     <div class="card"><h3>Settings</h3>
     ${[["sound", "Sound effects"], ["haptic", "Haptics (vibration)"], ["theme", "Dark theme"], ["optShuf", "Shuffle answer order (only where it is safe)"]].map(([k, n]) => `<div class="sw"><span>${n}</span><button class="tg ${(k === "theme" ? S.set.theme !== "light" : S.set[k]) ? "on" : ""}" data-tg="${k}"></button></div>`).join("")}
     <div class="seg"><span>Text size</span><div class="opts3">${[["small", "Small"], ["std", "Medium"], ["large", "Large"]].map(([k, n]) => `<button class="${S.set.textSize === k ? "on" : ""}" data-ts="${k}">${n}</button>`).join("")}</div></div>
-    <button class="btn red" style="margin-top:16px" data-reset="1">Reset progress</button></div>`;
+    <button class="btn red" style="margin-top:16px" data-reset="1">Reset progress</button></div><div style="text-align:center;color:var(--sub);font-size:12px;margin:14px 0 4px">ibme quiz ${BUILD}</div>`;
     }
     function pgPdfs() {
       return `<h1 class="pg">Official PDFs</h1><p class="sub">The original NPTEL course PDFs these questions and answers come from. Open one in the browser or save it for offline.</p>
     <div class="plist">${PDFS.map((p) => `<div class="pdfrow"><div class="pic">${I.book}</div><div class="pmeta"><b>${p.t}</b><span>${p.d}</span></div><div class="pacts"><a class="btn white g" href="${p.u}" target="_blank" rel="noopener">Open</a><a class="btn g" href="${p.u}" download="${p.f}">Save</a></div></div>`).join("")}</div>
     <div style="color:var(--sub);font-size:13px;margin-top:14px">Wave transitions use the <a href="https://glimm.dev" target="_blank" rel="noopener" style="color:var(--blue)">glimm</a> library (MIT, (c) Noman Ijaz), vendored unmodified.</div>`;
     }
+    function renderGate() {
+      el.innerHTML = `<div class="gate"><div class="gcard"><div style="width:130px;margin:0 auto 6px">${mascot(0, "cheer")}</div>
+    <h1 class="pg" style="text-align:center">Welcome!</h1><p class="sub" style="text-align:center">80 questions, 8 weeks, one exam. What should we call you?</p>
+    <input class="search" id="gname" maxlength="14" placeholder="Your name" style="width:100%;margin:8px 0 14px">
+    <button class="btn wide" data-gname="1">Start learning</button></div></div>`;
+    }
     function render() {
       el.classList.toggle("dark", S.set.theme !== "light");
+      if (gate) return renderGate();
       if (ses) return renderSes();
       if (fc) return renderCards();
       const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe }[page]();
       const keep = $("#main", el) ? $("#main", el).scrollTop : 0;
       el.innerHTML = shell(pg, railHtml());
       if ($("#main", el)) $("#main", el).scrollTop = keep;
+      const st = $(".start", el);
+      if (st) { const sr = st.getBoundingClientRect(); if (sr.bottom > innerHeight - 96 || sr.top < 0) st.scrollIntoView({ block: "center" }); }
     }
     function startSes(list, mode, title, key) {
       if (!list.length) return toast("Nothing in this mode yet.");
@@ -2169,8 +2304,8 @@
       const shortOpts = q.opts.every((o) => o.length < 46) && !wide;
       el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-exit="1" aria-label="Close">${I.x}</button><div class="bar"><i style="width:${(s.mode === "quiz" ? s.i / s.list.length : s.ok / s.planned) * 100}%"></i></div>
     <span class="chip" title="In a row">${s.combo >= 2 ? I.flame + '<span style="color:var(--orange)">' + s.combo + "</span>" : ""}</span></div>
-    <div class="ex-body" style="--fs:${(sizeFs(q) * (innerWidth <= 360 ? 0.8 : innerWidth <= 430 ? 0.86 : innerWidth <= 700 ? 0.92 : 1)).toFixed(1)}px"><div class="stage ${wide ? "wide" : ""}">
-    ${s.phase === "fix" ? '<div class="banner2">' + I.heart.replace("<svg", '<svg width="20" height="20"') + "Fix your mistakes</div>" : `<span class="tag">${esc(s.title)} \xB7 ${s.mode === "quiz" ? "quiz" : "learn"} \xB7 W${q.w} Q${q.n}</span>`}
+    <div class="ex-body" style="--fs:${(sizeFs(q) * (innerWidth <= 360 ? 0.8 : innerWidth <= 430 ? 0.86 : innerWidth <= 700 ? 0.92 : 1)).toFixed(1)}px"><div class="stage ${wide ? "wide" : ""} ${q.q.length > 420 ? "longq" : ""}">
+    ${s.phase === "fix" ? '<div class="banner2">' + I.heart.replace("<svg", '<svg width="20" height="20"') + "Fix your mistakes</div>" : `<span class="tag">${esc(s.title)} \xB7 ${s.mode === "quiz" ? "quiz" : "learn"} \xB7 Q${s.i + 1} of ${s.total}</span>`}
     <h1 class="head">${head(q)}</h1>
     <div class="cols ${wide ? "w" : ""}"><div><div class="qrow"><div class="mas">${mascot(S.set.av, s.state === "bad" ? "sad" : "happy")}</div><div class="bubble">${esc(q.q).replace(/\n/g, "<br>")}${q.img ? `<img class="qimg" src="${IMGS[q.img]}" alt="Diagram for the question">` : ""}</div></div></div>
     <div class="opts ${shortOpts && q.opts.length > 3 ? "two" : ""}" id="opts">${optsHtml()}</div></div></div></div>
@@ -2202,13 +2337,15 @@
       const s = ses, q = s.cur.q;
       if (s.state === "ask") {
         const can = s.sel.size > 0, instant = s.mode === "learn" && !isMulti(q), quiz = s.mode === "quiz";
-        return `<div class="ex-foot"><div class="in"><button class="btn skip" data-skip="1">Skip</button><span class="kb" style="flex:1;text-align:center">${instant ? "Tap an option for the instant answer" : quiz ? "Enter for the next one" : "Enter to check"}</span><button class="btn ${can ? "" : "dis"}" data-check="1" style="${instant ? "visibility:hidden" : ""}">${quiz ? "Next" : "Check"}</button></div></div>`;
+        return `<div class="ex-foot${instant ? " ghost" : ""}"><div class="in"><button class="btn skip" data-skip="1">Skip</button><span class="kb" style="flex:1;text-align:center">${instant ? "Tap an option for the instant answer" : quiz ? "Enter for the next one" : "Enter to check"}</span><button class="btn ${can ? "" : "dis"}" data-check="1" style="${instant ? "visibility:hidden" : ""}">${quiz ? "Next" : "Check"}</button></div></div>`;
       }
       const good = s.state === "good";
       const ansTxt = q.ans.map((i) => esc(q.opts[i])).join(" &nbsp;\xB7&nbsp; ");
       const learn = s.mode === "learn";
       const mine = !learn && !good ? [...s.sel].filter((i) => !q.ans.includes(i)).map((i) => q.wrong[i] ? `<div style="margin-top:4px"><b>Your pick:</b> ${esc(q.wrong[i])}</div>` : "").join("") : "";
-      const praise = ["Nicely done!", "Excellent!", "You got it!", "Great job!", "Sharp!"][(s.i + s.combo) % 5];
+      const pname = (S.set.name || "").trim();
+      const hype = pname && s.combo >= 3 ? [pname + ", you're on fire!", "Unstoppable, " + pname + "!", pname + ", what a run!"][(s.i + s.combo) % 3] : "";
+      const praise = hype || ["Nicely done!", "Excellent!", "You got it!", "Great job!", "Sharp!"][(s.i + s.combo) % 5];
       const ansLine = good ? "" : `<b>${ansTxt}</b>`;
       const whyLine = good || !learn ? `<div>${esc(q.why)}</div>` : "";
       return `<div class="ex-foot ${good ? "ok" : "no"}"><div class="in"><div class="fb"><div class="ico">${good ? I.checkG : I.cross}</div><div style="min-width:0"><h3>${good ? praise : "Correct solution:"}</h3>
@@ -2247,7 +2384,7 @@
       const good = q.ans.length === s.sel.size && q.ans.every((i) => s.sel.has(i));
       const st = stat(q);
       st.s++;
-      s.log.push({ q, good, first: s.phase === "main" });
+      s.log.push({ q, good, first: s.phase === "main", pick: [...s.sel] });
       if (good) {
         st.r++;
         s.combo++;
@@ -2328,6 +2465,13 @@
       s.skipped++;
       advance();
     }
+    function rv2row(l) {
+      const q = l.q, picks = (l.pick || []).slice().sort((a, b) => a - b);
+      const ansTxt = q.ans.slice().sort((a, b) => a - b).map((a) => L[a] + ") " + q.opts[a]).join("; ");
+      const pickTxt = picks.length ? picks.map((a) => L[a] + ") " + q.opts[a]).join("; ") : "No answer";
+      const st = l.good ? "Right" : l.skip ? "Skipped" : "Missed";
+      return `<div class="rv2 ${l.good ? "ok" : "no"}"><button data-rvx="1"><span class="nn">W${q.w} Q${q.n}</span><span class="pill2">${st}</span><span class="chev">\u203A</span></button><div class="rv2b" hidden>${q.img ? `<img class="qimg" src="${IMGS[q.img]}" alt="Diagram">` : ""}<div class="rq">${esc(q.q)}</div>${l.good ? `<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>` : `${l.skip ? "" : `<div class="ra bad"><b>You picked:</b> ${esc(pickTxt)}</div>`}<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>`}<div class="rw"><b>Why:</b> ${esc(q.why)}</div></div></div>`;
+    }
     function finish() {
       const s = ses;
       snd.done();
@@ -2347,9 +2491,9 @@
       const cards = `<div class="sbox"><div class="sb" style="border-color:var(--yellow)"><div style="background:var(--yellow)">Total XP</div><div style="color:var(--yellow-d)">${I.bolt.replace("<svg", '<svg width="26" height="26"')}${s.xp}</div></div>
     <div class="sb" style="border-color:var(--blue)"><div style="background:var(--blue)">Time</div><div style="color:var(--blue)">${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}</div></div>
     <div class="sb" style="border-color:var(--green)"><div style="background:var(--green)">${quiz ? "Score" : "First try"}</div><div style="color:var(--green)">${acc}%</div></div></div>`;
-      const line = quiz ? `You got ${s.first} of ${s.total} right${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}` : `${s.first} of ${s.total} right on the first try${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}`;
+      const line = quiz ? `${S.set.name ? S.set.name + ", you" : "You"} got ${s.first} of ${s.total} right${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}` : `${s.first} of ${s.total} right on the first try${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}`;
       const acts = `<div class="acts">${missedN ? `<button class="btn white g" data-retry="1">Retry missed (${missedN})</button>` : ""}${quiz ? "" : '<button class="btn white g" data-review="1">Review answers</button>'}<button class="btn" data-home="1">Continue</button></div>`;
-      const rows = quiz ? `<div class="donerv">${s.log.filter((l) => l.first).map((l) => `<div class="rv" style="border-color:${l.good ? "var(--green)" : "var(--red)"}"><button style="pointer-events:none"><span class="nn">W${l.q.w} Q${l.q.n}</span><span>${l.good ? "Right" : l.skip ? "Skipped" : "Missed"}: ${esc(l.q.q)}</span></button>${rvBody(l.q)}</div>`).join("")}</div>` : "";
+      const rows = quiz ? `<div class="donerv">${s.log.filter((l) => l.first).map((l) => rv2row(l)).join("")}</div>` : "";
       el.innerHTML = `<div class="done${quiz ? " quizdone" : ""}"><div class="mas">${mascot(S.set.av, "cheer")}</div><h1>${acc === 100 ? "Perfect run!" : quiz ? "Quiz complete!" : "Lesson complete!"}</h1>
     ${cards}
     <div style="font-size:16px;color:var(--sub)">${line}</div>
@@ -2360,11 +2504,11 @@
     function retryMissed() {
       const missed = ses.log.filter((l) => l.first && !l.good).map((l) => l.q);
       if (!missed.length) return;
-      startSes(missed, ses.mode, ses.title + " · retry", ses.key);
+      startSes(missed, ses.mode, ses.title + " · retry", "retry:" + ses.key);
     }
     function reviewAnswers() {
       const firsts = ses.log.filter((l) => l.first);
-      el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-home="1">${I.x}</button><h2 class="ti" style="margin:0;font-size:24px;flex:1">Your answers</h2></div><div class="ex-body" style="justify-content:flex-start;--fs:16px"><div class="stage">${firsts.map((l) => `<div class="rv" style="border-color:${l.good ? "var(--green)" : "var(--red)"}"><button style="pointer-events:none"><span class="nn">W${l.q.w} Q${l.q.n}</span><span>${l.good ? "Right" : l.skip ? "Skipped" : "Missed"}: ${esc(l.q.q)}</span></button>${rvBody(l.q)}</div>`).join("")}</div></div></div>`;
+      el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-home="1">${I.x}</button><h2 class="ti" style="margin:0;font-size:24px;flex:1">Your answers</h2></div><div class="ex-body" style="justify-content:flex-start;--fs:16px"><div class="stage">${firsts.map((l) => rv2row(l)).join("")}</div></div></div>`;
     }
     function exit() {
       const m = document.createElement("div");
@@ -2412,6 +2556,20 @@
         return;
       }
       const d = t.dataset;
+      if (d.rvx) {
+        const b = t.parentElement.querySelector(".rv2b");
+        b.hidden = !b.hidden;
+        t.classList.toggle("open", !b.hidden);
+        return;
+      }
+      if (d.gname) {
+        const v = (document.getElementById("gname") || {}).value || "";
+        S.set.name = v.trim().slice(0, 14) || "Learner";
+        save();
+        gate = false;
+        snd.ok();
+        return render();
+      }
       if (d.go) {
         snd.tap();
         buzz(8);
