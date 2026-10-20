@@ -119,3 +119,22 @@
  .duo .ex-foot .kb{display:none;}
  .duo .ex-foot .btn{flex:none;}
 }
+/* Accessible light-theme ink keeps bright brand colors for surfaces, not small type. */
+.duo:not(.dark){--sub:#6c6c6c;--green-d:#327900;--red-d:#ac2028;--blue-d:#076692;--purple:#8b3fbb;}
+.duo:not(.dark) .logo,.duo:not(.dark) .start,.duo:not(.dark) .btn.white.g{color:#327900;text-shadow:none;}
+.duo:not(.dark) .btn{color:#18300c;}
+.duo:not(.dark) .btn.white,.duo:not(.dark) .morebtn,.duo:not(.dark) a{color:#076692;}
+.duo:not(.dark) .btn.red,.duo:not(.dark) .ex-foot.no .btn{color:#461015;}
+.duo:not(.dark) .tag{color:#8b3fbb;}
+.duo:not(.dark) .opt .k,.duo:not(.dark) .skip{color:#666;}
+.duo:not(.dark) .opt.sel,.duo:not(.dark) .opt.sel .k{color:#076692;}
+.duo:not(.dark) .opt.ok,.duo:not(.dark) .opt.ok .k{color:#327900;}
+.duo:not(.dark) .opt.no,.duo:not(.dark) .opt.no .k{color:#ac2028;}
+.duo:not(.dark) .opt .why{opacity:1;}
+.duo:not(.dark) .tile .n{color:#076692;}
+.duo:not(.dark) .sb div:last-child{color:var(--text)!important;}
+.duo:not(.dark) .stats span{color:var(--text)!important;}
+.duo .ex-foot .btn:focus-visible{outline:3px solid #1cb0f6;outline-offset:4px;}
+.duo.dark .skip{color:#a9b6bd;}
+.duo:not(.dark) .opt .why{color:#4b4b4b;}
+.duo:not(.dark) .muted a{color:#076692!important;}
