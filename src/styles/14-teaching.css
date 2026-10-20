@@ -311,3 +311,10 @@
 .duo .lesson-figure .figure-seal,.duo .lesson-figure .figure-paper{fill:var(--card);}
 .duo .lesson-figure .figure-solid{fill:var(--green-d);stroke:none;}
 .duo.dark .lesson-figure .figure-solid{fill:var(--green);}
+/* A desktop stage is wider, not taller. Keep the final rows above the controls. */
+@media(min-width:641px){
+ .duo .teaching-content.visual-card{padding:20px 0;}
+ .duo .teaching-content.visual-card>.head{margin-bottom:24px;}
+ .duo .has-figure .lesson-figure svg{max-height:235px;}
+ .duo .figure-facts{gap:8px 20px;padding-top:14px;margin-top:8px;}
+}
