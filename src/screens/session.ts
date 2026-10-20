@@ -29,7 +29,7 @@ export function renderSes() {
   const s = ui.ses, q = s.cur.q;
   const wide = !!q.img || q.q.length > 230;
   const shortOpts = q.opts.every((o) => o.length < 46) && !wide;
-  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-exit="1" aria-label="Close">${I.x}</button><div class="bar"><i style="width:${(s.mode === "quiz" ? s.i / s.list.length : s.ok / s.planned) * 100}%"></i></div>
+  ui.el.innerHTML = `<div class="ex"><div class="ex-top"><button class="x" data-exit="1" aria-label="Close">${I.x}</button><div class="bar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round((s.mode === "quiz" ? s.i / s.list.length : s.ok / s.planned) * 100)}"><i style="width:${(s.mode === "quiz" ? s.i / s.list.length : s.ok / s.planned) * 100}%"></i></div>
 <span class="chip" title="In a row">${s.combo >= 2 ? I.flame + '<span style="color:var(--orange)">' + s.combo + "</span>" : ""}</span></div>
 <div class="ex-body" style="--fs:${(sizeFs(q) * (innerWidth <= 360 ? 0.8 : innerWidth <= 430 ? 0.86 : innerWidth <= 700 ? 0.92 : 1)).toFixed(1)}px"><div class="stage ${wide ? "wide" : ""} ${q.q.length > 420 ? "longq" : ""}">
 ${s.phase === "fix" ? '<div class="banner2">' + I.heart.replace("<svg", '<svg width="20" height="20"') + "Fix your mistakes</div>" : `<span class="tag">${esc(s.title)} \xB7 ${s.mode === "quiz" ? "quiz" : "learn"} \xB7 Q${s.i + 1} of ${s.total}</span>`}
@@ -58,7 +58,7 @@ export function optsHtml() {
       if (!isAns && q.wrong[oi]) why = `<span class="why">${esc(q.wrong[oi])}</span>`;
       else if (isAns && !sel) why = '<span class="why">This one was correct.</span>';
     }
-    return `<button class="opt ${cls}" data-opt="${oi}"><span class="k">${L[pos]}</span><span class="t">${esc(q.opts[oi])}${why}</span></button>`;
+    return `<button class="opt ${cls}" aria-pressed="${sel}" aria-disabled="${rev}" data-opt="${oi}"><span class="k">${L[pos]}</span><span class="t">${esc(q.opts[oi])}${why}</span></button>`;
   }).join("");
 }
 
@@ -72,7 +72,7 @@ export function footHtml() {
   const ansTxt = q.ans.map((i) => esc(q.opts[i])).join(" &nbsp;\xB7&nbsp; ");
   const learn = s.mode === "learn";
   const mine = !learn && !good ? [...s.sel].filter((i) => !q.ans.includes(i)).map((i) => q.wrong[i] ? `<div style="margin-top:4px"><b>Your pick:</b> ${esc(q.wrong[i])}</div>` : "").join("") : "";
-  const pname = (S.set.name || "").trim();
+  const pname = esc((S.set.name || "").trim());
   const hype = pname && s.combo >= 3 ? [pname + ", you're on fire!", "Unstoppable, " + pname + "!", pname + ", what a run!"][(s.i + s.combo) % 3] : "";
   const praise = hype || ["Nicely done!", "Excellent!", "You got it!", "Great job!", "Sharp!"][(s.i + s.combo) % 5];
   const ansLine = good ? "" : `<b>${ansTxt}</b>`;
@@ -196,6 +196,7 @@ export function skip() {
     s.skipped++;
     return advance();
   }
+  s.log.push({ q: s.cur.q, good: false, first: s.phase === "main", skip: true });
   s.queue.push(s.cur.q);
   s.planned++;
   s.skipped++;
@@ -207,11 +208,13 @@ export function rv2row(l) {
   const ansTxt = q.ans.slice().sort((a, b) => a - b).map((a) => L[a] + ") " + q.opts[a]).join("; ");
   const pickTxt = picks.length ? picks.map((a) => L[a] + ") " + q.opts[a]).join("; ") : "No answer";
   const st = l.good ? "Right" : l.skip ? "Skipped" : "Missed";
-  return `<div class="rv2 ${l.good ? "ok" : "no"}"><button data-rvx="1"><span class="nn">W${q.w} Q${q.n}</span><span class="pill2">${st}</span><span class="chev">\u203A</span></button><div class="rv2b" hidden>${q.img ? `<img class="qimg" src="${IMGS[q.img]}" alt="Diagram">` : ""}<div class="rq">${esc(q.q)}</div>${l.good ? `<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>` : `${l.skip ? "" : `<div class="ra bad"><b>You picked:</b> ${esc(pickTxt)}</div>`}<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>`}<div class="rw"><b>Why:</b> ${esc(q.why)}</div></div></div>`;
+  return `<div class="rv2 ${l.good ? "ok" : "no"}"><button data-rvx="1" aria-expanded="false"><span class="nn">W${q.w} Q${q.n}</span><span class="pill2">${st}</span><span class="chev">\u203A</span></button><div class="rv2b" hidden>${q.img ? `<img class="qimg" src="${IMGS[q.img]}" alt="Diagram">` : ""}<div class="rq">${esc(q.q)}</div>${l.good ? `<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>` : `${l.skip ? "" : `<div class="ra bad"><b>You picked:</b> ${esc(pickTxt)}</div>`}<div class="ra good"><b>Correct:</b> ${esc(ansTxt)}</div>`}<div class="rw"><b>Why:</b> ${esc(q.why)}</div></div></div>`;
 }
 
 export function finish() {
   const s = ui.ses;
+  if (s.finished) return;
+  s.finished = true;
   snd.done();
   buzz([30, 40, 30, 40, 80]);
   const acc = Math.round(s.first / s.total * 100), secs = Math.round((Date.now() - s.t0) / 1e3);
@@ -229,7 +232,7 @@ export function finish() {
   const cards = `<div class="sbox"><div class="sb" style="border-color:var(--yellow)"><div style="background:var(--yellow)">Total XP</div><div style="color:var(--yellow-d)">${I.bolt.replace("<svg", '<svg width="26" height="26"')}${s.xp}</div></div>
 <div class="sb" style="border-color:var(--blue)"><div style="background:var(--blue)">Time</div><div style="color:var(--blue)">${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}</div></div>
 <div class="sb" style="border-color:var(--green)"><div style="background:var(--green)">${quiz ? "Score" : "First try"}</div><div style="color:var(--green)">${acc}%</div></div></div>`;
-  const line = quiz ? `${S.set.name ? S.set.name + ", you" : "You"} got ${s.first} of ${s.total} right${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}` : `${s.first} of ${s.total} right on the first try${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}`;
+  const line = quiz ? `${S.set.name ? esc(S.set.name) + ", you" : "You"} got ${s.first} of ${s.total} right${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}` : `${s.first} of ${s.total} right on the first try${bonus ? " · +5 perfect bonus" : ""}${s.skipped ? " · " + s.skipped + " skipped" : ""}`;
   const acts = `<div class="acts">${missedN ? `<button class="btn white g" data-retry="1">Retry missed (${missedN})</button>` : ""}${quiz ? "" : '<button class="btn white g" data-review="1">Review answers</button>'}<button class="btn" data-home="1">Continue</button></div>`;
   const rows = quiz ? `<div class="donerv">${s.log.filter((l) => l.first).map((l) => rv2row(l)).join("")}</div>` : "";
   ui.el.innerHTML = `<div class="done${quiz ? " quizdone" : ""}"><div class="mas">${mascot(S.set.av, "cheer")}</div><h1>${acc === 100 ? "Perfect run!" : quiz ? "Quiz complete!" : "Lesson complete!"}</h1>
@@ -243,7 +246,7 @@ ${rows}</div>`;
 export function retryMissed() {
   const missed = ui.ses.log.filter((l) => l.first && !l.good).map((l) => l.q);
   if (!missed.length) return;
-  startSes(missed, ui.ses.mode, ui.ses.title + " · retry", "retry:" + ui.ses.key);
+  startSes(missed, "learn", ui.ses.title + " · retry", "retry:" + ui.ses.key);
 }
 
 export function reviewAnswers() {

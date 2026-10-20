@@ -69,3 +69,36 @@
 /* Light theme needs dark labels on its white navigation surface. */
 .duo:not(.dark) .nav{color:#4b4b4b;}
 .duo:not(.dark) .nav.on{color:#076692;}
+
+/* Clear actions, usable touch targets, keyboard focus and motion preferences. */
+.duo button:focus-visible,.duo a:focus-visible,.duo input:focus-visible,.duo [tabindex]:focus-visible{outline:3px solid #1cb0f6;outline-offset:4px;}
+.duo button,.duo a.btn{touch-action:manipulation;}
+.duo .tg{min-width:54px;min-height:32px;}
+.duo .sw{min-height:60px;}
+.duo .x{min-width:44px;min-height:44px;}
+.duo .rv2>button{min-height:52px;}
+.duo .tile .tile-desc{font-size:14px;line-height:1.45;white-space:normal;text-align:center;color:var(--sub);font-weight:700;}
+.duo .study-tools{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;}
+.duo .study-tools .btn{flex:1;min-width:140px;}
+.duo .bar i,.duo .prog i,.duo .lvlbar i{transition:width .25s ease;}
+.duo .opt{min-height:52px;}
+.duo .opt.sel{outline:2px solid var(--blue);outline-offset:-2px;}
+.duo .opt:active{transform:translateY(2px);}
+.duo .profav+div{min-width:0;flex:1;}
+.duo #nm{max-width:100%;font-size:16px;}
+.duo .seg:has(.opts3){display:flex;flex-wrap:wrap;align-items:center;gap:12px;}
+.duo .opts3{flex-wrap:wrap;}
+.duo .opts3 button{min-height:44px;}
+.duo .search::placeholder{color:var(--sub);opacity:1;}
+.duo .gate{overflow:auto;}
+.duo .btn:disabled{opacity:.55;cursor:default;}
+@media(max-width:640px){
+  .duo .nav{min-height:64px;font-size:12px;}
+  .duo .pmeta b{font-size:16px;line-height:1.4;}
+  .duo .pmeta span{font-size:14px;line-height:1.4;}
+  .duo .pdfrow{gap:10px;}
+  .duo .done .acts{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;}
+}
+@media(prefers-reduced-motion:reduce){
+ .duo *, .duo *::before,.duo *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important;}
+}

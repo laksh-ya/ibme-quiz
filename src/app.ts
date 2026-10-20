@@ -5,6 +5,8 @@ import { setData } from "./quiz";
 import { railHtml, shell } from "./screens/shell";
 import { pgPdfs } from "./screens/pdfs";
 import { pgLearn } from "./screens/learn";
+import { pgCards } from "./screens/cards";
+import { pgReview } from "./screens/review";
 import { pgPractice } from "./screens/practice";
 import { renderCards, renderCardsFlip, startCards } from "./screens/cards";
 import { pgMe } from "./screens/profile";
@@ -18,7 +20,7 @@ export function render() {
   if (ui.gate) return renderGate();
   if (ui.ses) return renderSes();
   if (ui.fc) return renderCards();
-  const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe }[ui.page]();
+  const pg = { learn: pgLearn, practice: pgPractice, pdfs: pgPdfs, me: pgMe, review: pgReview, cards: pgCards }[ui.page]();
   const keep = $("#main", ui.el) ? $("#main", ui.el).scrollTop : 0;
   ui.el.innerHTML = shell(pg, railHtml());
   if ($("#main", ui.el)) $("#main", ui.el).scrollTop = keep;
@@ -40,6 +42,7 @@ export function mount(root, data, images) {
   ui.el.addEventListener("click", (e) => {
     const t = e.target.closest("button,[data-flip]");
     if (!t) {
+      if (e.target.closest(".pop2")) return;
       if (ui.popW) {
         ui.popW = null;
         render();
@@ -51,6 +54,7 @@ export function mount(root, data, images) {
       const b = t.parentElement.querySelector(".rv2b");
       b.hidden = !b.hidden;
       t.classList.toggle("open", !b.hidden);
+      t.setAttribute("aria-expanded", String(!b.hidden));
       return;
     }
     if (d.gname) {
@@ -64,6 +68,7 @@ export function mount(root, data, images) {
     if (d.go) {
       snd.tap();
       buzz(8);
+      if (ui.page === d.go && !ui.ses && !ui.fc) return;
       ui.page = d.go;
       ui.popW = null;
       return sweep(ui.el, render);
@@ -122,7 +127,7 @@ export function mount(root, data, images) {
     if (d.flip != null) {
       ui.fc.flip = !ui.fc.flip;
       snd.tap();
-      return $(".fc", ui.el).classList.toggle("flip");
+      return renderCardsFlip();
     }
     if (d.again != null) {
       if (!ui.fc.flip) return;
@@ -150,6 +155,7 @@ export function mount(root, data, images) {
       else S.set[d.tg] = !S.set[d.tg];
       save();
       if (d.tg === "sound" && S.set.sound) snd.tap();
+      if (d.tg === "haptic") { if (S.set.haptic) buzz(20); else navigator.vibrate?.(0); }
       return render();
     }
     if (d.ts) {
@@ -185,7 +191,9 @@ export function mount(root, data, images) {
 
   const onKey = (e) => {
     if (!ui.el.isConnected) return document.removeEventListener("keydown", onKey);
+    if (e.target?.id === "gname" && e.key === "Enter") { e.preventDefault(); $("[data-gname]", ui.el)?.click(); return; }
     if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+    if (e.key === "Escape" && ui.popW && !ui.ses) { ui.popW = null; render(); return; }
     const k = e.key;
     if ($(".modal", ui.el)) {
       if (k === "Escape") $(".modal", ui.el).remove();
