@@ -11599,5 +11599,1727 @@
         "Delphi expert count and anonymity, Gompertz asymmetry, 720 combinations, stem-and-branch analogy, Qualis/Innova, eco-car: not in captions or slides"
       ]
     }
+  },
+  {
+    "week": 6,
+    "title": "Week 6: Sustainability, SMEs, insight",
+    "lectures": [
+      {
+        "id": "w6l1",
+        "title": "Sustainability, Innovation and Entrepreneurship",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ],
+        "cards": [
+          {
+            "id": "w6c1",
+            "kind": "concept",
+            "title": "Sustainability themes",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Generations",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Ganges",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "PILs",
+                    "detail": "Public interest litigation as reference",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Think big",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f01"
+          },
+          {
+            "id": "w6c2",
+            "kind": "example",
+            "title": "Sustainable innovations",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Film farming",
+                    "detail": "No soil, 1/10 water",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Cardboard packaging",
+                    "detail": "Directions to turn into something new",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Wood stoves",
+                    "detail": "Waste heat to electricity",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Airborne windmills",
+                    "detail": "50% more energy",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f02"
+          },
+          {
+            "id": "w6c3",
+            "kind": "example",
+            "title": "More examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Carbon-neutral plastic",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "E-waste kiosks",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Ethical smartphone",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f03"
+          },
+          {
+            "id": "w6c4",
+            "kind": "example",
+            "title": "Ganges",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "500 million people",
+                    "detail": "Linked to the river",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Project team",
+                    "detail": "About 110 people, 8 IITs",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f04"
+          },
+          {
+            "id": "w6c5",
+            "kind": "example",
+            "title": "Avoidable disasters",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Chennai floods",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Kedarnath floods",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f05"
+          },
+          {
+            "id": "w6c6",
+            "kind": "concept",
+            "title": "Official: societal development",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Narmada Safai Abhiyan",
+                "detail": "River cleanliness: societal development",
+                "icon": "leaf"
+              }
+            },
+            "factId": "w6.l1.f06"
+          },
+          {
+            "id": "w6c7",
+            "kind": "example",
+            "title": "Narmada drive",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Shantikunj, Haridwar",
+                "detail": "Ran the Narmada cleanliness drive",
+                "icon": "people"
+              }
+            },
+            "factId": "w6.l1.f07"
+          },
+          {
+            "id": "w6c8",
+            "kind": "example",
+            "title": "Vivekanand Needam",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Barren land",
+                    "detail": "Turned green",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Hollow bricks",
+                    "detail": "Indoor temperature, no coolers",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Drip irrigation",
+                    "detail": "Plastic bottles",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Bacteria",
+                    "detail": "Treat human waste",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f08"
+          },
+          {
+            "id": "w6c9",
+            "kind": "concept",
+            "title": "Official: sustainable examples",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Both",
+                "detail": "Aravind Eye Care and Narayana Hrudayalaya",
+                "icon": "heart"
+              }
+            },
+            "factId": "w6.l1.f09"
+          },
+          {
+            "id": "w6c10",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Societal development",
+                    "detail": "Narmada ji ka Safai Abhiyan",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Sustainable innovation",
+                    "detail": "Aravind and Narayana both",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Ganges",
+                    "detail": "500 million people",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Think big",
+                    "detail": "Build bit by bit",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f10"
+          }
+        ]
+      },
+      {
+        "id": "w6l2",
+        "title": "Innovation Sustainable Conditions",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=60"
+        ],
+        "cards": [
+          {
+            "id": "w6c11",
+            "kind": "concept",
+            "title": "Five actors",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Government",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Corporates",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Individuals",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Academia",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f01"
+          },
+          {
+            "id": "w6c12",
+            "kind": "concept",
+            "title": "Plus",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Media",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "All",
+                    "detail": "Together",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f02"
+          },
+          {
+            "id": "w6c13",
+            "kind": "concept",
+            "title": "Societal conditions",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Resource allocation",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Culture",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Divert attention",
+                    "detail": "Of all",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Developing belief",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f03"
+          },
+          {
+            "id": "w6c14",
+            "kind": "concept",
+            "title": "Divert attention of",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Youth",
+                    "detail": "From self-opulence",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Elders",
+                    "detail": "From retirement",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Unemployed",
+                    "detail": "From voluntary unemployment",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f04"
+          },
+          {
+            "id": "w6c15",
+            "kind": "concept",
+            "title": "Criticism and skepticism",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Reduce",
+                "detail": "Criticism and skepticism; develop belief",
+                "icon": "lock"
+              }
+            },
+            "factId": "w6.l2.f05"
+          },
+          {
+            "id": "w6c16",
+            "kind": "example",
+            "title": "Sugar industry",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Sugar",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Electricity",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Alcohol, byproducts",
+                    "detail": "",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f06"
+          },
+          {
+            "id": "w6c17",
+            "kind": "example",
+            "title": "Culture example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Singapore",
+                "detail": "Sustainability culture",
+                "icon": "globe"
+              }
+            },
+            "factId": "w6.l2.f07"
+          },
+          {
+            "id": "w6c18",
+            "kind": "example",
+            "title": "Academia example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Pedal rickshaw",
+                "detail": "Efficiency project",
+                "icon": "gear"
+              }
+            },
+            "factId": "w6.l2.f08"
+          },
+          {
+            "id": "w6c19",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Actors",
+                    "detail": "Govt, corporates, individuals, academia, media",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Conditions",
+                    "detail": "Resources, culture, attention, belief",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l2.f09"
+          }
+        ]
+      },
+      {
+        "id": "w6l3",
+        "title": "Innovation: Context and Patterns",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ],
+        "cards": [
+          {
+            "id": "w6c20",
+            "kind": "concept",
+            "title": "Rubenstein definition",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Innovation",
+                "detail": "New, improved products, processes, materials, services",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w6.l3.f01"
+          },
+          {
+            "id": "w6c21",
+            "kind": "concept",
+            "title": "Transferred to",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Plant or market",
+                "detail": "Where they are appropriate",
+                "icon": "target"
+              }
+            },
+            "factId": "w6.l3.f02"
+          },
+          {
+            "id": "w6c22",
+            "kind": "concept",
+            "title": "Four spans of innovation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Products",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Processes",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Materials",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Services",
+                    "detail": "",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f03"
+          },
+          {
+            "id": "w6c23",
+            "kind": "concept",
+            "title": "Product-usage matrix",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Category",
+                  "Meaning"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "New product/process, old usage or problem"
+                  ],
+                  [
+                    "2",
+                    "Old product/process, old usage"
+                  ],
+                  [
+                    "3",
+                    "New product/process, new usage"
+                  ],
+                  [
+                    "4",
+                    "Old product/process, new usage"
+                  ]
+                ]
+              }
+            },
+            "factId": "w6.l3.f04"
+          },
+          {
+            "id": "w6c24",
+            "kind": "example",
+            "title": "Official: bar code inventory",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Category 3",
+                "detail": "New product, new usage or problem",
+                "icon": "target"
+              }
+            },
+            "factId": "w6.l3.f05"
+          },
+          {
+            "id": "w6c25",
+            "kind": "example",
+            "title": "Category 1 examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "New medication",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Just in time",
+                    "detail": "",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f06"
+          },
+          {
+            "id": "w6c26",
+            "kind": "example",
+            "title": "Category 2 examples",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Stapler",
+                "detail": "Old product, old usage",
+                "icon": "gear"
+              }
+            },
+            "factId": "w6.l3.f07"
+          },
+          {
+            "id": "w6c27",
+            "kind": "example",
+            "title": "Category 4 examples",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Listerine",
+                "detail": "Old product, new usage",
+                "icon": "flask"
+              }
+            },
+            "factId": "w6.l3.f08"
+          },
+          {
+            "id": "w6c28",
+            "kind": "concept",
+            "title": "Two schools",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Random",
+                    "detail": "Schumpeterian school",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Systematic",
+                    "detail": "Value innovation school",
+                    "icon": "target"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f09"
+          },
+          {
+            "id": "w6c29",
+            "kind": "concept",
+            "title": "Random innovation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Entrepreneur",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Entrepreneurial risk",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Trial and error",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Learning from failures",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f10"
+          },
+          {
+            "id": "w6c30",
+            "kind": "concept",
+            "title": "Random also",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "DNA, culture",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Experiment units",
+                    "detail": "Spin-offs",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f11"
+          },
+          {
+            "id": "w6c31",
+            "kind": "concept",
+            "title": "Systematic innovation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Pattern",
+                    "detail": "",
+                    "icon": "chart"
+                  },
+                  {
+                    "label": "Way of thinking",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Theory",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Methodologies, frameworks",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f12"
+          },
+          {
+            "id": "w6c32",
+            "kind": "concept",
+            "title": "Systematic aim",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Maximise opportunity",
+                "detail": "Minimise risk",
+                "icon": "target"
+              }
+            },
+            "factId": "w6.l3.f13"
+          },
+          {
+            "id": "w6c33",
+            "kind": "example",
+            "title": "Random example",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Jaws Polymers",
+                "detail": "Pioneered PET jars, then lost market",
+                "icon": "lock"
+              }
+            },
+            "factId": "w6.l3.f14"
+          },
+          {
+            "id": "w6c34",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Rubenstein",
+                    "detail": "Products, processes, materials, services",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Bar codes",
+                    "detail": "Category 3: new, new",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Random",
+                    "detail": "Schumpeterian, trial and error",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Systematic",
+                    "detail": "Value innovation, patterns",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f15"
+          }
+        ]
+      },
+      {
+        "id": "w6l4",
+        "title": "SMEs in Sustainable Development",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ],
+        "cards": [
+          {
+            "id": "w6c35",
+            "kind": "concept",
+            "title": "Size and innovation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Innovation",
+                "detail": "Key to success at any size",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w6.l4.f01"
+          },
+          {
+            "id": "w6c36",
+            "kind": "concept",
+            "title": "MSME limits: manufacturing",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Class",
+                  "Plant and machinery"
+                ],
+                "rows": [
+                  [
+                    "Micro",
+                    "Up to Rs 25 lakh"
+                  ],
+                  [
+                    "Small",
+                    "Up to Rs 5 crore"
+                  ],
+                  [
+                    "Medium",
+                    "Up to Rs 10 crore"
+                  ],
+                  [
+                    "Large",
+                    "Above Rs 10 crore"
+                  ]
+                ]
+              }
+            },
+            "factId": "w6.l4.f02"
+          },
+          {
+            "id": "w6c37",
+            "kind": "concept",
+            "title": "MSME limits: services",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Class",
+                  "Equipment"
+                ],
+                "rows": [
+                  [
+                    "Micro",
+                    "Up to Rs 10 lakh"
+                  ],
+                  [
+                    "Small",
+                    "Up to Rs 2 crore"
+                  ],
+                  [
+                    "Medium",
+                    "Up to Rs 5 crore"
+                  ]
+                ]
+              }
+            },
+            "factId": "w6.l4.f03"
+          },
+          {
+            "id": "w6c38",
+            "kind": "concept",
+            "title": "Official: medium limit",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Rs 10 crore",
+                "detail": "Medium manufacturing, plant and machinery",
+                "icon": "coin"
+              }
+            },
+            "factId": "w6.l4.f04"
+          },
+          {
+            "id": "w6c39",
+            "kind": "concept",
+            "title": "ASPIRE",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "ASPIRE",
+                "detail": "Promoting Innovation, Rural Entrepreneurship",
+                "icon": "rocket"
+              }
+            },
+            "factId": "w6.l4.f05"
+          },
+          {
+            "id": "w6c40",
+            "kind": "concept",
+            "title": "ASPIRE features",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "LBI",
+                    "detail": "Livelihood Business Incubators",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "Backed by",
+                    "detail": "NSIC, KVIC, Coir Board",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "First LBI",
+                    "detail": "Uttar Pradesh",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f06"
+          },
+          {
+            "id": "w6c41",
+            "kind": "concept",
+            "title": "Official: KVIC",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "KVIC",
+                "detail": "Khadi and Village Industries Committee",
+                "icon": "target"
+              }
+            },
+            "factId": "w6.l4.f07"
+          },
+          {
+            "id": "w6c42",
+            "kind": "concept",
+            "title": "Economic initiatives",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Reduced expenses",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Productivity",
+                    "detail": "Lean, value-stream mapping, Six Sigma",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Eco-responsible products",
+                    "detail": "Personalised",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Diversification",
+                    "detail": "Consulting",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f08"
+          },
+          {
+            "id": "w6c43",
+            "kind": "concept",
+            "title": "Social initiatives",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Working conditions",
+                    "detail": "Automate waste recovery, less dust",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Noise control",
+                    "detail": "Soundproof roofing",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f09"
+          },
+          {
+            "id": "w6c44",
+            "kind": "concept",
+            "title": "Official: social innovation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Girl-child-friendly school",
+                "detail": "Social initiative innovation",
+                "icon": "heart"
+              }
+            },
+            "factId": "w6.l4.f10"
+          },
+          {
+            "id": "w6c45",
+            "kind": "concept",
+            "title": "Environmental initiatives",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "At source",
+                    "detail": "Recover paper waste",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Sustainable materials",
+                    "detail": "Eco-designed, recyclable",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Biodiversity",
+                    "detail": "Reforestation association",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f11"
+          },
+          {
+            "id": "w6c46",
+            "kind": "concept",
+            "title": "Official: environmental innovation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Source reduction",
+                "detail": "Example: recover paper waste",
+                "icon": "leaf"
+              }
+            },
+            "factId": "w6.l4.f12"
+          },
+          {
+            "id": "w6c47",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Medium",
+                    "detail": "Rs 10 crore",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "ASPIRE",
+                    "detail": "Rural entrepreneurship",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "KVIC",
+                    "detail": "Khadi and Village Industries Committee",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Initiatives",
+                    "detail": "Economic, social, environmental",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l4.f13"
+          }
+        ]
+      },
+      {
+        "id": "w6l5",
+        "title": "Insight and Entrepreneurship",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63"
+        ],
+        "cards": [
+          {
+            "id": "w6c48",
+            "kind": "concept",
+            "title": "Gary Klein",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Gary Klein",
+                "detail": "Five Cs of insight development",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w6.l5.f01"
+          },
+          {
+            "id": "w6c49",
+            "kind": "concept",
+            "title": "Klein's book",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Klein's book",
+                "detail": "Seeing What Others Don't",
+                "icon": "eye"
+              }
+            },
+            "factId": "w6.l5.f02"
+          },
+          {
+            "id": "w6c50",
+            "kind": "concept",
+            "title": "Five Cs",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Connections",
+                    "detail": "",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Contradictions",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Creative desperation",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Coincidences, curiosities",
+                    "detail": "Less reliable",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f03"
+          },
+          {
+            "id": "w6c51",
+            "kind": "example",
+            "title": "Connections",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "80%",
+                "detail": "Of 120 insights came from connections",
+                "icon": "branch"
+              }
+            },
+            "factId": "w6.l5.f04"
+          },
+          {
+            "id": "w6c52",
+            "kind": "example",
+            "title": "Connections case",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Pearl Harbour",
+                "detail": "Japan learned from Italy-Britain battle",
+                "icon": "branch"
+              }
+            },
+            "factId": "w6.l5.f05"
+          },
+          {
+            "id": "w6c53",
+            "kind": "example",
+            "title": "Contradictions",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Nearly 40%",
+                "detail": "Of insights spotted contradictions",
+                "icon": "lock"
+              }
+            },
+            "factId": "w6.l5.f06"
+          },
+          {
+            "id": "w6c54",
+            "kind": "example",
+            "title": "Contradictions cases",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Paulson, Pellegrini",
+                    "detail": "Beliefs vs house prices",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Einstein",
+                    "detail": "Space-time continuum",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f07"
+          },
+          {
+            "id": "w6c55",
+            "kind": "example",
+            "title": "Creative desperation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Firefighters",
+                "detail": "Set new fire to make escape",
+                "icon": "spark"
+              }
+            },
+            "factId": "w6.l5.f08"
+          },
+          {
+            "id": "w6c56",
+            "kind": "concept",
+            "title": "Necessity vs desperation",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Necessity",
+                    "detail": "Mother of invention",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Desperation",
+                    "detail": "Father of insight",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f09"
+          },
+          {
+            "id": "w6c57",
+            "kind": "example",
+            "title": "Coincidences",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Gottlieb",
+                "detail": "Symptom coincidences led to AIDS",
+                "icon": "eye"
+              }
+            },
+            "factId": "w6.l5.f10"
+          },
+          {
+            "id": "w6c58",
+            "kind": "example",
+            "title": "Curiosities",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Fleming",
+                "detail": "Bacteria died near mould: penicillin",
+                "icon": "flask"
+              }
+            },
+            "factId": "w6.l5.f11"
+          },
+          {
+            "id": "w6c59",
+            "kind": "concept",
+            "title": "Klein's caution",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Only 10%",
+                "detail": "Coincidences, curiosities can mislead",
+                "icon": "lock"
+              }
+            },
+            "factId": "w6.l5.f12"
+          },
+          {
+            "id": "w6c60",
+            "kind": "example",
+            "title": "Insight-driven Indian cases",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Narayan Hrudayalaya",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Husk Power",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Veena Vadini",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Digital Diaries",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f13"
+          },
+          {
+            "id": "w6c61",
+            "kind": "example",
+            "title": "More insight cases",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Trans Disciplinary University",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f14"
+          },
+          {
+            "id": "w6c62",
+            "kind": "remember",
+            "title": "Remember",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Klein",
+                    "detail": "Five Cs of insight",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Connections",
+                    "detail": "80%",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Contradictions",
+                    "detail": "Nearly 40%",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Coincidences",
+                    "detail": "10%, misleading",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f15"
+          }
+        ]
+      }
+    ],
+    "cheatSheet": [
+      {
+        "heading": "Sustainability examples",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Societal development",
+                "detail": "Narmada ji ka Safai Abhiyan",
+                "icon": "leaf"
+              },
+              {
+                "label": "Sustainable innovation",
+                "detail": "Aravind and Narayana both",
+                "icon": "heart"
+              },
+              {
+                "label": "Ganges",
+                "detail": "About 500 million people",
+                "icon": "people"
+              },
+              {
+                "label": "Think big",
+                "detail": "Build bit by bit",
+                "icon": "rocket"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Innovation basics (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Innovation",
+                "New, improved products, processes, materials, services"
+              ],
+              [
+                "1",
+                "New product, old usage"
+              ],
+              [
+                "2",
+                "Old product, old usage"
+              ],
+              [
+                "3",
+                "New product, new usage (bar codes)"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Innovation basics (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "4",
+                "Old product, new usage"
+              ],
+              [
+                "Random",
+                "Schumpeterian: trial and error, risk"
+              ],
+              [
+                "Systematic",
+                "Value innovation: pattern, theory"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "MSME limits",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Class",
+              "Manufacturing",
+              "Service"
+            ],
+            "rows": [
+              [
+                "Micro",
+                "Rs 25 lakh",
+                "Rs 10 lakh"
+              ],
+              [
+                "Small",
+                "Rs 5 crore",
+                "Rs 2 crore"
+              ],
+              [
+                "Medium",
+                "Rs 10 crore",
+                "Rs 5 crore"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Schemes and bodies",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "ASPIRE",
+                "detail": "Promoting Innovation and Rural Entrepreneurship",
+                "icon": "rocket"
+              },
+              {
+                "label": "KVIC",
+                "detail": "Khadi and Village Industries Committee",
+                "icon": "target"
+              },
+              {
+                "label": "LBI",
+                "detail": "Livelihood Business Incubator",
+                "icon": "factory"
+              },
+              {
+                "label": "First LBI",
+                "detail": "Uttar Pradesh",
+                "icon": "globe"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "SME initiative benefits",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Initiative",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Economic",
+                "Reduced expenses"
+              ],
+              [
+                "Social",
+                "Girl-child-friendly school"
+              ],
+              [
+                "Environmental",
+                "Reduce impact at source"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Klein's five Cs (1)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "C",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Connections",
+                "80% of insights"
+              ],
+              [
+                "Contradictions",
+                "Nearly 40%"
+              ],
+              [
+                "Creative desperation",
+                "Fire to escape fire"
+              ],
+              [
+                "Coincidences",
+                "10%, can mislead"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Klein's five Cs (2)",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "C",
+              "Know"
+            ],
+            "rows": [
+              [
+                "Curiosities",
+                "Fleming, penicillin"
+              ]
+            ]
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "sources": "5 transcripts, 5 slide decks, official W6 solution PDF (with its answer list)",
+      "notes": [
+        "Official Q8 key reads 'Khadi and Village Industries Committee' (actual body is Commission); taught as keyed"
+      ],
+      "dropped": [
+        "Notes v2 items not in captions or slides: DAVP, bagasse, Jaago Re, MP3/cassette, almirah, Pearl Buds, Jaldooth, KVIC Rs 1 lakh artisan figures"
+      ]
+    }
   }
 ]
