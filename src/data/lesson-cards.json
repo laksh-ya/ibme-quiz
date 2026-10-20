@@ -12200,16 +12200,39 @@
           {
             "id": "w6c1",
             "kind": "concept",
-            "title": "Sustainability across generations",
+            "title": "Sustainability themes",
             "lines": [],
             "visual": {
-              "type": "sustainability",
-              "spec": {}
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Generations",
+                    "detail": "",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Ganges",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "PILs",
+                    "detail": "Public interest litigation as reference",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Think big",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
             },
             "factId": "w6.l1.f01"
           },
           {
-            "id": "w6c2p1",
+            "id": "w6c2",
             "kind": "example",
             "title": "Sustainable innovations",
             "lines": [],
@@ -12274,19 +12297,21 @@
           {
             "id": "w6c4",
             "kind": "example",
-            "title": "Why the Ganges matters",
+            "title": "Ganges",
             "lines": [],
             "visual": {
               "type": "tiles",
               "spec": {
                 "items": [
                   {
-                    "label": "About 500 million people",
-                    "detail": "Depend on the river system for food, irrigation and water."
+                    "label": "500 million people",
+                    "detail": "Linked to the river",
+                    "icon": "people"
                   },
                   {
-                    "label": "About 110 people from 8 IITs",
-                    "detail": "Worked across cultural, social, scientific and technological aspects."
+                    "label": "Project team",
+                    "detail": "About 110 people, 8 IITs",
+                    "icon": "people"
                   }
                 ]
               }
@@ -12294,16 +12319,49 @@
             "factId": "w6.l1.f04"
           },
           {
-            "id": "w6c6",
-            "kind": "concept",
-            "title": "societal development",
+            "id": "w6c5",
+            "kind": "example",
+            "title": "Avoidable disasters",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Narmada Safai Abhiyan",
-                "detail": "River cleanliness: societal development",
-                "icon": "leaf"
+                "items": [
+                  {
+                    "label": "Chennai floods",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Kedarnath floods",
+                    "detail": "",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l1.f05"
+          },
+          {
+            "id": "w6c6",
+            "kind": "concept",
+            "title": "Societal development example",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Societal development",
+                    "detail": "Narmada ji ka Safai Abhiyan",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Not this",
+                    "detail": "Hospital businesses; coal-powered cutter",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w6.l1.f06"
@@ -12360,13 +12418,23 @@
           {
             "id": "w6c9",
             "kind": "concept",
-            "title": "Healthcare and sustainability",
+            "title": "Sustainable innovation examples",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Aravind Eye Care and Narayana Hrudayalaya",
-                "detail": "Both are examples of sustainable innovation in the course."
+                "items": [
+                  {
+                    "label": "Sustainable",
+                    "detail": "Aravind Eye Care and Narayana Hrudayalaya",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "One alone",
+                    "detail": "Incomplete: both count",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w6.l1.f09"
@@ -12374,7 +12442,7 @@
           {
             "id": "w6c10",
             "kind": "remember",
-            "title": "Putting sustainability into practice",
+            "title": "Remember",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -12382,15 +12450,23 @@
                 "items": [
                   {
                     "label": "Societal development",
-                    "detail": "Narmada ji ka Safai Abhiyan."
+                    "detail": "Narmada ji ka Safai Abhiyan",
+                    "icon": "leaf"
                   },
                   {
-                    "label": "Sustainable healthcare",
-                    "detail": "Aravind Eye Care and Narayana Hrudayalaya."
+                    "label": "Sustainable innovation",
+                    "detail": "Aravind and Narayana both",
+                    "icon": "heart"
                   },
                   {
-                    "label": "Practical approach",
-                    "detail": "Think at scale, build in small steps and involve people."
+                    "label": "Ganges",
+                    "detail": "500 million people",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Think big",
+                    "detail": "Build bit by bit",
+                    "icon": "rocket"
                   }
                 ]
               }
@@ -12443,13 +12519,23 @@
           {
             "id": "w6c12",
             "kind": "concept",
-            "title": "The role of media",
+            "title": "Plus",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Media is the fifth actor",
-                "detail": "Government, businesses, individuals, academia and media need to work together."
+                "items": [
+                  {
+                    "label": "Media",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "All",
+                    "detail": "Together",
+                    "icon": "people"
+                  }
+                ]
               }
             },
             "factId": "w6.l2.f02"
@@ -12520,13 +12606,14 @@
           {
             "id": "w6c15",
             "kind": "concept",
-            "title": "From skepticism to participation",
+            "title": "Criticism and skepticism",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Build belief in sustainable change",
-                "detail": "Constructive participation matters more than dismissing every proposed effort."
+                "label": "Reduce",
+                "detail": "Criticism and skepticism; develop belief",
+                "icon": "lock"
               }
             },
             "factId": "w6.l2.f05"
@@ -12578,13 +12665,14 @@
           {
             "id": "w6c18",
             "kind": "example",
-            "title": "Academia in practice",
+            "title": "Academia example",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Improve the efficiency of pedal rickshaws",
-                "detail": "The lecture uses a low-cost transport project as an example of applied academic work."
+                "label": "Pedal rickshaw",
+                "detail": "Efficiency project",
+                "icon": "gear"
               }
             },
             "factId": "w6.l2.f08"
@@ -12653,6 +12741,32 @@
             "factId": "w6.l3.f02"
           },
           {
+            "id": "w6_l3_f16",
+            "kind": "contrast",
+            "title": "Rubenstein's wording",
+            "lines": [
+              "Also spelled Robenstein; innovation is transferred to a new plant or market."
+            ],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Rubenstein says",
+                    "detail": "Products, processes, materials, services",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not his wording",
+                    "detail": "Goods and services; idea, method, device",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l3.f16"
+          },
+          {
             "id": "w6c22",
             "kind": "concept",
             "title": "Four spans of innovation",
@@ -12692,26 +12806,29 @@
             "title": "Product-usage matrix",
             "lines": [],
             "visual": {
-              "type": "matrix",
+              "type": "table",
               "spec": {
-                "axis": "Product or process: old / new \u00b7 Usage or problem: old / new",
-                "items": [
-                  {
-                    "label": "1 \u00b7 New / old",
-                    "detail": "New product or process; existing usage or problem."
-                  },
-                  {
-                    "label": "2 \u00b7 Old / old",
-                    "detail": "Existing product or process; existing usage."
-                  },
-                  {
-                    "label": "3 \u00b7 New / new",
-                    "detail": "New product or process; new usage or problem."
-                  },
-                  {
-                    "label": "4 \u00b7 Old / new",
-                    "detail": "Existing product or process; new usage."
-                  }
+                "headers": [
+                  "Category",
+                  "Meaning"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "New product/process, old usage or problem"
+                  ],
+                  [
+                    "2",
+                    "Old product/process, old usage"
+                  ],
+                  [
+                    "3",
+                    "New product/process, new usage"
+                  ],
+                  [
+                    "4",
+                    "Old product/process, new usage"
+                  ]
                 ]
               }
             },
@@ -12720,14 +12837,23 @@
           {
             "id": "w6c24",
             "kind": "example",
-            "title": "bar code inventory",
+            "title": "Bar codes in the matrix",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Category 3",
-                "detail": "New product, new usage or problem",
-                "icon": "target"
+                "items": [
+                  {
+                    "label": "Category 3",
+                    "detail": "Bar codes: new product, new usage",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not bar codes",
+                    "detail": "Category 1, 2, 4",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w6.l3.f05"
@@ -12993,7 +13119,7 @@
           {
             "id": "w6c36",
             "kind": "concept",
-            "title": "MSME limits: manufacturing: course-era limits",
+            "title": "MSME limits: manufacturing",
             "lines": [],
             "visual": {
               "type": "table",
@@ -13027,7 +13153,7 @@
           {
             "id": "w6c37",
             "kind": "concept",
-            "title": "MSME limits: services: course-era limits",
+            "title": "MSME limits: services",
             "lines": [],
             "visual": {
               "type": "table",
@@ -13057,13 +13183,33 @@
           {
             "id": "w6c38",
             "kind": "concept",
-            "title": "Medium manufacturing: course threshold",
+            "title": "Plant and machinery limits",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Rs 10 crore",
-                "detail": "The course uses this older plant-and-machinery investment limit for medium manufacturing enterprises."
+                "items": [
+                  {
+                    "label": "Medium",
+                    "detail": "Rs 10 crore (Rs 100 million)",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Small",
+                    "detail": "Rs 5 crore",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Micro",
+                    "detail": "Rs 25 lakh",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Service micro",
+                    "detail": "Rs 10 lakh",
+                    "icon": "coin"
+                  }
+                ]
               }
             },
             "factId": "w6.l4.f04"
@@ -13072,7 +13218,9 @@
             "id": "w6c39",
             "kind": "concept",
             "title": "ASPIRE",
-            "lines": [],
+            "lines": [
+              "A Scheme for Promoting Innovation and Rural Entrepreneurship."
+            ],
             "visual": {
               "type": "key",
               "spec": {
@@ -13120,8 +13268,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Khadi and Village Industries Commission",
-                "detail": "The assignment option uses the word \"Committee\"."
+                "label": "KVIC",
+                "detail": "Khadi and Village Industries Committee",
+                "icon": "target"
               }
             },
             "factId": "w6.l4.f07"
@@ -13142,17 +13291,17 @@
                   },
                   {
                     "label": "Productivity",
-                    "detail": "Lean, value-stream mapping, Six Sigma",
+                    "detail": "Modernised production tools",
                     "icon": "gear"
                   },
                   {
-                    "label": "Eco-responsible products",
-                    "detail": "Personalised",
+                    "label": "Meet growing demand",
+                    "detail": "Eco-responsible, personalised products",
                     "icon": "leaf"
                   },
                   {
                     "label": "Diversification",
-                    "detail": "Consulting",
+                    "detail": "Sustainability consulting",
                     "icon": "branch"
                   }
                 ]
@@ -13187,20 +13336,39 @@
           {
             "id": "w6c44",
             "kind": "concept",
-            "title": "social innovation",
+            "title": "Which initiative gives which",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Girl-child-friendly school",
-                "detail": "Social initiative innovation",
-                "icon": "heart"
+                "items": [
+                  {
+                    "label": "Social",
+                    "detail": "Girl-child-friendly school",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Economic",
+                    "detail": "Reduced expenses; growing demand",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Environmental",
+                    "detail": "Sustainable materials",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Environmental",
+                    "detail": "Cut impact at source",
+                    "icon": "leaf"
+                  }
+                ]
               }
             },
             "factId": "w6.l4.f10"
           },
           {
-            "id": "w6c45p1",
+            "id": "w6c45",
             "kind": "concept",
             "title": "Environmental initiatives",
             "lines": [],
@@ -13231,14 +13399,33 @@
           {
             "id": "w6c46",
             "kind": "concept",
-            "title": "environmental innovation",
+            "title": "Environmental initiative gains",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Source reduction",
-                "detail": "Example: recover paper waste",
-                "icon": "leaf"
+                "items": [
+                  {
+                    "label": "Benefit",
+                    "detail": "Cut impact at source, e.g. paper",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Also benefit",
+                    "detail": "Reforestation protects local biodiversity",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Not a benefit",
+                    "detail": "Exploiting local biodiversity",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not a benefit",
+                    "detail": "Single-use plastic",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w6.l4.f12"
@@ -13289,14 +13476,23 @@
           {
             "id": "w6c48",
             "kind": "concept",
-            "title": "Gary Klein",
+            "title": "Five Cs of insight",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Gary Klein",
-                "detail": "Five Cs of insight development",
-                "icon": "bulb"
+                "items": [
+                  {
+                    "label": "Five Cs",
+                    "detail": "Gary Klein",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Not him",
+                    "detail": "Rubenstein: defined innovation",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w6.l5.f01"
@@ -13461,13 +13657,14 @@
           {
             "id": "w6c57",
             "kind": "example",
-            "title": "Insight through coincidences",
+            "title": "Coincidences",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Gottlieb noticed a pattern of symptoms",
-                "detail": "Connections between unusual cases contributed to recognising AIDS."
+                "label": "Gottlieb",
+                "detail": "Symptom coincidences led to AIDS",
+                "icon": "eye"
               }
             },
             "factId": "w6.l5.f10"
@@ -13495,8 +13692,9 @@
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Coincidences and curiosities are less reliable",
-                "detail": "Klein attributes only about 10% of the studied insights to these routes; they can mislead."
+                "label": "Only 10%",
+                "detail": "Coincidences, curiosities can mislead",
+                "icon": "lock"
               }
             },
             "factId": "w6.l5.f12"
@@ -13534,6 +13732,25 @@
               }
             },
             "factId": "w6.l5.f13"
+          },
+          {
+            "id": "w6c61",
+            "kind": "example",
+            "title": "More insight cases",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Trans Disciplinary University",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w6.l5.f14"
           },
           {
             "id": "w6c62",
@@ -13574,7 +13791,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Sustainability examples (1)",
+        "heading": "Sustainability examples",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -13592,23 +13809,12 @@
               },
               {
                 "label": "Ganges",
-                "detail": "River system supports about 500 million people.",
+                "detail": "About 500 million people",
                 "icon": "people"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Sustainability examples (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
-                "label": "Start with practical steps",
-                "detail": "Build bit by bit and involve people in the cause.",
+                "label": "Think big",
+                "detail": "Build bit by bit",
                 "icon": "rocket"
               }
             ]
@@ -13616,7 +13822,7 @@
         }
       },
       {
-        "heading": "Innovation basics (1)",
+        "heading": "Innovation basics",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -13643,7 +13849,7 @@
         }
       },
       {
-        "heading": "Innovation basics (2)",
+        "heading": "Innovation basics: more",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -13664,22 +13870,7 @@
               [
                 "Random",
                 "Schumpeterian: trial and error, risk"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Innovation basics (3)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Meaning"
-            ],
-            "rows": [
+              ],
               [
                 "Systematic",
                 "Value innovation: pattern, theory"
@@ -13689,7 +13880,7 @@
         }
       },
       {
-        "heading": "MSME limits used in the course",
+        "heading": "MSME limits",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -13709,23 +13900,7 @@
                 "Small",
                 "Rs 5 crore",
                 "Rs 2 crore"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "MSME limits used in the course: continued",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Class",
-              "Manufacturing",
-              "Service"
-            ],
-            "rows": [
+              ],
               [
                 "Medium",
                 "Rs 10 crore",
@@ -13736,7 +13911,7 @@
         }
       },
       {
-        "heading": "Schemes and bodies (1)",
+        "heading": "Schemes and bodies",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -13749,25 +13924,14 @@
               },
               {
                 "label": "KVIC",
-                "detail": "Khadi and Village Industries Commission",
+                "detail": "Khadi and Village Industries Committee",
                 "icon": "target"
               },
               {
                 "label": "LBI",
                 "detail": "Livelihood Business Incubator",
                 "icon": "factory"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Schemes and bodies (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "First LBI",
                 "detail": "Uttar Pradesh",
@@ -13805,7 +13969,7 @@
         }
       },
       {
-        "heading": "Klein's five Cs (1)",
+        "heading": "Klein's five Cs",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -13826,22 +13990,7 @@
               [
                 "Creative desperation",
                 "Fire to escape fire"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Klein's five Cs (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "C",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Coincidences",
                 "10%, can mislead"

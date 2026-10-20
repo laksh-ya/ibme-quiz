@@ -1,0 +1,228 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Products, processes, materials, and services",
+    "correct": true,
+    "card": "w6.l3.f16"
+   },
+   {
+    "option": "Goods and services",
+    "correct": false,
+    "card": "w6.l3.f16"
+   },
+   {
+    "option": "Idea, method, or device",
+    "correct": false,
+    "card": "w6.l3.f16"
+   },
+   {
+    "option": "Designs and business models",
+    "correct": false,
+    "card": "w6.l3.f16"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "Ratan Tata",
+    "correct": false,
+    "card": "w6.l5.f01"
+   },
+   {
+    "option": "Robenstein",
+    "correct": false,
+    "card": "w6.l5.f01"
+   },
+   {
+    "option": "Thomas Lockwood",
+    "correct": false,
+    "card": "w6.l5.f01"
+   },
+   {
+    "option": "Gary Klein",
+    "correct": true,
+    "card": "w6.l5.f01"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Example 1",
+    "correct": false,
+    "card": "w6.l1.f09"
+   },
+   {
+    "option": "Example 2",
+    "correct": false,
+    "card": "w6.l1.f09"
+   },
+   {
+    "option": "Both a and b",
+    "correct": true,
+    "card": "w6.l1.f09"
+   },
+   {
+    "option": "None of the above",
+    "correct": false,
+    "card": "w6.l1.f09"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Arvind eye care hospital",
+    "correct": false,
+    "card": "w6.l1.f06"
+   },
+   {
+    "option": "Narayana Hrudayalaya",
+    "correct": false,
+    "card": "w6.l1.f06"
+   },
+   {
+    "option": "River Narmada cleanliness drive named “Narmada ji ka Safai Abhiyan”",
+    "correct": true,
+    "card": "w6.l1.f06"
+   },
+   {
+    "option": "A grass-cutting machine uses coal for energy.",
+    "correct": false,
+    "card": "w6.l1.f06"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Category 1 (New Product/Process – Old Usage/Problem)",
+    "correct": false,
+    "card": "w6.l3.f05"
+   },
+   {
+    "option": "Category 2 (Old Product/Process – Old Usage/Problem)",
+    "correct": false,
+    "card": "w6.l3.f05"
+   },
+   {
+    "option": "Category 3 (New Product/Process – New Usage/Problem)",
+    "correct": true,
+    "card": "w6.l3.f05"
+   },
+   {
+    "option": "Category 4 (Old Product/Process – New Usage/Problem)",
+    "correct": false,
+    "card": "w6.l3.f05"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Rs 10 lakh rupees 1 million",
+    "correct": false,
+    "card": "w6.l4.f04"
+   },
+   {
+    "option": "Rs 25 lakh or 2.5 million",
+    "correct": false,
+    "card": "w6.l4.f04"
+   },
+   {
+    "option": "Rs 5 crore or 50 million",
+    "correct": false,
+    "card": "w6.l4.f04"
+   },
+   {
+    "option": "Rs 10 crore or 100 million",
+    "correct": true,
+    "card": "w6.l4.f04"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "A Scheme for Promoting Innovation and Rural Entrepreneurship",
+    "correct": true,
+    "card": "w6.l4.f05"
+   },
+   {
+    "option": "A systematic plan to Implement Rural Entrepreneurship",
+    "correct": false,
+    "card": "w6.l4.f05"
+   },
+   {
+    "option": "A Single Point of Institutional Resource Entry",
+    "correct": false,
+    "card": "w6.l4.f05"
+   },
+   {
+    "option": "Asian School of Planning Innovation and Rural Entrepreneurship",
+    "correct": false,
+    "card": "w6.l4.f05"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Khadi and Village Industries Committee",
+    "correct": true,
+    "card": "w6.l4.f07"
+   },
+   {
+    "option": "Kerala Village Innovation Council",
+    "correct": false,
+    "card": "w6.l4.f07"
+   },
+   {
+    "option": "Khadi Village Innovation Council",
+    "correct": false,
+    "card": "w6.l4.f07"
+   },
+   {
+    "option": "Knowledge Value Innovation Culture",
+    "correct": false,
+    "card": "w6.l4.f07"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "Girl child friendly school infrastructure",
+    "correct": true,
+    "card": "w6.l4.f10"
+   },
+   {
+    "option": "Use of sustainable materials",
+    "correct": false,
+    "card": "w6.l4.f10"
+   },
+   {
+    "option": "Reduced expenses",
+    "correct": false,
+    "card": "w6.l4.f10"
+   },
+   {
+    "option": "Ability to meet growing demand",
+    "correct": false,
+    "card": "w6.l4.f10"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "The exploitation of local biodiversity",
+    "correct": false,
+    "card": "w6.l4.f12"
+   },
+   {
+    "option": "Reduction of environmental impact at the source ( e.g., recovery of the paper waste)",
+    "correct": true,
+    "card": "w6.l4.f12"
+   },
+   {
+    "option": "Use of non-sustainable materials such as single-use plastic",
+    "correct": false,
+    "card": "w6.l4.f12"
+   },
+   {
+    "option": "None of the above",
+    "correct": false,
+    "card": "w6.l4.f12"
+   }
+  ]
+ },
+ "notes": [
+  "Q8 key reads Committee although the real body is a Commission; taught as keyed",
+  "Q2 wrong options Ratan Tata and Thomas Lockwood: only Rubenstein is tied to another concept in the lectures"
+ ]
+}
