@@ -57,6 +57,8 @@ export function mount(root, data, images) {
     }
     const d = t.dataset;
     if (d.study) { ui.studyWeek=+d.study;ui.page="lessons";ui.popW=null;return render(); }
+    if(d.lessonweek){ui.studyWeek=+d.lessonweek;return render();}
+    if(d.lessonweeks){ui.studyWeek=0;return render();}
     if(d.lesson){ui.cardIndex=false;return openLesson(d.lesson);}
     if(d.cardjump){const [id,step]=d.cardjump.split(":");ui.cardIndex=false;return openLesson(id,+step);}
     if(d.cardindex){ui.cardIndex=!ui.cardIndex;return renderTeaching();}
@@ -84,7 +86,8 @@ export function mount(root, data, images) {
     if (d.go) {
       snd.tap();
       buzz(8);
-      if (ui.page === d.go && !ui.ses && !ui.fc) return;
+      if(d.go==="lessons")ui.studyWeek=0;
+      if (ui.page === d.go && !ui.ses && !ui.fc && d.go!=="lessons") return;
       ui.page = d.go;
       ui.popW = null;
       return sweep(ui.el, render);

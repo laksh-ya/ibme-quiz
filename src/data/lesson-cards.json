@@ -5,422 +5,782 @@
     "lectures": [
       {
         "id": "w1l1",
-        "title": "L1 Analyzing the Current Business Scenario",
+        "title": "Analyzing the Current Business Scenario",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=17"
+        ],
         "cards": [
           {
             "id": "w1c1",
             "kind": "concept",
-            "title": "Why innovation",
-            "lines": [
-              "Course aim: commercialise innovations and business models for growth, jobs, national development.",
-              "New models earn in ways users do not see (lecturer's recording-era examples: **Ola/Uber** taxi firms with no taxis, **Alibaba** retail with no inventory, free **WhatsApp/YouTube/Gmail/Facebook** that still profit)."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c2",
-            "kind": "contrast",
             "title": "Business environment",
-            "lines": [
-              "**Internal**: a firm has some control.",
-              "**External**: very little control. Example: **politics** (parties, policies, regulation keep changing)."
-            ],
+            "lines": [],
             "visual": {
-              "type": "table",
+              "type": "tiles",
               "spec": {
-                "headers": [
-                  "",
-                  "Internal",
-                  "External"
-                ],
-                "rows": [
-                  [
-                    "Control",
-                    "Some",
-                    "Very little"
-                  ],
-                  [
-                    "Example",
-                    "Structure, resources",
-                    "Politics, regulation"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c3",
-            "kind": "concept",
-            "title": "Pressures on business",
-            "lines": [
-              "Slide lists **4**: reducing PLCs, increasing expectations, high uncertainty, global impact.",
-              "Lecture adds a 5th, **increasing heterogeneity**. If asked for the slide list, use 4."
-            ],
-            "visual": {
-              "type": "labelled",
-              "spec": {
-                "title": "Slide: business environment",
                 "items": [
                   {
-                    "label": "Reducing PLCs",
-                    "detail": "Lecture comparison: 2-3 years"
+                    "label": "Shrinking PLCs",
+                    "detail": "Shorter product life",
+                    "icon": "clock"
                   },
                   {
-                    "label": "Increasing expectations",
-                    "detail": "Low cost + high quality + fast delivery together"
+                    "label": "Rising expectations",
+                    "detail": "Cheap + good + fast",
+                    "icon": "target"
                   },
                   {
                     "label": "High uncertainty",
-                    "detail": "Kedarnath tragedy, Delhi smog"
+                    "detail": "Hard to predict",
+                    "icon": "eye"
                   },
                   {
                     "label": "Global impact",
-                    "detail": "Local events travel (Apple: US, made in China, sold worldwide)"
+                    "detail": "Local event, world effect",
+                    "icon": "globe"
                   }
                 ]
               }
-            }
+            },
+            "factId": "w1.l1.f01"
+          },
+          {
+            "id": "w1c2",
+            "kind": "concept",
+            "title": "Fifth pressure",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Heterogeneity",
+                "detail": "More diverse customers",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l1.f02"
+          },
+          {
+            "id": "w1c3",
+            "kind": "contrast",
+            "title": "Internal vs external",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Internal",
+                    "detail": "Some control",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "External",
+                    "detail": "Very little control",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f03"
           },
           {
             "id": "w1c4",
             "kind": "concept",
-            "title": "Product life cycle (PLC)",
-            "lines": [
-              "Four phases: **introduction, growth, maturity, decline**.",
-              "Consumer durables: **10-20 years** before, **2-3 years** in the lecture's comparison. Less time for new product development.",
-              "Examples: B&W TV 20-30 years, then colour, flat screen, HD, plasma, LED, LCD. Mobiles in India since **1996**, described in the lecture as ~2-year life."
-            ],
+            "title": "Product life cycle",
+            "lines": [],
             "visual": {
-              "type": "flow",
+              "type": "plc",
               "spec": {
-                "nodes": [
-                  {
-                    "label": "Introduction"
-                  },
-                  {
-                    "label": "Growth"
-                  },
-                  {
-                    "label": "Maturity"
-                  },
-                  {
-                    "label": "Decline"
-                  }
+                "labels": [
+                  "Introduction",
+                  "Growth",
+                  "Maturity",
+                  "Decline"
                 ]
               }
-            }
+            },
+            "factId": "w1.l1.f04"
           },
           {
             "id": "w1c5",
             "kind": "concept",
-            "title": "Expectations and heterogeneity",
-            "lines": [
-              "Customers now want **low cost, high quality, fast delivery simultaneously**: no trade-off (they compare Amazon, Flipkart, eBay, Jabong).",
-              "**Heterogeneity**: forms went from male/female to also transgender and 'do not wish to disclose'."
-            ],
+            "title": "PLC is shrinking",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Before",
+                    "detail": "10-20 years",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Now",
+                    "detail": "2-3 years",
+                    "icon": "clock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f05"
           },
           {
             "id": "w1c6",
             "kind": "concept",
-            "title": "Global impact",
-            "lines": [
-              "World is interconnected: **Apple** is American, manufactures in China, sells worldwide.",
-              "A disruption in China or US-China relations hits the whole chain. Gulf or North Korea crises spread similarly."
-            ],
+            "title": "Expectations",
+            "lines": [],
             "visual": {
-              "type": "flow",
+              "type": "equation",
               "spec": {
                 "nodes": [
                   {
-                    "label": "Design: USA"
+                    "label": "Low cost",
+                    "detail": "",
+                    "icon": "coin"
                   },
                   {
-                    "label": "Manufacture: China"
+                    "label": "High quality",
+                    "detail": "",
+                    "icon": "shield"
                   },
                   {
-                    "label": "Sell: worldwide"
+                    "label": "Fast delivery",
+                    "detail": "",
+                    "icon": "rocket"
                   }
                 ]
               }
-            }
+            },
+            "factId": "w1.l1.f06"
           },
           {
             "id": "w1c7",
-            "kind": "concept",
-            "title": "Series of development (slide)",
-            "lines": [
-              "Order: **Europe industrialization -> North America major economic power -> Japan (quality principles) -> China (low-cost manufacturing)**.",
-              "Japan: waste removal gives higher quality AND lower cost. China: low-cost base even for American firms.",
-              "Europe: mass-produced goods for its **colonies** (India was one). North America: **scale**, belief that good quality costs more."
-            ],
+            "kind": "example",
+            "title": "Uncertainty examples",
+            "lines": [],
             "visual": {
-              "type": "timeline",
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Kedarnath",
+                    "detail": "Vulnerable valley",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Delhi smog",
+                    "detail": "Causes debated",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f07"
+          },
+          {
+            "id": "w1c8",
+            "kind": "example",
+            "title": "Global impact: Apple",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "USA",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "China",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "World",
+                    "detail": "",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f08"
+          },
+          {
+            "id": "w1c9",
+            "kind": "concept",
+            "title": "Series of development",
+            "lines": [],
+            "visual": {
+              "type": "journey",
               "spec": {
                 "nodes": [
                   {
                     "label": "Europe",
-                    "detail": "Industrialization"
+                    "detail": "Industrialization",
+                    "icon": "factory"
                   },
                   {
-                    "label": "North America",
-                    "detail": "Major economic power"
+                    "label": "N. America",
+                    "detail": "Economic power",
+                    "icon": "chart"
                   },
                   {
                     "label": "Japan",
-                    "detail": "Quality principles"
+                    "detail": "Quality",
+                    "icon": "shield"
                   },
                   {
                     "label": "China",
-                    "detail": "Low-cost manufacturing"
+                    "detail": "Low cost",
+                    "icon": "coin"
                   }
                 ]
               }
-            }
+            },
+            "factId": "w1.l1.f09"
           },
           {
-            "id": "w1l1x10",
+            "id": "w1c10",
             "kind": "concept",
-            "title": "Uncertainty examples",
-            "lines": [
-              "**Kedarnath tragedy** (construction in a vulnerable valley) and **Delhi smog** (causes and cures still debated).",
-              "You cannot remove uncertainty, only prepare and mitigate."
-            ],
+            "title": "Europe and N. America",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Europe",
+                    "detail": "Colonies as markets",
+                    "icon": "globe"
+                  },
+                  {
+                    "label": "N. America",
+                    "detail": "Scale, quality costs more",
+                    "icon": "chart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f10"
           },
           {
-            "id": "w1c8",
+            "id": "w1c11",
+            "kind": "contrast",
+            "title": "Japan vs China",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Japan",
+                    "detail": "Quality benchmark",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "China",
+                    "detail": "Cost benchmark",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f11"
+          },
+          {
+            "id": "w1c12",
             "kind": "concept",
             "title": "The way out",
-            "lines": [
-              "Japan = quality benchmark, China = cost benchmark. Matching them is not leadership.",
-              "Slide: **What is the way out? Innovation.** A 'bigger line' of new value. Innovation should be **pervasive** across the organisation."
-            ],
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "key",
+              "spec": {
+                "label": "Innovation",
+                "detail": "Throughout the whole organisation",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w1.l1.f12"
           },
           {
-            "id": "w1c9a",
-            "kind": "remember",
-            "title": "Remember 1",
-            "lines": [
-              "**4 pressures**: shrinking PLCs, rising expectations, high uncertainty, global impact.",
-              "PLC: introduction, growth, maturity, decline; lecture comparison: 10-20 yrs -> 2-3 yrs.",
-              "Customers want low cost + high quality + fast delivery together."
-            ],
+            "id": "w1c68",
+            "kind": "example",
+            "title": "TV sequence",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "B&W TV",
+                    "detail": "20-30 years",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Colour",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Flat screen",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "HD, plasma",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "LED, LCD",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f13"
           },
           {
-            "id": "w1c9b",
-            "kind": "remember",
-            "title": "Remember 2",
-            "lines": [
-              "Japan quality, China cost, **way out = innovation**.",
-              "External environment mostly outside a firm's control."
-            ],
+            "id": "w1c69",
+            "kind": "example",
+            "title": "Mobiles in India",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "key",
+              "spec": {
+                "label": "1996",
+                "detail": "Heavy to smart, ~2-year life",
+                "icon": "clock"
+              }
+            },
+            "factId": "w1.l1.f14"
+          },
+          {
+            "id": "w1c70",
+            "kind": "concept",
+            "title": "Customers compare",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Amazon",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Flipkart",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "eBay",
+                    "detail": "",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f15"
+          },
+          {
+            "id": "w1c71",
+            "kind": "concept",
+            "title": "Heterogeneity example",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Old forms",
+                    "detail": "Male, female",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Now",
+                    "detail": "Transgender, undisclosed added",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f16"
+          },
+          {
+            "id": "w1c72",
+            "kind": "concept",
+            "title": "Course puzzle",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ola, Uber",
+                    "detail": "Own no taxis",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Alibaba",
+                    "detail": "Holds no inventory",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "WhatsApp, Gmail",
+                    "detail": "Free, still profitable",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f17"
+          },
+          {
+            "id": "w1c73",
+            "kind": "concept",
+            "title": "Course aim",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Commercialise",
+                "detail": "Innovation, jobs, national growth",
+                "icon": "target"
+              }
+            },
+            "factId": "w1.l1.f18"
+          },
+          {
+            "id": "w1c74",
+            "kind": "concept",
+            "title": "Japan lesson",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Waste removal",
+                "detail": "Higher quality, lower cost",
+                "icon": "shield"
+              }
+            },
+            "factId": "w1.l1.f19"
+          },
+          {
+            "id": "w1c13",
+            "kind": "remember",
+            "title": "Business pressures",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Shrinking PLCs",
+                    "detail": "10-20 yrs to 2-3",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Rising expectations",
+                    "detail": "Cheap + good + fast",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "High uncertainty",
+                    "detail": "Kedarnath, Delhi smog",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Global impact",
+                    "detail": "Apple: US, China, world",
+                    "icon": "globe"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l1.f20"
           }
-        ],
-        "sourceUrls": [
-          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=17"
         ]
       },
       {
         "id": "w1l2",
-        "title": "L2 Innovation and Creativity - An Introduction",
+        "title": "Innovation and Creativity - An Introduction",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ],
         "cards": [
           {
-            "id": "w1c10",
+            "id": "w1c14",
             "kind": "concept",
-            "title": "Drucker's definition",
-            "lines": [
-              "Innovation is **the specific tool of entrepreneurs, the means by which they exploit change as an opportunity for a different business or a different service**.",
-              "Official **Week 1 Q1**: blank = **Innovation** (not Design, Marketing, Communication)."
-            ],
+            "title": "Drucker",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c11-1",
-            "kind": "example",
-            "title": "Change -> opportunity (lecturer's examples) (1/2)",
-            "lines": [
-              "Four examples to recognise."
-            ],
-            "visual": {
-              "type": "table",
+              "type": "key",
               "spec": {
-                "headers": [
-                  "Change",
-                  "Business that grew"
-                ],
-                "rows": [
-                  [
-                    "Swachh Bharat",
-                    "Waste, sanitation solutions"
-                  ],
-                  [
-                    "Corruption",
-                    "IT transparency (computerised railway reservation)"
-                  ]
-                ]
+                "label": "Innovation",
+                "detail": "Entrepreneurs exploit change as opportunity",
+                "icon": "bulb"
               }
-            }
+            },
+            "factId": "w1.l2.f01"
           },
           {
-            "id": "w1c11-2",
-            "kind": "example",
-            "title": "Change -> opportunity (lecturer's examples) (2/2)",
+            "id": "w1c15",
+            "kind": "concept",
+            "title": "Change to opportunity",
             "lines": [],
             "visual": {
               "type": "table",
               "spec": {
                 "headers": [
                   "Change",
-                  "Business that grew"
+                  "Business"
                 ],
                 "rows": [
+                  [
+                    "Swachh Bharat",
+                    "Waste, sanitation"
+                  ],
+                  [
+                    "Corruption",
+                    "IT transparency"
+                  ],
                   [
                     "GST",
                     "Compliance software"
                   ],
                   [
                     "Demonetization",
-                    "E-payment companies"
+                    "E-payments"
                   ]
                 ]
               }
-            }
-          },
-          {
-            "id": "w1c12",
-            "kind": "concept",
-            "title": "The three I's",
-            "lines": [
-              "**Idea, Implementation, Impact.**",
-              "Official **Q2**: Idea, Implementation, Impact. Distractors: Integration, Industry.",
-              "Idea: keep open, do not judge early. Implementation: execution. Impact: measurable result."
-            ],
-            "visual": {
-              "type": "flow",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Idea"
-                  },
-                  {
-                    "label": "Implementation"
-                  },
-                  {
-                    "label": "Impact"
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c13",
-            "kind": "concept",
-            "title": "Invention vs innovation",
-            "lines": [
-              "**Idea + Implementation = Invention** (lab or experiment stage).",
-              "**Invention + Impact = Innovation.** Work left in a file has no impact.",
-              "Official **Q3** figure: Invention + Impact = ? -> **Innovation**."
-            ],
-            "visual": {
-              "type": "flow",
-              "spec": {
-                "nodes": [
-                  {
-                    "label": "Idea + Implementation",
-                    "detail": "= Invention"
-                  },
-                  {
-                    "label": "+ Impact",
-                    "detail": "= Innovation"
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1l2x10",
-            "kind": "concept",
-            "title": "Invention defined",
-            "lines": [
-              "New concept executed in a **controlled setting**: lab prototype, project report, dissertation.",
-              "Stays in the file, never reaches market = **not innovation**."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1l2x11",
-            "kind": "concept",
-            "title": "Idea stage rule",
-            "lines": [
-              "Do **not evaluate** at idea stage: eyes, ears, brain open.",
-              "Quantity and novelty first, judgement later. Idea need not be new if implementation is novel."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c14",
-            "kind": "contrast",
-            "title": "Impact depends on the organisation",
-            "lines": [
-              "Business: market share, cost, profit.",
-              "School: students going on to higher education.",
-              "Religious organisation: people overcoming addictions."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c15",
-            "kind": "example",
-            "title": "Implementation can be the novelty",
-            "lines": [
-              "**Gandhi's non-violence**: idea was ancient (Jainism, Buddhism). Novelty was implementing it as a mass movement for the freedom struggle."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
+            },
+            "factId": "w1.l2.f02"
           },
           {
             "id": "w1c16",
-            "kind": "contrast",
-            "title": "Myths vs realities",
+            "kind": "concept",
+            "title": "Three I's",
+            "lines": [],
+            "visual": {
+              "type": "equation",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Implementation",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Impact",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f03"
+          },
+          {
+            "id": "w1c17",
+            "kind": "concept",
+            "title": "Not the I's",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Right",
+                    "detail": "Idea, Implementation, Impact",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Wrong",
+                    "detail": "Integration, Industry",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f04"
+          },
+          {
+            "id": "w1c18",
+            "kind": "concept",
+            "title": "Invention",
+            "lines": [],
+            "visual": {
+              "type": "equation",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Idea",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "+ Implementation",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "= Invention",
+                    "detail": "",
+                    "icon": "flask"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f05"
+          },
+          {
+            "id": "w1c19",
+            "kind": "concept",
+            "title": "Innovation",
+            "lines": [],
+            "visual": {
+              "type": "equation",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Invention",
+                    "detail": "",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "+ Impact",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "= Innovation",
+                    "detail": "",
+                    "icon": "bulb"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f06"
+          },
+          {
+            "id": "w1c20",
+            "kind": "concept",
+            "title": "Lab is not market",
             "lines": [
-              "Official **Q4**: 'begins with curiosity' TRUE; 'always smooth linear' FALSE."
+              "Lab prototype, report, dissertation: invention only."
             ],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Invention",
+                "detail": "Stays in lab or file",
+                "icon": "flask"
+              }
+            },
+            "factId": "w1.l2.f07"
+          },
+          {
+            "id": "w1c21",
+            "kind": "concept",
+            "title": "Impact by organisation",
+            "lines": [],
+            "visual": {
+              "type": "table",
+              "spec": {
+                "headers": [
+                  "Organisation",
+                  "Impact"
+                ],
+                "rows": [
+                  [
+                    "Business",
+                    "Share, cost, profit"
+                  ],
+                  [
+                    "School",
+                    "Higher study"
+                  ],
+                  [
+                    "Religious body",
+                    "Quit addictions"
+                  ]
+                ]
+              }
+            },
+            "factId": "w1.l2.f08"
+          },
+          {
+            "id": "w1c22",
+            "kind": "concept",
+            "title": "Idea stage",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Open mind",
+                "detail": "Judge later",
+                "icon": "eye"
+              }
+            },
+            "factId": "w1.l2.f09"
+          },
+          {
+            "id": "w1c23",
+            "kind": "example",
+            "title": "Gandhi",
+            "lines": [
+              "Old idea, new implementation: non-violence as mass movement."
+            ],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Implementation",
+                "detail": "Was the novelty",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l2.f10"
+          },
+          {
+            "id": "w1c24",
+            "kind": "contrast",
+            "title": "Curiosity, not a straight line",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Begins with curiosity",
+                    "detail": "True",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Always smooth and linear",
+                    "detail": "False: iterative",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f11"
+          },
+          {
+            "id": "w1c25",
+            "kind": "contrast",
+            "title": "Myths vs reality",
+            "lines": [],
             "visual": {
               "type": "table",
               "spec": {
@@ -430,764 +790,2072 @@
                 ],
                 "rows": [
                   [
-                    "Begins with creativity",
-                    "Begins with **curiosity** (why, how, what if)"
+                    "Starts with creativity",
+                    "Starts with curiosity"
                   ],
                   [
-                    "Smooth linear process",
-                    "**Iterative**, outcome of a series of experiments"
+                    "Smooth, linear",
+                    "Iterative"
                   ],
                   [
-                    "About risk-taking",
-                    "Risk-taking + **assessment + mitigation**"
+                    "Just risk-taking",
+                    "Risk + assessment + mitigation"
                   ]
                 ]
               }
-            }
-          },
-          {
-            "id": "w1c17",
-            "kind": "example",
-            "title": "Risk and teamwork",
-            "lines": [
-              "Risk mitigation example: motorbike on a hill (helmet, brakes, speed limit).",
-              "Innovation is a **team activity**: one asks, another answers, another tests, another commercialises."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c18a",
-            "kind": "remember",
-            "title": "Remember 1",
-            "lines": [
-              "Drucker: **specific tool of entrepreneurs**, exploit **change**.",
-              "3 I's: **Idea, Implementation, Impact**.",
-              "Idea + Implementation = **Invention**; + Impact = **Innovation**."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c18b",
-            "kind": "remember",
-            "title": "Remember 2",
-            "lines": [
-              "**Curiosity** not creativity; **iterative** not linear; risk + assessment + mitigation.",
-              "Team activity."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          }
-        ],
-        "sourceUrls": [
-          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
-        ]
-      },
-      {
-        "id": "w1l3",
-        "title": "L3 Innovation in Current Environment",
-        "cards": [
-          {
-            "id": "w1c19",
-            "kind": "concept",
-            "title": "Two challenges",
-            "lines": [
-              "**Resistance to change** and **prediction disability** (slide)."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c20-1",
-            "kind": "concept",
-            "title": "Resistance to change: four forms (1/2)",
-            "lines": [
-              "Official **Q5**: **Ignoring the Idea** and **Inertia**. Wrong: 'ignoring the chances of failure', 'ability to exude confidence'.",
-              "Lecture form is **fear of failure** (prefer tested formulas)."
-            ],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Form",
-                  "Meaning / example"
-                ],
-                "rows": [
-                  [
-                    "Ignoring the idea",
-                    "Idea dismissed (boss ignores junior; parents dismiss career dream)"
-                  ],
-                  [
-                    "Fear of failure",
-                    "Failure seen as bad; stick to tested formulas"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c20-2",
-            "kind": "concept",
-            "title": "Resistance to change: four forms (2/2)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Form",
-                  "Meaning / example"
-                ],
-                "rows": [
-                  [
-                    "Inertia",
-                    "'I cannot do this'; needs a mentor (Jambavanth reminding Hanuman)"
-                  ],
-                  [
-                    "Lack of confidence",
-                    "Low belief in own ability"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c21-1",
-            "kind": "concept",
-            "title": "VUCA (1/2)",
-            "lines": [
-              "Prediction disability is described by **VUCA**: Volatility, Uncertainty, Complexity, Ambiguity.",
-              "Official **Q10**: 'unknown unknowns' = **Ambiguity**."
-            ],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Element",
-                  "As taught"
-                ],
-                "rows": [
-                  [
-                    "Volatility",
-                    "Unexpected/unstable, maybe unknown duration, not hard to understand; knowledge available (demonetization)"
-                  ],
-                  [
-                    "Uncertainty",
-                    "Basic cause and effect known; change possible but not a given"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c21-2",
-            "kind": "concept",
-            "title": "VUCA (2/2)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Element",
-                  "As taught"
-                ],
-                "rows": [
-                  [
-                    "Complexity",
-                    "Named; **no definition given** in slides or lecture"
-                  ],
-                  [
-                    "Ambiguity",
-                    "Causal links completely unclear; no precedents; **unknown unknowns**"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1l3x7",
-            "kind": "example",
-            "title": "Resistance: lecture examples",
-            "lines": [
-              "**Ignoring**: boss dismisses junior; parents dismiss career wish (doctor, engineer, IAS).",
-              "**Inertia**: Hanuman needs Jambavanth to remind him of his powers.",
-              "Myths are dangerous: believing it is linear leaves founders depressed when profit is not instant."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c22",
-            "kind": "concept",
-            "title": "Two systems of thinking",
-            "lines": [
-              "**Emotional/intuitive** and **deliberate/analytical**. Learn to use both (driving: deliberate at first, intuitive with expertise)."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1l3x8",
-            "kind": "concept",
-            "title": "VUCA: lecture glosses",
-            "lines": [
-              "Volatility: **demonetization**, GST rollout.",
-              "Uncertainty: cause-effect known but other factors can shift the outcome.",
-              "Ambiguity: no precedent, e.g. new market or product outside core competency. VUCA concept is from **Harvard Business Review**."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c23",
-            "kind": "contrast",
-            "title": "Elephant and rider",
-            "lines": [
-              "Harmony needed: rider steers elephant off the tiger path to the green-grass path.",
-              "No harmony: elephant's inertia takes the old path."
-            ],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "",
-                  "Elephant",
-                  "Rider"
-                ],
-                "rows": [
-                  [
-                    "Side",
-                    "Emotional",
-                    "Analytical"
-                  ],
-                  [
-                    "Traits (slides)",
-                    "Heavy, powerful, slow moving",
-                    "Ability to see, powerless, intelligent"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c24a",
-            "kind": "remember",
-            "title": "Remember 1",
-            "lines": [
-              "Challenges: **resistance to change**, **prediction disability**.",
-              "Resistance: ignoring the idea, fear of failure, inertia, lack of confidence. Q5 key: **Ignoring the Idea + Inertia**."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1l3x9",
-            "kind": "example",
-            "title": "Alarm clock",
-            "lines": [
-              "Rider sets the **5 am alarm** at night. Elephant switches it off in the morning.",
-              "Progress when emotional side follows the analytical side. Rider handles prediction disability, a mentor/champion handles resistance."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c24b",
-            "kind": "remember",
-            "title": "Remember 2",
-            "lines": [
-              "VUCA = Volatility, Uncertainty, Complexity, Ambiguity. **Unknown unknowns = Ambiguity**.",
-              "Elephant = emotional (heavy, powerful, slow). Rider = analytical (sees, intelligent, powerless)."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          }
-        ],
-        "sourceUrls": [
-          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
-        ]
-      },
-      {
-        "id": "w1l4",
-        "title": "L4 Types of Innovation",
-        "cards": [
-          {
-            "id": "w1c25",
-            "kind": "contrast",
-            "title": "Jugaad vs systematic",
-            "lines": [
-              "**Jugaad**: ad hoc improvised fix (North India), not sustainable.",
-              "**Systematic**: planned, in enabling environments (universities, corporations); aims at **IP rights**, commercialisation, technology transfer."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
+            },
+            "factId": "w1.l2.f12"
           },
           {
             "id": "w1c26",
-            "kind": "contrast",
-            "title": "Incremental vs breakthrough",
+            "kind": "example",
+            "title": "Risk mitigation",
             "lines": [
-              "Official **Q7**: breakthrough = **steam engine, wheel, fire**. 'Evolution 2G to 3G' is **incremental**, not in the key.",
-              "Increments follow breakthroughs; many increments can build a breakthrough. A genuinely new cure is the lecture's hypothetical breakthrough example."
+              "Motorbike on hills: helmet, brakes, speed limit."
             ],
             "visual": {
-              "type": "table",
+              "type": "key",
               "spec": {
-                "headers": [
-                  "Incremental",
-                  "Breakthrough (radical)"
-                ],
-                "rows": [
-                  [
-                    "Small, continuous; **Kaizen**; reduce scrap/rework",
-                    "New concept changing the status quo"
-                  ],
-                  [
-                    "Mobile 2G -> 3G -> 4G -> 5G",
-                    "Fire, wheel, steam engine, landline -> mobile"
-                  ],
-                  [
-                    "Often internal, less visible",
-                    "Creates new industries"
-                  ]
-                ]
+                "label": "Mitigation",
+                "detail": "Cuts losses",
+                "icon": "shield"
               }
-            }
-          },
-          {
-            "id": "w1l4x7",
-            "kind": "concept",
-            "title": "Incremental and breakthrough interact",
-            "lines": [
-              "Breakthrough sets a new level. Incremental work adapts it for real users.",
-              "Accumulated increments prepare the next breakthrough.",
-              "Incremental happens inside the organisation, so often invisible outside."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
+            },
+            "factId": "w1.l2.f13"
           },
           {
             "id": "w1c27",
             "kind": "concept",
-            "title": "Frugal innovation",
-            "lines": [
-              "Sees resource constraints **as an opportunity, not a liability**; favours **agility over efficiency**.",
-              "Good-quality solutions with **greatest value at lowest cost**; not technically sophisticated to wow customers.",
-              "Official **Q6**: both statements TRUE.",
-              "Avoid 'marketing myopia'; co-create with customers; often serves underserved people."
-            ],
+            "title": "Team activity",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c28-1",
-            "kind": "concept",
-            "title": "Four areas of innovation (slide) (1/2)",
-            "lines": [
-              "**Product, Process, Customer Experience, Business Model.**"
-            ],
-            "visual": {
-              "type": "table",
+              "type": "key",
               "spec": {
-                "headers": [
-                  "Area",
-                  "Meaning",
-                  "Examples"
-                ],
-                "rows": [
-                  [
-                    "Product",
-                    "New/improved goods or services; most visible",
-                    "iPhone, iPad, smartwatch, smart glasses"
-                  ],
-                  [
-                    "Process",
-                    "Better production/delivery; mostly invisible",
-                    "Six Sigma, Lean, Kanban, TQM"
-                  ]
-                ]
+                "label": "Team",
+                "detail": "Innovation is not solo",
+                "icon": "people"
               }
-            }
+            },
+            "factId": "w1.l2.f14"
           },
           {
-            "id": "w1c28-2",
+            "id": "w1c75",
+            "kind": "example",
+            "title": "Gandhi origin",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Non-violence",
+                "detail": "Old idea: Jainism, Buddhism",
+                "icon": "heart"
+              }
+            },
+            "factId": "w1.l2.f15"
+          },
+          {
+            "id": "w1c76",
             "kind": "concept",
-            "title": "Four areas of innovation (slide) (2/2)",
+            "title": "Curiosity means",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Why, how, what-if",
+                "detail": "Ask, cut waste and time",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w1.l2.f16"
+          },
+          {
+            "id": "w1c77",
+            "kind": "concept",
+            "title": "Iteration cost",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Each iteration",
+                "detail": "Adds cost, delays market",
+                "icon": "clock"
+              }
+            },
+            "factId": "w1.l2.f17"
+          },
+          {
+            "id": "w1c78",
+            "kind": "concept",
+            "title": "Linear myth",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Expects instant profit",
+                "detail": "Founder gets depressed",
+                "icon": "heart"
+              }
+            },
+            "factId": "w1.l2.f18"
+          },
+          {
+            "id": "w1c28",
+            "kind": "remember",
+            "title": "Remember: equation",
             "lines": [],
             "visual": {
               "type": "table",
               "spec": {
                 "headers": [
-                  "Area",
-                  "Meaning",
-                  "Examples"
+                  "Input",
+                  "Result"
                 ],
                 "rows": [
                   [
-                    "Customer experience",
-                    "Smoother, more transparent journey",
-                    "Speed post or visa tracking; Facebook birthday/memory reminders"
+                    "Idea + Implementation",
+                    "Invention"
                   ],
                   [
-                    "Business model",
-                    "How value is created and captured",
-                    "Google/Facebook free core service; IPL"
+                    "Invention + Impact",
+                    "Innovation"
                   ]
                 ]
               }
-            }
+            },
+            "factId": "w1.l2.f19"
           },
           {
             "id": "w1c29",
-            "kind": "example",
-            "title": "IPL (touches all four)",
-            "lines": [
-              "Franchise system borrowed from European soccer (business model), 20-20 format (product), new rules (process), entertainment (customer experience).",
-              "Categories are not mutually exclusive."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1l4x8",
-            "kind": "concept",
-            "title": "Business model innovation",
-            "lines": [
-              "Rethinks how value is **created, delivered and captured**: most encompassing type.",
-              "Process innovation (Six Sigma, Lean, TQM, Kanban) is invisible to customers but felt in cost, quality, speed."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c30a",
             "kind": "remember",
-            "title": "Remember 1",
-            "lines": [
-              "Jugaad = ad hoc, not sustainable. Systematic = planned, IP.",
-              "Incremental = Kaizen, 2G->3G. Breakthrough = fire, wheel, steam engine, landline->mobile."
-            ],
+            "title": "Remember: myths",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c30b",
-            "kind": "remember",
-            "title": "Remember 2",
-            "lines": [
-              "Frugal = constraint as opportunity, agility over efficiency, great value at lowest cost.",
-              "4 areas: product, process, customer experience, business model."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Curiosity",
+                    "detail": "Not creativity",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Iterative",
+                    "detail": "Not linear",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Risk",
+                    "detail": "+ assessment + mitigation",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Team",
+                    "detail": "Not solo",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l2.f20"
           }
-        ],
-        "sourceUrls": [
-          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
         ]
       },
       {
-        "id": "w1l5",
-        "title": "L5 School of Innovation",
+        "id": "w1l3",
+        "title": "Innovation in Current Environment",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ],
         "cards": [
+          {
+            "id": "w1c30",
+            "kind": "concept",
+            "title": "Two challenges",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Resistance to change",
+                    "detail": "Do not want to change",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Prediction disability",
+                    "detail": "Cannot see future",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f01"
+          },
           {
             "id": "w1c31",
             "kind": "concept",
-            "title": "Can innovation be taught?",
-            "lines": [
-              "Emotions: hard. **Analysis: teachable.**",
-              "Teachable (slide): **awareness creation, development of confidence, removal of myths**.",
-              "Awareness example: positive campaign ('remove polio from India') vs negative ('take this vaccine to avoid illness')."
-            ],
+            "title": "Four forms of resistance",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ignoring idea",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Fear of failure",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Inertia",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Low confidence",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f02"
           },
           {
             "id": "w1c32",
             "kind": "concept",
-            "title": "Three schools of creative thinking",
-            "lines": [
-              "**Design thinking, Systems thinking, Lateral thinking.**"
-            ],
+            "title": "Resistance vs confidence",
+            "lines": [],
             "visual": {
-              "type": "table",
+              "type": "compare",
               "spec": {
-                "headers": [
-                  "School",
-                  "Core"
-                ],
-                "rows": [
-                  [
-                    "Design thinking",
-                    "Solution-focused, action-oriented, preferred future; human centered; prototyping; rapid iterative improvement; cross-functional teams"
-                  ],
-                  [
-                    "Systems thinking",
-                    "Model larger system; **point of leverage**; **silver bullet**; Senge *The Fifth Discipline*; Goldratt **Theory of Constraints** (*The Goal*)"
-                  ],
-                  [
-                    "Lateral thinking",
-                    "New idea from a known idea in another context; **Six Thinking Hats**"
-                  ]
+                "items": [
+                  {
+                    "label": "Resistance",
+                    "detail": "Ignoring idea, inertia",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Not resistance",
+                    "detail": "Exuding confidence",
+                    "icon": "people"
+                  }
                 ]
               }
-            }
-          },
-          {
-            "id": "w1l5x8",
-            "kind": "concept",
-            "title": "Prototyping and 3D printing",
-            "lines": [
-              "Technologies like **3D printing** make prototyping cheap, enabling rapid iteration."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
+            },
+            "factId": "w1.l3.f03"
           },
           {
             "id": "w1c33",
-            "kind": "concept",
-            "title": "Design thinking facts",
-            "lines": [
-              "Official **Q8** (INCORRECT statement): **'product-centered'**. It is solution-focused, action-oriented, **human-centered**.",
-              "Human centered = empathy: time with people to see behaviour, emotions, anxieties, aspirations.",
-              "Case: demonetization (public feedback, fast rule changes, RBI + banks + police)."
-            ],
+            "kind": "example",
+            "title": "Ignoring the idea",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Boss",
+                    "detail": "Dismisses junior",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Parents",
+                    "detail": "Dismiss career wish",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f04"
           },
           {
             "id": "w1c34",
-            "kind": "concept",
-            "title": "Systems and lateral thinking examples",
-            "lines": [
-              "Systems: fix one constraint and the next appears (continuous).",
-              "Lateral: **IPL** = known franchise idea from European soccer applied to cricket; European solid waste management applied to India."
-            ],
-            "visual": {
-              "type": "none",
-              "spec": {}
-            }
-          },
-          {
-            "id": "w1c35-1",
-            "kind": "concept",
-            "title": "Six Thinking Hats (Edward de Bono) (1/3)",
-            "lines": [
-              "Official **Q9** key: I-C, II-D, III-A, IV-F, V-E, VI-B.",
-              "Black hat: barriers, warns of dangers (lecturer calls it the negative person)."
-            ],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Hat",
-                  "Role"
-                ],
-                "rows": [
-                  [
-                    "White",
-                    "Information"
-                  ],
-                  [
-                    "Black",
-                    "Barriers"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c35-2",
-            "kind": "concept",
-            "title": "Six Thinking Hats (Edward de Bono) (2/3)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Hat",
-                  "Role"
-                ],
-                "rows": [
-                  [
-                    "Red",
-                    "Feelings, intuition"
-                  ],
-                  [
-                    "Yellow",
-                    "Values and benefits"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1c35-3",
-            "kind": "concept",
-            "title": "Six Thinking Hats (Edward de Bono) (3/3)",
-            "lines": [],
-            "visual": {
-              "type": "table",
-              "spec": {
-                "headers": [
-                  "Hat",
-                  "Role"
-                ],
-                "rows": [
-                  [
-                    "Green",
-                    "Creativity, new ideas"
-                  ],
-                  [
-                    "Blue",
-                    "Manage process"
-                  ]
-                ]
-              }
-            }
-          },
-          {
-            "id": "w1l5x7",
             "kind": "example",
-            "title": "Demonetization as design thinking",
+            "title": "Inertia",
             "lines": [
-              "Public feedback, rapid changes: old-note over-the-counter exchange limit **Rs 4,000** then raised, then cut again, then stopped (lecture; exact middle figures not verified).",
-              "Coordinated RBI, banks, police, intelligence, government."
+              "Hanuman needed Jambavanth to remind him."
             ],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "key",
+              "spec": {
+                "label": "Mentor",
+                "detail": "Turns I cannot to I can",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l3.f05"
           },
           {
-            "id": "w1c36a",
-            "kind": "remember",
-            "title": "Remember 1",
-            "lines": [
-              "Teachable: awareness, confidence, removing myths.",
-              "Design: human centered, prototyping, rapid iteration, cross-functional. **Not product-centered**."
-            ],
+            "id": "w1c35",
+            "kind": "concept",
+            "title": "VUCA",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Volatility",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Uncertainty",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Complexity",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Ambiguity",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f06"
           },
           {
-            "id": "w1c36b",
-            "kind": "remember",
-            "title": "Remember 2",
-            "lines": [
-              "Systems: leverage point, silver bullet, Senge, Goldratt ToC.",
-              "Lateral: known idea -> new context; Six Hats (de Bono)."
-            ],
+            "id": "w1c36",
+            "kind": "concept",
+            "title": "Volatility",
+            "lines": [],
             "visual": {
-              "type": "none",
-              "spec": {}
-            }
+              "type": "key",
+              "spec": {
+                "label": "Volatility",
+                "detail": "Unstable, unknown duration, understandable",
+                "icon": "spark"
+              }
+            },
+            "factId": "w1.l3.f07"
+          },
+          {
+            "id": "w1c37",
+            "kind": "concept",
+            "title": "Uncertainty",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Uncertainty",
+                "detail": "Cause-effect known, change possible",
+                "icon": "eye"
+              }
+            },
+            "factId": "w1.l3.f08"
+          },
+          {
+            "id": "w1c38",
+            "kind": "concept",
+            "title": "Ambiguity",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Ambiguity",
+                "detail": "No precedent. Unknown unknowns",
+                "icon": "lock"
+              }
+            },
+            "factId": "w1.l3.f09"
+          },
+          {
+            "id": "w1c39",
+            "kind": "concept",
+            "title": "Unknown unknowns",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Key",
+                    "detail": "Ambiguity",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "Uncertainty, volatility",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f10"
+          },
+          {
+            "id": "w1c40",
+            "kind": "concept",
+            "title": "Two thinking systems",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Emotional",
+                    "detail": "Intuitive",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Analytical",
+                    "detail": "Deliberate",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f11"
+          },
+          {
+            "id": "w1c41",
+            "kind": "contrast",
+            "title": "Elephant and rider",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Elephant",
+                    "detail": "Emotional, heavy, powerful, slow",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Rider",
+                    "detail": "Analytical, sees ahead, powerless alone",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f12"
+          },
+          {
+            "id": "w1c42",
+            "kind": "example",
+            "title": "Alarm clock",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Night",
+                    "detail": "Rider sets 5 am alarm",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Morning",
+                    "detail": "Elephant switches off",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f13"
+          },
+          {
+            "id": "w1c79",
+            "kind": "concept",
+            "title": "Fear of failure",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Tested formulas",
+                "detail": "Fear keeps people on known paths",
+                "icon": "shield"
+              }
+            },
+            "factId": "w1.l3.f14"
+          },
+          {
+            "id": "w1c80",
+            "kind": "concept",
+            "title": "VUCA origin",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Harvard Business Review",
+                "detail": "Source of VUCA",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w1.l3.f15"
+          },
+          {
+            "id": "w1c81",
+            "kind": "example",
+            "title": "Volatility examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Demonetization",
+                    "detail": "",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "GST rollout",
+                    "detail": "",
+                    "icon": "spark"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f16"
+          },
+          {
+            "id": "w1c82",
+            "kind": "example",
+            "title": "Ambiguity examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "New market",
+                    "detail": "No history",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Outside core competency",
+                    "detail": "Product line",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f17"
+          },
+          {
+            "id": "w1c83",
+            "kind": "concept",
+            "title": "Elephant paths",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Path 2",
+                    "detail": "Known route, tiger",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Path 1",
+                    "detail": "Unfamiliar, green grass",
+                    "icon": "leaf"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f18"
+          },
+          {
+            "id": "w1c84",
+            "kind": "concept",
+            "title": "Harmony",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Rider + elephant",
+                "detail": "In harmony take Path 1",
+                "icon": "heart"
+              }
+            },
+            "factId": "w1.l3.f19"
+          },
+          {
+            "id": "w1c85",
+            "kind": "example",
+            "title": "Learning to drive",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Deliberate",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Intuitive",
+                    "detail": "Talk while driving",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f20"
+          },
+          {
+            "id": "w1c43",
+            "kind": "remember",
+            "title": "Remember: resistance",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Ignoring idea",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Fear of failure",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Inertia",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Low confidence",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f21"
+          },
+          {
+            "id": "w1c44",
+            "kind": "remember",
+            "title": "Remember: VUCA",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "V",
+                    "detail": "Volatility",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "U",
+                    "detail": "Uncertainty",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "C",
+                    "detail": "Complexity",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "A",
+                    "detail": "Ambiguity",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l3.f22"
           }
+        ]
+      },
+      {
+        "id": "w1l4",
+        "title": "Types of Innovation",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
         ],
+        "cards": [
+          {
+            "id": "w1c45",
+            "kind": "contrast",
+            "title": "Jugaad vs systematic",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Jugaad",
+                    "detail": "Ad hoc, not sustainable",
+                    "icon": "spark"
+                  },
+                  {
+                    "label": "Systematic",
+                    "detail": "Planned, leads to IP",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f01"
+          },
+          {
+            "id": "w1c46",
+            "kind": "contrast",
+            "title": "Incremental vs breakthrough",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Incremental",
+                    "detail": "Kaizen, 2G to 3G",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Breakthrough",
+                    "detail": "Fire, wheel, steam engine",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f02"
+          },
+          {
+            "id": "w1c47",
+            "kind": "concept",
+            "title": "Breakthrough key",
+            "lines": [
+              "Landline to mobile is also breakthrough."
+            ],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Key",
+                    "detail": "Steam engine, wheel, fire",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "2G to 3G",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f03"
+          },
+          {
+            "id": "w1c48",
+            "kind": "concept",
+            "title": "How they link",
+            "lines": [],
+            "visual": {
+              "type": "loop",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Breakthrough",
+                    "detail": "Sets new level",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Incremental",
+                    "detail": "Adapts, improves",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f04"
+          },
+          {
+            "id": "w1c49",
+            "kind": "concept",
+            "title": "Frugal innovation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Constraints",
+                    "detail": "Opportunity, not liability",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Priority",
+                    "detail": "Agility over efficiency",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Aim",
+                    "detail": "Value at lowest cost",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "Technical wow",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f05"
+          },
+          {
+            "id": "w1c50",
+            "kind": "concept",
+            "title": "Frugal innovation",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Constraints",
+                    "detail": "Constraints are an opportunity",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Value",
+                    "detail": "Good quality, greatest value, lowest cost",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f06"
+          },
+          {
+            "id": "w1c51",
+            "kind": "concept",
+            "title": "Four areas",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Product",
+                    "detail": "iPhone, iPad",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Process",
+                    "detail": "Six Sigma, Lean, TQM",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Customer experience",
+                    "detail": "Tracking, reminders",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Business model",
+                    "detail": "Free core service",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f07"
+          },
+          {
+            "id": "w1c52",
+            "kind": "concept",
+            "title": "Business model innovation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Business model",
+                "detail": "Most encompassing",
+                "icon": "coin"
+              }
+            },
+            "factId": "w1.l4.f08"
+          },
+          {
+            "id": "w1c53",
+            "kind": "example",
+            "title": "IPL",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business model",
+                    "detail": "Franchise",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Product",
+                    "detail": "T20",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Process",
+                    "detail": "New rules",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Experience",
+                    "detail": "Entertainment",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f09"
+          },
+          {
+            "id": "w1c86",
+            "kind": "concept",
+            "title": "Jugaad origin",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Jugaad",
+                "detail": "North Indian ad hoc fix",
+                "icon": "spark"
+              }
+            },
+            "factId": "w1.l4.f10"
+          },
+          {
+            "id": "w1c87",
+            "kind": "concept",
+            "title": "Systematic chain",
+            "lines": [],
+            "visual": {
+              "type": "journey",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "IP",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "IPR",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Commercialise",
+                    "detail": "Or technology transfer",
+                    "icon": "coin"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f11"
+          },
+          {
+            "id": "w1c88",
+            "kind": "concept",
+            "title": "Kaizen",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Kaizen",
+                "detail": "Cut waste, rework, scrap",
+                "icon": "gear"
+              }
+            },
+            "factId": "w1.l4.f12"
+          },
+          {
+            "id": "w1c89",
+            "kind": "concept",
+            "title": "Incremental visibility",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Inside the firm",
+                "detail": "Often invisible outside",
+                "icon": "eye"
+              }
+            },
+            "factId": "w1.l4.f13"
+          },
+          {
+            "id": "w1c90",
+            "kind": "concept",
+            "title": "Breakthrough link",
+            "lines": [],
+            "visual": {
+              "type": "loop",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Breakthrough",
+                    "detail": "",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Increments",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Next breakthrough",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f14"
+          },
+          {
+            "id": "w1c91",
+            "kind": "concept",
+            "title": "Frugal value",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Right value",
+                "detail": "Needs customer understanding",
+                "icon": "target"
+              }
+            },
+            "factId": "w1.l4.f15"
+          },
+          {
+            "id": "w1c92",
+            "kind": "concept",
+            "title": "Marketing myopia",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Marketing myopia",
+                "detail": "Not knowing what customer values",
+                "icon": "eye"
+              }
+            },
+            "factId": "w1.l4.f16"
+          },
+          {
+            "id": "w1c93",
+            "kind": "concept",
+            "title": "Frugal co-creation",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Co-creation",
+                "detail": "Customers help shape value",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l4.f17"
+          },
+          {
+            "id": "w1c94",
+            "kind": "concept",
+            "title": "Frugal reach",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Underserved people",
+                "detail": "Frugal often serves them",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l4.f18"
+          },
+          {
+            "id": "w1c95",
+            "kind": "concept",
+            "title": "Product innovation",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "iPhone",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "iPad",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Smartwatch",
+                    "detail": "",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Smart glasses",
+                    "detail": "",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f19"
+          },
+          {
+            "id": "w1c96",
+            "kind": "concept",
+            "title": "Process innovation examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Six Sigma",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Lean",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "TQM",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Kanban",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f20"
+          },
+          {
+            "id": "w1c97",
+            "kind": "concept",
+            "title": "Customer experience examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Speed post tracking",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Visa tracking",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Facebook birthday",
+                    "detail": "Reminders",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Facebook memories",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f21"
+          },
+          {
+            "id": "w1c98",
+            "kind": "concept",
+            "title": "Process innovation traits",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Process",
+                "detail": "Incremental, internal, invisible",
+                "icon": "gear"
+              }
+            },
+            "factId": "w1.l4.f22"
+          },
+          {
+            "id": "w1c54",
+            "kind": "remember",
+            "title": "Innovation map",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Constraints",
+                    "detail": "Opportunity, not liability",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Priority",
+                    "detail": "Agility over efficiency",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Goal",
+                    "detail": "Greatest value, lowest cost",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Avoid",
+                    "detail": "Technical wow, marketing myopia",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l4.f23"
+          }
+        ]
+      },
+      {
+        "id": "w1l5",
+        "title": "School of Innovation",
         "sourceUrls": [
           "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ],
+        "cards": [
+          {
+            "id": "w1c55",
+            "kind": "concept",
+            "title": "Can it be taught?",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Hard",
+                    "detail": "Emotions",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Teachable",
+                    "detail": "Analysis",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f01"
+          },
+          {
+            "id": "w1c56",
+            "kind": "concept",
+            "title": "Teachable three",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Awareness",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Confidence",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Remove myths",
+                    "detail": "",
+                    "icon": "shield"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f02"
+          },
+          {
+            "id": "w1c57",
+            "kind": "example",
+            "title": "Awareness framing",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Positive",
+                    "detail": "Remove polio from India",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Negative",
+                    "detail": "Avoid illness",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f03"
+          },
+          {
+            "id": "w1c58",
+            "kind": "concept",
+            "title": "Three schools",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Design thinking",
+                    "detail": "",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Systems thinking",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Lateral thinking",
+                    "detail": "",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f04"
+          },
+          {
+            "id": "w1c59",
+            "kind": "concept",
+            "title": "Design thinking",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Focus",
+                    "detail": "Solution",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Style",
+                    "detail": "Action, prototyping",
+                    "icon": "rocket"
+                  },
+                  {
+                    "label": "Core",
+                    "detail": "Human-centered",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Team",
+                    "detail": "Cross-functional",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f05"
+          },
+          {
+            "id": "w1c60",
+            "kind": "concept",
+            "title": "Human-centered design",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Incorrect",
+                    "detail": "Product-centered",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "True",
+                    "detail": "Human-centered",
+                    "icon": "people"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f06"
+          },
+          {
+            "id": "w1c61",
+            "kind": "concept",
+            "title": "Human-centered",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Empathy",
+                "detail": "Behaviour, emotions, anxieties",
+                "icon": "heart"
+              }
+            },
+            "factId": "w1.l5.f07"
+          },
+          {
+            "id": "w1c62",
+            "kind": "concept",
+            "title": "Rapid prototyping",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "3D printing",
+                "detail": "Cheap prototypes, fast iteration",
+                "icon": "gear"
+              }
+            },
+            "factId": "w1.l5.f08"
+          },
+          {
+            "id": "w1c63",
+            "kind": "example",
+            "title": "Demonetization",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Design thinking",
+                "detail": "Feedback, fast changes, many agencies",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l5.f09"
+          },
+          {
+            "id": "w1c64",
+            "kind": "concept",
+            "title": "Systems thinking",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Leverage point",
+                    "detail": "Silver bullet",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Senge",
+                    "detail": "The Fifth Discipline",
+                    "icon": "bulb"
+                  },
+                  {
+                    "label": "Goldratt",
+                    "detail": "Theory of Constraints",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f10"
+          },
+          {
+            "id": "w1c65",
+            "kind": "concept",
+            "title": "Lateral thinking",
+            "lines": [],
+            "visual": {
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "IPL",
+                    "detail": "Football franchise to cricket",
+                    "icon": "branch"
+                  },
+                  {
+                    "label": "Waste",
+                    "detail": "European methods to India",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f11"
+          },
+          {
+            "id": "w1c66",
+            "kind": "concept",
+            "title": "Six Thinking Hats",
+            "lines": [
+              "Edward de Bono."
+            ],
+            "visual": {
+              "type": "hats",
+              "spec": {
+                "items": [
+                  {
+                    "label": "White",
+                    "detail": "Information",
+                    "color": "#ffffff"
+                  },
+                  {
+                    "label": "Black",
+                    "detail": "Barriers",
+                    "color": "#222222"
+                  },
+                  {
+                    "label": "Red",
+                    "detail": "Feelings",
+                    "color": "#e03131"
+                  },
+                  {
+                    "label": "Yellow",
+                    "detail": "Values, benefits",
+                    "color": "#f5c400"
+                  },
+                  {
+                    "label": "Green",
+                    "detail": "Creativity",
+                    "color": "#2f9e44"
+                  },
+                  {
+                    "label": "Blue",
+                    "detail": "Manage process",
+                    "color": "#1c7ed6"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f12"
+          },
+          {
+            "id": "w1c99",
+            "kind": "concept",
+            "title": "Constraint cycle",
+            "lines": [],
+            "visual": {
+              "type": "loop",
+              "spec": {
+                "nodes": [
+                  {
+                    "label": "Find constraint",
+                    "detail": "",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Fix it",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Next appears",
+                    "detail": "",
+                    "icon": "eye"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f13"
+          },
+          {
+            "id": "w1c100",
+            "kind": "concept",
+            "title": "Silver bullet",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Leverage point",
+                "detail": "One change, system-wide gain",
+                "icon": "target"
+              }
+            },
+            "factId": "w1.l5.f14"
+          },
+          {
+            "id": "w1c101",
+            "kind": "concept",
+            "title": "Preferred future",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Design thinking",
+                "detail": "Builds a preferred future",
+                "icon": "bulb"
+              }
+            },
+            "factId": "w1.l5.f15"
+          },
+          {
+            "id": "w1c102",
+            "kind": "concept",
+            "title": "Cross-functional",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Why",
+                "detail": "Quality, cost, delivery, features span functions",
+                "icon": "people"
+              }
+            },
+            "factId": "w1.l5.f16"
+          },
+          {
+            "id": "w1c103",
+            "kind": "concept",
+            "title": "Empathy covers",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Behaviour",
+                    "detail": "",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Emotions",
+                    "detail": "",
+                    "icon": "heart"
+                  },
+                  {
+                    "label": "Anxieties",
+                    "detail": "",
+                    "icon": "shield"
+                  },
+                  {
+                    "label": "Aspirations",
+                    "detail": "",
+                    "icon": "rocket"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f17"
+          },
+          {
+            "id": "w1c104",
+            "kind": "example",
+            "title": "Demonetization limit",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Rs 4,000",
+                "detail": "Over-counter exchange, later changed",
+                "icon": "coin"
+              }
+            },
+            "factId": "w1.l5.f18"
+          },
+          {
+            "id": "w1c105",
+            "kind": "concept",
+            "title": "Lateral thinking",
+            "lines": [],
+            "visual": {
+              "type": "key",
+              "spec": {
+                "label": "Lateral",
+                "detail": "Known idea, unrelated context",
+                "icon": "branch"
+              }
+            },
+            "factId": "w1.l5.f19"
+          },
+          {
+            "id": "w1c67",
+            "kind": "remember",
+            "title": "Remember: schools",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Design",
+                    "detail": "Human-centered",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Systems",
+                    "detail": "Leverage",
+                    "icon": "target"
+                  },
+                  {
+                    "label": "Lateral",
+                    "detail": "New context",
+                    "icon": "branch"
+                  }
+                ]
+              }
+            },
+            "factId": "w1.l5.f20"
+          }
         ]
       }
     ],
     "cheatSheet": [
       {
-        "heading": "Week 1 in 10 lines",
-        "bullets": [
-          "Pressures: shrinking PLCs, rising expectations, high uncertainty, global impact -> innovation is the way out.",
-          "Drucker: innovation = **specific tool of entrepreneurs** to exploit **change**.",
-          "3 I's: **Idea, Implementation, Impact**. Idea + Implementation = Invention; + Impact = Innovation.",
-          "Myths: creativity->**curiosity**; linear->**iterative**; risk-taking->risk + assessment + mitigation.",
-          "Resistance: **ignoring the idea, fear of failure, inertia, lack of confidence**.",
-          "VUCA: Volatility, Uncertainty, Complexity, Ambiguity. **Unknown unknowns = Ambiguity**.",
-          "Elephant = emotional, Rider = analytical.",
-          "Types: jugaad/systematic; incremental/breakthrough; frugal; product/process/customer experience/business model.",
-          "Schools: design, systems, lateral.",
-          "Hats: White info, Black barriers, Red feelings, Yellow values/benefits, Green creativity, Blue process."
-        ]
+        "heading": "Innovation equation",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Input",
+              "Result"
+            ],
+            "rows": [
+              [
+                "Idea + Implementation",
+                "Invention"
+              ],
+              [
+                "Invention + Impact",
+                "Innovation"
+              ]
+            ]
+          }
+        }
       },
       {
-        "heading": "Official Week 1 answers (all 10)",
-        "bullets": [
-          "Q1 Innovation",
-          "Q2 Idea, Implementation, Impact",
-          "Q3 Innovation (Invention + Impact)",
-          "Q4 Statement 1 true, Statement 2 false",
-          "Q5 Ignoring the Idea; Inertia",
-          "Q6 Both true",
-          "Q7 Steam engine; wheel; fire",
-          "Q8 Design thinking is product-centered (INCORRECT)",
-          "Q9 I-C, II-D, III-A, IV-F, V-E, VI-B",
-          "Q10 Ambiguity"
-        ]
+        "heading": "Drucker",
+        "bullets": [],
+        "visual": {
+          "type": "key",
+          "spec": {
+            "label": "Tool of entrepreneurs",
+            "detail": "Exploit change as opportunity",
+            "icon": "bulb"
+          }
+        }
       },
       {
-        "heading": "Traps",
-        "bullets": [
-          "Q5: 'ignoring the chances of failure' is wrong.",
-          "Q7: 2G to 3G is incremental, not breakthrough.",
-          "Q8 asks for the INCORRECT statement.",
-          "Q10: Ambiguity, not Uncertainty."
-        ]
+        "heading": "Myths to reality",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Myth",
+              "Reality"
+            ],
+            "rows": [
+              [
+                "Begins with creativity",
+                "Begins with curiosity"
+              ],
+              [
+                "Smooth, linear",
+                "Iterative, experiments"
+              ],
+              [
+                "Just risk-taking",
+                "Risk + assessment + mitigation"
+              ],
+              [
+                "Solo work",
+                "Team activity"
+              ]
+            ]
+          }
+        }
       },
       {
-        "heading": "Source notes",
-        "bullets": [
-          "Complexity (VUCA) not defined in lecture or slides.",
-          "Company claims (Ola, Alibaba, free apps) are recording-era examples."
-        ]
+        "heading": "Business pressures",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Shrinking PLCs",
+                "detail": "10-20 yrs to 2-3",
+                "icon": "clock"
+              },
+              {
+                "label": "Rising expectations",
+                "detail": "Cheap + good + fast",
+                "icon": "target"
+              },
+              {
+                "label": "High uncertainty",
+                "detail": "Kedarnath, Delhi smog",
+                "icon": "eye"
+              },
+              {
+                "label": "Global impact",
+                "detail": "Apple: US, China, world",
+                "icon": "globe"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Resistance to change: 4 forms",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Ignoring idea",
+                "detail": "Boss, parents dismiss",
+                "icon": "eye"
+              },
+              {
+                "label": "Fear of failure",
+                "detail": "Stick to tested formulas",
+                "icon": "shield"
+              },
+              {
+                "label": "Inertia",
+                "detail": "I cannot: needs mentor",
+                "icon": "gear"
+              },
+              {
+                "label": "Low confidence",
+                "detail": "Disbelief in own ability",
+                "icon": "heart"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "VUCA",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Term",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "Volatility",
+                "Unstable, unknown duration, understandable"
+              ],
+              [
+                "Uncertainty",
+                "Cause-effect known, change possible"
+              ],
+              [
+                "Ambiguity",
+                "No precedent: unknown unknowns"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Elephant and rider",
+        "bullets": [],
+        "visual": {
+          "type": "compare",
+          "spec": {
+            "items": [
+              {
+                "label": "Elephant",
+                "detail": "Emotional, heavy, powerful, slow",
+                "icon": "heart"
+              },
+              {
+                "label": "Rider",
+                "detail": "Analytical, sees ahead, powerless alone",
+                "icon": "eye"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Incremental vs breakthrough",
+        "bullets": [],
+        "visual": {
+          "type": "compare",
+          "spec": {
+            "items": [
+              {
+                "label": "Incremental",
+                "detail": "Kaizen, 2G to 3G to 4G",
+                "icon": "gear"
+              },
+              {
+                "label": "Breakthrough",
+                "detail": "Steam engine, wheel, fire",
+                "icon": "rocket"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Frugal innovation",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Constraints",
+                "detail": "Opportunity, not liability",
+                "icon": "bulb"
+              },
+              {
+                "label": "Priority",
+                "detail": "Agility over efficiency",
+                "icon": "rocket"
+              },
+              {
+                "label": "Goal",
+                "detail": "Greatest value, lowest cost",
+                "icon": "coin"
+              },
+              {
+                "label": "Avoid",
+                "detail": "Technical wow, marketing myopia",
+                "icon": "lock"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Four areas of innovation",
+        "bullets": [],
+        "visual": {
+          "type": "table",
+          "spec": {
+            "headers": [
+              "Area",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "Product",
+                "iPhone, iPad, smartwatch"
+              ],
+              [
+                "Process",
+                "Six Sigma, Lean, TQM, Kanban"
+              ],
+              [
+                "Customer experience",
+                "Tracking, Facebook reminders"
+              ],
+              [
+                "Business model",
+                "Free core service, IPL"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Three schools of thinking",
+        "bullets": [],
+        "visual": {
+          "type": "tiles",
+          "spec": {
+            "items": [
+              {
+                "label": "Design",
+                "detail": "Human-centered, not product-centered",
+                "icon": "people"
+              },
+              {
+                "label": "Systems",
+                "detail": "Leverage point, Senge, Goldratt",
+                "icon": "target"
+              },
+              {
+                "label": "Lateral",
+                "detail": "Known idea, new context",
+                "icon": "branch"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "heading": "Six Thinking Hats",
+        "bullets": [],
+        "visual": {
+          "type": "hats",
+          "spec": {
+            "items": [
+              {
+                "label": "White",
+                "detail": "Information",
+                "color": "#ffffff"
+              },
+              {
+                "label": "Black",
+                "detail": "Barriers",
+                "color": "#222222"
+              },
+              {
+                "label": "Red",
+                "detail": "Feelings",
+                "color": "#e03131"
+              },
+              {
+                "label": "Yellow",
+                "detail": "Values, benefits",
+                "color": "#f5c400"
+              },
+              {
+                "label": "Green",
+                "detail": "Creativity",
+                "color": "#2f9e44"
+              },
+              {
+                "label": "Blue",
+                "detail": "Manage process",
+                "color": "#1c7ed6"
+              }
+            ]
+          }
+        }
       }
     ],
     "coverage": {
-      "covered": [
-        "5 lecture transcripts (YouTube English captions, read in full)",
-        "5 slide decks",
-        "Official W1 solution PDF (all 10 keys read from highlights; Q3 and Q9 figures viewed)"
-      ],
-      "notChecked": [
-        "The app's wider quiz bank / the portal's AI practice questions (~2000) were not accessible to me; every one of the 10 official W1 questions is covered and keyed above",
-        "Master Revision PDF and Master Notes v2 W1 sections compared: every testable fact is now in the cards. Notes v2 defines Complexity as 'many interconnected parts'. NOT in lecture/slides, so not stated as fact. Notes v2 'Kahneman' attribution and the Rs 4,500/2,000 limits also not found in transcript."
+      "sources": "5 transcripts, 5 slide decks, official W1 solution PDF, Master Revision and Notes v2 W1 sections",
+      "notIncluded": [
+        "Complexity definition: not in lecture or slides, Notes v2 wording unsupported",
+        "Notes v2 Kahneman attribution and Rs 4,500/2,000 figures: not in transcript"
       ]
     }
   }
