@@ -16026,49 +16026,59 @@
           {
             "id": "w8c1",
             "kind": "concept",
-            "title": "What a business model does",
+            "title": "Business model",
             "lines": [],
             "visual": {
-              "type": "value-cycle",
+              "type": "key",
               "spec": {
-                "nodes": [
-                  {
-                    "label": "Create value",
-                    "detail": "Develop an offering for customers."
-                  },
-                  {
-                    "label": "Deliver value",
-                    "detail": "Make the offering available to them."
-                  },
-                  {
-                    "label": "Capture value",
-                    "detail": "Earn revenue through the model."
-                  }
-                ]
+                "label": "Business model",
+                "detail": "Creates, delivers, captures value",
+                "icon": "coin"
               }
             },
             "factId": "w8.l1.f01"
           },
           {
-            "id": "w8c2",
-            "kind": "concept",
-            "title": "Three parts of value",
+            "id": "w8_l1_f10",
+            "kind": "contrast",
+            "title": "Whole model or a part",
             "lines": [],
             "visual": {
-              "type": "value-cycle",
+              "type": "compare",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Business model",
+                    "detail": "Whole: creates, delivers, captures value",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Only a part",
+                    "detail": "Value proposition, revenue model",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f10"
+          },
+          {
+            "id": "w8c2",
+            "kind": "concept",
+            "title": "Value flow",
+            "lines": [],
+            "visual": {
+              "type": "flow",
               "spec": {
                 "nodes": [
                   {
-                    "label": "Create",
-                    "detail": "The offering"
+                    "label": "Creates"
                   },
                   {
-                    "label": "Deliver",
-                    "detail": "The route to the customer"
+                    "label": "Delivers"
                   },
                   {
-                    "label": "Capture",
-                    "detail": "The return to the business"
+                    "label": "Captures"
                   }
                 ]
               }
@@ -16112,7 +16122,7 @@
           {
             "id": "w8c4",
             "kind": "concept",
-            "title": "platform model parts",
+            "title": "Business model components",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -16129,7 +16139,7 @@
                     "icon": "bulb"
                   },
                   {
-                    "label": "Revenue, costs",
+                    "label": "Revenue streams, costs",
                     "detail": "",
                     "icon": "coin"
                   },
@@ -16146,16 +16156,104 @@
           {
             "id": "w8c5",
             "kind": "concept",
-            "title": "Reaching customers",
+            "title": "Fifth component",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Promotion and distribution channels",
-                "detail": "These complete the course's five-component platform business model."
+                "label": "Channels",
+                "detail": "Promotion and distribution",
+                "icon": "globe"
               }
             },
             "factId": "w8.l1.f05"
+          },
+          {
+            "id": "w8c6",
+            "kind": "concept",
+            "title": "Not components",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Competition",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Government regulations",
+                    "detail": "",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Review and feedback",
+                    "detail": "",
+                    "icon": "lock"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f06"
+          },
+          {
+            "id": "w8c7",
+            "kind": "example",
+            "title": "Examples discussed",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Heavy Electricals",
+                    "detail": "",
+                    "icon": "factory"
+                  },
+                  {
+                    "label": "MDH, salt producer",
+                    "detail": "",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Construction company",
+                    "detail": "",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "Hospital",
+                    "detail": "",
+                    "icon": "heart"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f07"
+          },
+          {
+            "id": "w8c8",
+            "kind": "example",
+            "title": "More examples",
+            "lines": [],
+            "visual": {
+              "type": "tiles",
+              "spec": {
+                "items": [
+                  {
+                    "label": "Forest bio-residue",
+                    "detail": "",
+                    "icon": "leaf"
+                  },
+                  {
+                    "label": "Automotive manufacturer",
+                    "detail": "",
+                    "icon": "gear"
+                  }
+                ]
+              }
+            },
+            "factId": "w8.l1.f08"
           },
           {
             "id": "w8c9",
@@ -16247,13 +16345,23 @@
           {
             "id": "w8c13",
             "kind": "concept",
-            "title": "Business-model failure",
+            "title": "Why models fail",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "A model can fail in two ways",
-                "detail": "An element may stop working, or the model may fail to adapt to a changing environment."
+                "items": [
+                  {
+                    "label": "Cause 1",
+                    "detail": "An element not working as intended",
+                    "icon": "lock"
+                  },
+                  {
+                    "label": "Cause 2",
+                    "detail": "Cannot adapt to change",
+                    "icon": "eye"
+                  }
+                ]
               }
             },
             "factId": "w8.l2.f04"
@@ -16290,13 +16398,33 @@
           {
             "id": "w8c15",
             "kind": "concept",
-            "title": "Three remedies",
+            "title": "Remedies",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "tiles",
               "spec": {
-                "label": "Anticipate, diagnose and align",
-                "detail": "Anticipate future needs, remove causes of failure and match capabilities to the value proposition."
+                "items": [
+                  {
+                    "label": "Futuristic approach",
+                    "detail": "Anticipate what consumers want",
+                    "icon": "eye"
+                  },
+                  {
+                    "label": "Find causes",
+                    "detail": "Behind the symptoms of failure",
+                    "icon": "flask"
+                  },
+                  {
+                    "label": "Match capacity",
+                    "detail": "Capabilities with value proposition",
+                    "icon": "gear"
+                  },
+                  {
+                    "label": "All three",
+                    "detail": "Each is a remedy",
+                    "icon": "target"
+                  }
+                ]
               }
             },
             "factId": "w8.l2.f06"
@@ -16353,13 +16481,14 @@
           {
             "id": "w8c18",
             "kind": "example",
-            "title": "Failure example",
+            "title": "Nano",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Tata Nano is a business-model failure case",
-                "detail": "The lecture includes it when discussing models that do not deliver the expected result."
+                "label": "Nano",
+                "detail": "Listed failure example",
+                "icon": "gear"
               }
             },
             "factId": "w8.l2.f09"
@@ -16626,13 +16755,23 @@
           {
             "id": "w8c31",
             "kind": "concept",
-            "title": "Incubator support: course scope",
+            "title": "Incubator support span",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "The course focuses on pre-founding and founding support",
-                "detail": "It does not describe incubators as hand-holding a venture through its entire early-development journey."
+                "items": [
+                  {
+                    "label": "Incubator support",
+                    "detail": "Time-limited, early-stage",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Not true",
+                    "detail": "Hand-holding for the entire journey",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w8.l3.f12"
@@ -16640,13 +16779,23 @@
           {
             "id": "w8c32",
             "kind": "concept",
-            "title": "Who incubators support",
+            "title": "Incubator features",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Incubators are not only for established firms",
-                "detail": "Their purpose includes helping new ventures develop."
+                "items": [
+                  {
+                    "label": "Features",
+                    "detail": "Networking, shared resources, mentorship",
+                    "icon": "people"
+                  },
+                  {
+                    "label": "Not a feature",
+                    "detail": "Sole focus on established companies",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w8.l3.f13"
@@ -16683,14 +16832,23 @@
           {
             "id": "w8c34",
             "kind": "concept",
-            "title": "stay",
+            "title": "Time in incubator",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "1-2 years",
-                "detail": "Usual incubator stay",
-                "icon": "clock"
+                "items": [
+                  {
+                    "label": "Usual stay",
+                    "detail": "A year or two",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Not",
+                    "detail": "Weeks, decades, indefinitely",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w8.l3.f15"
@@ -16928,13 +17086,14 @@
           {
             "id": "w8c45",
             "kind": "concept",
-            "title": "Funding the venture",
+            "title": "Finance",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Finance supports innovation",
-                "detail": "A venture needs money to develop its offering and keep operating."
+                "label": "Fuel for innovation",
+                "detail": "Finance runs the vehicle of innovation",
+                "icon": "coin"
               }
             },
             "factId": "w8.l4.f01"
@@ -17014,13 +17173,23 @@
           {
             "id": "w8c49",
             "kind": "concept",
-            "title": "Early-stage investment",
+            "title": "Early funding source",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Angel investors",
-                "detail": "The course identifies them as an important source of early-stage startup finance."
+                "items": [
+                  {
+                    "label": "Main early source",
+                    "detail": "Angel investors",
+                    "icon": "coin"
+                  },
+                  {
+                    "label": "Also funds",
+                    "detail": "Self, incubators",
+                    "icon": "people"
+                  }
+                ]
               }
             },
             "factId": "w8.l4.f05"
@@ -17107,13 +17276,13 @@
           {
             "id": "w8c54",
             "kind": "concept",
-            "title": "debt on IP",
+            "title": "Debt against IP",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Collateral: IP",
-                "detail": "Debt financing against intellectual property",
+                "label": "Possible",
+                "detail": "Intellectual property as collateral",
                 "icon": "shield"
               }
             },
@@ -17122,13 +17291,23 @@
           {
             "id": "w8c55",
             "kind": "concept",
-            "title": "Funding sequence",
+            "title": "Debt after equity",
             "lines": [],
             "visual": {
-              "type": "key",
+              "type": "compare",
               "spec": {
-                "label": "Equity follows debt in the course sequence",
-                "detail": "Debt is not presented as the first level of funding."
+                "items": [
+                  {
+                    "label": "Debt financing",
+                    "detail": "Comes later, after VC equity",
+                    "icon": "clock"
+                  },
+                  {
+                    "label": "Not first level",
+                    "detail": "First financing is not debt",
+                    "icon": "lock"
+                  }
+                ]
               }
             },
             "factId": "w8.l4.f11"
@@ -17136,13 +17315,14 @@
           {
             "id": "w8c56",
             "kind": "concept",
-            "title": "Why venture debt exists",
+            "title": "Debt financing for",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Some startups lack collateral for traditional loans",
-                "detail": "Venture debt can serve funded startups that do not have conventional assets to pledge."
+                "label": "Startups lacking assets",
+                "detail": "Cannot get traditional loans",
+                "icon": "people"
               }
             },
             "factId": "w8.l4.f12"
@@ -17255,7 +17435,7 @@
                 "items": [
                   {
                     "label": "Angel investors",
-                    "detail": "Early-stage source per key",
+                    "detail": "Main early-stage source",
                     "icon": "coin"
                   },
                   {
@@ -17270,7 +17450,7 @@
                   },
                   {
                     "label": "Equity",
-                    "detail": "Follows debt",
+                    "detail": "Usually comes first",
                     "icon": "chart"
                   }
                 ]
@@ -17382,7 +17562,7 @@
           {
             "id": "w8c65",
             "kind": "concept",
-            "title": "future-market areas",
+            "title": "Future-market areas",
             "lines": [],
             "visual": {
               "type": "tiles",
@@ -17450,13 +17630,14 @@
           {
             "id": "w8c67",
             "kind": "concept",
-            "title": "A further innovation market",
+            "title": "Last of nine",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "Defence",
-                "detail": "The ninth area in the course's list of future markets."
+                "label": "Defense",
+                "detail": "Ninth area in the official key",
+                "icon": "lock"
               }
             },
             "factId": "w8.l5.f06"
@@ -17464,13 +17645,14 @@
           {
             "id": "w8c68",
             "kind": "concept",
-            "title": "Future markets for India",
+            "title": "All nine areas",
             "lines": [],
             "visual": {
               "type": "key",
               "spec": {
-                "label": "All nine areas offer innovation opportunities",
-                "detail": "Digital technology, renewable energy, healthcare, agriculture, disaster management, education, finance, cities and defence."
+                "label": "All nine",
+                "detail": "Not just some of the areas",
+                "icon": "target"
               }
             },
             "factId": "w8.l5.f07"
@@ -17495,7 +17677,7 @@
     ],
     "cheatSheet": [
       {
-        "heading": "Business model (1)",
+        "heading": "Business model",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17522,7 +17704,7 @@
         }
       },
       {
-        "heading": "Business model (2)",
+        "heading": "Business model components",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17549,7 +17731,7 @@
         }
       },
       {
-        "heading": "Model failure (1)",
+        "heading": "Model failure",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -17569,18 +17751,7 @@
                 "label": "Remedy 1",
                 "detail": "Futuristic approach",
                 "icon": "bulb"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Model failure (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Remedy 2",
                 "detail": "Match capacity to value",
@@ -17591,7 +17762,7 @@
         }
       },
       {
-        "heading": "Entrepreneurial stages (1)",
+        "heading": "Entrepreneurial stages",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17612,22 +17783,7 @@
               [
                 "Early development",
                 "Build company, penetrate market"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Entrepreneurial stages (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Term",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Business incubator",
                 "Regional growth, early-stage ventures"
@@ -17641,7 +17797,7 @@
         }
       },
       {
-        "heading": "Incubators (1)",
+        "heading": "Incubators",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17662,22 +17818,7 @@
               [
                 "Support",
                 "Pre-founding and founding only"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Incubators (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Fact",
-              "Detail"
-            ],
-            "rows": [
+              ],
               [
                 "Not a feature",
                 "Established firms only"
@@ -17687,7 +17828,7 @@
         }
       },
       {
-        "heading": "Funding sources (1)",
+        "heading": "Funding sources",
         "bullets": [],
         "visual": {
           "type": "table",
@@ -17703,41 +17844,26 @@
               ],
               [
                 "Angel investors",
-                "Early-stage source per key"
+                "Main early-stage source"
               ],
               [
                 "Venture capitalist",
                 "Massive return sought"
-              ]
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Funding sources (2)",
-        "bullets": [],
-        "visual": {
-          "type": "table",
-          "spec": {
-            "headers": [
-              "Source",
-              "Know"
-            ],
-            "rows": [
+              ],
               [
                 "Debt",
                 "Collateral incl. IP"
               ],
               [
                 "Equity",
-                "Follows debt"
+                "Usually comes first"
               ]
             ]
           }
         }
       },
       {
-        "heading": "Venture debt (1)",
+        "heading": "Venture debt",
         "bullets": [],
         "visual": {
           "type": "tiles",
@@ -17757,18 +17883,7 @@
                 "label": "10%-15%",
                 "detail": "Equity option",
                 "icon": "chart"
-              }
-            ]
-          }
-        }
-      },
-      {
-        "heading": "Venture debt (2)",
-        "bullets": [],
-        "visual": {
-          "type": "tiles",
-          "spec": {
-            "items": [
+              },
               {
                 "label": "Collateral",
                 "detail": "Assets, receivables, IP",

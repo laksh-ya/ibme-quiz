@@ -1,0 +1,228 @@
+{
+ "questions": {
+  "Q1": [
+   {
+    "option": "Value proposition",
+    "correct": false,
+    "card": "w8.l1.f10"
+   },
+   {
+    "option": "Business Model",
+    "correct": true,
+    "card": "w8.l1.f01"
+   },
+   {
+    "option": "Business Strategy",
+    "correct": false,
+    "card": "w8.l1.f10"
+   },
+   {
+    "option": "Revenue Model",
+    "correct": false,
+    "card": "w8.l1.f10"
+   }
+  ],
+  "Q2": [
+   {
+    "option": "(a), (b), (d), (g), (h)",
+    "correct": false,
+    "card": "w8.l1.f04"
+   },
+   {
+    "option": "(a), (b), (c), (e), (f)",
+    "correct": false,
+    "card": "w8.l1.f04"
+   },
+   {
+    "option": "(a), (b), (d), (e), (f)",
+    "correct": true,
+    "card": "w8.l1.f04"
+   },
+   {
+    "option": "(b), (d), (e), (f), (h)",
+    "correct": false,
+    "card": "w8.l1.f04"
+   }
+  ],
+  "Q3": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": false,
+    "card": "w8.l2.f04"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w8.l2.f04"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": true,
+    "card": "w8.l2.f04"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w8.l2.f04"
+   }
+  ],
+  "Q4": [
+   {
+    "option": "Having a futuristic approach where the business try to anticipate the features or characteristics of their product or services or processes would be desirable by the consumers.",
+    "correct": false,
+    "card": "w8.l2.f06"
+   },
+   {
+    "option": "Focus on the areas of consideration to understand the symptoms of the failure and thereby trying to eliminate its causes by choosing alternate courses of action.",
+    "correct": false,
+    "card": "w8.l2.f06"
+   },
+   {
+    "option": "Matching the capacity and capabilities with the value proposition.",
+    "correct": false,
+    "card": "w8.l2.f06"
+   },
+   {
+    "option": "All of the above",
+    "correct": true,
+    "card": "w8.l2.f06"
+   }
+  ],
+  "Q5": [
+   {
+    "option": "Entrepreneurship is a chain of events creating, developing, and managing a business venture with the aim of identifying opportunities, taking calculated risks, and generating value.",
+    "correct": false,
+    "card": "w8.l3.f01"
+   },
+   {
+    "option": "Business incubators are supportive environments designed to nurture the growth and development of early-stage startups and entrepreneurs.",
+    "correct": false,
+    "card": "w8.l3.f07"
+   },
+   {
+    "option": "In practice, incubators provide handholding throughout the entire entrepreneurial journey from pre-founding stage to early development stage.",
+    "correct": true,
+    "card": "w8.l3.f12"
+   },
+   {
+    "option": "Incubators offer a range of resources, mentorship, and infrastructure to help startups overcome challenges, refine their business models, and accelerate their journey.",
+    "correct": false,
+    "card": "w8.l3.f16"
+   }
+  ],
+  "Q6": [
+   {
+    "option": "Networking opportunities",
+    "correct": false,
+    "card": "w8.l3.f14"
+   },
+   {
+    "option": "Sole focus on established companies",
+    "correct": true,
+    "card": "w8.l3.f13"
+   },
+   {
+    "option": "Access to shared resources",
+    "correct": false,
+    "card": "w8.l3.f14"
+   },
+   {
+    "option": "Mentorship and expert guidance",
+    "correct": false,
+    "card": "w8.l3.f14"
+   }
+  ],
+  "Q7": [
+   {
+    "option": "A few decades",
+    "correct": false,
+    "card": "w8.l3.f15"
+   },
+   {
+    "option": "A year or two",
+    "correct": true,
+    "card": "w8.l3.f15"
+   },
+   {
+    "option": "A few weeks",
+    "correct": false,
+    "card": "w8.l3.f15"
+   },
+   {
+    "option": "Indefinitely",
+    "correct": false,
+    "card": "w8.l3.f15"
+   }
+  ],
+  "Q8": [
+   {
+    "option": "Government grants",
+    "correct": false,
+    "card": "w8.l4.f05"
+   },
+   {
+    "option": "Angel investors",
+    "correct": true,
+    "card": "w8.l4.f05"
+   },
+   {
+    "option": "IPOs",
+    "correct": false,
+    "card": "w8.l4.f05"
+   },
+   {
+    "option": "Self",
+    "correct": false,
+    "card": "w8.l4.f05"
+   }
+  ],
+  "Q9": [
+   {
+    "option": "Only Statement I is correct.",
+    "correct": true,
+    "card": "w8.l4.f10"
+   },
+   {
+    "option": "Only Statement II is correct.",
+    "correct": false,
+    "card": "w8.l4.f10"
+   },
+   {
+    "option": "Both the statements are correct.",
+    "correct": false,
+    "card": "w8.l4.f11"
+   },
+   {
+    "option": "Both the statements are incorrect.",
+    "correct": false,
+    "card": "w8.l4.f11"
+   }
+  ],
+  "Q10": [
+   {
+    "option": "(b), (c), (g)",
+    "correct": false,
+    "card": "w8.l5.f07"
+   },
+   {
+    "option": "(a), (d), (e), (f), (i)",
+    "correct": false,
+    "card": "w8.l5.f07"
+   },
+   {
+    "option": "Only (b) and (g)",
+    "correct": false,
+    "card": "w8.l5.f07"
+   },
+   {
+    "option": "(a), (b), (c), (d), (e), (f), (g), (h), (i)",
+    "correct": true,
+    "card": "w8.l5.f07"
+   }
+  ]
+ },
+ "notes": [
+  "Q8: key is Angel investors while the lecture names self first; cards teach angel investors as the main early source and self as also funding. Grants and IPOs as wrong options are not in the lectures, so they are not discussed on cards",
+  "Q7: lecturer says incubatees stay 2-3 years; card carries the key 'a year or two'"
+ ]
+}
