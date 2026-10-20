@@ -113,3 +113,9 @@
  .duo .pdfrow .pacts .btn{min-height:44px;min-width:76px;}
  .duo .gate .gcard{padding-top:8px;}
 }
+@media(max-width:640px){
+ .duo .ex-foot .skip{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;font-size:13px;}
+ .duo .ex-foot .in{gap:10px;}
+ .duo .ex-foot .kb{display:none;}
+ .duo .ex-foot .btn{flex:none;}
+}
