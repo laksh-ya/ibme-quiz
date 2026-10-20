@@ -39,7 +39,12 @@ ${s.phase === "fix" ? '<div class="banner2">' + I.heart.replace("<svg", '<svg wi
 ${footHtml()}</div>`;
   requestAnimationFrame(() => {
     const bubble = $(".bubble", ui.el), hint = $(".question-hint", ui.el);
-    if (bubble && hint && innerWidth <= 640) hint.hidden = bubble.scrollHeight <= bubble.clientHeight + 2;
+    if (bubble && hint && innerWidth <= 640) {
+      const overflow = bubble.scrollHeight > bubble.clientHeight + 2;
+      hint.hidden = !overflow;
+      bubble.classList.toggle("scrollable", overflow);
+      bubble.addEventListener("scroll", () => bubble.classList.toggle("scrollable", bubble.scrollTop + bubble.clientHeight < bubble.scrollHeight - 2));
+    }
   });
 }
 

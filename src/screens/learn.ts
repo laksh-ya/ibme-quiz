@@ -11,7 +11,6 @@ export function popover(w) {
 }
 
 export function pgLearn() {
-  const zf = innerWidth <= 400 ? 0.62 : 1, offs = [0, -46, -74, -46, 0, 46, 74, 46].map((o) => Math.round(o * zf));
   let firstOpen = null;
   for (let w = 1; w <= 8; w++) if ((wkStat(w) || 0) < 80) {
     firstOpen = w;
@@ -19,9 +18,9 @@ export function pgLearn() {
   }
   const nodes = [1, 2, 3, 4, 5, 6, 7, 8].map((w) => {
     const b = wkStat(w), done = b != null && b >= 80;
-    return `<div class="wrow" style="margin-top:${firstOpen === w ? (w === 1 ? 48 : 120) : 0}px"><div style="transform:translateX(${offs[w - 1]}px);position:relative">
+    return `<div class="wrow" ><div class="node-anchor">
   ${firstOpen === w && ui.popW !== w ? '<div class="start">Start</div>' : ""}
-  <button class="node ${done ? "done" : ""} ${ui.popW === w ? "open" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>${ui.popW === w ? popover({ w, off: offs[w - 1] }) : ""}</div>`;
+  <button class="node ${done ? "completed" : ""} ${b === 100 ? "perfect" : ""} ${firstOpen === w ? "current" : ""} ${ui.popW === w ? "open" : ""}" data-node="${w}">${done ? I.check : I.star}<span class="lab">Week ${w}${b != null ? " \xB7 " + b + "%" : ""}</span></button></div>${ui.popW === w ? popover({ w, off: 0 }) : ""}</div>`;
   }).join("");
   return `<p class="home-greeting">${S.set.name ? `Ready for another step, ${esc(S.set.name)}?` : "Ready for your next step?"}</p><div class="banner"><div><small>Section 1</small><h2>Innovation, Business Models and Entrepreneurship</h2></div></div>
 <div class="path">${nodes}<div style="width:140px;margin-top:6px">${mascot(S.set.av, "cheer")}</div></div>`;

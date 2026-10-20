@@ -116,3 +116,29 @@
 .duo .seg:has(.opts3)>span { font-size:16px; color:var(--text); }
 .duo .seg .opts3 { width:100%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
 .duo .seg .opts3 button { min-width:0; padding:10px 4px; font-size:12px; }
+/* Give reading space back to the question instead of reserving empty answer space. */
+@media(max-width:640px) {
+ .duo .question-layout .cols>div.question-pane:first-child,.duo .question-layout .stage.longq .cols>div.question-pane:first-child { flex:1 1 0; max-height:none; min-height:0; }
+ .duo .question-layout .question-pane .qrow { flex:1; min-height:0; align-items:flex-start; }
+ .duo .question-layout .bubble { flex:1; max-height:100%; }
+ .duo .question-layout .opts,.duo .question-layout .stage.longq .opts { flex:0 1 auto; max-height:65%; min-height:54px; padding-bottom:8px; }
+ .duo .question-layout .bubble.scrollable { mask-image:linear-gradient(to bottom,#000 0,#000 calc(100% - 18px),transparent 100%); padding-bottom:30px; }
+ .duo .question-hint { flex:none; }
+}
+/* A single path axis, with labels kept outside the icon grid. */
+.duo .path { gap:24px; padding:64px 0 40px; }
+.duo .wrow { width:100%; display:flex; flex-direction:column; align-items:center; gap:16px; }
+.duo .node-anchor { position:relative; width:100%; display:flex; justify-content:center; padding-bottom:36px; }
+.duo .node { padding:0; flex:none; }
+.duo .node>svg { display:block; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:40px; height:40px; }
+.duo .node .lab { width:200px; max-width:calc(100vw - 48px); left:50%; bottom:-34px; transform:translateX(-50%); text-align:center; white-space:normal; line-height:1.4; font-size:15px; }
+.duo .node.completed { background:var(--yellow); box-shadow:0 8px 0 var(--yellow-d); }
+.duo .node.completed:active { box-shadow:0 2px 0 var(--yellow-d); }
+.duo .node.perfect { outline:2px solid var(--yellow); outline-offset:5px; }
+.duo .wrow:has(.node.current) { margin-top:56px; }
+.duo .wrow:first-child:has(.node.current) { margin-top:0; }
+.duo .start { animation:none; top:-56px; }
+.duo .wrow { margin-bottom:0; }
+.duo .path { padding-top:32px; }
+.duo .wrow:first-child:has(.node.current) { margin-top:32px; }
+.duo .pop2 { margin-top:0; }
