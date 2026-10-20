@@ -312,6 +312,12 @@ export function illustratedLesson(id:string,title:string,v:any):string|null{
  case 'w3c52':body=person(42,60)+person(135,60)+person(229,60)+person(322,60)+path('M25 25h34m59 0 17-18 17 18m60-4h34m59-7 17 17 17-17','figure-main')+path('M42 142l138 65 142-65m-187 0 45 65 49-65','figure-fine')+label(41,250,'Different backgrounds, more perspectives',true);break;
  case 'w3c55':body=person(48,70)+person(307,70)+arrow(87,88,266,88)+arrow(266,145,87,145)+label(135,64,'Value',true)+label(130,184,'Exchange',true)+label(61,247,'Value is at the core of exchange',true);break;
  case 'w3c84':body=path('M22 177h312M48 177V86h73v91m50 0V55h73v122','figure-fine')+arrow(32,42,108,42)+label(23,225,'Small tests',true)+label(190,225,'High stakes',true)+label(78,255,'Experiment carefully',true);break;
+
+ case 'w4c6':body=path('M24 46h129v98H24Zm39 111h50m-25-13v13','figure-fine')+path('M74 68l35 25-35 25Z','figure-main')+arrow(168,96,210,96)+path('M231 45h99v144h-99Z','figure-fine')+path('M245 67h71m-71 20h71m-71 20h71m-71 20h71','figure-main')+label(23,234,'Recorded, virtual',true)+label(223,234,'Digital reading',true);break;
+ case 'w4c7':body=path('M25 132V55h78v77m-52-59h25m-12-12v25m-39 85v-24h78v24','figure-fine')+arrow(117,98,210,98)+person(267,58)+path('M232 158h87v49h-87','figure-main')+label(12,245,'Local centres',true)+label(211,245,'Remote doctors',true);break;
+ case 'w4c20':body=person(65,72)+person(292,72)+path('M43 161q139 81 269 0','figure-main')+path('M98 97h156','figure-fine')+label(124,76,'Beyond',true)+label(107,128,'transactions',true)+label(31,250,'Customers feel the company stands by them',true);break;
+ case 'w4c22':body=person(57,71)+person(183,71)+person(308,71)+arrow(57,151,162,197)+arrow(308,151,203,197)+label(133,231,'Opportunity',true)+label(23,37,'Background need not be a limit',true);break;
+ case 'w4c52':body=path('M23 47h63v53H23Zm83 0h63v53h-63Zm83 0h63v53h-63Zm83 0h63v53h-63','figure-fine')+path('M53 115v43h254v-43M137 115v43M222 115v43','figure-main')+label(23,223,'Four visual steps reveal the big picture',true);break;
  default:return null;
  }
  const parts=v.spec.items||v.spec.nodes||v.spec.rows||[];
