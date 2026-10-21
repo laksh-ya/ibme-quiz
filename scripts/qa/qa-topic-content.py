@@ -15,4 +15,13 @@ for old,w in zip(base,now):
    assert len(c['lines']) in (3,4)
    assert all(len(p)>65 for p in c['lines'])
    assert c['kind']=='topic'
+  original={x['id']:x for x in before['cards']}
+  for c in l['cards']:
+   assert c['topicVisuals'],c['id']
+   for v in c['topicVisuals']:
+    assert v['sourceCardId'] in c['sourceCardIds'],c['id']
+    assert v['visual']==original[v['sourceCardId']]['visual'],c['id']
+    assert v['title']==original[v['sourceCardId']]['title'],c['id']
+    assert 1<=v['afterParagraph']<=len(c['lines']),c['id']
+
  print('Week',w['week'],': cheat sheet unchanged; every source card/fact covered once;',sum(len(l['cards']) for l in w['lectures']),'ordered topics')

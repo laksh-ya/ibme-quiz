@@ -358,3 +358,22 @@
 .duo .teaching-content.topic-card>.head{overflow-wrap:anywhere;}
 
 .duo .teaching-scroll.topic-scroll:not([hidden]){height:auto;padding:3px 16px 5px;line-height:1.4;background:var(--bg);}
+
+/* Diagrams belong inside their explanation, not on a separate fact card. */
+.duo .topic-explainer{min-width:0;padding:22px 0;margin:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.duo .topic-explainer>h2{font-family:'M PLUS Rounded 1c',sans-serif;font-size:16px;line-height:1.4;color:var(--sub);margin:0 0 18px;}
+.duo .topic-diagram{min-width:0;max-width:100%;}
+.duo .topic-explainer .lesson-figure{margin:0;}
+.duo .topic-explainer .lesson-figure svg{display:block;width:100%;height:auto;max-height:none;max-width:440px;margin:0 auto;}
+.duo .topic-explainer .figure-claim,.duo .topic-explainer .figure-facts{display:none;}
+.duo .topic-explainer .lesson-figure figcaption{display:block;font-size:15px;line-height:1.55;margin-top:12px;padding-top:14px;}
+.duo .topic-explainer .figure-label{font-family:'M PLUS Rounded 1c',sans-serif;}
+.duo .topic-explainer .figure-small{font-family:'M PLUS Rounded 1c',sans-serif;}
+.duo .topic-explainer .definition-sheet{padding:12px 0;}
+.duo .topic-explainer .definition-sheet h2{font-size:24px;line-height:1.3;}
+.duo .topic-explainer .definition-sheet p{font-size:17px;}
+.duo .teaching-content.topic-card .topic-explainer p{padding-left:0;font-size:16px;line-height:1.5;}
+.duo .teaching-content.topic-card .topic-explainer p::before{content:none;counter-increment:none;}
+.duo .topic-diagram *{min-width:0;overflow-wrap:anywhere;}
+.duo .teaching-content.topic-card .comparison-spread h2{overflow-wrap:anywhere;}
+@media(max-width:360px){.duo .topic-diagram .comparison-spread{grid-template-columns:1fr;gap:20px;}.duo .topic-diagram .comparison-spread section+section{border-left:0;padding:20px 0 0;border-top:1px solid var(--line);}}

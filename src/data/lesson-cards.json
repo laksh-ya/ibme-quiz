@@ -31,6 +31,40 @@
             "sourceCardIds": [
               "w1c1",
               "w1c3"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c1",
+                "afterParagraph": 1,
+                "title": "Business environment",
+                "visual": {
+                  "type": "business-pressure",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Shrinking PLCs",
+                        "detail": "Shorter product life",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Rising expectations",
+                        "detail": "Cheap + good + fast",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "High uncertainty",
+                        "detail": "Hard to predict",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Global impact",
+                        "detail": "Local event, world effect",
+                        "icon": "globe"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -58,6 +92,46 @@
               "w1c5",
               "w1c68",
               "w1c69"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c4",
+                "afterParagraph": 1,
+                "title": "Product life cycle",
+                "visual": {
+                  "type": "plc",
+                  "spec": {
+                    "labels": [
+                      "Introduction",
+                      "Growth",
+                      "Maturity",
+                      "Decline"
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w1c5",
+                "afterParagraph": 2,
+                "title": "PLC is shrinking",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Before",
+                        "detail": "10-20 years",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Now",
+                        "detail": "2-3 years",
+                        "icon": "clock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -85,6 +159,35 @@
               "w1c70",
               "w1c2",
               "w1c71"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c6",
+                "afterParagraph": 1,
+                "title": "Expectations",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Low cost",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "High quality",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Fast delivery",
+                        "detail": "",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -108,6 +211,32 @@
             "sourceCardIds": [
               "w1c7",
               "w1c8"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c8",
+                "afterParagraph": 2,
+                "title": "Apple: global interdependence",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "United States",
+                        "detail": "Design"
+                      },
+                      {
+                        "label": "China",
+                        "detail": "Manufacturing"
+                      },
+                      {
+                        "label": "Worldwide",
+                        "detail": "Customers and markets"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -137,6 +266,40 @@
               "w1c11",
               "w1c74",
               "w1c12"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c9",
+                "afterParagraph": 1,
+                "title": "Series of development",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Europe",
+                        "detail": "Industrialization",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "N. America",
+                        "detail": "Economic power",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "Japan",
+                        "detail": "Quality",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "China",
+                        "detail": "Low cost",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -162,6 +325,35 @@
               "w1c72",
               "w1c73",
               "w1c13"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c72",
+                "afterParagraph": 1,
+                "title": "Course puzzle",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Ola, Uber",
+                        "detail": "Own no taxis",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Alibaba",
+                        "detail": "Holds no inventory",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "WhatsApp, Gmail",
+                        "detail": "Free, still profitable",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -194,6 +386,40 @@
             "sourceCardIds": [
               "w1c14",
               "w1c15"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c15",
+                "afterParagraph": 1,
+                "title": "Change to opportunity",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Change",
+                      "Business"
+                    ],
+                    "rows": [
+                      [
+                        "Swachh Bharat",
+                        "Waste, sanitation"
+                      ],
+                      [
+                        "Corruption",
+                        "IT transparency"
+                      ],
+                      [
+                        "GST",
+                        "Compliance software"
+                      ],
+                      [
+                        "Demonetization",
+                        "E-payments"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -227,6 +453,35 @@
               "w1c28",
               "w1_l2_f21",
               "w1_l2_f22"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c16",
+                "afterParagraph": 1,
+                "title": "Three I's",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Idea",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Implementation",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Impact",
+                        "detail": "",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -252,6 +507,36 @@
               "w1c20",
               "w1c21",
               "w1c22"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c21",
+                "afterParagraph": 2,
+                "title": "Impact by organisation",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Organisation",
+                      "Impact"
+                    ],
+                    "rows": [
+                      [
+                        "Business",
+                        "Share, cost, profit"
+                      ],
+                      [
+                        "School",
+                        "Higher study"
+                      ],
+                      [
+                        "Religious body",
+                        "Quit addictions"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -275,6 +560,20 @@
             "sourceCardIds": [
               "w1c75",
               "w1c23"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c23",
+                "afterParagraph": 1,
+                "title": "Novelty in implementation",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Gandhi changed how an existing idea was used",
+                    "detail": "Non-violence was not new. Its implementation as a mass movement was the innovation."
+                  }
+                }
+              }
             ]
           },
           {
@@ -310,6 +609,36 @@
               "w1c26",
               "w1c27",
               "w1c29"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c25",
+                "afterParagraph": 2,
+                "title": "Myths vs reality",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Myth",
+                      "Reality"
+                    ],
+                    "rows": [
+                      [
+                        "Starts with creativity",
+                        "Starts with curiosity"
+                      ],
+                      [
+                        "Smooth, linear",
+                        "Iterative"
+                      ],
+                      [
+                        "Just risk-taking",
+                        "Risk + mitigation"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -354,6 +683,40 @@
               "w1c79",
               "w1c34",
               "w1c43"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c31",
+                "afterParagraph": 1,
+                "title": "Four forms of resistance",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Ignoring idea",
+                        "detail": "",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Fear of failure",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Inertia",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Low confidence",
+                        "detail": "",
+                        "icon": "heart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -393,6 +756,35 @@
               "w1c82",
               "w1_l3_f24",
               "w1c44"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1_l3_f24",
+                "afterParagraph": 1,
+                "title": "Three VUCA terms apart",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Volatility",
+                        "detail": "Unexpected, unstable, unknown duration",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Uncertainty",
+                        "detail": "Cause-effect known, may change",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Ambiguity",
+                        "detail": "Relationship unknown, no precedent",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -424,6 +816,30 @@
               "w1c83",
               "w1c84",
               "w1c85"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c41",
+                "afterParagraph": 1,
+                "title": "Elephant and rider",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Elephant",
+                        "detail": "Emotional, heavy, powerful, slow",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Rider",
+                        "detail": "Analytical, sees ahead, powerless alone",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -458,6 +874,30 @@
               "w1c45",
               "w1c86",
               "w1c87"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c45",
+                "afterParagraph": 1,
+                "title": "Jugaad vs systematic",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Jugaad",
+                        "detail": "Ad hoc, not sustainable",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Systematic",
+                        "detail": "Planned, leads to IP",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -489,6 +929,35 @@
               "w1c88",
               "w1c89",
               "w1c90"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c90",
+                "afterParagraph": 1,
+                "title": "Breakthrough link",
+                "visual": {
+                  "type": "loop",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Breakthrough",
+                        "detail": "",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Increments",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Next breakthrough",
+                        "detail": "",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -520,6 +989,40 @@
               "w1c92",
               "w1c93",
               "w1c94"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c49",
+                "afterParagraph": 1,
+                "title": "Frugal innovation",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Constraints",
+                        "detail": "Opportunity, not liability",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Priority",
+                        "detail": "Agility over efficiency",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Aim",
+                        "detail": "Value at lowest cost",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Not",
+                        "detail": "Technical wow",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -555,6 +1058,40 @@
               "w1c52",
               "w1c53",
               "w1c54"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c53",
+                "afterParagraph": 3,
+                "title": "IPL",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Business model",
+                        "detail": "Franchise",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Product",
+                        "detail": "T20",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Process",
+                        "detail": "New rules",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Experience",
+                        "detail": "Entertainment",
+                        "icon": "heart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -591,6 +1128,30 @@
               "w1c56",
               "w1c57",
               "w1c58"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c55",
+                "afterParagraph": 1,
+                "title": "Can it be taught?",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Hard",
+                        "detail": "Emotions",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Teachable",
+                        "detail": "Analysis",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -628,6 +1189,53 @@
               "w1c62",
               "w1c63",
               "w1c104"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c59",
+                "afterParagraph": 1,
+                "title": "Design thinking",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Focus",
+                        "detail": "Solution",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Style",
+                        "detail": "Action, prototyping",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Core",
+                        "detail": "Human-centered",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Team",
+                        "detail": "Cross-functional",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w1c62",
+                "afterParagraph": 2,
+                "title": "Rapid prototyping",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "3D printing",
+                    "detail": "Cheap prototypes, fast iteration",
+                    "icon": "gear"
+                  }
+                }
+              }
             ]
           },
           {
@@ -653,6 +1261,35 @@
               "w1c64",
               "w1c99",
               "w1c100"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c99",
+                "afterParagraph": 1,
+                "title": "Constraint cycle",
+                "visual": {
+                  "type": "loop",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Find constraint",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Fix it",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Next appears",
+                        "detail": "",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -676,6 +1313,21 @@
             "sourceCardIds": [
               "w1c65",
               "w1c105"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1c105",
+                "afterParagraph": 1,
+                "title": "Lateral thinking",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Lateral",
+                    "detail": "Known idea, unrelated context",
+                    "icon": "branch"
+                  }
+                }
+              }
             ]
           },
           {
@@ -703,6 +1355,48 @@
               "w1_l5_f21",
               "w1_l5_f22",
               "w1c67"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w1_l5_f21",
+                "afterParagraph": 1,
+                "title": "Hat to perspective",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Hat",
+                      "Perspective"
+                    ],
+                    "rows": [
+                      [
+                        "White",
+                        "Information"
+                      ],
+                      [
+                        "Black",
+                        "Barriers"
+                      ],
+                      [
+                        "Red",
+                        "Feelings, intuition"
+                      ],
+                      [
+                        "Yellow",
+                        "Values and benefits"
+                      ],
+                      [
+                        "Green",
+                        "Creativity, new ideas"
+                      ],
+                      [
+                        "Blue",
+                        "Manage process"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1069,6 +1763,52 @@
               "w2c62",
               "w2c63",
               "w2c8"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c1",
+                "afterParagraph": 1,
+                "title": "Two levels",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Individual",
+                        "detail": "Person-level",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Systemic",
+                        "detail": "Organisation-level",
+                        "icon": "factory"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w2c8",
+                "afterParagraph": 3,
+                "title": "Fear of failure",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "90% marks",
+                        "detail": "Unhappy",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Classmate 94%",
+                        "detail": "The reason",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1098,6 +1838,30 @@
               "w2c10",
               "w2c4",
               "w2c11"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c10",
+                "afterParagraph": 1,
+                "title": "Collaboration",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "None",
+                        "detail": "Test match",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Collaboration",
+                        "detail": "T20",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1127,6 +1891,21 @@
               "w2c61",
               "w2c6",
               "w2c13"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c12",
+                "afterParagraph": 1,
+                "title": "Internal heroes",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Employee of month",
+                    "detail": "Board, photo",
+                    "icon": "people"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1169,6 +1948,38 @@
               "w2_l2_f14",
               "w2c17",
               "w2c23"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2_l2_f13",
+                "afterParagraph": 2,
+                "title": "Middle steps of innovation management",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Collect ideas"
+                      },
+                      {
+                        "label": "Select idea",
+                        "detail": "Step X"
+                      },
+                      {
+                        "label": "Experiment",
+                        "detail": "Step Y"
+                      },
+                      {
+                        "label": "Business model",
+                        "detail": "Step Z"
+                      },
+                      {
+                        "label": "Diffusion, impact"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1198,6 +2009,43 @@
               "w2c19",
               "w2c65",
               "w2c20"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c18",
+                "afterParagraph": 1,
+                "title": "Collection",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Do",
+                        "detail": "Quantity, idea bank",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Don't",
+                        "detail": "Judge quality",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w2c19",
+                "afterParagraph": 2,
+                "title": "Selection",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Criteria",
+                    "detail": "Each organisation sets its own",
+                    "icon": "target"
+                  }
+                }
+              }
             ]
           },
           {
@@ -1223,6 +2071,35 @@
               "w2c21",
               "w2_l2_f15",
               "w2c22"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c21",
+                "afterParagraph": 1,
+                "title": "Three Ps of sustainability",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "People",
+                        "detail": "Social",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Planet",
+                        "detail": "Environmental",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Profit",
+                        "detail": "Economic",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1259,6 +2136,30 @@
               "w2c25",
               "w2c26",
               "w2_l3_f18"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c25",
+                "afterParagraph": 1,
+                "title": "Idea Management System aims",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Overcome",
+                        "detail": "Resistance to change",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Overcome",
+                        "detail": "Prediction disability",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1284,6 +2185,35 @@
               "w2c27",
               "w2c66",
               "w2c67"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c27",
+                "afterParagraph": 1,
+                "title": "Idea management asks",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Who submits?",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Who selects?",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Who funds?",
+                        "detail": "",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1311,6 +2241,30 @@
               "w2c30",
               "w2c29",
               "w2_l3_f19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c28",
+                "afterParagraph": 1,
+                "title": "Challenge book",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Purpose",
+                        "detail": "Builds the Idea Bank",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "First step",
+                        "detail": "Identify the right problem",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1336,6 +2290,72 @@
               "w2c31",
               "w2c32",
               "w2c33"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c32",
+                "afterParagraph": 2,
+                "title": "Feel the pain",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Current customer",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Future customer",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Employee",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Partner",
+                        "detail": "",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w2c33",
+                "afterParagraph": 3,
+                "title": "Sense the wave",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Technology",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Demographic",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Regulatory",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Fashion",
+                        "detail": "",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1367,6 +2387,35 @@
               "w2_l3_f20",
               "w2c35",
               "w2c36"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c34",
+                "afterParagraph": 1,
+                "title": "See the waste",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Human effort",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Natural resources",
+                        "detail": "Energy, water, land",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Technology resources",
+                        "detail": "",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1407,6 +2456,30 @@
               "w2_l4_f15",
               "w2c40",
               "w2c49"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c38",
+                "afterParagraph": 1,
+                "title": "Divergent",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Divergent",
+                        "detail": "Explore many solutions",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Convergent",
+                        "detail": "Narrow to one",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1428,6 +2501,30 @@
             ],
             "sourceCardIds": [
               "w2c39"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c39",
+                "afterParagraph": 1,
+                "title": "Kahneman",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "System 1",
+                        "detail": "Fast, automatic",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "System 2",
+                        "detail": "Slow, deliberate",
+                        "icon": "clock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1457,6 +2554,30 @@
               "w2c43",
               "w2c44",
               "w2c45"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c43",
+                "afterParagraph": 2,
+                "title": "Pricing ideas",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Tyres",
+                        "detail": "Charge by usage",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Insurance",
+                        "detail": "Premium by health upkeep",
+                        "icon": "shield"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1482,6 +2603,40 @@
               "w2c46",
               "w2c47",
               "w2c48"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c46",
+                "afterParagraph": 1,
+                "title": "Transition phase",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Interesting",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Testing",
+                        "detail": "",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "Difficult",
+                        "detail": "",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Brings hope",
+                        "detail": "",
+                        "icon": "heart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1520,6 +2675,40 @@
               "w2c52",
               "w2c53",
               "w2c60"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c51",
+                "afterParagraph": 1,
+                "title": "Design thinking",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Sequence",
+                        "detail": "",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Harmony",
+                        "detail": "",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Rhythm",
+                        "detail": "",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Self-propelled",
+                        "detail": "Productivity, growth",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1543,6 +2732,35 @@
             "sourceCardIds": [
               "w2c54",
               "w2c55"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c54",
+                "afterParagraph": 1,
+                "title": "Jamshedji Tata (1/2)",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Manchester mills",
+                        "detail": "",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Maharashtra mill",
+                        "detail": "",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Crèche",
+                        "detail": "Working mothers",
+                        "icon": "heart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1570,6 +2788,21 @@
               "w2c57",
               "w2c58",
               "w2c59"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w2c57",
+                "afterParagraph": 1,
+                "title": "Pencil",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "500+ companies",
+                    "detail": "Graphite, wood from many places",
+                    "icon": "globe"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -1914,6 +3147,30 @@
               "w3c3",
               "w3c12",
               "w3c13"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c13",
+                "afterParagraph": 3,
+                "title": "What an experiment gives",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Experiment gives",
+                        "detail": "Learning; validate with low-cost tests",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "Not",
+                        "detail": "Desired result every time",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1949,6 +3206,72 @@
               "w3c9",
               "w3c10",
               "w3c11"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c5",
+                "afterParagraph": 1,
+                "title": "Four assumption types",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Need",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Technical",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Production",
+                        "detail": "",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Commercial",
+                        "detail": "",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w3c11",
+                "afterParagraph": 2,
+                "title": "Assumption types in an example",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Type",
+                      "Child-safe social media app"
+                    ],
+                    "rows": [
+                      [
+                        "Need",
+                        "Demand for such an app"
+                      ],
+                      [
+                        "Technical",
+                        "Child psychology, social media expertise"
+                      ],
+                      [
+                        "Production",
+                        "Android, iOS versions"
+                      ],
+                      [
+                        "Commercial",
+                        "Parents ready to pay"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -1984,6 +3307,30 @@
               "w3_l1_f21",
               "w3c18",
               "w3c19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c18",
+                "afterParagraph": 3,
+                "title": "Paid email rescue",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Plain mail",
+                        "detail": "Free email enough",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Confidential mail",
+                        "detail": "Pay like registered post",
+                        "icon": "shield"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2030,6 +3377,57 @@
               "w3c33",
               "w3c34",
               "w3_l2_f19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c21",
+                "afterParagraph": 2,
+                "title": "Champion and elephant",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Public",
+                        "detail": "Elephant: holds the power",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Champion",
+                        "detail": "Rider: shapes the path",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w3c34",
+                "afterParagraph": 3,
+                "title": "Idea champion roles",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Build support",
+                        "detail": "New idea or technology",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Overcome resistance",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Make idea sticky",
+                        "detail": "",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2063,6 +3461,35 @@
               "w3c29",
               "w3c30",
               "w3c31"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c26",
+                "afterParagraph": 1,
+                "title": "Three Cs of stickiness",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Concrete",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Curiosity",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Credible",
+                        "detail": "",
+                        "icon": "shield"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2090,6 +3517,36 @@
               "w3c36",
               "w3_l2_f20",
               "w3c37"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3_l2_f20",
+                "afterParagraph": 1,
+                "title": "Idea, support, champion",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Person",
+                      "Part played"
+                    ],
+                    "rows": [
+                      [
+                        "Ajay",
+                        "Had idea, could not communicate it"
+                      ],
+                      [
+                        "Sunil",
+                        "Believed it, eased resistance"
+                      ],
+                      [
+                        "Jaya",
+                        "Had hold, pushed it through: champion"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2128,6 +3585,40 @@
               "w3c40",
               "w3c52",
               "w3c54"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c40",
+                "afterParagraph": 1,
+                "title": "Four elements",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Role models",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Communities of practice",
+                        "detail": "",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Innovation catalysts",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Rewards, recognition",
+                        "detail": "",
+                        "icon": "heart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2159,6 +3650,40 @@
               "w3_l3_f18",
               "w3c44",
               "w3c45"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c44",
+                "afterParagraph": 1,
+                "title": "Communities examples",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Coding club",
+                        "detail": "College",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Quality circle",
+                        "detail": "Japanese, formal",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Indian Science Congress",
+                        "detail": "",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "IIT clubs",
+                        "detail": "Robotics, rural development",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2192,6 +3717,40 @@
               "w3c50",
               "w3c51",
               "w3c53"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c53",
+                "afterParagraph": 3,
+                "title": "Researcher mapping",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Element",
+                      "Researcher"
+                    ],
+                    "rows": [
+                      [
+                        "Role model",
+                        "Professor, 1000+ citations"
+                      ],
+                      [
+                        "Community of practice",
+                        "Associations, conferences"
+                      ],
+                      [
+                        "Catalyst",
+                        "PhD supervisor"
+                      ],
+                      [
+                        "Reward",
+                        "Publications, promotions"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2228,6 +3787,30 @@
               "w3c56",
               "w3c57",
               "w3c58"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c57",
+                "afterParagraph": 2,
+                "title": "Japanese practice",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Value-added",
+                        "detail": "Keep",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Non-value-added",
+                        "detail": "Eliminate",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2259,6 +3842,72 @@
               "w3c62",
               "w3c63",
               "w3c70"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c60",
+                "afterParagraph": 1,
+                "title": "G-D logic",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Meaning",
+                        "detail": "Value-in-exchange",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Value made by",
+                        "detail": "The firm",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Roles",
+                        "detail": "Producer, consumer distinct",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Flow",
+                        "detail": "Firm manufactures, market distributes",
+                        "icon": "branch"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w3c61",
+                "afterParagraph": 2,
+                "title": "S-D logic",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Meaning",
+                        "detail": "Value-in-use",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Value made by",
+                        "detail": "Co-created reciprocally",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Roles",
+                        "detail": "Not distinct",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Basis",
+                        "detail": "Resources + competences",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2290,6 +3939,21 @@
               "w3c67",
               "w3c68",
               "w3c69"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c67",
+                "afterParagraph": 2,
+                "title": "Lego Ideas",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Lego Ideas",
+                    "detail": "1 million fans vote ideas",
+                    "icon": "people"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2336,6 +4000,30 @@
               "w3c77",
               "w3c78",
               "w3c79"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c74",
+                "afterParagraph": 1,
+                "title": "Genset",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Grid fails",
+                        "detail": "Power cut",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Genset",
+                        "detail": "Backup plan",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2365,6 +4053,30 @@
               "w3c82",
               "w3c83",
               "w3c84"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c80",
+                "afterParagraph": 1,
+                "title": "Measurement system",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "A",
+                        "detail": "Counts new products",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "B",
+                        "detail": "Counts employees giving ideas",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2398,6 +4110,35 @@
               "w3c89",
               "w3c90",
               "w3c91"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w3c88",
+                "afterParagraph": 2,
+                "title": "Review pipeline",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Submit idea",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Review",
+                        "detail": "",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Incubate",
+                        "detail": "",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2728,6 +4469,30 @@
               "w4c8",
               "w4c9",
               "w4c13"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c13",
+                "afterParagraph": 3,
+                "title": "Many make, many sell",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "One",
+                        "detail": "Manufactures or sources",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Many",
+                        "detail": "Market or support",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2759,6 +4524,30 @@
               "w4c5",
               "w4c6",
               "w4c7"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c4",
+                "afterParagraph": 1,
+                "title": "Transport model",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Before",
+                        "detail": "Queues, fixed price",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Uber, Ola",
+                        "detail": "Pre-book, live price, driver location",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2786,6 +4575,32 @@
               "w4c11",
               "w4c12",
               "w4c15"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c10",
+                "afterParagraph": 1,
+                "title": "Model vs scenario",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Needs, people integration",
+                        "detail": "Direct the scenario"
+                      },
+                      {
+                        "label": "Business scenario",
+                        "detail": "Directs the model"
+                      },
+                      {
+                        "label": "Business model",
+                        "detail": "Follows"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2809,6 +4624,36 @@
             "sourceCardIds": [
               "w4c14",
               "w4c14b"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c14",
+                "afterParagraph": 1,
+                "title": "Company roster",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Company",
+                      "Model"
+                    ],
+                    "rows": [
+                      [
+                        "Amazon",
+                        "Online retail"
+                      ],
+                      [
+                        "Uber",
+                        "Facilitator, owns few vehicles"
+                      ],
+                      [
+                        "Flextronics",
+                        "Makes electronics for many brands"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2847,6 +4692,35 @@
               "w4c18",
               "w4c19",
               "w4c20"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c18",
+                "afterParagraph": 2,
+                "title": "Qualities needed",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Thinking ability",
+                        "detail": "Creativity, critical, analytical, originality",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Human relations",
+                        "detail": "Aptitude",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Communication",
+                        "detail": "Skills",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2876,6 +4750,30 @@
               "w4c23",
               "w4c24",
               "w4c25"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c21",
+                "afterParagraph": 1,
+                "title": "Advantages and disadvantages",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Advantages",
+                        "detail": "Growth, fame, satisfaction",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Disadvantages",
+                        "detail": "Discipline, risk, falls alone",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -2918,6 +4816,40 @@
               "w4c30",
               "w4c31",
               "w4c32"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c28",
+                "afterParagraph": 2,
+                "title": "Method elements",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Innovative solutions",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Capacities",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Resources",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Social arrangements, transformation",
+                        "detail": "",
+                        "icon": "branch"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2945,6 +4877,40 @@
               "w4c34",
               "w4c35",
               "w4c41"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c35",
+                "afterParagraph": 1,
+                "title": "Social aim or not",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Social",
+                        "detail": "Eco-friendly products",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Social",
+                        "detail": "Banking in underserved areas",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Social",
+                        "detail": "Helping orphaned children",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Not social",
+                        "detail": "Plastic bottles for profit",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -2974,6 +4940,40 @@
               "w4c38",
               "w4c39",
               "w4c40"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c40",
+                "afterParagraph": 3,
+                "title": "Rural women scheme",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Trade training",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Tools, seed money",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Carpets, clothes, food",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Showrooms",
+                        "detail": "",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3010,6 +5010,30 @@
               "w4c43",
               "w4c44",
               "w4c45"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c42",
+                "afterParagraph": 1,
+                "title": "Red vs blue ocean",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Red",
+                        "detail": "Existing market, competition",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Blue",
+                        "detail": "Uncontested space, new demand",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3035,6 +5059,40 @@
               "w4c46",
               "w4c47",
               "w4c48"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c48",
+                "afterParagraph": 3,
+                "title": "Across chain of buyers",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Novo Nordisk",
+                        "detail": "Focus on buyers: Novo Pen",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Crocin",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Scholastic books",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Kindle",
+                        "detail": "",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3060,6 +5118,35 @@
               "w4c49",
               "w4c50",
               "w4c51"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c50",
+                "afterParagraph": 2,
+                "title": "Across appeal",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Swatch",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Cemex",
+                        "detail": "Selling a dream",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "ACC cement",
+                        "detail": "Construction advice",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3087,6 +5174,40 @@
               "w4c53",
               "w4c54",
               "w4_l4_f18"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c53",
+                "afterParagraph": 1,
+                "title": "Four steps of visualising strategy",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Visual awakening",
+                        "detail": "Observe changes, differences",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Visual exploration",
+                        "detail": "Field visits",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Visual strategy fair",
+                        "detail": "World cafe",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Visual communication",
+                        "detail": "Among peers",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3114,6 +5235,40 @@
               "w4c56",
               "w4c57",
               "w4c58"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c56",
+                "afterParagraph": 2,
+                "title": "Non-customer examples",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Callaway Golf",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Activa",
+                        "detail": "Elderly, women, students",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Cadbury",
+                        "detail": "Kuch Meetha Ho Jaye",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Multiplexes, Spencer's",
+                        "detail": "",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3146,6 +5301,35 @@
             "sourceCardIds": [
               "w4c59",
               "w4c60"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c59",
+                "afterParagraph": 1,
+                "title": "Strong strategy has",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Focus",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Divergence",
+                        "detail": "",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Compelling tagline",
+                        "detail": "",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3169,6 +5353,40 @@
             "sourceCardIds": [
               "w4c61",
               "w4c62"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c61",
+                "afterParagraph": 1,
+                "title": "Four Actions Framework",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Eliminate",
+                        "detail": "",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Reduce",
+                        "detail": "",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "Raise",
+                        "detail": "",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Create",
+                        "detail": "",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3196,6 +5414,30 @@
               "w4c64",
               "w4c65",
               "w4c66"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c64",
+                "afterParagraph": 2,
+                "title": "Cirque du Soleil: reduce, raise",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Reduce",
+                        "detail": "Fun and humor; thrills and danger",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "Raise",
+                        "detail": "Unique venue",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3223,6 +5465,35 @@
               "w4c68",
               "w4c69",
               "w4c70"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w4c69",
+                "afterParagraph": 2,
+                "title": "Strategy canvas",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Patanjali Ayurveda",
+                        "detail": "Own canvas in slides",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "DoMS IIT Roorkee",
+                        "detail": "Own canvas",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Bio-residue energy",
+                        "detail": "Own canvas",
+                        "icon": "leaf"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3519,6 +5790,30 @@
               "w5c3",
               "w5c6",
               "w5c11"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c6",
+                "afterParagraph": 1,
+                "title": "Marketing vs innovation",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Marketing of innovation",
+                        "detail": "Commercialising a novel offering",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Marketing and innovation",
+                        "detail": "Marketing itself can be innovated",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3550,6 +5845,35 @@
               "w5c8",
               "w5c9",
               "w5c10"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c4",
+                "afterParagraph": 1,
+                "title": "Health ladder",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Treat walk-in patients",
+                        "detail": "",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Find patients",
+                        "detail": "",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Doorstep solutions",
+                        "detail": "Lower cost via technology",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3590,6 +5914,32 @@
               "w5_l2_f15",
               "w5c15",
               "w5c25"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c15",
+                "afterParagraph": 3,
+                "title": "Radio case",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Faraday, Maxwell, Hertz",
+                        "detail": "Science"
+                      },
+                      {
+                        "label": "Marconi",
+                        "detail": "Radio, from 1896"
+                      },
+                      {
+                        "label": "Transatlantic wireless",
+                        "detail": "First signals Dec 1901"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3621,6 +5971,40 @@
               "w5c19",
               "w5c20",
               "w5c24"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c20",
+                "afterParagraph": 1,
+                "title": "What the process includes",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Includes",
+                        "detail": "Basic research, product development",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Also includes",
+                        "detail": "Co-creation, scaling up, experimentation",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Excludes",
+                        "detail": "Societal impact",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Also excludes",
+                        "detail": "Trial and error; excluding existing knowledge",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3642,6 +6026,40 @@
             ],
             "sourceCardIds": [
               "w5c21"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c21",
+                "afterParagraph": 1,
+                "title": "Bright's 8 stages: 1-4",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "1 Initiation",
+                        "detail": "Discovery or market need",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "2 Synthesis",
+                        "detail": "Existing knowledge, trial and error",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "3 Verification",
+                        "detail": "Of theory or design",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "4 Lab demo",
+                        "detail": "Breadboard model",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3665,6 +6083,40 @@
             "sourceCardIds": [
               "w5c22",
               "w5c23"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c22",
+                "afterParagraph": 1,
+                "title": "Bright's 8 stages: 5-8",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "5 Alternatives",
+                        "detail": "Prototype, field trial",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "6 Commercial introduction",
+                        "detail": "",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "7 Widespread adoption",
+                        "detail": "Cash flows, societal impact",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "8 Proliferation",
+                        "detail": "New markets",
+                        "icon": "globe"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3709,6 +6161,40 @@
               "w5c31",
               "w5c32",
               "w5c33"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c30",
+                "afterParagraph": 2,
+                "title": "Type to example",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Type",
+                      "Example"
+                    ],
+                    "rows": [
+                      [
+                        "Radical",
+                        "Creation of World Wide Web"
+                      ],
+                      [
+                        "Micro-radical",
+                        "Virtual trial rooms"
+                      ],
+                      [
+                        "Generational",
+                        "3G to 4G network"
+                      ],
+                      [
+                        "Incremental",
+                        "Smartphone camera enhancement"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3736,6 +6222,35 @@
               "w5c35",
               "w5c36",
               "w5c37"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c34",
+                "afterParagraph": 1,
+                "title": "S-curve",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Slow start",
+                        "detail": "",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Rapid growth",
+                        "detail": "",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "Maturity",
+                        "detail": "",
+                        "icon": "chart"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3765,6 +6280,35 @@
               "w5c40",
               "w5c41",
               "w5c42"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c41",
+                "afterParagraph": 3,
+                "title": "Planning steps",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Forecast",
+                        "detail": "Technology and market needs",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Disaggregate",
+                        "detail": "Technology-market matrix",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Formulate",
+                        "detail": "Innovation mission",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3805,6 +6349,40 @@
               "w5c46",
               "w5c47",
               "w5_l4_f19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5_l4_f19",
+                "afterParagraph": 1,
+                "title": "Four technology classes",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Class",
+                      "Meaning"
+                    ],
+                    "rows": [
+                      [
+                        "Base",
+                        "Ageing, known to all"
+                      ],
+                      [
+                        "Key",
+                        "Embodied in products, differentiates"
+                      ],
+                      [
+                        "Pacing",
+                        "Can change competition, moving to development"
+                      ],
+                      [
+                        "Emerging",
+                        "Early research, unknown potential"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3830,6 +6408,30 @@
               "w5c48",
               "w5c49",
               "w5c50"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c49",
+                "afterParagraph": 2,
+                "title": "Technology audit",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Present SWOT",
+                        "detail": "Core technologies, products, markets, competition",
+                        "icon": "chart"
+                      },
+                      {
+                        "label": "Future SWOT",
+                        "detail": "Formulating technology plan",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3855,6 +6457,21 @@
               "w5c51",
               "w5c52",
               "w5c53"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c51",
+                "afterParagraph": 1,
+                "title": "Offensive",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Offensive",
+                    "detail": "First mover: IBM, TI, DuPont",
+                    "icon": "rocket"
+                  }
+                }
+              }
             ]
           },
           {
@@ -3888,6 +6505,44 @@
               "w5c58",
               "w5c59",
               "w5c60"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c58",
+                "afterParagraph": 1,
+                "title": "Strategies compared",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Strategy",
+                      "Know"
+                    ],
+                    "rows": [
+                      [
+                        "Absorbent",
+                        "License to exploit innovation at home"
+                      ],
+                      [
+                        "Offensive",
+                        "First mover"
+                      ],
+                      [
+                        "Defensive",
+                        "Follow the leader"
+                      ],
+                      [
+                        "Dependent",
+                        "Branch plant: production, marketing"
+                      ],
+                      [
+                        "Imitative",
+                        "Design, production; not research"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -3928,6 +6583,30 @@
               "w5c64",
               "w5c65",
               "w5c76"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c64",
+                "afterParagraph": 3,
+                "title": "Why forecast",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Forecasting helps",
+                        "detail": "Anticipate trends, plan strategy",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Tools help",
+                        "detail": "Decide on R&D, investment",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -3959,6 +6638,21 @@
               "w5c69",
               "w5c70",
               "w5c71"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c70",
+                "afterParagraph": 2,
+                "title": "Envelope curve",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Envelope curve",
+                    "detail": "Formed by successive technologies",
+                    "icon": "chart"
+                  }
+                }
+              }
             ]
           },
           {
@@ -3980,6 +6674,35 @@
             ],
             "sourceCardIds": [
               "w5c72"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c72",
+                "afterParagraph": 1,
+                "title": "Delphi",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Method",
+                        "detail": "Invite experts",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Approach",
+                        "detail": "Iterative",
+                        "icon": "loop"
+                      },
+                      {
+                        "label": "Key",
+                        "detail": "Right panel members",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4005,6 +6728,57 @@
               "w5c73",
               "w5c74",
               "w5c75"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w5c74",
+                "afterParagraph": 2,
+                "title": "Building bricks",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Dimension",
+                      "Options"
+                    ],
+                    "rows": [
+                      [
+                        "Material",
+                        "Clay, metal, plastic, waste"
+                      ],
+                      [
+                        "Forming",
+                        "Extrude, mold, press"
+                      ],
+                      [
+                        "Bonding",
+                        "Heat, chemical, molecular"
+                      ],
+                      [
+                        "Properties",
+                        "Opacity, insulation, elasticity, aesthetics"
+                      ],
+                      [
+                        "Form",
+                        "Rectangular, spherical, interlocking, cubical"
+                      ]
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w5c75",
+                "afterParagraph": 3,
+                "title": "Waste option",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Fly ash",
+                    "detail": "Waste material used for bricks",
+                    "icon": "leaf"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -4400,6 +7174,30 @@
               "w6c1",
               "w6c4",
               "w6c5"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c4",
+                "afterParagraph": 2,
+                "title": "Ganges",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "500 million people",
+                        "detail": "Linked to the river",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Project team",
+                        "detail": "About 110 people, 8 IITs",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4423,6 +7221,40 @@
             "sourceCardIds": [
               "w6c2",
               "w6c3"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c2",
+                "afterParagraph": 1,
+                "title": "Sustainable innovations",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Film farming",
+                        "detail": "No soil, 1/10 water",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Cardboard packaging",
+                        "detail": "Directions to turn into something new",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Wood stoves",
+                        "detail": "Waste heat to electricity",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Airborne windmills",
+                        "detail": "50% more energy",
+                        "icon": "spark"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4452,6 +7284,40 @@
               "w6c8",
               "w6c9",
               "w6c10"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c8",
+                "afterParagraph": 2,
+                "title": "Vivekanand Needam",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Barren land",
+                        "detail": "Turned green",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Hollow bricks",
+                        "detail": "Indoor temperature, no coolers",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Drip irrigation",
+                        "detail": "Plastic bottles",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Bacteria",
+                        "detail": "Treat human waste",
+                        "icon": "flask"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -4488,6 +7354,40 @@
               "w6c12",
               "w6c13",
               "w6c19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c11",
+                "afterParagraph": 1,
+                "title": "Five actors",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Government",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Corporates",
+                        "detail": "",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Individuals",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Academia",
+                        "detail": "",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4517,6 +7417,35 @@
               "w6c16",
               "w6c17",
               "w6c18"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c16",
+                "afterParagraph": 2,
+                "title": "Sugar industry",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Sugar",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Electricity",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Alcohol, byproducts",
+                        "detail": "",
+                        "icon": "flask"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -4553,6 +7482,40 @@
               "w6c21",
               "w6_l3_f16",
               "w6c22"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c22",
+                "afterParagraph": 1,
+                "title": "Four spans of innovation",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Products",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Processes",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Materials",
+                        "detail": "",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "Services",
+                        "detail": "",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4582,6 +7545,40 @@
               "w6c25",
               "w6c26",
               "w6c27"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c23",
+                "afterParagraph": 1,
+                "title": "Product-usage matrix",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Category",
+                      "Meaning"
+                    ],
+                    "rows": [
+                      [
+                        "1",
+                        "New product/process, old usage or problem"
+                      ],
+                      [
+                        "2",
+                        "Old product/process, old usage"
+                      ],
+                      [
+                        "3",
+                        "New product/process, new usage"
+                      ],
+                      [
+                        "4",
+                        "Old product/process, new usage"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4615,6 +7612,30 @@
               "w6c32",
               "w6c33",
               "w6c34"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c28",
+                "afterParagraph": 1,
+                "title": "Two schools",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Random",
+                        "detail": "Schumpeterian school",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Systematic",
+                        "detail": "Value innovation school",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -4651,6 +7672,68 @@
               "w6c36",
               "w6c37",
               "w6c38"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c36",
+                "afterParagraph": 2,
+                "title": "MSME limits: manufacturing",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Class",
+                      "Plant and machinery"
+                    ],
+                    "rows": [
+                      [
+                        "Micro",
+                        "Up to Rs 25 lakh"
+                      ],
+                      [
+                        "Small",
+                        "Up to Rs 5 crore"
+                      ],
+                      [
+                        "Medium",
+                        "Up to Rs 10 crore"
+                      ],
+                      [
+                        "Large",
+                        "Above Rs 10 crore"
+                      ]
+                    ]
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w6c37",
+                "afterParagraph": 3,
+                "title": "MSME limits: services",
+                "visual": {
+                  "type": "table",
+                  "spec": {
+                    "headers": [
+                      "Class",
+                      "Equipment"
+                    ],
+                    "rows": [
+                      [
+                        "Micro",
+                        "Up to Rs 10 lakh"
+                      ],
+                      [
+                        "Small",
+                        "Up to Rs 2 crore"
+                      ],
+                      [
+                        "Medium",
+                        "Up to Rs 5 crore"
+                      ]
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4676,6 +7759,35 @@
               "w6c39",
               "w6c40",
               "w6c41"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c40",
+                "afterParagraph": 1,
+                "title": "ASPIRE features",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "LBI",
+                        "detail": "Livelihood Business Incubators",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Backed by",
+                        "detail": "NSIC, KVIC, Coir Board",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "First LBI",
+                        "detail": "Uttar Pradesh",
+                        "icon": "globe"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4701,6 +7813,40 @@
               "w6c42",
               "w6c43",
               "w6c44"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c44",
+                "afterParagraph": 1,
+                "title": "Which initiative gives which",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Social",
+                        "detail": "Girl-child-friendly school",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Economic",
+                        "detail": "Reduced expenses; growing demand",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Environmental",
+                        "detail": "Sustainable materials",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Environmental",
+                        "detail": "Cut impact at source",
+                        "icon": "leaf"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4726,6 +7872,40 @@
               "w6c45",
               "w6c46",
               "w6c47"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c46",
+                "afterParagraph": 1,
+                "title": "Environmental initiative gains",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Benefit",
+                        "detail": "Cut impact at source, e.g. paper",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Also benefit",
+                        "detail": "Reforestation protects local biodiversity",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Not a benefit",
+                        "detail": "Exploiting local biodiversity",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Not a benefit",
+                        "detail": "Single-use plastic",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -4762,6 +7942,40 @@
               "w6c49",
               "w6c50",
               "w6c62"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c50",
+                "afterParagraph": 2,
+                "title": "Five Cs",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Connections",
+                        "detail": "",
+                        "icon": "branch"
+                      },
+                      {
+                        "label": "Contradictions",
+                        "detail": "",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Creative desperation",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Coincidences, curiosities",
+                        "detail": "Less reliable",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4789,6 +8003,30 @@
               "w6c52",
               "w6c53",
               "w6c54"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c54",
+                "afterParagraph": 2,
+                "title": "Contradictions cases",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Paulson, Pellegrini",
+                        "detail": "Beliefs vs house prices",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Einstein",
+                        "detail": "Space-time continuum",
+                        "icon": "flask"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -4822,6 +8060,21 @@
               "w6c59",
               "w6c60",
               "w6c61"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w6c55",
+                "afterParagraph": 1,
+                "title": "Creative desperation",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Firefighters",
+                    "detail": "Set new fire to make escape",
+                    "icon": "spark"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5090,6 +8343,32 @@
               "w7c3",
               "w7c4",
               "w7_l1_f16"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c4",
+                "afterParagraph": 3,
+                "title": "Creating intellectual capital",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Purpose"
+                      },
+                      {
+                        "label": "Strategy"
+                      },
+                      {
+                        "label": "Information"
+                      },
+                      {
+                        "label": "Knowledge"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5127,6 +8406,42 @@
               "w7_l1_f14",
               "w7_l1_f15",
               "w7c13"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c5",
+                "afterParagraph": 1,
+                "title": "Intellectual assets",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Identified, documented, shared",
+                    "detail": "Intellectual capital replicable in the organization",
+                    "icon": "shield"
+                  }
+                }
+              },
+              {
+                "sourceCardId": "w7c10",
+                "afterParagraph": 2,
+                "title": "Hierarchy",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Intellectual capital"
+                      },
+                      {
+                        "label": "Intellectual assets"
+                      },
+                      {
+                        "label": "Intellectual property"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5150,6 +8465,30 @@
             "sourceCardIds": [
               "w7c11",
               "w7c12"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c12",
+                "afterParagraph": 1,
+                "title": "Two families of IP",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Industrial property",
+                        "detail": "Patents, trademarks, designs, GIs",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Copyright",
+                        "detail": "Literary, film, music, art, architecture",
+                        "icon": "hat"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5194,6 +8533,30 @@
               "w7c19",
               "w7c20",
               "w7c27"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c17",
+                "afterParagraph": 2,
+                "title": "WIPO's balance",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "WIPO balance",
+                        "detail": "Innovators and the public",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Not the pair",
+                        "detail": "Any pair with industry or economy",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5223,6 +8586,35 @@
               "w7c23",
               "w7c24",
               "w7c25"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c24",
+                "afterParagraph": 3,
+                "title": "Who grants patents",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "National offices",
+                        "detail": "",
+                        "icon": "globe"
+                      },
+                      {
+                        "label": "Regional offices",
+                        "detail": "EPO, OAPI",
+                        "icon": "globe"
+                      },
+                      {
+                        "label": "PCT",
+                        "detail": "One international application",
+                        "icon": "globe"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5244,6 +8636,35 @@
             ],
             "sourceCardIds": [
               "w7c26"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c26",
+                "afterParagraph": 1,
+                "title": "Trademark registration",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Distinctive",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Not misleading",
+                        "detail": "",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Not similar",
+                        "detail": "As an existing mark",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5282,6 +8703,40 @@
               "w7c30",
               "w7c31",
               "w7c44"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c44",
+                "afterParagraph": 3,
+                "title": "What counts as IPR",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Industrial design",
+                        "detail": "Luxury car exterior",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Trade secret",
+                        "detail": "Soft drink recipe",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Geographical indication",
+                        "detail": "Darjeeling Tea",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "All three",
+                        "detail": "Each falls under IPR",
+                        "icon": "shield"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5307,6 +8762,35 @@
               "w7c32",
               "w7c33",
               "w7c34"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c34",
+                "afterParagraph": 3,
+                "title": "Patentable if",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Novel",
+                        "detail": "",
+                        "icon": "spark"
+                      },
+                      {
+                        "label": "Nonobvious",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Useful",
+                        "detail": "",
+                        "icon": "target"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5338,6 +8822,21 @@
               "w7c38",
               "w7c39",
               "w7c40"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c38",
+                "afterParagraph": 3,
+                "title": "Geographical indication",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "GI",
+                    "detail": "Origin gives quality, distinctiveness",
+                    "icon": "globe"
+                  }
+                }
+              }
             ]
           },
           {
@@ -5367,6 +8866,35 @@
               "w7c43",
               "w7c45",
               "w7c46"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c45",
+                "afterParagraph": 1,
+                "title": "Which right fits",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Copyright",
+                        "detail": "Novelist's manuscript",
+                        "icon": "hat"
+                      },
+                      {
+                        "label": "Patent",
+                        "detail": "Exclusive right to sell a medicine",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Trademark",
+                        "detail": "Nike logo, brand name",
+                        "icon": "shield"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5405,6 +8933,36 @@
               "w7c49",
               "w7c50",
               "w7c51"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c51",
+                "afterParagraph": 3,
+                "title": "Indian patent timeline",
+                "visual": {
+                  "type": "timeline",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "1911",
+                        "detail": "First Patents and Designs Act"
+                      },
+                      {
+                        "label": "1970",
+                        "detail": "Patent Act, in force 1972"
+                      },
+                      {
+                        "label": "1999",
+                        "detail": "Amended for TRIPS"
+                      },
+                      {
+                        "label": "2002, 2005",
+                        "detail": "Further amendments"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5428,6 +8986,41 @@
             "sourceCardIds": [
               "w7c52",
               "w7c57"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c52",
+                "afterParagraph": 1,
+                "title": "Patent process",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "File application"
+                      },
+                      {
+                        "label": "Priority date"
+                      },
+                      {
+                        "label": "Publication"
+                      },
+                      {
+                        "label": "Examination"
+                      },
+                      {
+                        "label": "Controller"
+                      },
+                      {
+                        "label": "Pre-grant opposition"
+                      },
+                      {
+                        "label": "Grant or refusal"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5457,6 +9050,30 @@
               "w7c55",
               "w7c56",
               "w7c58"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c56",
+                "afterParagraph": 1,
+                "title": "Expression, not idea",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Protects",
+                        "detail": "Expression of an idea",
+                        "icon": "hat"
+                      },
+                      {
+                        "label": "Does not protect",
+                        "detail": "The idea itself",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5493,6 +9110,30 @@
               "w7c60",
               "w7c61",
               "w7c62"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c62",
+                "afterParagraph": 2,
+                "title": "Bajaj vs TVS: Supreme Court 2009",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Order",
+                        "detail": "TVS may sell; receiver verifies accounts",
+                        "icon": "shield"
+                      },
+                      {
+                        "label": "Not decided",
+                        "detail": "Merits of the patent claim",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5518,6 +9159,21 @@
               "w7c63",
               "w7c64",
               "w7c65"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c63",
+                "afterParagraph": 1,
+                "title": "Coca-Cola vs Bisleri",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Maaza",
+                    "detail": "Bisleri sold India rights to Coca-Cola",
+                    "icon": "shield"
+                  }
+                }
+              }
             ]
           },
           {
@@ -5543,6 +9199,30 @@
               "w7c66",
               "w7c67",
               "w7c68"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w7c67",
+                "afterParagraph": 2,
+                "title": "Xiaomi conditions",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Qualcomm chips only",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Rs 100 each",
+                        "detail": "Royalty deposit",
+                        "icon": "coin"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5808,6 +9488,29 @@
               "w8_l1_f10",
               "w8c2",
               "w8c3"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c2",
+                "afterParagraph": 1,
+                "title": "Value flow",
+                "visual": {
+                  "type": "flow",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Creates"
+                      },
+                      {
+                        "label": "Delivers"
+                      },
+                      {
+                        "label": "Captures"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5839,6 +9542,40 @@
               "w8c7",
               "w8c8",
               "w8c9"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c4",
+                "afterParagraph": 1,
+                "title": "Business model components",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Target customers",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Value proposition",
+                        "detail": "",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Revenue streams, costs",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Key activities",
+                        "detail": "",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5877,6 +9614,30 @@
               "w8c12",
               "w8c13",
               "w8c18"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c13",
+                "afterParagraph": 1,
+                "title": "Why models fail",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Cause 1",
+                        "detail": "An element not working as intended",
+                        "icon": "lock"
+                      },
+                      {
+                        "label": "Cause 2",
+                        "detail": "Cannot adapt to change",
+                        "icon": "eye"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5906,6 +9667,35 @@
               "w8c16",
               "w8c17",
               "w8c19"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c14",
+                "afterParagraph": 1,
+                "title": "Remedies",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Futuristic approach",
+                        "detail": "Anticipate features customers will want",
+                        "icon": "eye"
+                      },
+                      {
+                        "label": "Find symptoms",
+                        "detail": "Eliminate causes, choose alternatives",
+                        "icon": "flask"
+                      },
+                      {
+                        "label": "Match capacity",
+                        "detail": "Capabilities with value proposition",
+                        "icon": "gear"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -5944,6 +9734,35 @@
               "w8c22",
               "w8c23",
               "w8c24"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c24",
+                "afterParagraph": 2,
+                "title": "Three stages",
+                "visual": {
+                  "type": "journey",
+                  "spec": {
+                    "nodes": [
+                      {
+                        "label": "Pre-founding",
+                        "detail": "Identify, evaluate opportunity",
+                        "icon": "bulb"
+                      },
+                      {
+                        "label": "Founding",
+                        "detail": "Plan, resources, incorporation, entry",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Early development",
+                        "detail": "Build company, penetrate market",
+                        "icon": "rocket"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -5979,6 +9798,21 @@
               "w8c30",
               "w8c31",
               "w8c34"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c28",
+                "afterParagraph": 3,
+                "title": "Incubator goal",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Viable, freestanding firms",
+                    "detail": "That leave the program",
+                    "icon": "rocket"
+                  }
+                }
+              }
             ]
           },
           {
@@ -6008,6 +9842,35 @@
               "w8c35",
               "w8c36",
               "w8c44"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c33",
+                "afterParagraph": 1,
+                "title": "Features of incubators",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Networking",
+                        "detail": "",
+                        "icon": "people"
+                      },
+                      {
+                        "label": "Shared resources",
+                        "detail": "",
+                        "icon": "factory"
+                      },
+                      {
+                        "label": "Mentorship, experts",
+                        "detail": "",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -6041,6 +9904,21 @@
               "w8c41",
               "w8c42",
               "w8c43"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c43",
+                "afterParagraph": 2,
+                "title": "TBI",
+                "visual": {
+                  "type": "key",
+                  "spec": {
+                    "label": "Technology Business Incubator",
+                    "detail": "Technology or knowledge-intensive firms, with academia",
+                    "icon": "rocket"
+                  }
+                }
+              }
             ]
           }
         ]
@@ -6085,6 +9963,30 @@
               "w8c50",
               "w8c51",
               "w8c52"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c49",
+                "afterParagraph": 1,
+                "title": "Early funding source",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Main early source",
+                        "detail": "Angel investors",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Also funds",
+                        "detail": "Self, incubators",
+                        "icon": "people"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -6114,6 +10016,30 @@
               "w8c55",
               "w8c56",
               "w8c57"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c55",
+                "afterParagraph": 2,
+                "title": "Debt after equity",
+                "visual": {
+                  "type": "compare",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Debt financing",
+                        "detail": "Comes later, after VC equity",
+                        "icon": "clock"
+                      },
+                      {
+                        "label": "Not first level",
+                        "detail": "First financing is not debt",
+                        "icon": "lock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -6141,6 +10067,35 @@
               "w8c59",
               "w8c60",
               "w8c61"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c58",
+                "afterParagraph": 1,
+                "title": "Venture debt",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "For startups",
+                        "detail": "After VC funding, avoiding dilution",
+                        "icon": "rocket"
+                      },
+                      {
+                        "label": "25% limit",
+                        "detail": "Of venture equity round",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "24-36 months",
+                        "detail": "Repayment term",
+                        "icon": "clock"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]
@@ -6175,6 +10130,35 @@
               "w8c62",
               "w8c63",
               "w8c64"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c62",
+                "afterParagraph": 1,
+                "title": "Future lens",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Needs",
+                        "detail": "",
+                        "icon": "target"
+                      },
+                      {
+                        "label": "Available resources",
+                        "detail": "",
+                        "icon": "coin"
+                      },
+                      {
+                        "label": "Innovation's place",
+                        "detail": "In the process",
+                        "icon": "bulb"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           },
           {
@@ -6204,6 +10188,40 @@
               "w8c67",
               "w8c68",
               "w8c69"
+            ],
+            "topicVisuals": [
+              {
+                "sourceCardId": "w8c65",
+                "afterParagraph": 1,
+                "title": "Future-market areas",
+                "visual": {
+                  "type": "tiles",
+                  "spec": {
+                    "items": [
+                      {
+                        "label": "Technology, digital",
+                        "detail": "",
+                        "icon": "gear"
+                      },
+                      {
+                        "label": "Renewable energy",
+                        "detail": "Sustainability",
+                        "icon": "leaf"
+                      },
+                      {
+                        "label": "Healthcare, biotech",
+                        "detail": "",
+                        "icon": "heart"
+                      },
+                      {
+                        "label": "Agriculture, food security",
+                        "detail": "",
+                        "icon": "leaf"
+                      }
+                    ]
+                  }
+                }
+              }
             ]
           }
         ]

@@ -1,0 +1,856 @@
+{
+  "w1c1": [
+    {
+      "sourceCardId": "w1c1",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c4": [
+    {
+      "sourceCardId": "w1c4",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w1c5",
+      "afterParagraph": 2
+    }
+  ],
+  "w1c6": [
+    {
+      "sourceCardId": "w1c6",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c7": [
+    {
+      "sourceCardId": "w1c8",
+      "afterParagraph": 2
+    }
+  ],
+  "w1c9": [
+    {
+      "sourceCardId": "w1c9",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c72": [
+    {
+      "sourceCardId": "w1c72",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c14": [
+    {
+      "sourceCardId": "w1c15",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c16": [
+    {
+      "sourceCardId": "w1c16",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c20": [
+    {
+      "sourceCardId": "w1c21",
+      "afterParagraph": 2
+    }
+  ],
+  "w1c75": [
+    {
+      "sourceCardId": "w1c23",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c24": [
+    {
+      "sourceCardId": "w1c25",
+      "afterParagraph": 2
+    }
+  ],
+  "w1c30": [
+    {
+      "sourceCardId": "w1c31",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c35": [
+    {
+      "sourceCardId": "w1_l3_f24",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c40": [
+    {
+      "sourceCardId": "w1c41",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c45": [
+    {
+      "sourceCardId": "w1c45",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c46": [
+    {
+      "sourceCardId": "w1c90",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c49": [
+    {
+      "sourceCardId": "w1c49",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c51": [
+    {
+      "sourceCardId": "w1c53",
+      "afterParagraph": 3
+    }
+  ],
+  "w1c55": [
+    {
+      "sourceCardId": "w1c55",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c59": [
+    {
+      "sourceCardId": "w1c59",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w1c62",
+      "afterParagraph": 2
+    }
+  ],
+  "w1c64": [
+    {
+      "sourceCardId": "w1c99",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c65": [
+    {
+      "sourceCardId": "w1c105",
+      "afterParagraph": 1
+    }
+  ],
+  "w1c66": [
+    {
+      "sourceCardId": "w1_l5_f21",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c1": [
+    {
+      "sourceCardId": "w2c1",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w2c8",
+      "afterParagraph": 3
+    }
+  ],
+  "w2c3": [
+    {
+      "sourceCardId": "w2c10",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c12": [
+    {
+      "sourceCardId": "w2c12",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c14": [
+    {
+      "sourceCardId": "w2_l2_f13",
+      "afterParagraph": 2
+    }
+  ],
+  "w2c18": [
+    {
+      "sourceCardId": "w2c18",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w2c19",
+      "afterParagraph": 2
+    }
+  ],
+  "w2c21": [
+    {
+      "sourceCardId": "w2c21",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c24": [
+    {
+      "sourceCardId": "w2c25",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c27": [
+    {
+      "sourceCardId": "w2c27",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c28": [
+    {
+      "sourceCardId": "w2c28",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c31": [
+    {
+      "sourceCardId": "w2c32",
+      "afterParagraph": 2
+    },
+    {
+      "sourceCardId": "w2c33",
+      "afterParagraph": 3
+    }
+  ],
+  "w2c34": [
+    {
+      "sourceCardId": "w2c34",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c37": [
+    {
+      "sourceCardId": "w2c38",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c39": [
+    {
+      "sourceCardId": "w2c39",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c41": [
+    {
+      "sourceCardId": "w2c43",
+      "afterParagraph": 2
+    }
+  ],
+  "w2c46": [
+    {
+      "sourceCardId": "w2c46",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c50": [
+    {
+      "sourceCardId": "w2c51",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c54": [
+    {
+      "sourceCardId": "w2c54",
+      "afterParagraph": 1
+    }
+  ],
+  "w2c56": [
+    {
+      "sourceCardId": "w2c57",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c1": [
+    {
+      "sourceCardId": "w3c13",
+      "afterParagraph": 3
+    }
+  ],
+  "w3c4": [
+    {
+      "sourceCardId": "w3c5",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w3c11",
+      "afterParagraph": 2
+    }
+  ],
+  "w3c14": [
+    {
+      "sourceCardId": "w3c18",
+      "afterParagraph": 3
+    }
+  ],
+  "w3c20": [
+    {
+      "sourceCardId": "w3c21",
+      "afterParagraph": 2
+    },
+    {
+      "sourceCardId": "w3c34",
+      "afterParagraph": 3
+    }
+  ],
+  "w3c25": [
+    {
+      "sourceCardId": "w3c26",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c35": [
+    {
+      "sourceCardId": "w3_l2_f20",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c38": [
+    {
+      "sourceCardId": "w3c40",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c41": [
+    {
+      "sourceCardId": "w3c44",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c46": [
+    {
+      "sourceCardId": "w3c53",
+      "afterParagraph": 3
+    }
+  ],
+  "w3c55": [
+    {
+      "sourceCardId": "w3c57",
+      "afterParagraph": 2
+    }
+  ],
+  "w3c59": [
+    {
+      "sourceCardId": "w3c60",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w3c61",
+      "afterParagraph": 2
+    }
+  ],
+  "w3c64": [
+    {
+      "sourceCardId": "w3c67",
+      "afterParagraph": 2
+    }
+  ],
+  "w3c71": [
+    {
+      "sourceCardId": "w3c74",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c80": [
+    {
+      "sourceCardId": "w3c80",
+      "afterParagraph": 1
+    }
+  ],
+  "w3c85": [
+    {
+      "sourceCardId": "w3c88",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c1": [
+    {
+      "sourceCardId": "w4c13",
+      "afterParagraph": 3
+    }
+  ],
+  "w4c2": [
+    {
+      "sourceCardId": "w4c4",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c10": [
+    {
+      "sourceCardId": "w4c10",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c14": [
+    {
+      "sourceCardId": "w4c14",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c16": [
+    {
+      "sourceCardId": "w4c18",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c21": [
+    {
+      "sourceCardId": "w4c21",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c26": [
+    {
+      "sourceCardId": "w4c28",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c33": [
+    {
+      "sourceCardId": "w4c35",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c36": [
+    {
+      "sourceCardId": "w4c40",
+      "afterParagraph": 3
+    }
+  ],
+  "w4c42": [
+    {
+      "sourceCardId": "w4c42",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c46": [
+    {
+      "sourceCardId": "w4c48",
+      "afterParagraph": 3
+    }
+  ],
+  "w4c49": [
+    {
+      "sourceCardId": "w4c50",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c52": [
+    {
+      "sourceCardId": "w4c53",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c55": [
+    {
+      "sourceCardId": "w4c56",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c59": [
+    {
+      "sourceCardId": "w4c59",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c61": [
+    {
+      "sourceCardId": "w4c61",
+      "afterParagraph": 1
+    }
+  ],
+  "w4c63": [
+    {
+      "sourceCardId": "w4c64",
+      "afterParagraph": 2
+    }
+  ],
+  "w4c67": [
+    {
+      "sourceCardId": "w4c69",
+      "afterParagraph": 2
+    }
+  ],
+  "w5c1": [
+    {
+      "sourceCardId": "w5c6",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c4": [
+    {
+      "sourceCardId": "w5c4",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c12": [
+    {
+      "sourceCardId": "w5c15",
+      "afterParagraph": 3
+    }
+  ],
+  "w5c16": [
+    {
+      "sourceCardId": "w5c20",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c21": [
+    {
+      "sourceCardId": "w5c21",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c22": [
+    {
+      "sourceCardId": "w5c22",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c26": [
+    {
+      "sourceCardId": "w5c30",
+      "afterParagraph": 2
+    }
+  ],
+  "w5c34": [
+    {
+      "sourceCardId": "w5c34",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c38": [
+    {
+      "sourceCardId": "w5c41",
+      "afterParagraph": 3
+    }
+  ],
+  "w5c43": [
+    {
+      "sourceCardId": "w5_l4_f19",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c48": [
+    {
+      "sourceCardId": "w5c49",
+      "afterParagraph": 2
+    }
+  ],
+  "w5c51": [
+    {
+      "sourceCardId": "w5c51",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c54": [
+    {
+      "sourceCardId": "w5c58",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c61": [
+    {
+      "sourceCardId": "w5c64",
+      "afterParagraph": 3
+    }
+  ],
+  "w5c66": [
+    {
+      "sourceCardId": "w5c70",
+      "afterParagraph": 2
+    }
+  ],
+  "w5c72": [
+    {
+      "sourceCardId": "w5c72",
+      "afterParagraph": 1
+    }
+  ],
+  "w5c73": [
+    {
+      "sourceCardId": "w5c74",
+      "afterParagraph": 2
+    },
+    {
+      "sourceCardId": "w5c75",
+      "afterParagraph": 3
+    }
+  ],
+  "w6c1": [
+    {
+      "sourceCardId": "w6c4",
+      "afterParagraph": 2
+    }
+  ],
+  "w6c2": [
+    {
+      "sourceCardId": "w6c2",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c6": [
+    {
+      "sourceCardId": "w6c8",
+      "afterParagraph": 2
+    }
+  ],
+  "w6c11": [
+    {
+      "sourceCardId": "w6c11",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c14": [
+    {
+      "sourceCardId": "w6c16",
+      "afterParagraph": 2
+    }
+  ],
+  "w6c20": [
+    {
+      "sourceCardId": "w6c22",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c23": [
+    {
+      "sourceCardId": "w6c23",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c28": [
+    {
+      "sourceCardId": "w6c28",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c35": [
+    {
+      "sourceCardId": "w6c36",
+      "afterParagraph": 2
+    },
+    {
+      "sourceCardId": "w6c37",
+      "afterParagraph": 3
+    }
+  ],
+  "w6c39": [
+    {
+      "sourceCardId": "w6c40",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c42": [
+    {
+      "sourceCardId": "w6c44",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c45": [
+    {
+      "sourceCardId": "w6c46",
+      "afterParagraph": 1
+    }
+  ],
+  "w6c48": [
+    {
+      "sourceCardId": "w6c50",
+      "afterParagraph": 2
+    }
+  ],
+  "w6c51": [
+    {
+      "sourceCardId": "w6c54",
+      "afterParagraph": 2
+    }
+  ],
+  "w6c55": [
+    {
+      "sourceCardId": "w6c55",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c1": [
+    {
+      "sourceCardId": "w7c4",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c5": [
+    {
+      "sourceCardId": "w7c5",
+      "afterParagraph": 1
+    },
+    {
+      "sourceCardId": "w7c10",
+      "afterParagraph": 2
+    }
+  ],
+  "w7c11": [
+    {
+      "sourceCardId": "w7c12",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c14": [
+    {
+      "sourceCardId": "w7c17",
+      "afterParagraph": 2
+    }
+  ],
+  "w7c21": [
+    {
+      "sourceCardId": "w7c24",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c26": [
+    {
+      "sourceCardId": "w7c26",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c28": [
+    {
+      "sourceCardId": "w7c44",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c32": [
+    {
+      "sourceCardId": "w7c34",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c35": [
+    {
+      "sourceCardId": "w7c38",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c41": [
+    {
+      "sourceCardId": "w7c45",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c47": [
+    {
+      "sourceCardId": "w7c51",
+      "afterParagraph": 3
+    }
+  ],
+  "w7c52": [
+    {
+      "sourceCardId": "w7c52",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c53": [
+    {
+      "sourceCardId": "w7c56",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c59": [
+    {
+      "sourceCardId": "w7c62",
+      "afterParagraph": 2
+    }
+  ],
+  "w7c63": [
+    {
+      "sourceCardId": "w7c63",
+      "afterParagraph": 1
+    }
+  ],
+  "w7c66": [
+    {
+      "sourceCardId": "w7c67",
+      "afterParagraph": 2
+    }
+  ],
+  "w8c1": [
+    {
+      "sourceCardId": "w8c2",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c4": [
+    {
+      "sourceCardId": "w8c4",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c10": [
+    {
+      "sourceCardId": "w8c13",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c14": [
+    {
+      "sourceCardId": "w8c14",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c20": [
+    {
+      "sourceCardId": "w8c24",
+      "afterParagraph": 2
+    }
+  ],
+  "w8c25": [
+    {
+      "sourceCardId": "w8c28",
+      "afterParagraph": 3
+    }
+  ],
+  "w8c32": [
+    {
+      "sourceCardId": "w8c33",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c37": [
+    {
+      "sourceCardId": "w8c43",
+      "afterParagraph": 2
+    }
+  ],
+  "w8c45": [
+    {
+      "sourceCardId": "w8c49",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c53": [
+    {
+      "sourceCardId": "w8c55",
+      "afterParagraph": 2
+    }
+  ],
+  "w8c58": [
+    {
+      "sourceCardId": "w8c58",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c62": [
+    {
+      "sourceCardId": "w8c62",
+      "afterParagraph": 1
+    }
+  ],
+  "w8c65": [
+    {
+      "sourceCardId": "w8c65",
+      "afterParagraph": 1
+    }
+  ]
+}
