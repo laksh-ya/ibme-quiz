@@ -1,0 +1,362 @@
+[
+  {
+    "lessonId": "w1l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=17",
+    "captionFile": "c_17.txt",
+    "captionSha256": "ca33ee095a47d148d367fefc7832217629780281d35f1430d58b38352bb1aa0f",
+    "slideFile": "sl/s17.pdf",
+    "slideSha256": "50419a5d4ac3114f16513e81bc3b4d2c1fba511587d06711c8206c6d162a48f9",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w1l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18",
+    "captionFile": "c_18.txt",
+    "captionSha256": "d095fe917c8face4407a62976a4a52846c1518666e5d4d38f9f289f4da47276a",
+    "slideFile": "sl/s18.pdf",
+    "slideSha256": "61ef4342e8a011ca6661686df1811befd257851e6ccc4e5ade149245c3287831",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w1l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19",
+    "captionFile": "c_19.txt",
+    "captionSha256": "351aac68d0ffdf3e168326db542678bc5c4409d9f44041620803c8ad00998944",
+    "slideFile": "sl/s19.pdf",
+    "slideSha256": "8b1927e04e2b7da2505ee986c5bc88edc1e3887e41e44acaa1e67e72a27e6aa1",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w1l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20",
+    "captionFile": "c_20.txt",
+    "captionSha256": "f1fd46eefecdd1f7ecfd4ad4fda6024a77f1c7c91c2893d410ed7214eac404dd",
+    "slideFile": "sl/s20.pdf",
+    "slideSha256": "ac545c8e6af683e3f7f002650c60733f571cf360c758435fdd1593dd979afbf2",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w1l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21",
+    "captionFile": "c_21.txt",
+    "captionSha256": "411c66ce3ffc677880bd0b38327a6fe9a000daff7d1c2e4da7f6ed0bdc642326",
+    "slideFile": "sl/s21.pdf",
+    "slideSha256": "7479107565bfe87a93d0aff096ae3e593106845898a31ad7088bafee381ca7e6",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w2l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25",
+    "captionFile": "c_25.txt",
+    "captionSha256": "936ae5bcaa3e8740bc56486228a844d86e878c8477fee4f3a22cf0868b6a4cd0",
+    "slideFile": "sl/s25.pdf",
+    "slideSha256": "84316cd82b1e133374061c37b9908050131328ffc0af6a8a47c6b61d28e45750",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w2l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26",
+    "captionFile": "c_26.txt",
+    "captionSha256": "5eef184e5e8d835e7d5ac641837da6ad70aabb2f26201443a07c89886b1d015c",
+    "slideFile": "sl/s26.pdf",
+    "slideSha256": "8d711452adbd8cc930d5df0e0835fe7d3eaa5129d31d10fce6778abb39b554f0",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w2l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27",
+    "captionFile": "c_27.txt",
+    "captionSha256": "bf9475de1ebd9f7f54295217aa50ee5fd708f409a1f7904f4f2801828e73a7ae",
+    "slideFile": "sl/s27.pdf",
+    "slideSha256": "faa31456032251c052f957f03845795fd15a3c7fde5b3d04bd14ec940c115d5c",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w2l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28",
+    "captionFile": "c_28.txt",
+    "captionSha256": "61aea90b89b300e301230c3f62d7d03c353878b1f509ce87bb01ef8555c6d965",
+    "slideFile": "sl/s28.pdf",
+    "slideSha256": "f01227a4130be0528615567ad6464a8e457e889dffc3f7737b5feb8a7b8c8040",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w2l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=29",
+    "captionFile": "c_29.txt",
+    "captionSha256": "376729701bb00fa95518e3d74f496f9aa3dda1f89bf054927cd3c7cad4e11979",
+    "slideFile": "sl/s29.pdf",
+    "slideSha256": "6d229311dadc30bb09d17d7683efacbfc5f383b73b266072299b678689e6068b",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w3l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34",
+    "captionFile": "c_34.txt",
+    "captionSha256": "f6d587e3e3d9b897ffbe7690aec009154e729998f81d3900e3c9c48e364d52de",
+    "slideFile": "sl/s34.pdf",
+    "slideSha256": "304aafeb974682cad1d80eded08c7d02699d6fa59613f27d52edf3ece5f8b0d5",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w3l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35",
+    "captionFile": "c_35.txt",
+    "captionSha256": "c375e2c07455f8c8a81326cbf267b0fcdeb8dba022eaafbd8a188b2602a96e66",
+    "slideFile": "sl/s35.pdf",
+    "slideSha256": "532ad41ad0f62341ba021d3671960cd19ddbbd3cc45d4d1b369f2ebbe3c7047a",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w3l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36",
+    "captionFile": "c_36.txt",
+    "captionSha256": "29344e2da74964c18454349bc918fd21a59f13d93d75d1e7bb40b41247aa431d",
+    "slideFile": "sl/s36.pdf",
+    "slideSha256": "8a2dbc61dbcd39c18cef991f26ab2d25bcb91f2e8db042667108eb7ea0ad4158",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w3l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37",
+    "captionFile": "c_37.txt",
+    "captionSha256": "e40cc7733c3b6bdc11bc1a0194e2b0642d0805bad2edba3b3545923fa6c56e8b",
+    "slideFile": "sl/s37.pdf",
+    "slideSha256": "d89662cd06a0b73c61aa8666a8200bec289d4f9ccd863a58256d2c06fa717320",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w3l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=38",
+    "captionFile": "c_38.txt",
+    "captionSha256": "e5c1baaa8d660b372a8a41ca7940fa7718f603d3357a5924c6c1327cc0445272",
+    "slideFile": "sl/s38.pdf",
+    "slideSha256": "34854549ddd62eb1cf6db78d09bad612b1dc9875219e45015a05e3d26fcb16c2",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w4l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42",
+    "captionFile": "c_42.txt",
+    "captionSha256": "329eaf3d4724d1d38d0e32cca4e4be17a43276fa69fbf8ca7748df35edd94fdd",
+    "slideFile": "sl/s42.pdf",
+    "slideSha256": "f1e3e07c1d3c7a4bcce4714838d347e36e6857efa6be999c29609cf02158d21b",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w4l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43",
+    "captionFile": "c_43.txt",
+    "captionSha256": "2f1d55ff35b89b9c178610bfbaeb8ff498643b5deacc52f1234c441b959a1b4d",
+    "slideFile": "sl/s43.pdf",
+    "slideSha256": "7a3f83c5818912450b85c81cd7b5cc533d8500ca55f556bb4999730d31f7a3fa",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w4l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44",
+    "captionFile": "c_44.txt",
+    "captionSha256": "b4f9361ed2c2ee25a4c971d127e7d7355f72313293c69ec663fd1f73e06b7661",
+    "slideFile": "sl/s44.pdf",
+    "slideSha256": "20b0c963d4ab4400afafd251acbb759f4ae06ea13cb23ebb2976964d2557cb55",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w4l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45",
+    "captionFile": "c_45.txt",
+    "captionSha256": "95fc214306f396867f1b7c66f63a316cdf798344252b6642ae7ad6fdb56972b3",
+    "slideFile": "sl/s45.pdf",
+    "slideSha256": "bb2222ccb2c81c53ee25eda58674006f04c2a5dcdfccc5f8c15f5f92b0c36e8c",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w4l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46",
+    "captionFile": "c_46.txt",
+    "captionSha256": "8d7d0db60974bff011727ae6a7bd0e8cfb13a55b91491811137917c05561ae0a",
+    "slideFile": "sl/s46.pdf",
+    "slideSha256": "d26679755a5be1f7413ba4376c7d56a04fd7324ea6a7355bf987d496bf1bb19d",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w5l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=51",
+    "captionFile": "c_51.txt",
+    "captionSha256": "0f3c6b2fe12fc3c88802812ab3d2696b73d990222cb075c7e4cb0c59b1b52dbe",
+    "slideFile": "sl/s51.pdf",
+    "slideSha256": "ec56b6b53eebcdcceef052861975fb0880a4e29f2e27bca7e8422a906b390220",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w5l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52",
+    "captionFile": "c_52.txt",
+    "captionSha256": "b3676e2569fd418e0017b44024b77797c2661204ab6448aee52930dfb8c8b6b8",
+    "slideFile": "sl/s52.pdf",
+    "slideSha256": "eb574ea6388ff15feeba6cf0f35f8fd34ccd5e7505b7cb39028611c01df8f8c8",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w5l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53",
+    "captionFile": "c_53.txt",
+    "captionSha256": "9058735802a999372fa641d9abf62e79bd49341705077ddb167b32b14105e168",
+    "slideFile": "sl/s53.pdf",
+    "slideSha256": "99c216a557526b93baf99a429c8e1067a99a282d5ebe8d9d86b1adfdffced6cc",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w5l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54",
+    "captionFile": "c_54.txt",
+    "captionSha256": "a58f973da442e682db479d0a7c19f8aeb5e1d1951be884ffe51c13f7dd47790b",
+    "slideFile": "sl/s54.pdf",
+    "slideSha256": "decfa565b5f93a751201c20c0e74850a053d64a1ee3608df5747738ffdef34a4",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w5l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55",
+    "captionFile": "c_55.txt",
+    "captionSha256": "dba12c1936b8964fbbd85ddff5a352b9f3afec943df65d6308006302932b9296",
+    "slideFile": "sl/s55.pdf",
+    "slideSha256": "1a3ad25e5fd6599052ecff35875a3a95c3cc7fc60cc3e6f3d06dab45f082c38a",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w6l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59",
+    "captionFile": "c_59.txt",
+    "captionSha256": "e8ac4cca4f6aed1308eb6be0f385f4a16a8883dd7e6c8ec934445cbc7f7ca433",
+    "slideFile": "sl/s59.pdf",
+    "slideSha256": "ec6cf4c9e960285761902c525530d00f0a9c52644d84a76aa2fd8350bf04395b",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w6l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=60",
+    "captionFile": "c_60.txt",
+    "captionSha256": "e02db9a719fa086a6d42df3bd8a18bdccdfee170315789f5206e9c1a5a25bb9e",
+    "slideFile": "sl/s60.pdf",
+    "slideSha256": "df1e816524c13067b7f0bb387cc8623497b4ddee2d9862c70abff33c137b1b65",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w6l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61",
+    "captionFile": "c_61.txt",
+    "captionSha256": "0cd02483c6203562b316cfa930d16d1a1c15bae2034f1685997e4b1ac6d6cd0c",
+    "slideFile": "sl/s61.pdf",
+    "slideSha256": "b77668cd6adbc0dd155fc4ab185090a498787280dc293c59167beddbd84900bc",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w6l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62",
+    "captionFile": "c_62.txt",
+    "captionSha256": "8102c14db0708e0c78bb8ec11294f2c2e219a86b53f5bc38ef24899ea5a3a88f",
+    "slideFile": "sl/s62.pdf",
+    "slideSha256": "22726e901b2893acc37077c02826227a2fbf1b5027967c54e559826668b079a3",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w6l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63",
+    "captionFile": "c_63.txt",
+    "captionSha256": "e3a15322ad9cf3cee39120727dfc177c31a0c2018805b839293518682cad01e2",
+    "slideFile": "sl/s63.pdf",
+    "slideSha256": "fa9ca3dbed192d661754f51b3966ca25cbbdf35555c6fef4519306d67d9de7d6",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w7l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67",
+    "captionFile": "c_67.txt",
+    "captionSha256": "e357312742e3d7cd4e548aab98f311ce46ea036cd8b796865cbd3d9c2c883054",
+    "slideFile": "sl/s67.pdf",
+    "slideSha256": "57607be8d0fa567fd4a7e580d65a4499b7457352c57403b1e0803618dee085c8",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w7l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68",
+    "captionFile": "c_68.txt",
+    "captionSha256": "a430d4831e4ba2e460df143d33ddff11714705ecb919ec65cbda33700b4d0958",
+    "slideFile": "sl/s68.pdf",
+    "slideSha256": "8835140eb03b6711f668badfbc708df5ed278f6ff8b2c406c47f447bff98dc0c",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w7l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69",
+    "captionFile": "c_69.txt",
+    "captionSha256": "efb242708148a8d6693c74a1e8842ef28fd67d97ef6406a5bc00a6a1d1c2db66",
+    "slideFile": "sl/s69.pdf",
+    "slideSha256": "5948e0af24ab83fea89f134647fb1efe00000d6fd52fb752c6360868848825b6",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w7l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70",
+    "captionFile": "c_70.txt",
+    "captionSha256": "c429156f3aea46c952de6d73cbf39aadf19dae2f1b9107e6fe8abe5a62a7ac11",
+    "slideFile": "sl/s70.pdf",
+    "slideSha256": "91b00ea1b0491245b8a54e2c2d06e3b189229e8ff5f850e9959f4fa6aa3bef6e",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w7l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=71",
+    "captionFile": "c_71.txt",
+    "captionSha256": "a490357ec661521040d0ff2030e5084ff52ad6060a14104e49151098f7ca8e93",
+    "slideFile": "sl/s71.pdf",
+    "slideSha256": "b14ee1488ff3a97f68c17cba91d857d7ef327566ea847472c2aba6bf86cf0a53",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w8l1",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75",
+    "captionFile": "c_75.txt",
+    "captionSha256": "f78b5f2609091139d51e30f3daab7abb93ff9ed942e07ce9d8d6ea3b3a6559af",
+    "slideFile": "sl/s75.pdf",
+    "slideSha256": "7d220ff0cb715c903f87406dd11a8c0cb5ffcf271c8fcb4495e9e95cd1502e75",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w8l2",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76",
+    "captionFile": "c_76.txt",
+    "captionSha256": "1a0f363137c48a36b3c2f02867d44c84aeda133ce1c88efe2df88eadfe642423",
+    "slideFile": "sl/s76.pdf",
+    "slideSha256": "576805078fdb09d0526df279f9e9e3357d9e2de1ebfb11e49680b7e8b23156d5",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w8l3",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77",
+    "captionFile": "c_77.txt",
+    "captionSha256": "58785c1af70e08ec3305966da224509a4990ea570d2eb793ba3a636f73dda689",
+    "slideFile": "sl/s77.pdf",
+    "slideSha256": "4b20225014b2df6c408eefe9632f6f9a2d33c970b66be66dd7c74c86c40090da",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w8l4",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78",
+    "captionFile": "c_78.txt",
+    "captionSha256": "a344a69a1f54295039eb10c943e8b8b373f2a137e9df8a1bad8175ae04a15b96",
+    "slideFile": "sl/s78.pdf",
+    "slideSha256": "0f4b27ee5b3b0cab833f46af58a115d5687f51e0375329386f033f9c9e44c45f",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  },
+  {
+    "lessonId": "w8l5",
+    "sourceUrl": "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79",
+    "captionFile": "c_79.txt",
+    "captionSha256": "bfef8a99c59732bc680f5373a8443f7e2fc3cef563b35800174f5722dec4eaec",
+    "slideFile": "sl/s79.pdf",
+    "slideSha256": "f4e0316dd70c3483d8204d6fe1be07ba662fb550ce1403e02d6a5654b5ffb8cb",
+    "reviewScope": "Full slide-text review, with targeted caption passages for lesson examples, ambiguities and conflicts. Not a verbatim re-read of every caption."
+  }
+]

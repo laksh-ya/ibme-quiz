@@ -1,0 +1,3998 @@
+[
+  {
+    "week": 1,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Design",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w1c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Innovation",
+        "keyed": true,
+        "topicId": "w1c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w1c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Marketing",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w1c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Communication",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w1c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      }
+    ],
+    "semanticReview": "Drucker quote explicitly names innovation and rejects the other three terms.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Idea",
+        "keyed": true,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Integration",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Implementation",
+        "keyed": true,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Industry",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "Impact",
+        "keyed": true,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      }
+    ],
+    "semanticReview": "Exact three Is and the two distractors are stated.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Design",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Innovation",
+        "keyed": true,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Marketing",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Management",
+        "keyed": false,
+        "topicId": "w1c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      }
+    ],
+    "semanticReview": "Equation ends in innovation, not the three alternatives.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Both statements are false.",
+        "keyed": false,
+        "topicId": "w1c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Statement 1 is True, and Statement 2 is false.",
+        "keyed": true,
+        "topicId": "w1c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both statements are true.",
+        "keyed": false,
+        "topicId": "w1c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Statement 1 is False, and Statement 2 is True.",
+        "keyed": false,
+        "topicId": "w1c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=18"
+        ]
+      }
+    ],
+    "semanticReview": "Curiosity true; always linear false.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Ignoring the Idea",
+        "keyed": true,
+        "topicId": "w1c30",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Ignoring the chances of failure",
+        "keyed": false,
+        "topicId": "w1c30",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Inertia",
+        "keyed": true,
+        "topicId": "w1c30",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Ability to exude confidence.",
+        "keyed": false,
+        "topicId": "w1c30",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      }
+    ],
+    "semanticReview": "Ignoring ideas and inertia distinguished from ignoring risk and confidence.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Both statements are false.",
+        "keyed": false,
+        "topicId": "w1c49",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Statement 1 is True, and Statement 2 is false.",
+        "keyed": false,
+        "topicId": "w1c49",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both statements are true.",
+        "keyed": true,
+        "topicId": "w1c49",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Statement 1 is False, and Statement 2 is True.",
+        "keyed": false,
+        "topicId": "w1c49",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      }
+    ],
+    "semanticReview": "Both frugal statements stated. Mobile example contrasted in separate topic.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "Development of steam engine",
+        "keyed": true,
+        "topicId": "w1c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Development of wheel",
+        "keyed": true,
+        "topicId": "w1c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Invention of fire",
+        "keyed": true,
+        "topicId": "w1c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Evolution of mobile technology from 2G to 3G",
+        "keyed": false,
+        "topicId": "w1c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=20"
+        ]
+      }
+    ],
+    "semanticReview": "Fire, wheel and steam selected; 2G-to-3G non-breakthrough. Week 5 framework clarified.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Design thinking is solution focused.",
+        "keyed": false,
+        "topicId": "w1c59",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Design thinking is action-oriented.",
+        "keyed": false,
+        "topicId": "w1c59",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Design thinking is human-centered.",
+        "keyed": false,
+        "topicId": "w1c59",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Design thinking is product-centered.",
+        "keyed": true,
+        "topicId": "w1c59",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      }
+    ],
+    "semanticReview": "Three qualities named; product-centered explicitly rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "I – C, II – D, III – A, IV – F, V – E, VI – B",
+        "keyed": true,
+        "topicId": "w1c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "I – D, II – B, III – F, IV – A, V – C, VI – E",
+        "keyed": false,
+        "topicId": "w1c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "I – C, II – A, III – F, IV – D, V – B, VI – E",
+        "keyed": false,
+        "topicId": "w1c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "I – D, II – F, III – A, IV – E, V – C, VI – B",
+        "keyed": false,
+        "topicId": "w1c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=21"
+        ]
+      }
+    ],
+    "semanticReview": "All six hat mappings taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 1,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Complexity",
+        "keyed": false,
+        "topicId": "w1c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Volatility",
+        "keyed": false,
+        "topicId": "w1c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Ambiguity",
+        "keyed": true,
+        "topicId": "w1c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Uncertainty",
+        "keyed": false,
+        "topicId": "w1c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=16&lessonId=19"
+        ]
+      }
+    ],
+    "semanticReview": "All four VUCA terms distinguished; unknown unknowns explicitly ambiguity.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Fear of Failure",
+        "keyed": false,
+        "topicId": "w2c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Lack of internal heroes",
+        "keyed": true,
+        "topicId": "w2c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Lack of role clarity",
+        "keyed": false,
+        "topicId": "w2c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Lack of recognition for efforts",
+        "keyed": true,
+        "topicId": "w2c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "No innovation strategy",
+        "keyed": true,
+        "topicId": "w2c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=25"
+        ]
+      }
+    ],
+    "semanticReview": "Three organisational barriers distinguished from two individual barriers.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Assessment of Ideas, Selection of Ideas, Prototyping",
+        "keyed": false,
+        "topicId": "w2c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Brainstorming, Designing, Validation",
+        "keyed": false,
+        "topicId": "w2c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Selection of Idea, Experimentation with Idea, Developing the Business model",
+        "keyed": true,
+        "topicId": "w2c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Conducting research, designing the identity, Developing the beta version",
+        "keyed": false,
+        "topicId": "w2c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      }
+    ],
+    "semanticReview": "All five stages taught; three missing stages exact; other lists rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "The process of thinking that explores multiple possible solutions in order to generate creative ideas is divergent thinking.",
+        "keyed": true,
+        "topicId": "w2c37",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Divergent thinking helps in finding solutions to a problem through deducing by applying established rules and logical reasoning.",
+        "keyed": false,
+        "topicId": "w2c37",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "It generally means the ability to give the \"correct\" answer to standard questions that do not require significant creativity.",
+        "keyed": false,
+        "topicId": "w2c37",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "The term divergent thinking is coined by Joy Paul Guilford.",
+        "keyed": false,
+        "topicId": "w2c37",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28"
+        ]
+      }
+    ],
+    "semanticReview": "Definition supported; logic and standard answers are convergent. Guilford attribution marked ambiguous, not falsely refuted.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Both statements are false.",
+        "keyed": false,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Statement 1 is True, and Statement 2 is false.",
+        "keyed": false,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both statements are true.",
+        "keyed": true,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Statement 1 is False, and Statement 2 is True.",
+        "keyed": false,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Both resistance and prediction disability objectives taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Idea Management",
+        "keyed": true,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Buzz Creation",
+        "keyed": true,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Implementing employee recreational activities",
+        "keyed": false,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Vendor Management",
+        "keyed": false,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "Training and Development",
+        "keyed": true,
+        "topicId": "w2c24",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Exact three processes and two distractors taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Elon Musk",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Ratan Tata",
+        "keyed": true,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Thomas Lockwood",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Peter F Drucker",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Ratan Tata attribution distinguished from other speakers.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "The above statement is false.",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The above statement is partially false.",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The above statement is true.",
+        "keyed": true,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "The above statement is partially true.",
+        "keyed": false,
+        "topicId": "w2c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Challenge book develops idea bank stated.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Feel the pain source.",
+        "keyed": true,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c31",
+          "w2c34"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Sense the wave source.",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c31",
+          "w2c34"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "See the waste source.",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c31",
+          "w2c34"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Perceive the change source.",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c31",
+          "w2c34"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Pain, wave and waste distinguished; perceive change not a fourth named source.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "Product",
+        "keyed": false,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "People",
+        "keyed": true,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Participation",
+        "keyed": false,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Planet",
+        "keyed": true,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "Profit",
+        "keyed": true,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      },
+      {
+        "index": 5,
+        "text": "Process",
+        "keyed": false,
+        "topicId": "w2c21",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=26"
+        ]
+      }
+    ],
+    "semanticReview": "People, Planet, Profit taught; other three rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 2,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Feel the pain source",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Sense the wave source",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "See the waste source",
+        "keyed": true,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "keyed": false,
+        "topicId": "w2c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=27"
+        ]
+      }
+    ],
+    "semanticReview": "Resource-waste scenario explicitly classified as see the waste.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "a-ii, b-i, c-iii, d-iv",
+        "keyed": false,
+        "topicId": "w3c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "a-i, b-iv, c-ii, d-iii",
+        "keyed": false,
+        "topicId": "w3c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "a-ii, b-iii, c-iv, d-i",
+        "keyed": true,
+        "topicId": "w3c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "a-i, b-iii, c-iv, d-ii",
+        "keyed": false,
+        "topicId": "w3c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      }
+    ],
+    "semanticReview": "Four assumption-to-scenario mappings explicit.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w3c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w3c1",
+          "w3c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": true,
+        "topicId": "w3c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w3c1",
+          "w3c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w3c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w3c1",
+          "w3c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w3c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w3c1",
+          "w3c14"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      }
+    ],
+    "semanticReview": "Learning need not be desired success; low-cost validation now explicit.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Low-cost experimental setup",
+        "keyed": false,
+        "topicId": "w3c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "To keep trying until desired results are achieved",
+        "keyed": false,
+        "topicId": "w3c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The failure fallacy",
+        "keyed": true,
+        "topicId": "w3c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": false,
+        "topicId": "w3c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=34"
+        ]
+      }
+    ],
+    "semanticReview": "Failure fallacy singled out; low cost is supportive not hindrance.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Building support for the new idea or technology",
+        "keyed": false,
+        "topicId": "w3c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Help overcoming resistance",
+        "keyed": false,
+        "topicId": "w3c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Make our idea sticky",
+        "keyed": false,
+        "topicId": "w3c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": true,
+        "topicId": "w3c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      }
+    ],
+    "semanticReview": "All three champion roles taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Concrete",
+        "keyed": false,
+        "topicId": "w3c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Concern",
+        "keyed": true,
+        "topicId": "w3c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Curiosity",
+        "keyed": false,
+        "topicId": "w3c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Credibility",
+        "keyed": false,
+        "topicId": "w3c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      }
+    ],
+    "semanticReview": "Concrete, Curiosity, Credibility; Concern explicitly rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Ajay",
+        "keyed": false,
+        "topicId": "w3c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Sunil",
+        "keyed": false,
+        "topicId": "w3c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Jaya",
+        "keyed": true,
+        "topicId": "w3c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": false,
+        "topicId": "w3c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=35"
+        ]
+      }
+    ],
+    "semanticReview": "Jaya contrasted with originator Ajay and supporter Sunil.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "Learning environment",
+        "keyed": false,
+        "topicId": "w3c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "A team activity",
+        "keyed": false,
+        "topicId": "w3c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Community of practice",
+        "keyed": true,
+        "topicId": "w3c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "A group of role models",
+        "keyed": false,
+        "topicId": "w3c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      }
+    ],
+    "semanticReview": "Community of practice distinguished from generic activity and role model.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Giving cash incentives to bring in new ideas",
+        "keyed": false,
+        "topicId": "w3c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Putting up employee’s photo as “Innovator of the Month”",
+        "keyed": false,
+        "topicId": "w3c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Taking most idea givers on a holiday retreat",
+        "keyed": false,
+        "topicId": "w3c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": true,
+        "topicId": "w3c46",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=36"
+        ]
+      }
+    ],
+    "semanticReview": "All three recognition methods taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w3c55",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w3c55",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": true,
+        "topicId": "w3c55",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w3c55",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      }
+    ],
+    "semanticReview": "Both value creation and value-added distinction taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 3,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Co-creation is a linear process.",
+        "keyed": false,
+        "topicId": "w3c64",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Lego creating a platform “Lego Ideas” inviting ideas and suggestions from over 1 million people where fans voted for the most popular ideas, would be an example of co-creation.",
+        "keyed": true,
+        "topicId": "w3c64",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "In co-creation process the burden of value addition lies with the producer.",
+        "keyed": false,
+        "topicId": "w3c64",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Concept of co-creation is only applicable in service industry.",
+        "keyed": false,
+        "topicId": "w3c64",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=33&lessonId=37"
+        ]
+      }
+    ],
+    "semanticReview": "Lego supported; linear, producer-only and services-only rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Both statements are false.",
+        "keyed": false,
+        "topicId": "w4c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Statement 1 is True, and Statement 2 is false.",
+        "keyed": false,
+        "topicId": "w4c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both statements are true.",
+        "keyed": false,
+        "topicId": "w4c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Statement 1 is False, and Statement 2 is True.",
+        "keyed": true,
+        "topicId": "w4c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=42"
+        ]
+      }
+    ],
+    "semanticReview": "Two-way scenario/model relationship and needs/integration stated.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Analytical abilities and originality",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Aptitude for Human Relations",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Communication Skills",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Physical appeal",
+        "keyed": true,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      }
+    ],
+    "semanticReview": "All required qualities stated; physical appeal rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Actor",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Doctor",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Entrepreneur",
+        "keyed": true,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Teacher",
+        "keyed": false,
+        "topicId": "w4c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=43"
+        ]
+      }
+    ],
+    "semanticReview": "Entrepreneur definition and distractors stated.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Grameen Bank of Bangladesh",
+        "keyed": true,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "ITC Limited",
+        "keyed": false,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Aravind Eye Hospital & Aurolab",
+        "keyed": true,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Patanjali Ayurved",
+        "keyed": false,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "Study Hall Education Foundation",
+        "keyed": true,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      }
+    ],
+    "semanticReview": "Three social examples selected; two commercial examples contrasted.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "All the statements are True.",
+        "keyed": false,
+        "topicId": "w4c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Statement 1 and Statement 3 are true, and Statement 2 is false.",
+        "keyed": true,
+        "topicId": "w4c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Statement 1 is False, and Statement 2 and Statement 3 are True.",
+        "keyed": false,
+        "topicId": "w4c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Statement 1 and Statement 2 are true, and Statement 3 is false.",
+        "keyed": false,
+        "topicId": "w4c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      }
+    ],
+    "semanticReview": "Statements 1 and 3 supported; mere for-profit ownership not defining social entrepreneurship.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Start, Grow, and Run",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c39",
+          "w4c52"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28",
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The Innovator's Dilemma",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c39",
+          "w4c52"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28",
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Thinking, Fast and Slow",
+        "keyed": true,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c39",
+          "w4c52"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28",
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Zero to One",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w2c39",
+          "w4c52"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=24&lessonId=28",
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      }
+    ],
+    "semanticReview": "Daniel Kahneman and exact book now explicit in Week 4 and Week 2.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "Producing environmentally friendly products",
+        "keyed": false,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Mass production of plastic bottles to turn a profit.",
+        "keyed": true,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Providing banking services in underserved areas",
+        "keyed": false,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Helping children orphaned by epidemic disease.",
+        "keyed": false,
+        "topicId": "w4c33",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=44"
+        ]
+      }
+    ],
+    "semanticReview": "All four aims contrasted; plastic bottle profit aim rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Look across alternative industries.",
+        "keyed": false,
+        "topicId": "w4c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Look across strategic groups within industry.",
+        "keyed": false,
+        "topicId": "w4c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Look across the chain of buyers.",
+        "keyed": false,
+        "topicId": "w4c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Look across space.",
+        "keyed": true,
+        "topicId": "w4c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      }
+    ],
+    "semanticReview": "All six paths taught; space rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "Visual Awakening, Visual Exploration, Visual Strategy Fair, Visual Communication",
+        "keyed": true,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Stimulus, Sensor, Efferent, Response",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Objectives, Formulation, Implementation, Evaluation and Control",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Product, Place, Promotion, Price",
+        "keyed": false,
+        "topicId": "w4c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=45"
+        ]
+      }
+    ],
+    "semanticReview": "Four visualisation steps exact; alternative frameworks distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 4,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Reduce and Reuse",
+        "keyed": false,
+        "topicId": "w4c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Reduce and Raise",
+        "keyed": true,
+        "topicId": "w4c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Recycle and Recreate",
+        "keyed": false,
+        "topicId": "w4c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Recycle and Raise",
+        "keyed": false,
+        "topicId": "w4c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=41&lessonId=46"
+        ]
+      }
+    ],
+    "semanticReview": "Four Actions taught; Reduce and Raise missing pair exact.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Engineering->Technology->Science",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Science->Engineering->Technology",
+        "keyed": true,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Science->Technology->Engineering",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Technology->Engineering->Science",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      }
+    ],
+    "semanticReview": "Science then engineering then technology, each role distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": true,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w5c12",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      }
+    ],
+    "semanticReview": "Not all inventions innovate; socially usable product definition taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "It is about creating new use of the existing technology.",
+        "keyed": true,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "It is a complex process involving technological, social and economic factors.",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "It requires huge financial investments.",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "It takes long period of time, sometimes decades for such innovations to be impactful.",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      }
+    ],
+    "semanticReview": "Keyed A and course framing taught; investment/time phrased as possible, not universal guarantees.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "(a), (b), (d), (f), (h)",
+        "keyed": true,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "(a), (b), (c), (d), (f)",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "(a), (b), (e), (f), (g)",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "(b), (d), (e), (f), (h)",
+        "keyed": false,
+        "topicId": "w5c16",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=52"
+        ]
+      }
+    ],
+    "semanticReview": "Exact key set taught; broader process explicitly separated from narrow assignment selection.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "a-ii, b-i, c-iii, d-iv",
+        "keyed": false,
+        "topicId": "w5c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "a-i, b-iv, c-ii, d-iii",
+        "keyed": false,
+        "topicId": "w5c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "a-iii, b-i, c-iv, d-ii",
+        "keyed": true,
+        "topicId": "w5c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "a-iv, b-iii, c-i, d-ii",
+        "keyed": false,
+        "topicId": "w5c26",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      }
+    ],
+    "semanticReview": "All four examples mapped to categories.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "S-curve helps stakeholders anticipate the trajectory of a technology's development and plan for future developments and challenges.",
+        "keyed": false,
+        "topicId": "w5c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Incremental innovation involves short term planning while micro-radicle and generational innovation involves long term planning.",
+        "keyed": false,
+        "topicId": "w5c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Radical innovations are rare phenomenon and are difficult to plan based on S-curve.",
+        "keyed": false,
+        "topicId": "w5c34",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "India majorly has 3rd generation companies where R&D planning is embedded in corporate and business planning.",
+        "keyed": true,
+        "topicId": "w5c38",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=53"
+        ]
+      }
+    ],
+    "semanticReview": "Planning horizons, radical limitation, and historical India classification taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "a-i, b-ii, c-iii, d-iv",
+        "keyed": false,
+        "topicId": "w5c43",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "a-iii, b-i, c-ii, d-iv",
+        "keyed": true,
+        "topicId": "w5c43",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "a-iii, b-i, c-iv, d-ii",
+        "keyed": false,
+        "topicId": "w5c43",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "a-i, b-iii, c-ii, d-iv",
+        "keyed": false,
+        "topicId": "w5c43",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      }
+    ],
+    "semanticReview": "All four competitive-impact types defined and exact mapping taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Offensive strategies help maintain the status quo and usually help expand the existing markets.",
+        "keyed": false,
+        "topicId": "w5c54",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w5c51",
+          "w5c54"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Absorbent strategies involve acquiring license to exploit innovation in domestic market.",
+        "keyed": true,
+        "topicId": "w5c54",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w5c51",
+          "w5c54"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Dependent strategies focus on developing core strategy with the parent company.",
+        "keyed": false,
+        "topicId": "w5c54",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w5c51",
+          "w5c54"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Imitative strategies are research intensive strategies.",
+        "keyed": false,
+        "topicId": "w5c54",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w5c51",
+          "w5c54"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=54"
+        ]
+      }
+    ],
+    "semanticReview": "Offensive first-mover, imitative not research-intensive, dependent not core-strategy, absorbent licence taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "(a), (d), (e), (f)",
+        "keyed": false,
+        "topicId": "w5c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "(a), (b), (c), (e)",
+        "keyed": false,
+        "topicId": "w5c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "(b), (c), (e), (f)",
+        "keyed": true,
+        "topicId": "w5c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "(b), (d), (e), (f)",
+        "keyed": false,
+        "topicId": "w5c66",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      }
+    ],
+    "semanticReview": "Exact keyed four tools taught; time-series/moving-average excluded only from assignment selection.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 5,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w5c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w5c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": true,
+        "topicId": "w5c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w5c61",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=50&lessonId=55"
+        ]
+      }
+    ],
+    "semanticReview": "Both future threats/opportunities and R&D/investment/strategy benefits taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Products, processes, materials, and services",
+        "keyed": true,
+        "topicId": "w6c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Goods and services",
+        "keyed": false,
+        "topicId": "w6c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Idea, method, or device",
+        "keyed": false,
+        "topicId": "w6c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Designs and business models",
+        "keyed": false,
+        "topicId": "w6c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      }
+    ],
+    "semanticReview": "Four exact spans and transfer condition taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Ratan Tata",
+        "keyed": false,
+        "topicId": "w6c48",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Robenstein",
+        "keyed": false,
+        "topicId": "w6c48",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Thomas Lockwood",
+        "keyed": false,
+        "topicId": "w6c48",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Gary Klein",
+        "keyed": true,
+        "topicId": "w6c48",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=63"
+        ]
+      }
+    ],
+    "semanticReview": "Gary Klein distinguished from Rubenstein; five Cs listed.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Example 1",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Example 2",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both a and b",
+        "keyed": true,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      }
+    ],
+    "semanticReview": "Both hospitals explicitly included.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Arvind eye care hospital",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Narayana Hrudayalaya",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "River Narmada cleanliness drive named “Narmada ji ka Safai Abhiyan”",
+        "keyed": true,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "A grass-cutting machine uses coal for energy.",
+        "keyed": false,
+        "topicId": "w6c6",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=59"
+        ]
+      }
+    ],
+    "semanticReview": "Narmada drive selected; hospitals and coal cutter not this example.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Category 1 (New Product/Process – Old Usage/Problem)",
+        "keyed": false,
+        "topicId": "w6c23",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Category 2 (Old Product/Process – Old Usage/Problem)",
+        "keyed": false,
+        "topicId": "w6c23",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Category 3 (New Product/Process – New Usage/Problem)",
+        "keyed": true,
+        "topicId": "w6c23",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Category 4 (Old Product/Process – New Usage/Problem)",
+        "keyed": false,
+        "topicId": "w6c23",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=61"
+        ]
+      }
+    ],
+    "semanticReview": "All four category combinations taught; bar codes category 3.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Rs 10 lakh rupees 1 million",
+        "keyed": false,
+        "topicId": "w6c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Rs 25 lakh or 2.5 million",
+        "keyed": false,
+        "topicId": "w6c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Rs 5 crore or 50 million",
+        "keyed": false,
+        "topicId": "w6c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Rs 10 crore or 100 million",
+        "keyed": true,
+        "topicId": "w6c35",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      }
+    ],
+    "semanticReview": "Historical manufacturing medium Rs 10 crore; other size/service limits contrasted.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "A Scheme for Promoting Innovation and Rural Entrepreneurship",
+        "keyed": true,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "A systematic plan to Implement Rural Entrepreneurship",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "A Single Point of Institutional Resource Entry",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Asian School of Planning Innovation and Rural Entrepreneurship",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      }
+    ],
+    "semanticReview": "Assignment expansion and actual scheme title distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Khadi and Village Industries Committee",
+        "keyed": true,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Kerala Village Innovation Council",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Khadi Village Innovation Council",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Knowledge Value Innovation Culture",
+        "keyed": false,
+        "topicId": "w6c39",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      }
+    ],
+    "semanticReview": "Commission actual name versus keyed Committee explicitly separated; other expansions unsupported.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "Girl child friendly school infrastructure",
+        "keyed": true,
+        "topicId": "w6c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Use of sustainable materials",
+        "keyed": false,
+        "topicId": "w6c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Reduced expenses",
+        "keyed": false,
+        "topicId": "w6c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Ability to meet growing demand",
+        "keyed": false,
+        "topicId": "w6c42",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      }
+    ],
+    "semanticReview": "Social school infrastructure contrasted with economic benefits.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 6,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "The exploitation of local biodiversity",
+        "keyed": false,
+        "topicId": "w6c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Reduction of environmental impact at the source ( e.g., recovery of the paper waste)",
+        "keyed": true,
+        "topicId": "w6c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Use of non-sustainable materials such as single-use plastic",
+        "keyed": false,
+        "topicId": "w6c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "None of the above",
+        "keyed": false,
+        "topicId": "w6c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=58&lessonId=62"
+        ]
+      }
+    ],
+    "semanticReview": "Paper recovery supported; exploitation and single-use plastic rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Intellectual Capital",
+        "keyed": true,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w7c1",
+          "w7c5"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Intellectual Asset",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w7c1",
+          "w7c5"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Intellectual Property",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w7c1",
+          "w7c5"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Knowledge-based resources",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "supportingTopicIds": [
+          "w7c1",
+          "w7c5"
+        ],
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      }
+    ],
+    "semanticReview": "Capital definition in first topic; asset and IP hierarchy distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "Purpose->Information->Knowledge->Strategy",
+        "keyed": false,
+        "topicId": "w7c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Purpose->Strategy->Information->Knowledge",
+        "keyed": true,
+        "topicId": "w7c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Information->Knowledge->Purpose->Strategy",
+        "keyed": false,
+        "topicId": "w7c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Information->Purpose->Strategy->Knowledge",
+        "keyed": false,
+        "topicId": "w7c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      }
+    ],
+    "semanticReview": "Exact Purpose, Strategy, Information, Knowledge order taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": true,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      }
+    ],
+    "semanticReview": "Identified/documented/shareable required; customer relationship alone insufficient in framework.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Patents",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Knowledge-based Economy",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Intellectual Property",
+        "keyed": true,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Intellectual Ownership",
+        "keyed": false,
+        "topicId": "w7c5",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=67"
+        ]
+      }
+    ],
+    "semanticReview": "Hierarchy ends in IP, not patent subset or other labels.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": true,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      }
+    ],
+    "semanticReview": "Patent subset of IPR and protection incentive teach both statements false.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Industry and public",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Innovators and industry",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Innovators and public",
+        "keyed": true,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Industry and economy",
+        "keyed": false,
+        "topicId": "w7c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=68"
+        ]
+      }
+    ],
+    "semanticReview": "Innovators/public exact pair; other pairs rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "a-i, b-ii, c-iii",
+        "keyed": false,
+        "topicId": "w7c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "a-i b-iii, c-ii",
+        "keyed": true,
+        "topicId": "w7c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "a-ii, b-i, c-iii",
+        "keyed": false,
+        "topicId": "w7c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "a-iii, b-ii, c-i",
+        "keyed": false,
+        "topicId": "w7c41",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      }
+    ],
+    "semanticReview": "Manuscript copyright, medicine patent, Nike trademark exact.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "The distinctive design of a luxury car's exterior, including its shape, curves, and exterior features",
+        "keyed": false,
+        "topicId": "w7c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The secret recipe for a famous soft drink",
+        "keyed": false,
+        "topicId": "w7c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Darjeeling Tea is a tea that can only be labeled as such if it originates from Darjeeling region",
+        "keyed": false,
+        "topicId": "w7c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": true,
+        "topicId": "w7c28",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=69"
+        ]
+      }
+    ],
+    "semanticReview": "Car design, secret recipe and Darjeeling GI all included.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "The scientist will be given a patent for a limited period.",
+        "keyed": false,
+        "topicId": "w7c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The scientist’s patent will be limited to the region she is residing in.",
+        "keyed": false,
+        "topicId": "w7c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The scientist will not be getting any protection on her innovation.",
+        "keyed": true,
+        "topicId": "w7c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "None of the above.",
+        "keyed": false,
+        "topicId": "w7c52",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      }
+    ],
+    "semanticReview": "Keyed disclosure scenario taught as assumption; filing, territory and legal exceptions clarified.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 7,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": true,
+        "topicId": "w7c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w7c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w7c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w7c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=66&lessonId=70"
+        ]
+      }
+    ],
+    "semanticReview": "Expression not underlying idea; exclusive rights named.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 1,
+    "options": [
+      {
+        "index": 0,
+        "text": "Value proposition",
+        "keyed": false,
+        "topicId": "w8c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Business Model",
+        "keyed": true,
+        "topicId": "w8c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Business Strategy",
+        "keyed": false,
+        "topicId": "w8c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Revenue Model",
+        "keyed": false,
+        "topicId": "w8c1",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      }
+    ],
+    "semanticReview": "Creates/delivers/captures definition and partial-component distractors distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 2,
+    "options": [
+      {
+        "index": 0,
+        "text": "(a), (b), (d), (g), (h)",
+        "keyed": false,
+        "topicId": "w8c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "(a), (b), (c), (e), (f)",
+        "keyed": false,
+        "topicId": "w8c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "(a), (b), (d), (e), (f)",
+        "keyed": true,
+        "topicId": "w8c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "(b), (d), (e), (f), (h)",
+        "keyed": false,
+        "topicId": "w8c4",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=75"
+        ]
+      }
+    ],
+    "semanticReview": "Five named components versus three excluded alternatives taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 3,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": false,
+        "topicId": "w8c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w8c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": true,
+        "topicId": "w8c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w8c10",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      }
+    ],
+    "semanticReview": "Both faulty elements and failure to adapt taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 4,
+    "options": [
+      {
+        "index": 0,
+        "text": "Having a futuristic approach where the business try to anticipate the features or characteristics of their product or services or processes would be desirable by the consumers.",
+        "keyed": false,
+        "topicId": "w8c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Focus on the areas of consideration to understand the symptoms of the failure and thereby trying to eliminate its causes by choosing alternate courses of action.",
+        "keyed": false,
+        "topicId": "w8c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Matching the capacity and capabilities with the value proposition.",
+        "keyed": false,
+        "topicId": "w8c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "All of the above",
+        "keyed": true,
+        "topicId": "w8c14",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=76"
+        ]
+      }
+    ],
+    "semanticReview": "All three remedies taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 5,
+    "options": [
+      {
+        "index": 0,
+        "text": "Entrepreneurship is a chain of events creating, developing, and managing a business venture with the aim of identifying opportunities, taking calculated risks, and generating value.",
+        "keyed": false,
+        "topicId": "w8c20",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Business incubators are supportive environments designed to nurture the growth and development of early-stage startups and entrepreneurs.",
+        "keyed": false,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "In practice, incubators provide handholding throughout the entire entrepreneurial journey from pre-founding stage to early development stage.",
+        "keyed": true,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Incubators offer a range of resources, mentorship, and infrastructure to help startups overcome challenges, refine their business models, and accelerate their journey.",
+        "keyed": false,
+        "topicId": "w8c32",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      }
+    ],
+    "semanticReview": "Early-stage, time-limited support versus whole-journey handholding distinguished.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 6,
+    "options": [
+      {
+        "index": 0,
+        "text": "Networking opportunities",
+        "keyed": false,
+        "topicId": "w8c32",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Sole focus on established companies",
+        "keyed": true,
+        "topicId": "w8c32",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Access to shared resources",
+        "keyed": false,
+        "topicId": "w8c32",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Mentorship and expert guidance",
+        "keyed": false,
+        "topicId": "w8c32",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      }
+    ],
+    "semanticReview": "Four core features versus established-company sole focus taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 7,
+    "options": [
+      {
+        "index": 0,
+        "text": "A few decades",
+        "keyed": false,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "A year or two",
+        "keyed": true,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "A few weeks",
+        "keyed": false,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Indefinitely",
+        "keyed": false,
+        "topicId": "w8c25",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=77"
+        ]
+      }
+    ],
+    "semanticReview": "Keyed year or two distinguished from lecture 2-3 years and other durations.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 8,
+    "options": [
+      {
+        "index": 0,
+        "text": "Government grants",
+        "keyed": false,
+        "topicId": "w8c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Angel investors",
+        "keyed": true,
+        "topicId": "w8c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "IPOs",
+        "keyed": false,
+        "topicId": "w8c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Self",
+        "keyed": false,
+        "topicId": "w8c45",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      }
+    ],
+    "semanticReview": "Angel key and lecture self-first conflict explicit; grants, IPO and Self limited to this key.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 9,
+    "options": [
+      {
+        "index": 0,
+        "text": "Only Statement I is correct.",
+        "keyed": true,
+        "topicId": "w8c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Only Statement II is correct.",
+        "keyed": false,
+        "topicId": "w8c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Both the statements are correct.",
+        "keyed": false,
+        "topicId": "w8c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Both the statements are incorrect.",
+        "keyed": false,
+        "topicId": "w8c53",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=78"
+        ]
+      }
+    ],
+    "semanticReview": "IP collateral accepted; course equity-before-venture-debt order taught.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  },
+  {
+    "week": 8,
+    "question": 10,
+    "options": [
+      {
+        "index": 0,
+        "text": "(b), (c), (g)",
+        "keyed": false,
+        "topicId": "w8c65",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "(a), (d), (e), (f), (i)",
+        "keyed": false,
+        "topicId": "w8c65",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Only (b) and (g)",
+        "keyed": false,
+        "topicId": "w8c65",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "(a), (b), (c), (d), (e), (f), (g), (h), (i)",
+        "keyed": true,
+        "topicId": "w8c65",
+        "review": "Reviewed: supporting or discriminating lesson text identified; see question-level note.",
+        "sourceUrls": [
+          "https://onlinecourses.nptel.ac.in/e-learning/course/noc26_mg145?unitId=74&lessonId=79"
+        ]
+      }
+    ],
+    "semanticReview": "All nine sectors named; partial lists rejected.",
+    "reviewScope": "Lesson sufficiency against official assignment, not certification of the answer key as universal truth."
+  }
+]

@@ -725,7 +725,7 @@
             "title": "VUCA: distinguish the terms",
             "lines": [
               "VUCA expands to Volatility, Uncertainty, Complexity and Ambiguity. Knowing the four words is different from treating their meanings as interchangeable.",
-              "Volatility is unstable change of unknown duration, illustrated by demonetisation and GST rollout. Under uncertainty, cause and effect are known but change remains possible.",
+              "Volatility is unstable change of unknown duration, illustrated by demonetisation and GST rollout. Under uncertainty, cause and effect are known but change remains possible. Complexity is different again: many interconnected parts make information difficult to organise, even when the parts are known.",
               "Ambiguity means no precedent or an unknown relationship: **unknown unknowns**. A new market or a product outside core competence illustrates this; the quiz's unknown-unknowns answer is ambiguity."
             ],
             "visual": {
@@ -906,7 +906,7 @@
             "title": "Incremental and breakthrough innovation",
             "lines": [
               "Breakthrough innovations create a new level: the course examples are fire, the wheel, the steam engine and the shift from landline to mobile. Select the first three when the quiz lists them against 2G-to-3G.",
-              "Incremental innovation improves what already exists. Kaizen reduces waste, rework and scrap; moving from 2G to 3G to 4G is the incremental example, not a new-to-the-world breakthrough.",
+              "Incremental innovation improves what already exists. Kaizen reduces waste, rework and scrap; moving from 2G to 3G to 4G is the incremental example, not a new-to-the-world breakthrough. Week 5 uses a more detailed classification and calls 3G-to-4G generational. Use the framework named in the question; neither example is a new-to-the-world breakthrough.",
               "The types work together: a breakthrough is followed by adaptations and improvements before another breakthrough. Incremental changes inside a firm can be important even when outsiders do not notice them."
             ],
             "visual": {
@@ -2434,7 +2434,7 @@
             "lines": [
               "Divergent thinking explores many possible solutions and creative ideas. Convergent thinking narrows alternatives toward one solution.",
               "Applying rules and logic to deduce the correct answer to a standard question describes convergence, not divergence. These are the misleading descriptions to reject when asked about divergent thinking.",
-              "Innovation uses both expansion and narrowing, whether the result is incremental or radical. The lecture also mentions slow/fast and micro/macro pairs, but they do not replace this many-versus-one distinction."
+              "J. P. Guilford is associated with divergent production in the 1950s. The assignment key accepts the definition in option A only, but that does not establish its Guilford attribution option as historically false. Learn the many-versus-one distinction and keep this key ambiguity in mind."
             ],
             "visual": {
               "type": "none",
@@ -2487,7 +2487,7 @@
             "kind": "topic",
             "title": "Fast and slow thinking",
             "lines": [
-              "Kahneman's System 1 is fast and automatic. System 2 is slow and deliberate.",
+              "Daniel Kahneman wrote **Thinking, Fast and Slow**. His System 1 is fast and automatic; System 2 is slow and deliberate.",
               "This is a different pair from divergent and convergent thinking. Speed and automaticity do not by themselves tell you whether someone is generating many possibilities or narrowing to one.",
               "When matching the systems, use fast/automatic for System 1 and slow/deliberate for System 2. Keep these labels together rather than reversing their numbers."
             ],
@@ -3279,7 +3279,7 @@
             "kind": "topic",
             "title": "Low-cost testing and the failure fallacy",
             "lines": [
-              "Low-cost experiments make repeated attempts easier and support a cost-competitive result. Rapid prototyping, 3D printing and simulation are ways the lecture proposes to lower testing cost.",
+              "Low-cost experiments make repeated attempts easier and support a cost-competitive result. Designing a low-cost experiment is important for validating assumptions; getting the desired result every time is not required. Rapid prototyping, 3D printing and simulation are ways the lecture proposes to lower testing cost.",
               "The Faraday story illustrates learning from many unsuccessful experiments. The main hindrance is **failure fallacy**: interpreting a failed test as proof the whole idea has failed.",
               "A low-cost setup is not that hindrance. The paid-email example can be reconsidered as confidential mail like registered post, showing how learning may lead to a revised proposition rather than immediate abandonment."
             ],
@@ -3654,7 +3654,7 @@
             "topicVisuals": [
               {
                 "sourceCardId": "w3c44",
-                "afterParagraph": 1,
+                "afterParagraph": 2,
                 "title": "Communities examples",
                 "visual": {
                   "type": "tiles",
@@ -5156,7 +5156,7 @@
             "lines": [
               "The principle is to focus on the big picture rather than only numbers. The four steps are visual awakening, visual exploration, visual strategy fair and visual communication.",
               "Awakening notices differences and change; exploration uses field visits; the strategy fair includes a world-café exercise; communication shares the result among peers.",
-              "Reflex path, strategy process and marketing mix are other labels, not this four-step list. Kahneman's book mentioned in the lecture is Thinking, Fast and Slow."
+              "Reflex path, strategy process and marketing mix are other labels, not this four-step list. Daniel Kahneman's book mentioned in the lecture is **Thinking, Fast and Slow**, not Start, Grow, and Run, The Innovator's Dilemma or Zero to One."
             ],
             "visual": {
               "type": "none",
@@ -5975,7 +5975,7 @@
             "topicVisuals": [
               {
                 "sourceCardId": "w5c20",
-                "afterParagraph": 1,
+                "afterParagraph": 2,
                 "title": "What the process includes",
                 "visual": {
                   "type": "tiles",
@@ -6202,7 +6202,7 @@
             "kind": "topic",
             "title": "Use an S-curve with the right planning horizon",
             "lines": [
-              "An S-curve moves through a slow start, rapid growth and maturity. It helps stakeholders anticipate a technology's trajectory and plan for future challenges.",
+              "An S-curve moves through a slow start, rapid growth and maturity. It helps stakeholders anticipate a technology's trajectory and plan for future challenges. On the diagram, time runs horizontally and technology performance rises vertically toward an upper limit L.",
               "Incremental innovation involves short-term planning, while micro-radical and generational innovation involve longer-term planning. Do not reverse these horizons in the statement question.",
               "Radical innovations are rare and difficult to plan from an S-curve. The curve supports anticipation, not a guarantee of when an entirely new breakthrough will occur."
             ],
@@ -6731,38 +6731,15 @@
             ],
             "topicVisuals": [
               {
-                "sourceCardId": "w5c74",
-                "afterParagraph": 2,
-                "title": "Building bricks",
+                "sourceCardId": "w5c73",
+                "afterParagraph": 1,
+                "title": "Morphological analysis",
                 "visual": {
-                  "type": "table",
+                  "type": "key",
                   "spec": {
-                    "headers": [
-                      "Dimension",
-                      "Options"
-                    ],
-                    "rows": [
-                      [
-                        "Material",
-                        "Clay, metal, plastic, waste"
-                      ],
-                      [
-                        "Forming",
-                        "Extrude, mold, press"
-                      ],
-                      [
-                        "Bonding",
-                        "Heat, chemical, molecular"
-                      ],
-                      [
-                        "Properties",
-                        "Opacity, insulation, elasticity, aesthetics"
-                      ],
-                      [
-                        "Form",
-                        "Rectangular, spherical, interlocking, cubical"
-                      ]
-                    ]
+                    "label": "Morphological",
+                    "detail": "Systematic exhaustive combinations of sub-capabilities",
+                    "icon": "branch"
                   }
                 }
               },
@@ -7741,9 +7718,9 @@
             "kind": "topic",
             "title": "ASPIRE and its supporting bodies",
             "lines": [
-              "ASPIRE is associated with promoting innovation and rural entrepreneurship. Its Livelihood Business Incubators are abbreviated LBI.",
+              "For the assignment, ASPIRE expands to **A Scheme for Promoting Innovation and Rural Entrepreneurship**. The government scheme name is A Scheme for Promotion of Innovation, Rural Industries and Entrepreneurship. Its Livelihood Business Incubators are abbreviated LBI.",
               "The lecture lists NSIC, KVIC and the Coir Board as supporting bodies and places the first LBI in Uttar Pradesh. Keep the programme, incubator type and supporting organisations distinct.",
-              "The course material expands KVIC as Khadi and Village Industries Committee. Retain that lecture wording for course recall rather than treating this card as a current legal-name reference."
+              "KVIC is **Khadi and Village Industries Commission**. The assignment key instead accepts the option Khadi and Village Industries Committee. Remember the keyed wording for that question without learning Committee as the actual name."
             ],
             "visual": {
               "type": "none",
@@ -8971,8 +8948,8 @@
             "title": "Patent process and disclosure before filing",
             "lines": [
               "The lecture's process lists filing, priority date, publication, examination, the Controller, pre-grant opposition, and grant or refusal. Filing is not the same event as receiving a granted right.",
-              "In the quiz scenario, demonstrating the invention at a seminar before patenting is public disclosure that ends novelty. The keyed result is no patent protection.",
-              "Use that scenario for the course question, not as legal advice about every disclosure: an actual filing, exception or jurisdiction requires a current professional check before relying on it."
+              "In the assignment scenario, the seminar is treated as a public disclosure before filing that defeats novelty, so the key chooses the no-protection option. This is a course answer, not a universal ruling that every seminar removes every form of IP protection.",
+              "The important order is disclosure **before filing**, not simply before a patent is granted. Actual patent law can allow exceptions or grace periods; other rights must be assessed separately. The inventor's home region alone does not define the territory of patent protection."
             ],
             "visual": {
               "type": "none",
@@ -9772,7 +9749,7 @@
             "lines": [
               "Incubation is the support process; an incubator is the organisation and infrastructure providing it. A startup incubator is a collaborative programme intended to help new ventures succeed.",
               "Support can include workspace, seed funding, mentoring and training. Incubators are described as usually non-profit and run by public or private entities, with university links including IITs, NITs and IIMs.",
-              "The goal is viable, freestanding firms that leave the programme. The course's usual stay is a year or two, not weeks, decades or indefinitely; hand-holding throughout the entire business journey is the false claim."
+              "The goal is viable, freestanding firms that leave the programme. The assignment accepts **a year or two**, while the lecture describes roughly 2-3 years. The shared principle is time-limited support, not weeks, decades, indefinite support or hand-holding through the whole business journey."
             ],
             "visual": {
               "type": "none",
@@ -9935,9 +9912,9 @@
             "kind": "topic",
             "title": "Initial funding, angels and venture capital",
             "lines": [
-              "A startup needs initial and working capital. The lecture starts with self-funding and incubators, then considers debt and equity; in the early-stage-source quiz, the main answer is **angel investors**.",
+              "A startup needs initial and working capital. The lecture names self-funding first, followed by incubators and other finance. The assignment nevertheless keys **angel investors** as its primary early-stage source. Keep that specific key separate from a universal claim about all startups.",
               "An angel is an affluent individual supplying startup capital in return for debt or equity. Business angel, informal investor, angel funder and seed investor are the related names listed.",
-              "Venture capital funds startups or expansion while seeking a large return. Keep that institutional funding role distinct from the individual angel and from a later loan."
+              "Venture capital funds startups or expansion while seeking a large return. Keep that institutional funding role distinct from the individual angel and from a later loan. Government grants, IPOs and Self are not the choices accepted by this assignment key. That rejection is specific to this question, not a claim that self-funding or grants never support new ventures."
             ],
             "visual": {
               "type": "none",

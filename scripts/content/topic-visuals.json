@@ -318,7 +318,7 @@
   "w3c41": [
     {
       "sourceCardId": "w3c44",
-      "afterParagraph": 1
+      "afterParagraph": 2
     }
   ],
   "w3c46": [
@@ -496,7 +496,7 @@
   "w5c16": [
     {
       "sourceCardId": "w5c20",
-      "afterParagraph": 1
+      "afterParagraph": 2
     }
   ],
   "w5c21": [
@@ -573,8 +573,8 @@
   ],
   "w5c73": [
     {
-      "sourceCardId": "w5c74",
-      "afterParagraph": 2
+      "sourceCardId": "w5c73",
+      "afterParagraph": 1
     },
     {
       "sourceCardId": "w5c75",

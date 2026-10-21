@@ -377,3 +377,6 @@
 .duo .topic-diagram *{min-width:0;overflow-wrap:anywhere;}
 .duo .teaching-content.topic-card .comparison-spread h2{overflow-wrap:anywhere;}
 @media(max-width:360px){.duo .topic-diagram .comparison-spread{grid-template-columns:1fr;gap:20px;}.duo .topic-diagram .comparison-spread section+section{border-left:0;padding:20px 0 0;border-top:1px solid var(--line);}}
+.duo .topic-diagram .concept-register li{grid-template-columns:30px minmax(0,1fr);}
+.duo .topic-diagram p{max-width:100%;}
+.duo .topic-diagram .concept-register>li>div{padding-right:8px;box-sizing:border-box;}

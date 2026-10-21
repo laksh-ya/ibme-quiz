@@ -34,4 +34,4 @@ Run the browser sweep with `WIDTHS=360 THEMES=light,dark node scripts/qa/qa-topi
 
 ## Release
 
-This batch has not been pushed or deployed. It is waiting for the previously reported deployment limit reset. Do not create several deployments or upgrade the plan. Push the single batch once and verify the production build and live lesson content afterward.
+Historical release note: the expanded-paragraph batch was subsequently deployed, followed by restored topic visuals at f8ab59f. The current exam-readiness review is documented separately in exam-readiness-2026-10-21.md.
